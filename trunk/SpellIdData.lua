@@ -2,197 +2,5898 @@ local lib = LibStub("LibLevelGuess-1.0");
 
 if(not lib) then error("SpellIdData for LibLevelGuess needs library to be loaded before"); return; end
 
-local myDataVersion = 1249701021;
+local myDataVersion = 1276351968;
 if(lib.spellIdData and myDataVersion <= lib.spellIdDataVersion) then return; end
 
+lib.spellIdDataVersion = myDataVersion;
 lib.spellIdData = {
-	[14283] = {
-		Level = 28,
-		Class = "HUNTER",
-	},
-	[10205] = {
-		Level = 46,
+	[10215] = {
+		Level = 48,
 		Class = "MAGE",
 	},
-	[1535] = {
+	[49802] = {
+		Level = 74,
+		Class = "DRUID",
+	},
+	[49930] = {
+		Level = 80,
+		Class = "DEATHKNIGHT",
+	},
+	[7300] = {
+		Level = 10,
+		Class = "MAGE",
+	},
+	[25289] = {
+		Level = 60,
+		Class = "WARRIOR",
+	},
+	[43020] = {
+		Level = 79,
+		Class = "MAGE",
+	},
+	[51722] = {
+		Level = 20,
+		Class = "ROGUE",
+	},
+	[10951] = {
+		Level = 50,
+		Class = "PRIEST",
+	},
+	[11303] = {
+		Level = 52,
+		Class = "ROGUE",
+	},
+	[15430] = {
+		Level = 28,
+		Class = "PRIEST",
+	},
+	[26889] = {
+		Level = 62,
+		Class = "ROGUE",
+	},
+	[57993] = {
+		Level = 80,
+		Class = "ROGUE",
+	},
+	[27209] = {
+		Level = 69,
+		Class = "WARLOCK",
+	},
+	[58889] = {
+		Level = 60,
+		Class = "WARLOCK",
+	},
+	[11687] = {
+		Level = 36,
+		Class = "WARLOCK",
+	},
+	[11719] = {
+		Level = 50,
+		Class = "WARLOCK",
+	},
+	[8004] = {
+		Level = 20,
+		Class = "SHAMAN",
+	},
+	[47884] = {
+		Level = 76,
+		Class = "WARLOCK",
+	},
+	[8052] = {
+		Level = 18,
+		Class = "SHAMAN",
+	},
+	[20043] = {
+		Level = 46,
+		Class = "HUNTER",
+	},
+	[64904] = {
+		Level = 80,
+		Class = "PRIEST",
+	},
+	[8232] = {
+		Level = 30,
+		Class = "SHAMAN",
+	},
+	[20747] = {
+		Level = 50,
+		Class = "DRUID",
+	},
+	[57994] = {
+		Level = 16,
+		Class = "SHAMAN",
+	},
+	[527] = {
+		Level = 18,
+		Class = "PRIEST",
+	},
+	[529] = {
+		Level = 8,
+		Class = "SHAMAN",
+	},
+	[25290] = {
+		Level = 60,
+		Class = "PALADIN",
+	},
+	[42894] = {
+		Level = 71,
+		Class = "MAGE",
+	},
+	[547] = {
 		Level = 12,
 		Class = "SHAMAN",
 	},
-	[19885] = {
-		Level = 24,
-		Class = "HUNTER",
+	[47501] = {
+		Level = 73,
+		Class = "WARRIOR",
 	},
-	[49232] = {
-		Level = 75,
-		Class = "SHAMAN",
+	[51724] = {
+		Level = 71,
+		Class = "ROGUE",
 	},
-	[1543] = {
-		Level = 32,
-		Class = "HUNTER",
+	[8936] = {
+		Level = 12,
+		Class = "DRUID",
 	},
-	[10301] = {
-		Level = 56,
-		Class = "PALADIN",
+	[9000] = {
+		Level = 40,
+		Class = "DRUID",
 	},
-	[19882] = {
+	[13159] = {
 		Level = 40,
 		Class = "HUNTER",
 	},
-	[6192] = {
-		Level = 22,
+	[48781] = {
+		Level = 75,
+		Class = "PALADIN",
+	},
+	[587] = {
+		Level = 6,
+		Class = "MAGE",
+	},
+	[589] = {
+		Level = 4,
+		Class = "PRIEST",
+	},
+	[27082] = {
+		Level = 70,
+		Class = "MAGE",
+	},
+	[27210] = {
+		Level = 65,
+		Class = "WARLOCK",
+	},
+	[27274] = {
+		Level = 68,
+		Class = "MAGE",
+	},
+	[19276] = {
+		Level = 28,
+		Class = "PRIEST",
+	},
+	[605] = {
+		Level = 30,
+		Class = "PRIEST",
+	},
+	[43023] = {
+		Level = 71,
+		Class = "MAGE",
+	},
+	[47502] = {
+		Level = 78,
 		Class = "WARRIOR",
 	},
-	[5384] = {
-		Level = 30,
+	[9896] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[47886] = {
+		Level = 72,
+		Class = "WARLOCK",
+	},
+	[633] = {
+		Level = 10,
+		Class = "PALADIN",
+	},
+	[48782] = {
+		Level = 80,
+		Class = "PALADIN",
+	},
+	[10216] = {
+		Level = 56,
+		Class = "MAGE",
+	},
+	[643] = {
+		Level = 20,
+		Class = "PALADIN",
+	},
+	[10312] = {
+		Level = 44,
+		Class = "PALADIN",
+	},
+	[647] = {
+		Level = 14,
+		Class = "PALADIN",
+	},
+	[20748] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[24907] = {
+		Level = 40,
+		Class = "DRUID",
+	},
+	[5221] = {
+		Level = 22,
+		Class = "DRUID",
+	},
+	[10472] = {
+		Level = 46,
+		Class = "SHAMAN",
+	},
+	[2643] = {
+		Level = 18,
 		Class = "HUNTER",
 	},
-	[26863] = {
-		Level = 68,
+	[25291] = {
+		Level = 60,
+		Class = "PALADIN",
+	},
+	[42896] = {
+		Level = 76,
+		Class = "MAGE",
+	},
+	[43024] = {
+		Level = 79,
+		Class = "MAGE",
+	},
+	[10888] = {
+		Level = 42,
+		Class = "PRIEST",
+	},
+	[10952] = {
+		Level = 60,
+		Class = "PRIEST",
+	},
+	[689] = {
+		Level = 14,
+		Class = "WARLOCK",
+	},
+	[691] = {
+		Level = 30,
+		Class = "WARLOCK",
+	},
+	[693] = {
+		Level = 18,
+		Class = "WARLOCK",
+	},
+	[15207] = {
+		Level = 50,
+		Class = "SHAMAN",
+	},
+	[697] = {
+		Level = 10,
+		Class = "WARLOCK",
+	},
+	[699] = {
+		Level = 22,
+		Class = "WARLOCK",
+	},
+	[703] = {
+		Level = 14,
 		Class = "ROGUE",
+	},
+	[705] = {
+		Level = 12,
+		Class = "WARLOCK",
+	},
+	[707] = {
+		Level = 10,
+		Class = "WARLOCK",
+	},
+	[15431] = {
+		Level = 36,
+		Class = "PRIEST",
+	},
+	[27019] = {
+		Level = 69,
+		Class = "HUNTER",
+	},
+	[27211] = {
+		Level = 64,
+		Class = "WARLOCK",
+	},
+	[27275] = {
+		Level = 70,
+		Class = "MAGE",
+	},
+	[19277] = {
+		Level = 36,
+		Class = "PRIEST",
+	},
+	[42897] = {
+		Level = 80,
+		Class = "MAGE",
+	},
+	[11784] = {
+		Level = 46,
+		Class = "MAGE",
+	},
+	[55694] = {
+		Level = 75,
+		Class = "WARRIOR",
+	},
+	[47632] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[47888] = {
+		Level = 78,
+		Class = "WARLOCK",
+	},
+	[32266] = {
+		Level = 40,
+		Class = "MAGE",
+	},
+	[755] = {
+		Level = 12,
+		Class = "WARLOCK",
+	},
+	[759] = {
+		Level = 28,
+		Class = "MAGE",
+	},
+	[48656] = {
+		Level = 74,
+		Class = "ROGUE",
+	},
+	[48784] = {
+		Level = 74,
+		Class = "PALADIN",
+	},
+	[6117] = {
+		Level = 34,
+		Class = "MAGE",
+	},
+	[769] = {
+		Level = 34,
+		Class = "DRUID",
+	},
+	[6197] = {
+		Level = 14,
+		Class = "HUNTER",
+	},
+	[6213] = {
+		Level = 32,
+		Class = "WARLOCK",
+	},
+	[6229] = {
+		Level = 32,
+		Class = "WARLOCK",
+	},
+	[781] = {
+		Level = 20,
+		Class = "HUNTER",
+	},
+	[783] = {
+		Level = 16,
+		Class = "DRUID",
+	},
+	[8457] = {
+		Level = 30,
+		Class = "MAGE",
+	},
+	[25292] = {
+		Level = 60,
+		Class = "PALADIN",
+	},
+	[25420] = {
+		Level = 66,
+		Class = "SHAMAN",
+	},
+	[29707] = {
+		Level = 66,
+		Class = "WARRIOR",
 	},
 	[47633] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
-	[14304] = {
-		Level = 46,
-		Class = "HUNTER",
-	},
-	[60043] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[47825] = {
+	[47889] = {
 		Level = 80,
 		Class = "WARLOCK",
 	},
-	[49936] = {
-		Level = 67,
-		Class = "DEATHKNIGHT",
+	[48657] = {
+		Level = 80,
+		Class = "ROGUE",
 	},
-	[14302] = {
-		Level = 26,
-		Class = "HUNTER",
+	[48785] = {
+		Level = 79,
+		Class = "PALADIN",
 	},
-	[27087] = {
-		Level = 65,
+	[837] = {
+		Level = 14,
 		Class = "MAGE",
 	},
-	[43987] = {
+	[66842] = {
+		Level = 30,
+		Class = "SHAMAN",
+	},
+	[49937] = {
+		Level = 73,
+		Class = "DEATHKNIGHT",
+	},
+	[13544] = {
+		Level = 60,
+		Class = "HUNTER",
+	},
+	[6789] = {
+		Level = 42,
+		Class = "WARLOCK",
+	},
+	[27212] = {
+		Level = 69,
+		Class = "WARLOCK",
+	},
+	[853] = {
+		Level = 8,
+		Class = "PALADIN",
+	},
+	[19278] = {
+		Level = 44,
+		Class = "PRIEST",
+	},
+	[865] = {
+		Level = 26,
+		Class = "MAGE",
+	},
+	[9833] = {
+		Level = 46,
+		Class = "DRUID",
+	},
+	[23885] = {
+		Level = 40,
+		Class = "WARRIOR",
+	},
+	[47890] = {
+		Level = 72,
+		Class = "WARLOCK",
+	},
+	[879] = {
+		Level = 20,
+		Class = "PALADIN",
+	},
+	[32267] = {
+		Level = 40,
+		Class = "MAGE",
+	},
+	[883] = {
+		Level = 10,
+		Class = "HUNTER",
+	},
+	[48658] = {
+		Level = 72,
+		Class = "ROGUE",
+	},
+	[3563] = {
+		Level = 20,
+		Class = "MAGE",
+	},
+	[10185] = {
+		Level = 44,
+		Class = "MAGE",
+	},
+	[10313] = {
+		Level = 52,
+		Class = "PALADIN",
+	},
+	[905] = {
+		Level = 24,
+		Class = "SHAMAN",
+	},
+	[3627] = {
+		Level = 34,
+		Class = "DRUID",
+	},
+	[7269] = {
+		Level = 16,
+		Class = "MAGE",
+	},
+	[10473] = {
+		Level = 58,
+		Class = "SHAMAN",
+	},
+	[913] = {
+		Level = 18,
+		Class = "SHAMAN",
+	},
+	[10537] = {
+		Level = 42,
+		Class = "SHAMAN",
+	},
+	[10601] = {
+		Level = 60,
+		Class = "SHAMAN",
+	},
+	[25357] = {
+		Level = 60,
+		Class = "SHAMAN",
+	},
+	[7381] = {
+		Level = 30,
+		Class = "WARRIOR",
+	},
+	[3699] = {
+		Level = 28,
+		Class = "WARLOCK",
+	},
+	[3747] = {
+		Level = 24,
+		Class = "PRIEST",
+	},
+	[939] = {
+		Level = 24,
+		Class = "SHAMAN",
+	},
+	[47891] = {
+		Level = 78,
+		Class = "WARLOCK",
+	},
+	[943] = {
+		Level = 26,
+		Class = "SHAMAN",
+	},
+	[945] = {
+		Level = 32,
+		Class = "SHAMAN",
+	},
+	[15208] = {
+		Level = 56,
+		Class = "SHAMAN",
+	},
+	[48659] = {
+		Level = 78,
+		Class = "ROGUE",
+	},
+	[26573] = {
+		Level = 20,
+		Class = "PALADIN",
+	},
+	[11273] = {
+		Level = 44,
+		Class = "ROGUE",
+	},
+	[11305] = {
+		Level = 58,
+		Class = "ROGUE",
+	},
+	[27021] = {
+		Level = 67,
+		Class = "HUNTER",
+	},
+	[27085] = {
+		Level = 68,
+		Class = "MAGE",
+	},
+	[7813] = {
+		Level = 34,
+		Class = "MAGE",
+	},
+	[33943] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[11689] = {
+		Level = 56,
+		Class = "WARLOCK",
+	},
+	[11721] = {
+		Level = 46,
+		Class = "WARLOCK",
+	},
+	[11785] = {
+		Level = 58,
+		Class = "MAGE",
+	},
+	[31884] = {
 		Level = 70,
+		Class = "PALADIN",
+	},
+	[8005] = {
+		Level = 40,
+		Class = "SHAMAN",
+	},
+	[47892] = {
+		Level = 74,
+		Class = "WARLOCK",
+	},
+	[48020] = {
+		Level = 80,
+		Class = "WARLOCK",
+	},
+	[24398] = {
+		Level = 62,
+		Class = "SHAMAN",
+	},
+	[8181] = {
+		Level = 24,
+		Class = "SHAMAN",
+	},
+	[1026] = {
+		Level = 22,
+		Class = "PALADIN",
+	},
+	[53651] = {
+		Level = 60,
+		Class = "PALADIN",
+	},
+	[1042] = {
+		Level = 30,
+		Class = "PALADIN",
+	},
+	[49940] = {
+		Level = 72,
+		Class = "DEATHKNIGHT",
+	},
+	[8458] = {
+		Level = 40,
+		Class = "MAGE",
+	},
+	[33944] = {
+		Level = 67,
+		Class = "MAGE",
+	},
+	[1066] = {
+		Level = 16,
+		Class = "DRUID",
+	},
+	[25294] = {
+		Level = 60,
+		Class = "HUNTER",
+	},
+	[25422] = {
+		Level = 61,
+		Class = "SHAMAN",
+	},
+	[1082] = {
+		Level = 20,
+		Class = "DRUID",
+	},
+	[1086] = {
+		Level = 30,
+		Class = "WARLOCK",
+	},
+	[1094] = {
+		Level = 20,
+		Class = "WARLOCK",
+	},
+	[1098] = {
+		Level = 30,
+		Class = "WARLOCK",
+	},
+	[1106] = {
+		Level = 28,
+		Class = "WARLOCK",
+	},
+	[51988] = {
+		Level = 40,
+		Class = "SHAMAN",
+	},
+	[8938] = {
+		Level = 18,
+		Class = "DRUID",
+	},
+	[1122] = {
+		Level = 50,
+		Class = "WARLOCK",
+	},
+	[52372] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[1130] = {
+		Level = 6,
+		Class = "HUNTER",
+	},
+	[13161] = {
+		Level = 30,
+		Class = "HUNTER",
+	},
+	[53140] = {
+		Level = 71,
+		Class = "MAGE",
+	},
+	[45462] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[13481] = {
+		Level = 10,
+		Class = "HUNTER",
+	},
+	[27022] = {
+		Level = 67,
+		Class = "HUNTER",
+	},
+	[27086] = {
+		Level = 64,
+		Class = "MAGE",
+	},
+	[27150] = {
+		Level = 66,
+		Class = "PALADIN",
+	},
+	[27214] = {
+		Level = 68,
+		Class = "WARLOCK",
+	},
+	[58643] = {
+		Level = 80,
+		Class = "SHAMAN",
+	},
+	[50581] = {
+		Level = 60,
+		Class = "WARLOCK",
+	},
+	[19280] = {
+		Level = 60,
+		Class = "PRIEST",
+	},
+	[9834] = {
+		Level = 52,
+		Class = "DRUID",
+	},
+	[9866] = {
+		Level = 50,
+		Class = "DRUID",
+	},
+	[9898] = {
+		Level = 52,
+		Class = "DRUID",
+	},
+	[52373] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[10186] = {
+		Level = 52,
+		Class = "MAGE",
+	},
+	[10314] = {
+		Level = 60,
+		Class = "PALADIN",
+	},
+	[45463] = {
+		Level = 70,
+		Class = "DEATHKNIGHT",
+	},
+	[20752] = {
+		Level = 30,
+		Class = "WARLOCK",
+	},
+	[10442] = {
+		Level = 52,
+		Class = "SHAMAN",
+	},
+	[33690] = {
+		Level = 60,
+		Class = "MAGE",
+	},
+	[10538] = {
+		Level = 58,
+		Class = "SHAMAN",
+	},
+	[25231] = {
+		Level = 68,
+		Class = "WARRIOR",
+	},
+	[25295] = {
+		Level = 60,
+		Class = "HUNTER",
+	},
+	[25423] = {
+		Level = 68,
+		Class = "SHAMAN",
+	},
+	[10890] = {
+		Level = 56,
+		Class = "PRIEST",
+	},
+	[52374] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[53142] = {
+		Level = 74,
+		Class = "MAGE",
+	},
+	[11274] = {
+		Level = 52,
+		Class = "ROGUE",
+	},
+	[11306] = {
+		Level = 42,
+		Class = "SHAMAN",
+	},
+	[1430] = {
+		Level = 16,
+		Class = "DRUID",
+	},
+	[27023] = {
+		Level = 65,
+		Class = "HUNTER",
+	},
+	[33691] = {
+		Level = 65,
 		Class = "MAGE",
 	},
 	[27151] = {
 		Level = 63,
 		Class = "PALADIN",
 	},
-	[14300] = {
-		Level = 46,
+	[5782] = {
+		Level = 8,
+		Class = "WARLOCK",
+	},
+	[1454] = {
+		Level = 6,
+		Class = "WARLOCK",
+	},
+	[1462] = {
+		Level = 24,
 		Class = "HUNTER",
 	},
-	[33944] = {
-		Level = 67,
+	[11722] = {
+		Level = 60,
+		Class = "WARLOCK",
+	},
+	[1490] = {
+		Level = 32,
+		Class = "WARLOCK",
+	},
+	[51991] = {
+		Level = 50,
+		Class = "SHAMAN",
+	},
+	[1510] = {
+		Level = 40,
+		Class = "HUNTER",
+	},
+	[48792] = {
+		Level = 62,
+		Class = "DEATHKNIGHT",
+	},
+	[49048] = {
+		Level = 80,
+		Class = "HUNTER",
+	},
+	[53271] = {
+		Level = 75,
+		Class = "HUNTER",
+	},
+	[8235] = {
+		Level = 40,
+		Class = "SHAMAN",
+	},
+	[57622] = {
+		Level = 75,
+		Class = "SHAMAN",
+	},
+	[8427] = {
+		Level = 36,
 		Class = "MAGE",
 	},
-	[15266] = {
-		Level = 48,
-		Class = "PRIEST",
+	[16914] = {
+		Level = 40,
+		Class = "DRUID",
 	},
-	[20043] = {
-		Level = 46,
+	[58774] = {
+		Level = 80,
+		Class = "SHAMAN",
+	},
+	[42650] = {
+		Level = 80,
+		Class = "DEATHKNIGHT",
+	},
+	[6390] = {
+		Level = 18,
+		Class = "SHAMAN",
+	},
+	[47897] = {
+		Level = 75,
+		Class = "WARLOCK",
+	},
+	[8939] = {
+		Level = 24,
+		Class = "DRUID",
+	},
+	[57623] = {
+		Level = 75,
+		Class = "DEATHKNIGHT",
+	},
+	[61846] = {
+		Level = 74,
 		Class = "HUNTER",
 	},
-	[25264] = {
+	[27024] = {
+		Level = 65,
+		Class = "HUNTER",
+	},
+	[6774] = {
+		Level = 42,
+		Class = "ROGUE",
+	},
+	[27152] = {
+		Level = 68,
+		Class = "PALADIN",
+	},
+	[27216] = {
+		Level = 65,
+		Class = "WARLOCK",
+	},
+	[1706] = {
+		Level = 34,
+		Class = "PRIEST",
+	},
+	[1714] = {
+		Level = 26,
+		Class = "WARLOCK",
+	},
+	[9835] = {
+		Level = 58,
+		Class = "DRUID",
+	},
+	[9867] = {
+		Level = 58,
+		Class = "DRUID",
+	},
+	[51993] = {
+		Level = 70,
+		Class = "SHAMAN",
+	},
+	[1758] = {
+		Level = 14,
+		Class = "ROGUE",
+	},
+	[32271] = {
+		Level = 20,
+		Class = "MAGE",
+	},
+	[1766] = {
+		Level = 12,
+		Class = "ROGUE",
+	},
+	[10059] = {
+		Level = 40,
+		Class = "MAGE",
+	},
+	[14282] = {
+		Level = 20,
+		Class = "HUNTER",
+	},
+	[10219] = {
+		Level = 50,
+		Class = "MAGE",
+	},
+	[61847] = {
+		Level = 80,
+		Class = "HUNTER",
+	},
+	[7270] = {
+		Level = 24,
+		Class = "MAGE",
+	},
+	[1822] = {
+		Level = 24,
+		Class = "DRUID",
+	},
+	[7302] = {
+		Level = 30,
+		Class = "MAGE",
+	},
+	[16979] = {
+		Level = 20,
+		Class = "DRUID",
+	},
+	[25233] = {
+		Level = 61,
+		Class = "PRIEST",
+	},
+	[25297] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[1842] = {
+		Level = 30,
+		Class = "ROGUE",
+	},
+	[50842] = {
+		Level = 56,
+		Class = "DEATHKNIGHT",
+	},
+	[1850] = {
+		Level = 26,
+		Class = "DRUID",
+	},
+	[10955] = {
+		Level = 60,
+		Class = "PRIEST",
+	},
+	[48667] = {
+		Level = 73,
+		Class = "ROGUE",
+	},
+	[49051] = {
+		Level = 71,
+		Class = "HUNTER",
+	},
+	[11275] = {
+		Level = 60,
+		Class = "ROGUE",
+	},
+	[11307] = {
+		Level = 52,
+		Class = "SHAMAN",
+	},
+	[27025] = {
+		Level = 61,
+		Class = "HUNTER",
+	},
+	[7814] = {
+		Level = 20,
+		Class = "MAGE",
+	},
+	[27217] = {
 		Level = 67,
+		Class = "WARLOCK",
+	},
+	[58649] = {
+		Level = 71,
+		Class = "SHAMAN",
+	},
+	[1966] = {
+		Level = 16,
+		Class = "ROGUE",
+	},
+	[11659] = {
+		Level = 44,
+		Class = "WARLOCK",
+	},
+	[1978] = {
+		Level = 4,
+		Class = "HUNTER",
+	},
+	[2006] = {
+		Level = 10,
+		Class = "PRIEST",
+	},
+	[8038] = {
+		Level = 28,
+		Class = "SHAMAN",
+	},
+	[32272] = {
+		Level = 20,
+		Class = "MAGE",
+	},
+	[8102] = {
+		Level = 16,
+		Class = "PRIEST",
+	},
+	[24274] = {
+		Level = 52,
+		Class = "PALADIN",
+	},
+	[8134] = {
+		Level = 40,
+		Class = "SHAMAN",
+	},
+	[16362] = {
+		Level = 60,
+		Class = "SHAMAN",
+	},
+	[8204] = {
+		Level = 28,
 		Class = "WARRIOR",
+	},
+	[2060] = {
+		Level = 40,
+		Class = "PRIEST",
+	},
+	[61721] = {
+		Level = 60,
+		Class = "MAGE",
+	},
+	[20755] = {
+		Level = 40,
+		Class = "WARLOCK",
+	},
+	[54043] = {
+		Level = 76,
+		Class = "PALADIN",
+	},
+	[8492] = {
+		Level = 34,
+		Class = "MAGE",
+	},
+	[25234] = {
+		Level = 65,
+		Class = "WARRIOR",
+	},
+	[25298] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[8940] = {
+		Level = 30,
+		Class = "DRUID",
+	},
+	[8972] = {
+		Level = 34,
+		Class = "DRUID",
+	},
+	[30545] = {
+		Level = 70,
+		Class = "WARLOCK",
+	},
+	[49053] = {
+		Level = 72,
+		Class = "HUNTER",
+	},
+	[57755] = {
+		Level = 80,
+		Class = "WARRIOR",
+	},
+	[49821] = {
+		Level = 75,
+		Class = "PRIEST",
+	},
+	[27026] = {
+		Level = 61,
+		Class = "HUNTER",
+	},
+	[27090] = {
+		Level = 70,
+		Class = "MAGE",
+	},
+	[9484] = {
+		Level = 20,
+		Class = "PRIEST",
+	},
+	[27218] = {
+		Level = 67,
+		Class = "WARLOCK",
+	},
+	[50589] = {
+		Level = 60,
+		Class = "WARLOCK",
+	},
+	[2484] = {
+		Level = 6,
+		Class = "SHAMAN",
+	},
+	[48158] = {
+		Level = 80,
+		Class = "PRIEST",
+	},
+	[20116] = {
+		Level = 30,
+		Class = "PALADIN",
+	},
+	[24275] = {
+		Level = 44,
+		Class = "PALADIN",
+	},
+	[10156] = {
+		Level = 42,
+		Class = "MAGE",
+	},
+	[14283] = {
+		Level = 28,
+		Class = "HUNTER",
+	},
+	[10220] = {
+		Level = 60,
+		Class = "MAGE",
+	},
+	[5143] = {
+		Level = 8,
+		Class = "MAGE",
+	},
+	[20756] = {
+		Level = 50,
+		Class = "WARLOCK",
+	},
+	[10412] = {
+		Level = 36,
+		Class = "SHAMAN",
+	},
+	[58652] = {
+		Level = 75,
+		Class = "SHAMAN",
+	},
+	[25299] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[25363] = {
+		Level = 61,
+		Class = "PRIEST",
+	},
+	[47519] = {
+		Level = 72,
+		Class = "WARRIOR",
+	},
+	[10892] = {
+		Level = 42,
+		Class = "PRIEST",
+	},
+	[48671] = {
+		Level = 74,
+		Class = "ROGUE",
+	},
+	[53022] = {
+		Level = 80,
+		Class = "PRIEST",
+	},
+	[2812] = {
+		Level = 50,
+		Class = "PALADIN",
+	},
+	[2836] = {
+		Level = 24,
+		Class = "ROGUE",
+	},
+	[2860] = {
+		Level = 48,
+		Class = "SHAMAN",
+	},
+	[11564] = {
+		Level = 32,
+		Class = "WARRIOR",
+	},
+	[2908] = {
+		Level = 22,
+		Class = "DRUID",
+	},
+	[11660] = {
+		Level = 52,
+		Class = "WARLOCK",
+	},
+	[42913] = {
+		Level = 72,
+		Class = "MAGE",
+	},
+	[2948] = {
+		Level = 22,
+		Class = "MAGE",
+	},
+	[47520] = {
+		Level = 77,
+		Class = "WARRIOR",
+	},
+	[56222] = {
+		Level = 65,
+		Class = "DEATHKNIGHT",
+	},
+	[3044] = {
+		Level = 6,
+		Class = "HUNTER",
+	},
+	[48800] = {
+		Level = 73,
+		Class = "PALADIN",
+	},
+	[53023] = {
+		Level = 80,
+		Class = "PRIEST",
+	},
+	[49056] = {
+		Level = 78,
+		Class = "HUNTER",
+	},
+	[8205] = {
+		Level = 38,
+		Class = "WARRIOR",
+	},
+	[53407] = {
+		Level = 28,
+		Class = "PALADIN",
+	},
+	[6215] = {
+		Level = 56,
+		Class = "WARLOCK",
+	},
+	[3140] = {
+		Level = 18,
+		Class = "MAGE",
+	},
+	[50464] = {
+		Level = 80,
+		Class = "DRUID",
+	},
+	[25300] = {
+		Level = 60,
+		Class = "ROGUE",
+	},
+	[6343] = {
+		Level = 6,
+		Class = "WARRIOR",
+	},
+	[8621] = {
+		Level = 38,
+		Class = "ROGUE",
+	},
+	[6375] = {
+		Level = 30,
+		Class = "SHAMAN",
+	},
+	[6391] = {
+		Level = 28,
+		Class = "SHAMAN",
+	},
+	[8941] = {
+		Level = 36,
+		Class = "DRUID",
+	},
+	[48161] = {
+		Level = 80,
+		Class = "PRIEST",
+	},
+	[9005] = {
+		Level = 36,
+		Class = "DRUID",
+	},
+	[48673] = {
+		Level = 70,
+		Class = "ROGUE",
+	},
+	[48801] = {
+		Level = 79,
+		Class = "PALADIN",
+	},
+	[53408] = {
+		Level = 12,
+		Class = "PALADIN",
+	},
+	[9485] = {
+		Level = 40,
+		Class = "PRIEST",
+	},
+	[27220] = {
+		Level = 69,
+		Class = "WARLOCK",
+	},
+	[50977] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[43043] = {
+		Level = 71,
+		Class = "MAGE",
+	},
+	[9901] = {
+		Level = 54,
+		Class = "DRUID",
+	},
+	[52129] = {
+		Level = 28,
+		Class = "SHAMAN",
+	},
+	[48162] = {
+		Level = 80,
+		Class = "PRIEST",
+	},
+	[48674] = {
+		Level = 76,
+		Class = "ROGUE",
+	},
+	[10157] = {
+		Level = 56,
+		Class = "MAGE",
+	},
+	[14284] = {
+		Level = 36,
+		Class = "HUNTER",
+	},
+	[14316] = {
+		Level = 44,
+		Class = "HUNTER",
+	},
+	[10413] = {
+		Level = 48,
+		Class = "SHAMAN",
+	},
+	[58656] = {
+		Level = 80,
+		Class = "SHAMAN",
 	},
 	[10605] = {
 		Level = 56,
 		Class = "SHAMAN",
 	},
-	[14294] = {
+	[3700] = {
+		Level = 36,
+		Class = "WARLOCK",
+	},
+	[25557] = {
+		Level = 67,
+		Class = "SHAMAN",
+	},
+	[43044] = {
+		Level = 79,
+		Class = "MAGE",
+	},
+	[10893] = {
 		Level = 50,
+		Class = "PRIEST",
+	},
+	[60192] = {
+		Level = 80,
 		Class = "HUNTER",
 	},
-	[48657] = {
+	[30356] = {
+		Level = 70,
+		Class = "WARRIOR",
+	},
+	[48675] = {
+		Level = 75,
+		Class = "ROGUE",
+	},
+	[48931] = {
+		Level = 73,
+		Class = "PALADIN",
+	},
+	[18647] = {
+		Level = 48,
+		Class = "WARLOCK",
+	},
+	[7815] = {
+		Level = 28,
+		Class = "MAGE",
+	},
+	[11565] = {
+		Level = 40,
+		Class = "WARRIOR",
+	},
+	[27285] = {
+		Level = 70,
+		Class = "WARLOCK",
+	},
+	[58785] = {
+		Level = 71,
+		Class = "SHAMAN",
+	},
+	[11661] = {
+		Level = 60,
+		Class = "WARLOCK",
+	},
+	[11693] = {
+		Level = 44,
+		Class = "WARLOCK",
+	},
+	[11725] = {
+		Level = 44,
+		Class = "WARLOCK",
+	},
+	[42917] = {
+		Level = 75,
+		Class = "MAGE",
+	},
+	[43045] = {
+		Level = 71,
+		Class = "MAGE",
+	},
+	[55458] = {
+		Level = 74,
+		Class = "SHAMAN",
+	},
+	[52131] = {
+		Level = 34,
+		Class = "SHAMAN",
+	},
+	[8071] = {
+		Level = 4,
+		Class = "SHAMAN",
+	},
+	[8103] = {
+		Level = 22,
+		Class = "PRIEST",
+	},
+	[48676] = {
 		Level = 80,
 		Class = "ROGUE",
 	},
-	[25392] = {
+	[24406] = {
+		Level = 60,
+		Class = "HUNTER",
+	},
+	[48932] = {
+		Level = 79,
+		Class = "PALADIN",
+	},
+	[45477] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[50212] = {
+		Level = 71,
+		Class = "DRUID",
+	},
+	[8494] = {
+		Level = 28,
+		Class = "MAGE",
+	},
+	[25302] = {
+		Level = 60,
+		Class = "ROGUE",
+	},
+	[34600] = {
+		Level = 68,
+		Class = "HUNTER",
+	},
+	[17] = {
+		Level = 6,
+		Class = "PRIEST",
+	},
+	[43046] = {
+		Level = 79,
+		Class = "MAGE",
+	},
+	[55459] = {
+		Level = 80,
+		Class = "SHAMAN",
+	},
+	[8910] = {
+		Level = 40,
+		Class = "DRUID",
+	},
+	[64801] = {
+		Level = 80,
+		Class = "DRUID",
+	},
+	[13165] = {
+		Level = 10,
+		Class = "HUNTER",
+	},
+	[48805] = {
+		Level = 74,
+		Class = "PALADIN",
+	},
+	[48933] = {
+		Level = 73,
+		Class = "PALADIN",
+	},
+	[13549] = {
+		Level = 10,
+		Class = "HUNTER",
+	},
+	[50213] = {
+		Level = 79,
+		Class = "DRUID",
+	},
+	[27222] = {
+		Level = 68,
+		Class = "WARLOCK",
+	},
+	[58659] = {
+		Level = 80,
+		Class = "MAGE",
+	},
+	[20184] = {
+		Level = 22,
+		Class = "PALADIN",
+	},
+	[48806] = {
+		Level = 80,
+		Class = "PALADIN",
+	},
+	[48934] = {
+		Level = 79,
+		Class = "PALADIN",
+	},
+	[14317] = {
+		Level = 54,
+		Class = "HUNTER",
+	},
+	[5144] = {
+		Level = 16,
+		Class = "MAGE",
+	},
+	[10318] = {
+		Level = 60,
+		Class = "PALADIN",
+	},
+	[10414] = {
+		Level = 60,
+		Class = "SHAMAN",
+	},
+	[16857] = {
+		Level = 18,
+		Class = "DRUID",
+	},
+	[25367] = {
+		Level = 65,
+		Class = "PRIEST",
+	},
+	[25431] = {
+		Level = 69,
+		Class = "PRIEST",
+	},
+	[38697] = {
+		Level = 70,
+		Class = "MAGE",
+	},
+	[42920] = {
+		Level = 76,
+		Class = "MAGE",
+	},
+	[5384] = {
+		Level = 30,
+		Class = "HUNTER",
+	},
+	[10894] = {
+		Level = 58,
+		Class = "PRIEST",
+	},
+	[10958] = {
+		Level = 56,
+		Class = "PRIEST",
+	},
+	[52134] = {
+		Level = 41,
+		Class = "SHAMAN",
+	},
+	[48935] = {
+		Level = 71,
+		Class = "PALADIN",
+	},
+	[26839] = {
+		Level = 61,
+		Class = "ROGUE",
+	},
+	[27095] = {
+		Level = 60,
+		Class = "ROGUE",
+	},
+	[11566] = {
+		Level = 48,
+		Class = "WARRIOR",
+	},
+	[58789] = {
+		Level = 76,
+		Class = "SHAMAN",
+	},
+	[11694] = {
+		Level = 52,
+		Class = "WARLOCK",
+	},
+	[11726] = {
+		Level = 58,
+		Class = "WARLOCK",
+	},
+	[42921] = {
+		Level = 80,
+		Class = "MAGE",
+	},
+	[27799] = {
+		Level = 44,
+		Class = "PRIEST",
+	},
+	[47528] = {
+		Level = 57,
+		Class = "DEATHKNIGHT",
+	},
+	[19801] = {
+		Level = 60,
+		Class = "HUNTER",
+	},
+	[48040] = {
+		Level = 71,
+		Class = "PRIEST",
+	},
+	[48168] = {
+		Level = 77,
+		Class = "PRIEST",
+	},
+	[20185] = {
+		Level = 30,
+		Class = "PALADIN",
+	},
+	[48936] = {
+		Level = 77,
+		Class = "PALADIN",
+	},
+	[49064] = {
+		Level = 71,
+		Class = "HUNTER",
+	},
+	[20569] = {
+		Level = 60,
+		Class = "WARRIOR",
+	},
+	[49576] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[12494] = {
+		Level = 10,
+		Class = "MAGE",
+	},
+	[8495] = {
+		Level = 36,
+		Class = "MAGE",
+	},
+	[62757] = {
+		Level = 80,
+		Class = "HUNTER",
+	},
+	[58790] = {
+		Level = 80,
+		Class = "SHAMAN",
+	},
+	[25368] = {
 		Level = 70,
 		Class = "PRIEST",
 	},
-	[6360] = {
-		Level = 22,
+	[8623] = {
+		Level = 32,
+		Class = "ROGUE",
+	},
+	[38699] = {
+		Level = 69,
 		Class = "MAGE",
 	},
-	[13159] = {
-		Level = 40,
-		Class = "HUNTER",
-	},
-	[27008] = {
+	[25560] = {
 		Level = 67,
+		Class = "SHAMAN",
+	},
+	[21849] = {
+		Level = 50,
 		Class = "DRUID",
 	},
-	[56641] = {
-		Level = 50,
+	[52136] = {
+		Level = 48,
+		Class = "SHAMAN",
+	},
+	[48169] = {
+		Level = 76,
+		Class = "PRIEST",
+	},
+	[9007] = {
+		Level = 36,
+		Class = "DRUID",
+	},
+	[48937] = {
+		Level = 71,
+		Class = "PALADIN",
+	},
+	[49065] = {
+		Level = 77,
 		Class = "HUNTER",
 	},
-	[6392] = {
+	[37420] = {
+		Level = 65,
+		Class = "MAGE",
+	},
+	[6760] = {
+		Level = 8,
+		Class = "ROGUE",
+	},
+	[27096] = {
+		Level = 60,
+		Class = "ROGUE",
+	},
+	[6808] = {
+		Level = 18,
+		Class = "DRUID",
+	},
+	[34477] = {
+		Level = 70,
+		Class = "HUNTER",
+	},
+	[38700] = {
+		Level = 69,
+		Class = "MAGE",
+	},
+	[27800] = {
+		Level = 52,
+		Class = "PRIEST",
+	},
+	[9839] = {
+		Level = 46,
+		Class = "DRUID",
+	},
+	[48170] = {
+		Level = 77,
+		Class = "PRIEST",
+	},
+	[44203] = {
+		Level = 30,
+		Class = "DRUID",
+	},
+	[20186] = {
+		Level = 38,
+		Class = "PALADIN",
+	},
+	[7128] = {
+		Level = 20,
+		Class = "PRIEST",
+	},
+	[48938] = {
+		Level = 77,
+		Class = "PALADIN",
+	},
+	[10223] = {
+		Level = 50,
+		Class = "MAGE",
+	},
+	[10447] = {
+		Level = 40,
+		Class = "SHAMAN",
+	},
+	[10479] = {
+		Level = 54,
+		Class = "SHAMAN",
+	},
+	[7320] = {
+		Level = 40,
+		Class = "MAGE",
+	},
+	[25241] = {
+		Level = 61,
+		Class = "WARRIOR",
+	},
+	[25433] = {
+		Level = 68,
+		Class = "PRIEST",
+	},
+	[21850] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[52138] = {
+		Level = 55,
+		Class = "SHAMAN",
+	},
+	[48171] = {
+		Level = 78,
+		Class = "PRIEST",
+	},
+	[48299] = {
+		Level = 73,
+		Class = "PRIEST",
+	},
+	[49067] = {
+		Level = 77,
+		Class = "HUNTER",
+	},
+	[11279] = {
+		Level = 44,
+		Class = "ROGUE",
+	},
+	[27097] = {
+		Level = 60,
+		Class = "ROGUE",
+	},
+	[7816] = {
+		Level = 36,
+		Class = "MAGE",
+	},
+	[11567] = {
+		Level = 56,
+		Class = "WARRIOR",
+	},
+	[11695] = {
+		Level = 60,
+		Class = "WARLOCK",
+	},
+	[42925] = {
+		Level = 72,
+		Class = "MAGE",
+	},
+	[19483] = {
+		Level = 50,
+		Class = "WARLOCK",
+	},
+	[27801] = {
+		Level = 60,
+		Class = "PRIEST",
+	},
+	[8008] = {
+		Level = 28,
+		Class = "SHAMAN",
+	},
+	[8024] = {
+		Level = 10,
+		Class = "SHAMAN",
+	},
+	[8056] = {
+		Level = 20,
+		Class = "SHAMAN",
+	},
+	[44205] = {
+		Level = 40,
+		Class = "DRUID",
+	},
+	[8104] = {
+		Level = 28,
+		Class = "PRIEST",
+	},
+	[8184] = {
+		Level = 28,
+		Class = "SHAMAN",
+	},
+	[2053] = {
+		Level = 10,
+		Class = "PRIEST",
+	},
+	[2061] = {
+		Level = 20,
+		Class = "PRIEST",
+	},
+	[8400] = {
+		Level = 24,
+		Class = "MAGE",
+	},
+	[25242] = {
+		Level = 69,
+		Class = "WARRIOR",
+	},
+	[58794] = {
+		Level = 71,
+		Class = "SHAMAN",
+	},
+	[8624] = {
+		Level = 40,
+		Class = "ROGUE",
+	},
+	[38703] = {
+		Level = 70,
+		Class = "MAGE",
+	},
+	[42926] = {
+		Level = 79,
+		Class = "MAGE",
+	},
+	[60202] = {
+		Level = 60,
+		Class = "HUNTER",
+	},
+	[48045] = {
+		Level = 75,
+		Class = "PRIEST",
+	},
+	[44206] = {
+		Level = 50,
+		Class = "DRUID",
+	},
+	[48941] = {
+		Level = 74,
+		Class = "PALADIN",
+	},
+	[13551] = {
+		Level = 26,
+		Class = "HUNTER",
+	},
+	[58795] = {
+		Level = 76,
+		Class = "SHAMAN",
+	},
+	[38704] = {
+		Level = 70,
+		Class = "MAGE",
+	},
+	[9840] = {
+		Level = 52,
+		Class = "DRUID",
+	},
+	[9904] = {
+		Level = 54,
+		Class = "DRUID",
+	},
+	[44207] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[20252] = {
+		Level = 30,
+		Class = "WARRIOR",
+	},
+	[10160] = {
+		Level = 50,
+		Class = "MAGE",
+	},
+	[48942] = {
+		Level = 79,
+		Class = "PALADIN",
+	},
+	[14319] = {
+		Level = 28,
+		Class = "HUNTER",
+	},
+	[2565] = {
+		Level = 16,
+		Class = "WARRIOR",
+	},
+	[5145] = {
+		Level = 24,
+		Class = "MAGE",
+	},
+	[5177] = {
+		Level = 6,
+		Class = "DRUID",
+	},
+	[5209] = {
+		Level = 28,
+		Class = "DRUID",
+	},
+	[10448] = {
+		Level = 52,
+		Class = "SHAMAN",
+	},
+	[2637] = {
+		Level = 18,
+		Class = "DRUID",
+	},
+	[2645] = {
+		Level = 16,
+		Class = "SHAMAN",
+	},
+	[25307] = {
+		Level = 60,
+		Class = "WARLOCK",
+	},
+	[25435] = {
+		Level = 68,
+		Class = "PRIEST",
+	},
+	[25563] = {
+		Level = 68,
+		Class = "SHAMAN",
+	},
+	[29722] = {
+		Level = 64,
+		Class = "WARLOCK",
+	},
+	[10928] = {
+		Level = 50,
+		Class = "PRIEST",
+	},
+	[10960] = {
+		Level = 50,
+		Class = "PRIEST",
+	},
+	[44208] = {
+		Level = 70,
+		Class = "DRUID",
+	},
+	[48559] = {
+		Level = 71,
+		Class = "DRUID",
+	},
+	[48943] = {
+		Level = 76,
+		Class = "PALADIN",
+	},
+	[49071] = {
+		Level = 76,
+		Class = "HUNTER",
+	},
+	[11280] = {
+		Level = 52,
+		Class = "ROGUE",
+	},
+	[22812] = {
+		Level = 44,
+		Class = "DRUID",
+	},
+	[62124] = {
+		Level = 16,
+		Class = "PALADIN",
+	},
+	[27099] = {
+		Level = 60,
+		Class = "ROGUE",
+	},
+	[2893] = {
+		Level = 26,
+		Class = "DRUID",
+	},
+	[11600] = {
+		Level = 44,
+		Class = "WARRIOR",
+	},
+	[2941] = {
+		Level = 30,
+		Class = "WARLOCK",
+	},
+	[55342] = {
+		Level = 80,
+		Class = "MAGE",
+	},
+	[31898] = {
+		Level = 64,
+		Class = "PALADIN",
+	},
+	[6041] = {
+		Level = 32,
+		Class = "SHAMAN",
+	},
+	[3029] = {
+		Level = 28,
+		Class = "DRUID",
+	},
+	[48560] = {
+		Level = 77,
+		Class = "DRUID",
+	},
+	[3045] = {
+		Level = 26,
+		Class = "HUNTER",
+	},
+	[48816] = {
+		Level = 72,
+		Class = "PALADIN",
+	},
+	[33076] = {
+		Level = 68,
+		Class = "PRIEST",
+	},
+	[6201] = {
+		Level = 10,
+		Class = "WARLOCK",
+	},
+	[6217] = {
+		Level = 28,
+		Class = "WARLOCK",
+	},
+	[8401] = {
+		Level = 30,
+		Class = "MAGE",
+	},
+	[25308] = {
+		Level = 68,
+		Class = "PRIEST",
+	},
+	[25372] = {
+		Level = 63,
+		Class = "PRIEST",
+	},
+	[25500] = {
+		Level = 66,
+		Class = "SHAMAN",
+	},
+	[42930] = {
+		Level = 72,
+		Class = "MAGE",
+	},
+	[8721] = {
+		Level = 36,
+		Class = "ROGUE",
+	},
+	[47793] = {
+		Level = 76,
+		Class = "WARLOCK",
+	},
+	[48561] = {
+		Level = 72,
+		Class = "DRUID",
+	},
+	[48689] = {
+		Level = 70,
+		Class = "ROGUE",
+	},
+	[48817] = {
+		Level = 78,
+		Class = "PALADIN",
+	},
+	[48945] = {
+		Level = 77,
+		Class = "PALADIN",
+	},
+	[36916] = {
+		Level = 70,
+		Class = "HUNTER",
+	},
+	[6761] = {
+		Level = 16,
+		Class = "ROGUE",
+	},
+	[33717] = {
+		Level = 70,
+		Class = "MAGE",
+	},
+	[6793] = {
+		Level = 36,
+		Class = "DRUID",
+	},
+	[6809] = {
+		Level = 26,
+		Class = "DRUID",
+	},
+	[42931] = {
+		Level = 79,
+		Class = "MAGE",
+	},
+	[9745] = {
+		Level = 42,
+		Class = "DRUID",
+	},
+	[27804] = {
+		Level = 52,
+		Class = "PRIEST",
+	},
+	[9841] = {
+		Level = 58,
+		Class = "DRUID",
+	},
+	[19742] = {
+		Level = 14,
+		Class = "PALADIN",
+	},
+	[7001] = {
+		Level = 40,
+		Class = "PRIEST",
+	},
+	[48562] = {
+		Level = 77,
+		Class = "DRUID",
+	},
+	[48690] = {
+		Level = 75,
+		Class = "ROGUE",
+	},
+	[10161] = {
+		Level = 58,
+		Class = "MAGE",
+	},
+	[10193] = {
+		Level = 60,
+		Class = "MAGE",
+	},
+	[14320] = {
+		Level = 38,
+		Class = "HUNTER",
+	},
+	[61999] = {
+		Level = 72,
+		Class = "DEATHKNIGHT",
+	},
+	[3661] = {
+		Level = 28,
+		Class = "HUNTER",
+	},
+	[25309] = {
+		Level = 60,
+		Class = "WARLOCK",
+	},
+	[7369] = {
+		Level = 30,
+		Class = "WARRIOR",
+	},
+	[10929] = {
+		Level = 56,
+		Class = "PRIEST",
+	},
+	[10961] = {
+		Level = 60,
+		Class = "PRIEST",
+	},
+	[17951] = {
+		Level = 36,
+		Class = "WARLOCK",
+	},
+	[48563] = {
+		Level = 75,
+		Class = "DRUID",
+	},
+	[48691] = {
+		Level = 80,
+		Class = "ROGUE",
+	},
+	[48819] = {
+		Level = 80,
+		Class = "PALADIN",
+	},
+	[48947] = {
+		Level = 78,
+		Class = "PALADIN",
+	},
+	[11281] = {
+		Level = 60,
+		Class = "ROGUE",
+	},
+	[27101] = {
+		Level = 68,
+		Class = "MAGE",
+	},
+	[11601] = {
+		Level = 54,
+		Class = "WARRIOR",
+	},
+	[58801] = {
+		Level = 71,
+		Class = "SHAMAN",
+	},
+	[11665] = {
+		Level = 40,
+		Class = "WARLOCK",
+	},
+	[11729] = {
+		Level = 46,
+		Class = "WARLOCK",
+	},
+	[27805] = {
+		Level = 60,
+		Class = "PRIEST",
+	},
+	[28189] = {
+		Level = 69,
+		Class = "WARLOCK",
+	},
+	[8105] = {
+		Level = 34,
+		Class = "PRIEST",
+	},
+	[48564] = {
+		Level = 80,
+		Class = "DRUID",
+	},
+	[8402] = {
+		Level = 36,
+		Class = "MAGE",
+	},
+	[66] = {
+		Level = 68,
+		Class = "MAGE",
+	},
+	[8498] = {
+		Level = 22,
+		Class = "SHAMAN",
+	},
+	[67] = {
+		Level = 20,
+		Class = "PALADIN",
+	},
+	[1075] = {
+		Level = 24,
+		Class = "DRUID",
+	},
+	[1079] = {
+		Level = 20,
+		Class = "DRUID",
+	},
+	[47541] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[8914] = {
+		Level = 34,
+		Class = "DRUID",
+	},
+	[8946] = {
+		Level = 14,
+		Class = "DRUID",
+	},
+	[17952] = {
+		Level = 46,
+		Class = "WARLOCK",
+	},
+	[48565] = {
+		Level = 75,
+		Class = "DRUID",
+	},
+	[48949] = {
+		Level = 72,
+		Class = "PALADIN",
+	},
+	[72] = {
+		Level = 12,
+		Class = "WARRIOR",
+	},
+	[53428] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[13553] = {
+		Level = 42,
+		Class = "HUNTER",
+	},
+	[9490] = {
+		Level = 32,
+		Class = "DRUID",
+	},
+	[27230] = {
+		Level = 68,
+		Class = "WARLOCK",
+	},
+	[58803] = {
+		Level = 76,
+		Class = "SHAMAN",
+	},
+	[23455] = {
+		Level = 20,
+		Class = "PRIEST",
+	},
+	[31709] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[40120] = {
+		Level = 70,
+		Class = "DRUID",
+	},
+	[48566] = {
+		Level = 80,
+		Class = "DRUID",
+	},
+	[48950] = {
+		Level = 79,
+		Class = "PALADIN",
+	},
+	[14321] = {
+		Level = 48,
+		Class = "HUNTER",
+	},
+	[10290] = {
+		Level = 10,
+		Class = "PALADIN",
+	},
+	[10322] = {
+		Level = 24,
+		Class = "PALADIN",
+	},
+	[5178] = {
+		Level = 14,
+		Class = "DRUID",
+	},
+	[5242] = {
+		Level = 12,
+		Class = "WARRIOR",
+	},
+	[58804] = {
+		Level = 80,
+		Class = "SHAMAN",
+	},
+	[25375] = {
+		Level = 69,
+		Class = "PRIEST",
+	},
+	[25439] = {
+		Level = 63,
+		Class = "SHAMAN",
+	},
+	[25567] = {
+		Level = 69,
+		Class = "SHAMAN",
+	},
+	[10898] = {
+		Level = 42,
+		Class = "PRIEST",
+	},
+	[17953] = {
+		Level = 56,
+		Class = "WARLOCK",
+	},
+	[48567] = {
+		Level = 73,
+		Class = "DRUID",
+	},
+	[11314] = {
+		Level = 42,
+		Class = "SHAMAN",
+	},
+	[18657] = {
+		Level = 38,
+		Class = "DRUID",
+	},
+	[1455] = {
+		Level = 16,
+		Class = "WARLOCK",
+	},
+	[1463] = {
+		Level = 20,
+		Class = "MAGE",
+	},
+	[11730] = {
+		Level = 58,
+		Class = "WARLOCK",
+	},
+	[42937] = {
+		Level = 74,
+		Class = "MAGE",
+	},
+	[1495] = {
+		Level = 16,
+		Class = "HUNTER",
+	},
+	[1499] = {
+		Level = 20,
+		Class = "HUNTER",
+	},
+	[48440] = {
+		Level = 75,
+		Class = "DRUID",
+	},
+	[48568] = {
+		Level = 80,
+		Class = "DRUID",
+	},
+	[1535] = {
+		Level = 12,
+		Class = "SHAMAN",
+	},
+	[1543] = {
+		Level = 32,
+		Class = "HUNTER",
+	},
+	[6202] = {
+		Level = 22,
+		Class = "WARLOCK",
+	},
+	[8499] = {
+		Level = 32,
+		Class = "SHAMAN",
+	},
+	[62901] = {
+		Level = 62,
+		Class = "DEATHKNIGHT",
+	},
+	[6346] = {
+		Level = 20,
+		Class = "PRIEST",
+	},
+	[42938] = {
+		Level = 80,
+		Class = "MAGE",
+	},
+	[48441] = {
+		Level = 80,
+		Class = "DRUID",
+	},
+	[48569] = {
+		Level = 73,
+		Class = "DRUID",
+	},
+	[18658] = {
+		Level = 58,
+		Class = "DRUID",
+	},
+	[6762] = {
+		Level = 24,
+		Class = "ROGUE",
+	},
+	[6778] = {
+		Level = 32,
+		Class = "DRUID",
+	},
+	[62902] = {
+		Level = 68,
+		Class = "DEATHKNIGHT",
+	},
+	[1715] = {
+		Level = 8,
+		Class = "WARRIOR",
+	},
+	[1719] = {
+		Level = 50,
+		Class = "WARRIOR",
+	},
+	[42939] = {
+		Level = 74,
+		Class = "MAGE",
+	},
+	[9747] = {
+		Level = 42,
+		Class = "DRUID",
+	},
+	[1735] = {
+		Level = 20,
+		Class = "DRUID",
+	},
+	[9875] = {
+		Level = 50,
+		Class = "DRUID",
+	},
+	[32223] = {
+		Level = 62,
+		Class = "PALADIN",
+	},
+	[48442] = {
+		Level = 71,
+		Class = "DRUID",
+	},
+	[48570] = {
+		Level = 79,
+		Class = "DRUID",
+	},
+	[14290] = {
+		Level = 54,
+		Class = "HUNTER",
+	},
+	[14322] = {
+		Level = 58,
+		Class = "HUNTER",
+	},
+	[10291] = {
+		Level = 30,
+		Class = "PALADIN",
+	},
+	[20770] = {
+		Level = 58,
+		Class = "PRIEST",
+	},
+	[1823] = {
+		Level = 34,
+		Class = "DRUID",
+	},
+	[33982] = {
+		Level = 58,
+		Class = "DRUID",
+	},
+	[62903] = {
+		Level = 76,
+		Class = "DEATHKNIGHT",
+	},
+	[7386] = {
+		Level = 10,
+		Class = "WARRIOR",
+	},
+	[25505] = {
+		Level = 68,
+		Class = "SHAMAN",
+	},
+	[42940] = {
+		Level = 80,
+		Class = "MAGE",
+	},
+	[51514] = {
+		Level = 80,
+		Class = "SHAMAN",
+	},
+	[10899] = {
+		Level = 48,
+		Class = "PRIEST",
+	},
+	[26017] = {
+		Level = 20,
+		Class = "PALADIN",
+	},
+	[118] = {
+		Level = 8,
+		Class = "MAGE",
+	},
+	[48443] = {
+		Level = 77,
+		Class = "DRUID",
+	},
+	[48571] = {
+		Level = 75,
+		Class = "DRUID",
+	},
+	[120] = {
+		Level = 26,
+		Class = "MAGE",
+	},
+	[11315] = {
+		Level = 52,
+		Class = "SHAMAN",
+	},
+	[1943] = {
+		Level = 20,
+		Class = "ROGUE",
+	},
+	[122] = {
+		Level = 10,
+		Class = "MAGE",
+	},
+	[33983] = {
+		Level = 68,
+		Class = "DRUID",
+	},
+	[62904] = {
+		Level = 80,
+		Class = "DEATHKNIGHT",
+	},
+	[11667] = {
+		Level = 50,
+		Class = "WARLOCK",
+	},
+	[11699] = {
+		Level = 46,
+		Class = "WARLOCK",
+	},
+	[23458] = {
+		Level = 28,
+		Class = "PRIEST",
+	},
+	[27681] = {
+		Level = 60,
+		Class = "PRIEST",
+	},
+	[27873] = {
+		Level = 50,
+		Class = "PRIEST",
+	},
+	[8010] = {
+		Level = 36,
+		Class = "SHAMAN",
+	},
+	[8058] = {
+		Level = 34,
+		Class = "SHAMAN",
+	},
+	[12051] = {
+		Level = 20,
+		Class = "MAGE",
+	},
+	[8106] = {
+		Level = 40,
+		Class = "PRIEST",
+	},
+	[48572] = {
+		Level = 80,
+		Class = "DRUID",
+	},
+	[8154] = {
+		Level = 14,
+		Class = "SHAMAN",
+	},
+	[8170] = {
 		Level = 38,
 		Class = "SHAMAN",
 	},
-	[14286] = {
-		Level = 52,
+	[53307] = {
+		Level = 74,
+		Class = "DRUID",
+	},
+	[2062] = {
+		Level = 66,
+		Class = "SHAMAN",
+	},
+	[2070] = {
+		Level = 28,
+		Class = "ROGUE",
+	},
+	[130] = {
+		Level = 12,
+		Class = "MAGE",
+	},
+	[131] = {
+		Level = 22,
+		Class = "SHAMAN",
+	},
+	[132] = {
+		Level = 26,
+		Class = "WARLOCK",
+	},
+	[25314] = {
+		Level = 60,
+		Class = "PRIEST",
+	},
+	[25442] = {
+		Level = 70,
+		Class = "SHAMAN",
+	},
+	[136] = {
+		Level = 12,
 		Class = "HUNTER",
+	},
+	[8724] = {
+		Level = 26,
+		Class = "ROGUE",
+	},
+	[8820] = {
+		Level = 38,
+		Class = "WARRIOR",
+	},
+	[139] = {
+		Level = 8,
+		Class = "PRIEST",
+	},
+	[48445] = {
+		Level = 80,
+		Class = "DRUID",
+	},
+	[48573] = {
+		Level = 72,
+		Class = "DRUID",
+	},
+	[143] = {
+		Level = 6,
+		Class = "MAGE",
+	},
+	[53308] = {
+		Level = 78,
+		Class = "DRUID",
+	},
+	[145] = {
+		Level = 12,
+		Class = "MAGE",
+	},
+	[26978] = {
+		Level = 62,
+		Class = "DRUID",
+	},
+	[13555] = {
+		Level = 58,
+		Class = "HUNTER",
+	},
+	[9492] = {
+		Level = 28,
+		Class = "DRUID",
+	},
+	[23459] = {
+		Level = 36,
+		Class = "PRIEST",
+	},
+	[27874] = {
+		Level = 60,
+		Class = "PRIEST",
+	},
+	[9876] = {
+		Level = 58,
+		Class = "DRUID",
+	},
+	[9908] = {
+		Level = 54,
+		Class = "DRUID",
+	},
+	[19876] = {
+		Level = 28,
+		Class = "PALADIN",
+	},
+	[48062] = {
+		Level = 73,
+		Class = "PRIEST",
+	},
+	[52285] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[48446] = {
+		Level = 75,
+		Class = "DRUID",
+	},
+	[48574] = {
+		Level = 78,
+		Class = "DRUID",
+	},
+	[14323] = {
+		Level = 22,
+		Class = "HUNTER",
+	},
+	[57532] = {
+		Level = 69,
+		Class = "DEATHKNIGHT",
+	},
+	[10324] = {
+		Level = 36,
+		Class = "PALADIN",
+	},
+	[2590] = {
+		Level = 20,
+		Class = "ROGUE",
+	},
+	[20772] = {
+		Level = 48,
+		Class = "PALADIN",
+	},
+	[5211] = {
+		Level = 14,
+		Class = "DRUID",
+	},
+	[33986] = {
+		Level = 58,
+		Class = "DRUID",
+	},
+	[25315] = {
+		Level = 60,
+		Class = "PRIEST",
+	},
+	[34754] = {
+		Level = 10,
+		Class = "PRIEST",
+	},
+	[29858] = {
+		Level = 66,
+		Class = "WARLOCK",
+	},
+	[70772] = {
+		Level = 20,
+		Class = "PRIEST",
+	},
+	[60220] = {
+		Level = 80,
+		Class = "WARLOCK",
+	},
+	[48063] = {
+		Level = 78,
+		Class = "PRIEST",
+	},
+	[52286] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[48447] = {
+		Level = 80,
+		Class = "DRUID",
+	},
+	[2782] = {
+		Level = 24,
+		Class = "DRUID",
+	},
+	[5675] = {
+		Level = 26,
+		Class = "SHAMAN",
+	},
+	[26979] = {
+		Level = 69,
+		Class = "DRUID",
+	},
+	[2894] = {
+		Level = 68,
+		Class = "SHAMAN",
+	},
+	[11604] = {
+		Level = 46,
+		Class = "WARRIOR",
+	},
+	[11668] = {
+		Level = 60,
+		Class = "WARLOCK",
+	},
+	[11700] = {
+		Level = 54,
+		Class = "WARLOCK",
+	},
+	[27683] = {
+		Level = 56,
+		Class = "PRIEST",
+	},
+	[2974] = {
+		Level = 12,
+		Class = "HUNTER",
+	},
+	[47808] = {
+		Level = 74,
+		Class = "WARLOCK",
+	},
+	[19941] = {
+		Level = 42,
+		Class = "PALADIN",
+	},
+	[6075] = {
+		Level = 20,
+		Class = "PRIEST",
+	},
+	[32546] = {
+		Level = 64,
+		Class = "PRIEST",
+	},
+	[16339] = {
+		Level = 36,
+		Class = "SHAMAN",
+	},
+	[6219] = {
+		Level = 34,
+		Class = "WARLOCK",
+	},
+	[8437] = {
+		Level = 22,
+		Class = "MAGE",
+	},
+	[25316] = {
+		Level = 60,
+		Class = "PRIEST",
+	},
+	[6363] = {
+		Level = 20,
+		Class = "SHAMAN",
+	},
+	[25508] = {
+		Level = 63,
+		Class = "SHAMAN",
+	},
+	[8725] = {
+		Level = 34,
+		Class = "ROGUE",
+	},
+	[47809] = {
+		Level = 79,
+		Class = "WARLOCK",
+	},
+	[48065] = {
+		Level = 75,
+		Class = "PRIEST",
+	},
+	[205] = {
+		Level = 8,
+		Class = "MAGE",
+	},
+	[48577] = {
+		Level = 78,
+		Class = "DRUID",
+	},
+	[53312] = {
+		Level = 78,
+		Class = "DRUID",
+	},
+	[18662] = {
+		Level = 60,
+		Class = "WARLOCK",
+	},
+	[26980] = {
+		Level = 65,
+		Class = "DRUID",
+	},
+	[27044] = {
+		Level = 68,
+		Class = "HUNTER",
+	},
+	[58431] = {
+		Level = 74,
+		Class = "HUNTER",
+	},
+	[13812] = {
+		Level = 34,
+		Class = "HUNTER",
+	},
+	[9845] = {
+		Level = 48,
+		Class = "DRUID",
+	},
+	[19750] = {
+		Level = 20,
+		Class = "PALADIN",
+	},
+	[47810] = {
+		Level = 75,
+		Class = "WARLOCK",
+	},
+	[19878] = {
+		Level = 32,
+		Class = "HUNTER",
+	},
+	[48066] = {
+		Level = 80,
+		Class = "PRIEST",
+	},
+	[48450] = {
+		Level = 72,
+		Class = "DRUID",
+	},
+	[48578] = {
+		Level = 73,
+		Class = "DRUID",
+	},
+	[3566] = {
+		Level = 30,
+		Class = "MAGE",
+	},
+	[10197] = {
+		Level = 46,
+		Class = "MAGE",
+	},
+	[14324] = {
+		Level = 40,
+		Class = "HUNTER",
+	},
+	[10293] = {
+		Level = 60,
+		Class = "PALADIN",
+	},
+	[58432] = {
+		Level = 74,
+		Class = "HUNTER",
+	},
+	[3662] = {
+		Level = 36,
+		Class = "HUNTER",
+	},
+	[25509] = {
+		Level = 70,
+		Class = "SHAMAN",
+	},
+	[10901] = {
+		Level = 60,
+		Class = "PRIEST",
+	},
+	[47811] = {
+		Level = 80,
+		Class = "WARLOCK",
+	},
+	[10965] = {
+		Level = 58,
+		Class = "PRIEST",
+	},
+	[48067] = {
+		Level = 75,
+		Class = "PRIEST",
+	},
+	[48451] = {
+		Level = 80,
+		Class = "DRUID",
+	},
+	[48579] = {
+		Level = 79,
+		Class = "DRUID",
+	},
+	[48707] = {
+		Level = 68,
+		Class = "DEATHKNIGHT",
+	},
+	[26981] = {
+		Level = 63,
+		Class = "DRUID",
+	},
+	[27045] = {
+		Level = 68,
+		Class = "HUNTER",
+	},
+	[58433] = {
+		Level = 80,
+		Class = "HUNTER",
+	},
+	[11573] = {
+		Level = 50,
+		Class = "WARRIOR",
+	},
+	[11605] = {
+		Level = 54,
+		Class = "WARRIOR",
+	},
+	[11733] = {
+		Level = 40,
+		Class = "WARLOCK",
+	},
+	[47812] = {
+		Level = 71,
+		Class = "WARLOCK",
+	},
+	[19879] = {
+		Level = 50,
+		Class = "HUNTER",
+	},
+	[48068] = {
+		Level = 80,
+		Class = "PRIEST",
+	},
+	[8075] = {
+		Level = 10,
+		Class = "SHAMAN",
+	},
+	[8155] = {
+		Level = 24,
+		Class = "SHAMAN",
+	},
+	[8406] = {
+		Level = 26,
+		Class = "MAGE",
+	},
+	[33736] = {
+		Level = 69,
+		Class = "SHAMAN",
+	},
+	[58434] = {
+		Level = 80,
+		Class = "HUNTER",
+	},
+	[8502] = {
+		Level = 22,
+		Class = "SHAMAN",
+	},
+	[34120] = {
+		Level = 62,
+		Class = "HUNTER",
+	},
+	[25574] = {
+		Level = 69,
+		Class = "SHAMAN",
+	},
+	[25894] = {
+		Level = 54,
+		Class = "PALADIN",
+	},
+	[47813] = {
+		Level = 77,
+		Class = "WARLOCK",
+	},
+	[8918] = {
+		Level = 40,
+		Class = "DRUID",
+	},
+	[8950] = {
+		Level = 34,
+		Class = "DRUID",
+	},
+	[284] = {
+		Level = 8,
+		Class = "WARRIOR",
+	},
+	[285] = {
+		Level = 16,
+		Class = "WARRIOR",
+	},
+	[32841] = {
+		Level = 70,
+		Class = "PALADIN",
+	},
+	[26982] = {
+		Level = 69,
+		Class = "DRUID",
+	},
+	[27046] = {
+		Level = 68,
+		Class = "HUNTER",
+	},
+	[27238] = {
+		Level = 70,
+		Class = "WARLOCK",
+	},
+	[13813] = {
+		Level = 34,
+		Class = "HUNTER",
+	},
+	[9750] = {
+		Level = 42,
+		Class = "DRUID",
+	},
+	[9846] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[19752] = {
+		Level = 30,
+		Class = "PALADIN",
+	},
+	[47814] = {
+		Level = 74,
+		Class = "WARLOCK",
+	},
+	[19880] = {
+		Level = 26,
+		Class = "HUNTER",
+	},
+	[48070] = {
+		Level = 73,
+		Class = "PRIEST",
+	},
+	[14261] = {
+		Level = 16,
+		Class = "HUNTER",
+	},
+	[10230] = {
+		Level = 54,
+		Class = "MAGE",
+	},
+	[10326] = {
+		Level = 24,
+		Class = "PALADIN",
+	},
+	[324] = {
+		Level = 8,
+		Class = "SHAMAN",
+	},
+	[20776] = {
+		Level = 48,
+		Class = "SHAMAN",
+	},
+	[10486] = {
+		Level = 50,
+		Class = "SHAMAN",
+	},
+	[332] = {
+		Level = 6,
+		Class = "SHAMAN",
+	},
+	[339] = {
+		Level = 8,
+		Class = "DRUID",
+	},
+	[47815] = {
+		Level = 79,
+		Class = "WARLOCK",
+	},
+	[5484] = {
+		Level = 40,
+		Class = "WARLOCK",
+	},
+	[5500] = {
+		Level = 24,
+		Class = "WARLOCK",
+	},
+	[22568] = {
+		Level = 32,
+		Class = "DRUID",
+	},
+	[355] = {
+		Level = 10,
+		Class = "WARRIOR",
+	},
+	[26983] = {
+		Level = 70,
+		Class = "DRUID",
+	},
+	[5740] = {
+		Level = 20,
+		Class = "WARLOCK",
+	},
+	[11574] = {
+		Level = 60,
+		Class = "WARRIOR",
+	},
+	[11734] = {
+		Level = 50,
+		Class = "WARLOCK",
+	},
+	[370] = {
+		Level = 12,
+		Class = "SHAMAN",
+	},
+	[48072] = {
+		Level = 76,
+		Class = "PRIEST",
+	},
+	[6060] = {
+		Level = 38,
+		Class = "PRIEST",
+	},
+	[6076] = {
+		Level = 26,
+		Class = "PRIEST",
+	},
+	[16341] = {
+		Level = 46,
+		Class = "SHAMAN",
+	},
+	[20777] = {
+		Level = 60,
+		Class = "SHAMAN",
+	},
+	[8407] = {
+		Level = 32,
+		Class = "MAGE",
+	},
+	[8439] = {
+		Level = 38,
+		Class = "MAGE",
+	},
+	[8503] = {
+		Level = 32,
+		Class = "SHAMAN",
+	},
+	[25384] = {
+		Level = 66,
+		Class = "PRIEST",
+	},
+	[6364] = {
+		Level = 30,
+		Class = "SHAMAN",
+	},
+	[47817] = {
+		Level = 72,
+		Class = "WARLOCK",
+	},
+	[48073] = {
+		Level = 80,
+		Class = "PRIEST",
+	},
+	[8983] = {
+		Level = 46,
+		Class = "DRUID",
+	},
+	[6572] = {
+		Level = 14,
+		Class = "WARRIOR",
+	},
+	[421] = {
+		Level = 32,
+		Class = "SHAMAN",
+	},
+	[26984] = {
+		Level = 61,
+		Class = "DRUID",
+	},
+	[6780] = {
+		Level = 38,
+		Class = "DRUID",
+	},
+	[42955] = {
+		Level = 75,
+		Class = "MAGE",
+	},
+	[6940] = {
+		Level = 46,
+		Class = "PALADIN",
+	},
+	[43339] = {
+		Level = 10,
+		Class = "SHAMAN",
+	},
+	[47818] = {
+		Level = 79,
+		Class = "WARLOCK",
+	},
+	[19882] = {
+		Level = 40,
+		Class = "HUNTER",
+	},
+	[48074] = {
+		Level = 80,
+		Class = "PRIEST",
+	},
+	[14262] = {
+		Level = 24,
+		Class = "HUNTER",
+	},
+	[10199] = {
+		Level = 54,
+		Class = "MAGE",
+	},
+	[14326] = {
+		Level = 30,
+		Class = "HUNTER",
+	},
+	[10391] = {
+		Level = 38,
+		Class = "SHAMAN",
+	},
+	[16811] = {
+		Level = 28,
+		Class = "DRUID",
+	},
+	[25449] = {
+		Level = 67,
+		Class = "SHAMAN",
+	},
+	[42956] = {
+		Level = 80,
+		Class = "MAGE",
+	},
+	[467] = {
+		Level = 6,
+		Class = "DRUID",
+	},
+	[469] = {
+		Level = 68,
+		Class = "WARRIOR",
+	},
+	[47819] = {
+		Level = 72,
+		Class = "WARLOCK",
+	},
+	[48075] = {
+		Level = 75,
+		Class = "PRIEST",
+	},
+	[48459] = {
+		Level = 74,
+		Class = "DRUID",
+	},
+	[22570] = {
+		Level = 62,
+		Class = "DRUID",
+	},
+	[30824] = {
+		Level = 50,
+		Class = "SHAMAN",
+	},
+	[31016] = {
+		Level = 60,
+		Class = "ROGUE",
+	},
+	[26985] = {
+		Level = 69,
+		Class = "DRUID",
+	},
+	[11671] = {
+		Level = 44,
+		Class = "WARLOCK",
+	},
+	[11735] = {
+		Level = 60,
+		Class = "WARLOCK",
+	},
+	[498] = {
+		Level = 6,
+		Class = "PALADIN",
+	},
+	[47436] = {
+		Level = 78,
+		Class = "WARRIOR",
+	},
+	[39374] = {
+		Level = 70,
+		Class = "PRIEST",
+	},
+	[8012] = {
+		Level = 32,
+		Class = "SHAMAN",
+	},
+	[47820] = {
+		Level = 79,
+		Class = "WARLOCK",
+	},
+	[8044] = {
+		Level = 8,
+		Class = "SHAMAN",
+	},
+	[48076] = {
+		Level = 80,
+		Class = "PRIEST",
+	},
+	[8092] = {
+		Level = 10,
+		Class = "PRIEST",
+	},
+	[8124] = {
+		Level = 28,
+		Class = "PRIEST",
+	},
+	[16342] = {
+		Level = 56,
+		Class = "SHAMAN",
+	},
+	[2055] = {
+		Level = 22,
+		Class = "PRIEST",
+	},
+	[526] = {
+		Level = 16,
+		Class = "SHAMAN",
+	},
+	[528] = {
+		Level = 14,
+		Class = "PRIEST",
+	},
+	[25258] = {
+		Level = 66,
+		Class = "WARRIOR",
+	},
+	[50764] = {
+		Level = 69,
+		Class = "DRUID",
+	},
+	[8632] = {
+		Level = 30,
+		Class = "ROGUE",
+	},
+	[8696] = {
+		Level = 34,
+		Class = "ROGUE",
+	},
+	[546] = {
+		Level = 28,
+		Class = "SHAMAN",
+	},
+	[548] = {
+		Level = 14,
+		Class = "SHAMAN",
+	},
+	[47437] = {
+		Level = 79,
+		Class = "WARRIOR",
+	},
+	[552] = {
+		Level = 32,
+		Class = "PRIEST",
+	},
+	[25898] = {
+		Level = 60,
+		Class = "PALADIN",
+	},
+	[556] = {
+		Level = 30,
+		Class = "SHAMAN",
+	},
+	[48077] = {
+		Level = 75,
+		Class = "PRIEST",
+	},
+	[48461] = {
+		Level = 79,
+		Class = "DRUID",
+	},
+	[18540] = {
+		Level = 60,
+		Class = "WARLOCK",
+	},
+	[22827] = {
+		Level = 40,
+		Class = "DRUID",
+	},
+	[26986] = {
+		Level = 67,
+		Class = "DRUID",
+	},
+	[45902] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[33745] = {
+		Level = 66,
+		Class = "DRUID",
+	},
+	[594] = {
+		Level = 10,
+		Class = "PRIEST",
+	},
+	[596] = {
+		Level = 30,
+		Class = "PRIEST",
+	},
+	[58699] = {
+		Level = 71,
+		Class = "SHAMAN",
+	},
+	[600] = {
+		Level = 18,
+		Class = "PRIEST",
+	},
+	[50765] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[604] = {
+		Level = 12,
+		Class = "MAGE",
+	},
+	[9752] = {
+		Level = 44,
+		Class = "DRUID",
+	},
+	[9880] = {
+		Level = 50,
+		Class = "DRUID",
+	},
+	[47822] = {
+		Level = 78,
+		Class = "WARLOCK",
+	},
+	[19884] = {
+		Level = 18,
+		Class = "HUNTER",
+	},
+	[48078] = {
+		Level = 80,
+		Class = "PRIEST",
+	},
+	[48462] = {
+		Level = 75,
+		Class = "DRUID",
+	},
+	[14263] = {
+		Level = 32,
+		Class = "HUNTER",
+	},
+	[14295] = {
+		Level = 58,
+		Class = "HUNTER",
+	},
+	[14327] = {
+		Level = 46,
+		Class = "HUNTER",
+	},
+	[49230] = {
+		Level = 74,
+		Class = "SHAMAN",
+	},
+	[49358] = {
+		Level = 35,
+		Class = "MAGE",
+	},
+	[10328] = {
+		Level = 46,
+		Class = "PALADIN",
+	},
+	[2591] = {
+		Level = 28,
+		Class = "ROGUE",
+	},
+	[10392] = {
+		Level = 44,
+		Class = "SHAMAN",
+	},
+	[49998] = {
+		Level = 56,
+		Class = "DEATHKNIGHT",
+	},
+	[5277] = {
+		Level = 8,
+		Class = "ROGUE",
+	},
+	[50766] = {
+		Level = 48,
+		Class = "DRUID",
+	},
+	[42832] = {
+		Level = 74,
+		Class = "MAGE",
+	},
+	[2687] = {
+		Level = 10,
+		Class = "WARRIOR",
+	},
+	[676] = {
+		Level = 18,
+		Class = "WARRIOR",
+	},
+	[47439] = {
+		Level = 74,
+		Class = "WARRIOR",
+	},
+	[25899] = {
+		Level = 60,
+		Class = "PALADIN",
+	},
+	[47823] = {
+		Level = 78,
+		Class = "WARLOCK",
+	},
+	[2767] = {
+		Level = 34,
+		Class = "PRIEST",
+	},
+	[48463] = {
+		Level = 80,
+		Class = "DRUID",
+	},
+	[696] = {
+		Level = 10,
+		Class = "WARLOCK",
+	},
+	[2791] = {
+		Level = 36,
+		Class = "PRIEST",
+	},
+	[702] = {
+		Level = 4,
+		Class = "WARLOCK",
+	},
+	[49231] = {
+		Level = 79,
+		Class = "SHAMAN",
+	},
+	[49359] = {
+		Level = 35,
+		Class = "MAGE",
+	},
+	[710] = {
+		Level = 28,
+		Class = "WARLOCK",
+	},
+	[712] = {
+		Level = 20,
+		Class = "WARLOCK",
+	},
+	[11416] = {
+		Level = 40,
+		Class = "MAGE",
+	},
+	[26987] = {
+		Level = 63,
+		Class = "DRUID",
+	},
+	[49999] = {
+		Level = 63,
+		Class = "DEATHKNIGHT",
+	},
+	[27243] = {
+		Level = 70,
+		Class = "WARLOCK",
+	},
+	[50511] = {
+		Level = 71,
+		Class = "WARLOCK",
+	},
+	[11672] = {
+		Level = 54,
+		Class = "WARLOCK",
+	},
+	[42833] = {
+		Level = 78,
+		Class = "MAGE",
+	},
+	[740] = {
+		Level = 30,
+		Class = "DRUID",
+	},
+	[47440] = {
+		Level = 80,
+		Class = "WARRIOR",
+	},
+	[47568] = {
+		Level = 75,
+		Class = "DEATHKNIGHT",
+	},
+	[2983] = {
+		Level = 10,
+		Class = "ROGUE",
+	},
+	[47824] = {
+		Level = 75,
+		Class = "WARLOCK",
+	},
+	[19885] = {
+		Level = 24,
+		Class = "HUNTER",
+	},
+	[48464] = {
+		Level = 72,
+		Class = "DRUID",
+	},
+	[6077] = {
+		Level = 32,
+		Class = "PRIEST",
+	},
+	[61005] = {
+		Level = 75,
+		Class = "HUNTER",
+	},
+	[6141] = {
+		Level = 28,
+		Class = "MAGE",
+	},
+	[770] = {
+		Level = 18,
+		Class = "DRUID",
+	},
+	[8249] = {
+		Level = 38,
+		Class = "SHAMAN",
+	},
+	[774] = {
+		Level = 4,
+		Class = "DRUID",
+	},
+	[6205] = {
+		Level = 22,
+		Class = "WARLOCK",
+	},
+	[3111] = {
+		Level = 20,
+		Class = "HUNTER",
+	},
+	[780] = {
+		Level = 24,
+		Class = "DRUID",
+	},
+	[782] = {
+		Level = 14,
+		Class = "DRUID",
+	},
+	[12536] = {
+		Level = 10,
+		Class = "MAGE",
+	},
+	[33876] = {
+		Level = 50,
+		Class = "DRUID",
+	},
+	[50768] = {
+		Level = 24,
+		Class = "DRUID",
+	},
+	[8633] = {
+		Level = 38,
+		Class = "ROGUE",
+	},
+	[12824] = {
+		Level = 20,
+		Class = "MAGE",
+	},
+	[47825] = {
+		Level = 80,
+		Class = "WARLOCK",
+	},
+	[48465] = {
+		Level = 78,
+		Class = "DRUID",
+	},
+	[48721] = {
+		Level = 58,
+		Class = "DEATHKNIGHT",
+	},
+	[49233] = {
+		Level = 80,
+		Class = "SHAMAN",
+	},
+	[49361] = {
+		Level = 35,
+		Class = "MAGE",
+	},
+	[22829] = {
+		Level = 56,
+		Class = "DRUID",
+	},
+	[26988] = {
+		Level = 70,
+		Class = "DRUID",
+	},
+	[27180] = {
+		Level = 68,
+		Class = "PALADIN",
+	},
+	[58703] = {
+		Level = 75,
+		Class = "SHAMAN",
+	},
+	[50769] = {
+		Level = 12,
+		Class = "DRUID",
+	},
+	[9849] = {
+		Level = 48,
+		Class = "DRUID",
+	},
+	[9881] = {
+		Level = 58,
+		Class = "DRUID",
+	},
+	[43987] = {
+		Level = 70,
+		Class = "MAGE",
+	},
+	[48466] = {
+		Level = 80,
+		Class = "DRUID",
+	},
+	[10169] = {
+		Level = 42,
+		Class = "MAGE",
+	},
+	[10201] = {
+		Level = 46,
+		Class = "MAGE",
+	},
+	[3599] = {
+		Level = 10,
+		Class = "SHAMAN",
+	},
+	[10329] = {
+		Level = 54,
+		Class = "PALADIN",
+	},
+	[33878] = {
+		Level = 50,
+		Class = "DRUID",
+	},
+	[10585] = {
+		Level = 36,
+		Class = "SHAMAN",
+	},
+	[25389] = {
+		Level = 70,
+		Class = "PRIEST",
+	},
+	[930] = {
+		Level = 40,
+		Class = "SHAMAN",
+	},
+	[10937] = {
+		Level = 48,
+		Class = "PRIEST",
+	},
+	[48467] = {
+		Level = 80,
+		Class = "DRUID",
+	},
+	[26669] = {
+		Level = 50,
+		Class = "ROGUE",
+	},
+	[26861] = {
+		Level = 62,
+		Class = "ROGUE",
+	},
+	[11417] = {
+		Level = 40,
+		Class = "MAGE",
+	},
+	[26989] = {
+		Level = 68,
+		Class = "DRUID",
+	},
+	[976] = {
+		Level = 30,
+		Class = "PRIEST",
+	},
+	[980] = {
+		Level = 8,
+		Class = "WARLOCK",
+	},
+	[11609] = {
+		Level = 50,
+		Class = "WARRIOR",
+	},
+	[984] = {
+		Level = 22,
+		Class = "PRIEST",
+	},
+	[988] = {
+		Level = 36,
+		Class = "PRIEST",
+	},
+	[990] = {
+		Level = 22,
+		Class = "MAGE",
+	},
+	[992] = {
+		Level = 26,
+		Class = "PRIEST",
+	},
+	[996] = {
+		Level = 40,
+		Class = "PRIEST",
+	},
+	[1002] = {
+		Level = 14,
+		Class = "HUNTER",
+	},
+	[1004] = {
+		Level = 30,
+		Class = "PRIEST",
+	},
+	[8045] = {
+		Level = 14,
+		Class = "SHAMAN",
+	},
+	[1008] = {
+		Level = 18,
+		Class = "MAGE",
+	},
+	[1010] = {
+		Level = 38,
+		Class = "WARLOCK",
+	},
+	[1014] = {
+		Level = 18,
+		Class = "WARLOCK",
+	},
+	[20271] = {
+		Level = 4,
+		Class = "PALADIN",
+	},
+	[1022] = {
+		Level = 10,
+		Class = "PALADIN",
+	},
+	[49236] = {
+		Level = 78,
+		Class = "SHAMAN",
+	},
+	[1032] = {
+		Level = 40,
+		Class = "PALADIN",
+	},
+	[20719] = {
+		Level = 40,
+		Class = "DRUID",
+	},
+	[1044] = {
+		Level = 18,
+		Class = "PALADIN",
+	},
+	[1064] = {
+		Level = 40,
+		Class = "SHAMAN",
+	},
+	[25454] = {
+		Level = 69,
+		Class = "SHAMAN",
+	},
+	[1088] = {
+		Level = 20,
+		Class = "WARLOCK",
+	},
+	[12825] = {
+		Level = 40,
+		Class = "MAGE",
+	},
+	[1108] = {
+		Level = 12,
+		Class = "WARLOCK",
+	},
+	[1120] = {
+		Level = 10,
+		Class = "WARLOCK",
+	},
+	[48469] = {
+		Level = 80,
+		Class = "DRUID",
+	},
+	[1152] = {
+		Level = 8,
+		Class = "PALADIN",
+	},
+	[49237] = {
+		Level = 73,
+		Class = "SHAMAN",
+	},
+	[1160] = {
+		Level = 14,
+		Class = "WARRIOR",
+	},
+	[26862] = {
+		Level = 70,
+		Class = "ROGUE",
+	},
+	[26990] = {
+		Level = 70,
+		Class = "DRUID",
+	},
+	[9754] = {
+		Level = 44,
+		Class = "DRUID",
+	},
+	[9850] = {
+		Level = 58,
+		Class = "DRUID",
+	},
+	[19888] = {
+		Level = 32,
+		Class = "PALADIN",
+	},
+	[24239] = {
+		Level = 60,
+		Class = "PALADIN",
+	},
+	[10138] = {
+		Level = 40,
+		Class = "MAGE",
+	},
+	[14265] = {
+		Level = 48,
+		Class = "HUNTER",
+	},
+	[10202] = {
+		Level = 54,
+		Class = "MAGE",
 	},
 	[5118] = {
 		Level = 16,
 		Class = "HUNTER",
 	},
-	[31789] = {
-		Level = 14,
+	[49238] = {
+		Level = 79,
+		Class = "SHAMAN",
+	},
+	[10298] = {
+		Level = 26,
 		Class = "PALADIN",
 	},
-	[10952] = {
+	[16689] = {
+		Level = 10,
+		Class = "DRUID",
+	},
+	[5246] = {
+		Level = 22,
+		Class = "WARRIOR",
+	},
+	[58580] = {
+		Level = 71,
+		Class = "SHAMAN",
+	},
+	[10586] = {
+		Level = 46,
+		Class = "SHAMAN",
+	},
+	[25391] = {
+		Level = 63,
+		Class = "SHAMAN",
+	},
+	[17329] = {
+		Level = 58,
+		Class = "DRUID",
+	},
+	[10938] = {
 		Level = 60,
 		Class = "PRIEST",
 	},
-	[49361] = {
-		Level = 35,
+	[5502] = {
+		Level = 20,
+		Class = "PALADIN",
+	},
+	[5614] = {
+		Level = 28,
+		Class = "PALADIN",
+	},
+	[11290] = {
+		Level = 54,
+		Class = "ROGUE",
+	},
+	[61780] = {
+		Level = 60,
+		Class = "MAGE",
+	},
+	[26863] = {
+		Level = 68,
+		Class = "ROGUE",
+	},
+	[11418] = {
+		Level = 40,
+		Class = "MAGE",
+	},
+	[26991] = {
+		Level = 70,
+		Class = "DRUID",
+	},
+	[11578] = {
+		Level = 46,
+		Class = "WARRIOR",
+	},
+	[1456] = {
+		Level = 26,
+		Class = "WARLOCK",
+	},
+	[1460] = {
+		Level = 14,
+		Class = "MAGE",
+	},
+	[1464] = {
+		Level = 30,
+		Class = "WARRIOR",
+	},
+	[42841] = {
+		Level = 75,
+		Class = "MAGE",
+	},
+	[23920] = {
+		Level = 64,
+		Class = "WARRIOR",
+	},
+	[28271] = {
+		Level = 60,
+		Class = "MAGE",
+	},
+	[6078] = {
+		Level = 38,
+		Class = "PRIEST",
+	},
+	[49240] = {
+		Level = 79,
+		Class = "SHAMAN",
+	},
+	[6190] = {
+		Level = 24,
+		Class = "WARRIOR",
+	},
+	[45529] = {
+		Level = 64,
+		Class = "DEATHKNIGHT",
+	},
+	[6222] = {
+		Level = 14,
+		Class = "WARLOCK",
+	},
+	[58582] = {
+		Level = 78,
+		Class = "SHAMAN",
+	},
+	[21169] = {
+		Level = 30,
+		Class = "SHAMAN",
+	},
+	[25392] = {
+		Level = 70,
+		Class = "PRIEST",
+	},
+	[6366] = {
+		Level = 28,
+		Class = "WARLOCK",
+	},
+	[42842] = {
+		Level = 79,
+		Class = "MAGE",
+	},
+	[12826] = {
+		Level = 60,
+		Class = "MAGE",
+	},
+	[1608] = {
+		Level = 24,
+		Class = "WARRIOR",
+	},
+	[47449] = {
+		Level = 72,
+		Class = "WARRIOR",
+	},
+	[47833] = {
+		Level = 75,
+		Class = "WARLOCK",
+	},
+	[8955] = {
+		Level = 38,
+		Class = "DRUID",
+	},
+	[6574] = {
+		Level = 24,
+		Class = "WARRIOR",
+	},
+	[61654] = {
+		Level = 80,
+		Class = "SHAMAN",
+	},
+	[1680] = {
+		Level = 36,
+		Class = "WARRIOR",
+	},
+	[26992] = {
+		Level = 64,
+		Class = "DRUID",
+	},
+	[6798] = {
+		Level = 30,
+		Class = "DRUID",
+	},
+	[42843] = {
+		Level = 75,
+		Class = "MAGE",
+	},
+	[47450] = {
+		Level = 76,
+		Class = "WARRIOR",
+	},
+	[47834] = {
+		Level = 80,
+		Class = "WARLOCK",
+	},
+	[32175] = {
+		Level = 40,
+		Class = "SHAMAN",
+	},
+	[1760] = {
+		Level = 30,
+		Class = "ROGUE",
+	},
+	[28272] = {
+		Level = 60,
+		Class = "MAGE",
+	},
+	[1776] = {
+		Level = 6,
+		Class = "ROGUE",
+	},
+	[10139] = {
+		Level = 50,
+		Class = "MAGE",
+	},
+	[14266] = {
+		Level = 56,
+		Class = "HUNTER",
+	},
+	[14298] = {
+		Level = 26,
+		Class = "HUNTER",
+	},
+	[10299] = {
+		Level = 36,
+		Class = "PALADIN",
+	},
+	[20658] = {
+		Level = 32,
+		Class = "WARRIOR",
+	},
+	[10395] = {
+		Level = 48,
+		Class = "SHAMAN",
+	},
+	[10427] = {
+		Level = 48,
+		Class = "SHAMAN",
+	},
+	[7294] = {
+		Level = 16,
+		Class = "PALADIN",
+	},
+	[10587] = {
+		Level = 56,
+		Class = "SHAMAN",
+	},
+	[25329] = {
+		Level = 68,
+		Class = "PRIEST",
+	},
+	[25457] = {
+		Level = 70,
+		Class = "SHAMAN",
+	},
+	[42844] = {
+		Level = 75,
+		Class = "MAGE",
+	},
+	[1856] = {
+		Level = 22,
+		Class = "ROGUE",
+	},
+	[1860] = {
+		Level = 40,
+		Class = "ROGUE",
+	},
+	[47835] = {
+		Level = 75,
+		Class = "WARLOCK",
+	},
+	[7646] = {
+		Level = 32,
+		Class = "WARLOCK",
+	},
+	[53338] = {
+		Level = 76,
+		Class = "HUNTER",
+	},
+	[26865] = {
+		Level = 64,
+		Class = "ROGUE",
+	},
+	[11419] = {
+		Level = 50,
+		Class = "MAGE",
+	},
+	[7870] = {
+		Level = 32,
+		Class = "MAGE",
+	},
+	[11675] = {
+		Level = 52,
+		Class = "WARLOCK",
+	},
+	[11707] = {
+		Level = 42,
+		Class = "WARLOCK",
+	},
+	[11739] = {
+		Level = 42,
+		Class = "WARLOCK",
+	},
+	[8030] = {
+		Level = 26,
+		Class = "SHAMAN",
+	},
+	[8046] = {
+		Level = 24,
+		Class = "SHAMAN",
+	},
+	[2048] = {
+		Level = 69,
+		Class = "WARRIOR",
+	},
+	[53339] = {
+		Level = 80,
+		Class = "HUNTER",
+	},
+	[61657] = {
+		Level = 80,
+		Class = "SHAMAN",
+	},
+	[57946] = {
+		Level = 80,
+		Class = "WARLOCK",
+	},
+	[2096] = {
+		Level = 22,
+		Class = "PRIEST",
+	},
+	[8412] = {
+		Level = 30,
+		Class = "MAGE",
+	},
+	[8444] = {
+		Level = 28,
+		Class = "MAGE",
+	},
+	[2120] = {
+		Level = 16,
+		Class = "MAGE",
+	},
+	[25202] = {
+		Level = 62,
+		Class = "WARRIOR",
+	},
+	[2136] = {
+		Level = 6,
+		Class = "MAGE",
+	},
+	[42846] = {
+		Level = 79,
+		Class = "MAGE",
+	},
+	[47837] = {
+		Level = 74,
+		Class = "WARLOCK",
+	},
+	[8924] = {
+		Level = 10,
+		Class = "DRUID",
+	},
+	[48477] = {
+		Level = 79,
+		Class = "DRUID",
+	},
+	[30449] = {
+		Level = 70,
+		Class = "MAGE",
+	},
+	[48989] = {
+		Level = 74,
+		Class = "HUNTER",
+	},
+	[26994] = {
+		Level = 69,
+		Class = "DRUID",
+	},
+	[27250] = {
+		Level = 66,
+		Class = "WARLOCK",
+	},
+	[9756] = {
+		Level = 44,
+		Class = "DRUID",
+	},
+	[9852] = {
+		Level = 48,
+		Class = "DRUID",
+	},
+	[9884] = {
+		Level = 50,
+		Class = "DRUID",
+	},
+	[47838] = {
+		Level = 80,
+		Class = "WARLOCK",
+	},
+	[10140] = {
+		Level = 60,
+		Class = "MAGE",
+	},
+	[14299] = {
+		Level = 36,
+		Class = "HUNTER",
+	},
+	[10300] = {
+		Level = 46,
+		Class = "PALADIN",
+	},
+	[20660] = {
+		Level = 40,
+		Class = "WARRIOR",
+	},
+	[10396] = {
+		Level = 56,
+		Class = "SHAMAN",
+	},
+	[10428] = {
+		Level = 58,
+		Class = "SHAMAN",
+	},
+	[42208] = {
+		Level = 20,
+		Class = "MAGE",
+	},
+	[25331] = {
+		Level = 68,
+		Class = "PRIEST",
+	},
+	[5487] = {
+		Level = 10,
+		Class = "DRUID",
+	},
+	[48479] = {
+		Level = 73,
+		Class = "DRUID",
+	},
+	[5599] = {
+		Level = 24,
+		Class = "PALADIN",
+	},
+	[5615] = {
+		Level = 36,
+		Class = "PALADIN",
+	},
+	[53726] = {
+		Level = 66,
+		Class = "PALADIN",
+	},
+	[11420] = {
+		Level = 50,
+		Class = "MAGE",
+	},
+	[26995] = {
+		Level = 70,
+		Class = "DRUID",
+	},
+	[23028] = {
+		Level = 56,
+		Class = "MAGE",
+	},
+	[11580] = {
+		Level = 48,
+		Class = "WARRIOR",
+	},
+	[2912] = {
+		Level = 20,
+		Class = "DRUID",
+	},
+	[11708] = {
+		Level = 52,
+		Class = "WARLOCK",
+	},
+	[11740] = {
+		Level = 52,
+		Class = "WARLOCK",
+	},
+	[2944] = {
+		Level = 20,
+		Class = "PRIEST",
+	},
+	[51423] = {
+		Level = 67,
+		Class = "DEATHKNIGHT",
+	},
+	[23924] = {
+		Level = 54,
+		Class = "WARRIOR",
+	},
+	[6063] = {
+		Level = 28,
+		Class = "PRIEST",
+	},
+	[6127] = {
+		Level = 30,
+		Class = "MAGE",
+	},
+	[6143] = {
+		Level = 22,
+		Class = "MAGE",
+	},
+	[49376] = {
+		Level = 20,
+		Class = "DRUID",
+	},
+	[20661] = {
+		Level = 48,
+		Class = "WARRIOR",
+	},
+	[6223] = {
+		Level = 24,
+		Class = "WARLOCK",
+	},
+	[8413] = {
+		Level = 38,
+		Class = "MAGE",
+	},
+	[8445] = {
+		Level = 34,
+		Class = "MAGE",
+	},
+	[42210] = {
+		Level = 36,
+		Class = "MAGE",
+	},
+	[25396] = {
+		Level = 70,
+		Class = "SHAMAN",
+	},
+	[8637] = {
+		Level = 40,
+		Class = "ROGUE",
+	},
+	[51424] = {
+		Level = 73,
+		Class = "DEATHKNIGHT",
+	},
+	[25780] = {
+		Level = 16,
+		Class = "PALADIN",
+	},
+	[6495] = {
+		Level = 34,
+		Class = "SHAMAN",
+	},
+	[8925] = {
+		Level = 16,
+		Class = "DRUID",
+	},
+	[30451] = {
+		Level = 64,
+		Class = "MAGE",
+	},
+	[53600] = {
+		Level = 75,
+		Class = "PALADIN",
+	},
+	[57823] = {
+		Level = 80,
+		Class = "WARRIOR",
+	},
+	[26996] = {
+		Level = 67,
+		Class = "DRUID",
+	},
+	[27124] = {
+		Level = 69,
+		Class = "MAGE",
+	},
+	[42211] = {
+		Level = 44,
+		Class = "MAGE",
+	},
+	[3472] = {
+		Level = 38,
+		Class = "PALADIN",
+	},
+	[9821] = {
+		Level = 46,
+		Class = "DRUID",
+	},
+	[9853] = {
+		Level = 58,
+		Class = "DRUID",
+	},
+	[9885] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[23925] = {
+		Level = 60,
+		Class = "WARRIOR",
+	},
+	[28276] = {
+		Level = 70,
+		Class = "PRIEST",
+	},
+	[3552] = {
+		Level = 38,
+		Class = "MAGE",
+	},
+	[10173] = {
+		Level = 48,
+		Class = "MAGE",
+	},
+	[14300] = {
+		Level = 46,
+		Class = "HUNTER",
+	},
+	[10301] = {
+		Level = 56,
+		Class = "PALADIN",
+	},
+	[53601] = {
+		Level = 80,
+		Class = "PALADIN",
+	},
+	[42212] = {
+		Level = 52,
+		Class = "MAGE",
+	},
+	[25269] = {
+		Level = 63,
+		Class = "WARRIOR",
+	},
+	[25525] = {
+		Level = 67,
+		Class = "SHAMAN",
+	},
+	[10909] = {
+		Level = 44,
+		Class = "PRIEST",
+	},
+	[30324] = {
+		Level = 70,
+		Class = "WARRIOR",
+	},
+	[61024] = {
+		Level = 80,
+		Class = "MAGE",
+	},
+	[48995] = {
+		Level = 71,
+		Class = "HUNTER",
+	},
+	[30708] = {
+		Level = 50,
+		Class = "SHAMAN",
+	},
+	[11293] = {
+		Level = 46,
+		Class = "ROGUE",
+	},
+	[32999] = {
+		Level = 70,
+		Class = "PRIEST",
+	},
+	[26997] = {
+		Level = 64,
+		Class = "DRUID",
+	},
+	[27125] = {
+		Level = 69,
+		Class = "MAGE",
+	},
+	[11549] = {
+		Level = 32,
+		Class = "WARRIOR",
+	},
+	[11581] = {
+		Level = 58,
+		Class = "WARRIOR",
+	},
+	[11677] = {
+		Level = 46,
+		Class = "WARLOCK",
+	},
+	[19895] = {
+		Level = 40,
+		Class = "PALADIN",
+	},
+	[8143] = {
+		Level = 18,
+		Class = "SHAMAN",
+	},
+	[48996] = {
+		Level = 77,
+		Class = "HUNTER",
+	},
+	[49892] = {
+		Level = 62,
+		Class = "DEATHKNIGHT",
+	},
+	[8446] = {
+		Level = 40,
+		Class = "MAGE",
+	},
+	[25590] = {
+		Level = 69,
+		Class = "SHAMAN",
+	},
+	[25782] = {
+		Level = 52,
+		Class = "PALADIN",
+	},
+	[8926] = {
+		Level = 22,
+		Class = "DRUID",
+	},
+	[45286] = {
+		Level = 8,
+		Class = "SHAMAN",
+	},
+	[49893] = {
+		Level = 68,
+		Class = "DEATHKNIGHT",
+	},
+	[27126] = {
+		Level = 70,
+		Class = "MAGE",
+	},
+	[47206] = {
+		Level = 60,
+		Class = "WARLOCK",
+	},
+	[19896] = {
+		Level = 52,
+		Class = "PALADIN",
+	},
+	[14269] = {
+		Level = 30,
+		Class = "HUNTER",
+	},
+	[14301] = {
+		Level = 56,
+		Class = "HUNTER",
+	},
+	[61411] = {
+		Level = 80,
+		Class = "PALADIN",
+	},
+	[45287] = {
+		Level = 14,
+		Class = "SHAMAN",
+	},
+	[53733] = {
+		Level = 66,
+		Class = "PALADIN",
+	},
+	[49894] = {
+		Level = 76,
+		Class = "DEATHKNIGHT",
+	},
+	[5232] = {
+		Level = 10,
+		Class = "DRUID",
+	},
+	[10526] = {
+		Level = 48,
+		Class = "SHAMAN",
+	},
+	[34026] = {
+		Level = 66,
+		Class = "HUNTER",
+	},
+	[10622] = {
+		Level = 46,
+		Class = "SHAMAN",
+	},
+	[17401] = {
+		Level = 50,
+		Class = "DRUID",
+	},
+	[48743] = {
+		Level = 66,
+		Class = "DEATHKNIGHT",
+	},
+	[26679] = {
+		Level = 64,
+		Class = "ROGUE",
+	},
+	[45288] = {
+		Level = 20,
+		Class = "SHAMAN",
+	},
+	[49895] = {
+		Level = 80,
+		Class = "DEATHKNIGHT",
+	},
+	[27127] = {
+		Level = 70,
+		Class = "MAGE",
+	},
+	[11550] = {
+		Level = 42,
+		Class = "WARRIOR",
+	},
+	[11678] = {
+		Level = 58,
+		Class = "WARLOCK",
+	},
+	[42985] = {
+		Level = 77,
+		Class = "MAGE",
+	},
+	[32182] = {
+		Level = 70,
+		Class = "SHAMAN",
+	},
+	[6064] = {
+		Level = 34,
+		Class = "PRIEST",
+	},
+	[20217] = {
+		Level = 20,
+		Class = "PALADIN",
+	},
+	[49000] = {
+		Level = 73,
+		Class = "HUNTER",
+	},
+	[53351] = {
+		Level = 71,
+		Class = "HUNTER",
+	},
+	[45289] = {
+		Level = 26,
+		Class = "SHAMAN",
+	},
+	[6192] = {
+		Level = 22,
+		Class = "WARRIOR",
+	},
+	[49896] = {
+		Level = 61,
+		Class = "DEATHKNIGHT",
+	},
+	[25208] = {
+		Level = 68,
+		Class = "WARRIOR",
+	},
+	[50536] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[25464] = {
+		Level = 68,
+		Class = "SHAMAN",
+	},
+	[42858] = {
+		Level = 73,
+		Class = "MAGE",
+	},
+	[17402] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[47465] = {
+		Level = 76,
+		Class = "WARRIOR",
+	},
+	[8927] = {
+		Level = 28,
+		Class = "DRUID",
+	},
+	[30455] = {
+		Level = 66,
+		Class = "MAGE",
+	},
+	[49001] = {
+		Level = 79,
+		Class = "HUNTER",
+	},
+	[45290] = {
+		Level = 32,
+		Class = "SHAMAN",
+	},
+	[53736] = {
+		Level = 66,
+		Class = "PALADIN",
+	},
+	[27000] = {
+		Level = 67,
+		Class = "DRUID",
+	},
+	[6768] = {
+		Level = 28,
+		Class = "ROGUE",
+	},
+	[27128] = {
+		Level = 69,
+		Class = "MAGE",
+	},
+	[6800] = {
+		Level = 30,
+		Class = "DRUID",
+	},
+	[27448] = {
+		Level = 64,
+		Class = "ROGUE",
+	},
+	[42859] = {
+		Level = 78,
+		Class = "MAGE",
+	},
+	[9823] = {
+		Level = 46,
+		Class = "DRUID",
+	},
+	[19834] = {
+		Level = 12,
+		Class = "PALADIN",
+	},
+	[19898] = {
+		Level = 56,
+		Class = "PALADIN",
+	},
+	[32375] = {
+		Level = 70,
+		Class = "PRIEST",
+	},
+	[14270] = {
+		Level = 44,
+		Class = "HUNTER",
+	},
+	[10207] = {
+		Level = 58,
+		Class = "MAGE",
+	},
+	[45291] = {
+		Level = 38,
+		Class = "SHAMAN",
+	},
+	[57960] = {
+		Level = 76,
+		Class = "SHAMAN",
+	},
+	[10431] = {
+		Level = 48,
+		Class = "SHAMAN",
+	},
+	[10463] = {
+		Level = 60,
+		Class = "SHAMAN",
+	},
+	[10495] = {
+		Level = 36,
+		Class = "SHAMAN",
+	},
+	[7328] = {
+		Level = 12,
+		Class = "PALADIN",
+	},
+	[10623] = {
+		Level = 54,
+		Class = "SHAMAN",
+	},
+	[7376] = {
+		Level = 10,
+		Class = "WARRIOR",
+	},
+	[21562] = {
+		Level = 48,
+		Class = "PRIEST",
+	},
+	[15262] = {
+		Level = 24,
+		Class = "PRIEST",
+	},
+	[7648] = {
+		Level = 34,
+		Class = "WARLOCK",
+	},
+	[45292] = {
+		Level = 44,
+		Class = "SHAMAN",
+	},
+	[22842] = {
+		Level = 36,
+		Class = "DRUID",
+	},
+	[27001] = {
+		Level = 61,
+		Class = "DRUID",
+	},
+	[31224] = {
+		Level = 66,
+		Class = "ROGUE",
+	},
+	[11551] = {
+		Level = 52,
+		Class = "WARRIOR",
+	},
+	[11711] = {
+		Level = 38,
+		Class = "WARLOCK",
+	},
+	[19835] = {
+		Level = 22,
+		Class = "PALADIN",
+	},
+	[19899] = {
+		Level = 48,
+		Class = "PALADIN",
+	},
+	[8160] = {
+		Level = 24,
+		Class = "SHAMAN",
+	},
+	[45293] = {
+		Level = 50,
+		Class = "SHAMAN",
+	},
+	[8288] = {
+		Level = 24,
+		Class = "WARLOCK",
+	},
+	[8416] = {
+		Level = 32,
+		Class = "MAGE",
+	},
+	[2121] = {
+		Level = 24,
+		Class = "MAGE",
+	},
+	[25210] = {
+		Level = 63,
+		Class = "PRIEST",
+	},
+	[2137] = {
+		Level = 14,
+		Class = "MAGE",
+	},
+	[8640] = {
+		Level = 36,
+		Class = "ROGUE",
+	},
+	[8928] = {
+		Level = 34,
+		Class = "DRUID",
+	},
+	[8992] = {
+		Level = 38,
+		Class = "DRUID",
+	},
+	[61290] = {
+		Level = 80,
+		Class = "WARLOCK",
+	},
+	[45294] = {
+		Level = 56,
+		Class = "SHAMAN",
+	},
+	[27002] = {
+		Level = 70,
+		Class = "DRUID",
+	},
+	[27130] = {
+		Level = 63,
+		Class = "MAGE",
+	},
+	[42223] = {
+		Level = 20,
+		Class = "WARLOCK",
+	},
+	[58731] = {
+		Level = 73,
+		Class = "SHAMAN",
+	},
+	[31801] = {
+		Level = 64,
+		Class = "PALADIN",
+	},
+	[47470] = {
+		Level = 73,
+		Class = "WARRIOR",
+	},
+	[9856] = {
+		Level = 48,
+		Class = "DRUID",
+	},
+	[9888] = {
+		Level = 50,
+		Class = "DRUID",
+	},
+	[19836] = {
+		Level = 32,
+		Class = "PALADIN",
+	},
+	[19900] = {
+		Level = 60,
+		Class = "PALADIN",
+	},
+	[10144] = {
+		Level = 42,
+		Class = "MAGE",
+	},
+	[14271] = {
+		Level = 58,
+		Class = "HUNTER",
+	},
+	[14303] = {
+		Level = 36,
+		Class = "HUNTER",
+	},
+	[45295] = {
+		Level = 62,
+		Class = "SHAMAN",
+	},
+	[5201] = {
+		Level = 38,
+		Class = "DRUID",
+	},
+	[10432] = {
+		Level = 56,
+		Class = "SHAMAN",
+	},
+	[20924] = {
+		Level = 60,
+		Class = "PALADIN",
+	},
+	[10496] = {
+		Level = 46,
+		Class = "SHAMAN",
+	},
+	[2641] = {
+		Level = 10,
+		Class = "HUNTER",
+	},
+	[25467] = {
+		Level = 68,
+		Class = "PRIEST",
+	},
+	[21564] = {
+		Level = 60,
+		Class = "PRIEST",
+	},
+	[47471] = {
+		Level = 80,
+		Class = "WARRIOR",
+	},
+	[10880] = {
+		Level = 34,
+		Class = "PRIEST",
+	},
+	[47855] = {
+		Level = 77,
+		Class = "WARLOCK",
+	},
+	[5505] = {
+		Level = 10,
+		Class = "MAGE",
+	},
+	[26363] = {
+		Level = 56,
+		Class = "SHAMAN",
+	},
+	[15263] = {
+		Level = 30,
+		Class = "PRIEST",
+	},
+	[2825] = {
+		Level = 70,
+		Class = "SHAMAN",
+	},
+	[45296] = {
+		Level = 67,
+		Class = "SHAMAN",
+	},
+	[53742] = {
+		Level = 66,
+		Class = "PALADIN",
+	},
+	[27003] = {
+		Level = 64,
+		Class = "DRUID",
+	},
+	[27131] = {
+		Level = 68,
+		Class = "MAGE",
+	},
+	[42225] = {
+		Level = 46,
+		Class = "WARLOCK",
+	},
+	[11712] = {
+		Level = 48,
+		Class = "WARLOCK",
+	},
+	[47856] = {
+		Level = 76,
+		Class = "WARLOCK",
+	},
+	[48112] = {
+		Level = 74,
+		Class = "PRIEST",
+	},
+	[3025] = {
+		Level = 20,
+		Class = "DRUID",
+	},
+	[6065] = {
+		Level = 30,
+		Class = "PRIEST",
+	},
+	[6129] = {
+		Level = 32,
+		Class = "MAGE",
+	},
+	[45297] = {
+		Level = 32,
+		Class = "SHAMAN",
+	},
+	[8289] = {
+		Level = 38,
+		Class = "WARLOCK",
+	},
+	[49904] = {
+		Level = 73,
+		Class = "DEATHKNIGHT",
+	},
+	[8417] = {
+		Level = 40,
+		Class = "MAGE",
+	},
+	[3137] = {
+		Level = 26,
+		Class = "DRUID",
+	},
+	[42226] = {
+		Level = 58,
+		Class = "WARLOCK",
+	},
+	[58734] = {
+		Level = 78,
+		Class = "SHAMAN",
+	},
+	[6353] = {
+		Level = 48,
+		Class = "WARLOCK",
+	},
+	[25916] = {
+		Level = 60,
+		Class = "PALADIN",
+	},
+	[47857] = {
+		Level = 78,
+		Class = "WARLOCK",
+	},
+	[8929] = {
+		Level = 40,
+		Class = "DRUID",
+	},
+	[48113] = {
+		Level = 79,
+		Class = "PRIEST",
+	},
+	[56815] = {
+		Level = 67,
+		Class = "DEATHKNIGHT",
+	},
+	[45298] = {
+		Level = 40,
+		Class = "SHAMAN",
+	},
+	[27004] = {
+		Level = 69,
+		Class = "DRUID",
+	},
+	[6785] = {
+		Level = 32,
+		Class = "DRUID",
+	},
+	[27260] = {
+		Level = 70,
+		Class = "WARLOCK",
+	},
+	[42995] = {
+		Level = 80,
+		Class = "MAGE",
+	},
+	[31803] = {
+		Level = 64,
+		Class = "PALADIN",
+	},
+	[47474] = {
+		Level = 74,
+		Class = "WARRIOR",
+	},
+	[9857] = {
+		Level = 54,
+		Class = "DRUID",
+	},
+	[9889] = {
+		Level = 56,
+		Class = "DRUID",
+	},
+	[19838] = {
+		Level = 52,
+		Class = "PALADIN",
+	},
+	[32379] = {
+		Level = 62,
+		Class = "PRIEST",
+	},
+	[56816] = {
+		Level = 67,
+		Class = "DEATHKNIGHT",
+	},
+	[10145] = {
+		Level = 52,
+		Class = "MAGE",
+	},
+	[10177] = {
+		Level = 52,
+		Class = "MAGE",
+	},
+	[14304] = {
+		Level = 46,
+		Class = "HUNTER",
+	},
+	[10273] = {
+		Level = 48,
+		Class = "MAGE",
+	},
+	[45299] = {
+		Level = 48,
+		Class = "SHAMAN",
+	},
+	[10497] = {
+		Level = 56,
+		Class = "SHAMAN",
+	},
+	[25213] = {
+		Level = 68,
+		Class = "PRIEST",
+	},
+	[14752] = {
+		Level = 30,
+		Class = "PRIEST",
+	},
+	[25469] = {
+		Level = 63,
+		Class = "SHAMAN",
+	},
+	[25533] = {
+		Level = 69,
+		Class = "SHAMAN",
+	},
+	[47475] = {
+		Level = 79,
+		Class = "WARRIOR",
+	},
+	[10881] = {
+		Level = 46,
+		Class = "PRIEST",
+	},
+	[17727] = {
+		Level = 48,
+		Class = "WARLOCK",
+	},
+	[47859] = {
+		Level = 73,
+		Class = "WARLOCK",
+	},
+	[17919] = {
+		Level = 26,
+		Class = "WARLOCK",
+	},
+	[26365] = {
+		Level = 16,
+		Class = "SHAMAN",
+	},
+	[15264] = {
+		Level = 36,
+		Class = "PRIEST",
+	},
+	[11297] = {
+		Level = 48,
+		Class = "ROGUE",
+	},
+	[45300] = {
+		Level = 56,
+		Class = "SHAMAN",
+	},
+	[22782] = {
+		Level = 46,
+		Class = "MAGE",
+	},
+	[27005] = {
+		Level = 66,
+		Class = "DRUID",
+	},
+	[58737] = {
+		Level = 75,
+		Class = "SHAMAN",
+	},
+	[19263] = {
+		Level = 60,
+		Class = "HUNTER",
+	},
+	[11713] = {
+		Level = 58,
+		Class = "WARLOCK",
+	},
+	[31804] = {
+		Level = 64,
+		Class = "PALADIN",
+	},
+	[47476] = {
+		Level = 59,
+		Class = "DEATHKNIGHT",
+	},
+	[8033] = {
+		Level = 20,
+		Class = "SHAMAN",
+	},
+	[8129] = {
+		Level = 24,
+		Class = "PRIEST",
+	},
+	[8161] = {
+		Level = 38,
+		Class = "SHAMAN",
+	},
+	[8177] = {
+		Level = 30,
+		Class = "SHAMAN",
+	},
+	[57330] = {
+		Level = 65,
+		Class = "DEATHKNIGHT",
+	},
+	[49268] = {
+		Level = 74,
+		Class = "SHAMAN",
+	},
+	[45301] = {
+		Level = 63,
+		Class = "SHAMAN",
+	},
+	[8418] = {
+		Level = 40,
+		Class = "MAGE",
+	},
+	[8450] = {
+		Level = 24,
+		Class = "MAGE",
+	},
+	[42230] = {
+		Level = 70,
+		Class = "DRUID",
+	},
+	[25918] = {
+		Level = 60,
+		Class = "PALADIN",
+	},
+	[17920] = {
+		Level = 34,
+		Class = "WARLOCK",
+	},
+	[26366] = {
+		Level = 24,
+		Class = "SHAMAN",
+	},
+	[49269] = {
+		Level = 80,
+		Class = "SHAMAN",
+	},
+	[1161] = {
+		Level = 26,
+		Class = "WARRIOR",
+	},
+	[30909] = {
+		Level = 69,
+		Class = "WARLOCK",
+	},
+	[22783] = {
+		Level = 58,
+		Class = "MAGE",
+	},
+	[49909] = {
+		Level = 78,
+		Class = "DEATHKNIGHT",
+	},
+	[27070] = {
+		Level = 66,
+		Class = "MAGE",
+	},
+	[9474] = {
+		Level = 38,
+		Class = "PRIEST",
+	},
+	[42231] = {
+		Level = 40,
+		Class = "DRUID",
+	},
+	[58739] = {
+		Level = 80,
+		Class = "SHAMAN",
+	},
+	[9634] = {
+		Level = 40,
+		Class = "DRUID",
+	},
+	[9826] = {
+		Level = 56,
+		Class = "DRUID",
+	},
+	[9858] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[1245] = {
+		Level = 24,
+		Class = "PRIEST",
+	},
+	[14305] = {
+		Level = 56,
+		Class = "HUNTER",
+	},
+	[49142] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[49270] = {
+		Level = 74,
+		Class = "SHAMAN",
+	},
+	[20608] = {
+		Level = 30,
+		Class = "SHAMAN",
+	},
+	[5186] = {
+		Level = 8,
+		Class = "DRUID",
+	},
+	[10466] = {
+		Level = 44,
+		Class = "SHAMAN",
+	},
+	[33786] = {
+		Level = 70,
+		Class = "DRUID",
+	},
+	[10205] = {
+		Level = 46,
+		Class = "MAGE",
+	},
+	[42232] = {
+		Level = 50,
+		Class = "DRUID",
+	},
+	[14302] = {
+		Level = 26,
+		Class = "HUNTER",
+	},
+	[49232] = {
+		Level = 75,
+		Class = "SHAMAN",
+	},
+	[694] = {
+		Level = 16,
+		Class = "WARRIOR",
+	},
+	[14294] = {
+		Level = 50,
+		Class = "HUNTER",
+	},
+	[42872] = {
+		Level = 74,
+		Class = "MAGE",
+	},
+	[60043] = {
+		Level = 80,
+		Class = "SHAMAN",
+	},
+	[5394] = {
+		Level = 20,
+		Class = "SHAMAN",
+	},
+	[49936] = {
+		Level = 67,
+		Class = "DEATHKNIGHT",
+	},
+	[29886] = {
+		Level = 60,
+		Class = "WARLOCK",
+	},
+	[25361] = {
+		Level = 60,
+		Class = "SHAMAN",
+	},
+	[27087] = {
+		Level = 65,
+		Class = "MAGE",
+	},
+	[10946] = {
+		Level = 52,
+		Class = "PRIEST",
+	},
+	[47991] = {
+		Level = 74,
+		Class = "MAGE",
+	},
+	[48119] = {
+		Level = 72,
+		Class = "PRIEST",
+	},
+	[1953] = {
+		Level = 20,
+		Class = "MAGE",
+	},
+	[56641] = {
+		Level = 50,
+		Class = "HUNTER",
+	},
+	[14286] = {
+		Level = 52,
+		Class = "HUNTER",
+	},
+	[26367] = {
+		Level = 32,
+		Class = "SHAMAN",
+	},
+	[15265] = {
+		Level = 42,
+		Class = "PRIEST",
+	},
+	[25264] = {
+		Level = 67,
+		Class = "WARRIOR",
+	},
+	[6360] = {
+		Level = 22,
 		Class = "MAGE",
 	},
 	[5116] = {
 		Level = 8,
 		Class = "HUNTER",
 	},
-	[3661] = {
-		Level = 28,
+	[49271] = {
+		Level = 80,
+		Class = "SHAMAN",
+	},
+	[8438] = {
+		Level = 30,
+		Class = "MAGE",
+	},
+	[30910] = {
+		Level = 70,
+		Class = "WARLOCK",
+	},
+	[6392] = {
+		Level = 38,
+		Class = "SHAMAN",
+	},
+	[14325] = {
+		Level = 58,
 		Class = "HUNTER",
 	},
-	[55694] = {
-		Level = 75,
+	[27007] = {
+		Level = 66,
+		Class = "DRUID",
+	},
+	[27071] = {
+		Level = 63,
+		Class = "MAGE",
+	},
+	[27135] = {
+		Level = 62,
+		Class = "PALADIN",
+	},
+	[11554] = {
+		Level = 34,
 		Class = "WARRIOR",
 	},
-	[27014] = {
-		Level = 63,
+	[1449] = {
+		Level = 14,
+		Class = "MAGE",
+	},
+	[58741] = {
+		Level = 75,
+		Class = "SHAMAN",
+	},
+	[46584] = {
+		Level = 56,
+		Class = "DEATHKNIGHT",
+	},
+	[1461] = {
+		Level = 28,
+		Class = "MAGE",
+	},
+	[14260] = {
+		Level = 8,
 		Class = "HUNTER",
 	},
-	[10893] = {
-		Level = 50,
+	[42873] = {
+		Level = 80,
+		Class = "MAGE",
+	},
+	[11778] = {
+		Level = 44,
+		Class = "MAGE",
+	},
+	[31789] = {
+		Level = 14,
+		Class = "PALADIN",
+	},
+	[18541] = {
+		Level = 60,
+		Class = "WARLOCK",
+	},
+	[5938] = {
+		Level = 70,
+		Class = "ROGUE",
+	},
+	[9472] = {
+		Level = 26,
 		Class = "PRIEST",
 	},
-	[10909] = {
-		Level = 44,
+	[14264] = {
+		Level = 40,
+		Class = "HUNTER",
+	},
+	[47864] = {
+		Level = 79,
+		Class = "WARLOCK",
+	},
+	[47992] = {
+		Level = 80,
+		Class = "MAGE",
+	},
+	[48120] = {
+		Level = 78,
 		Class = "PRIEST",
+	},
+	[8462] = {
+		Level = 42,
+		Class = "MAGE",
 	},
 	[1513] = {
 		Level = 14,
 		Class = "HUNTER",
 	},
-	[47810] = {
-		Level = 75,
-		Class = "WARLOCK",
+	[6066] = {
+		Level = 36,
+		Class = "PRIEST",
 	},
 	[10957] = {
 		Level = 42,
@@ -206,304 +5907,220 @@ lib.spellIdData = {
 		Level = 80,
 		Class = "WARLOCK",
 	},
-	[14271] = {
-		Level = 58,
-		Class = "HUNTER",
-	},
-	[14323] = {
-		Level = 22,
-		Class = "HUNTER",
-	},
-	[8446] = {
-		Level = 40,
-		Class = "MAGE",
-	},
 	[6552] = {
 		Level = 38,
 		Class = "WARRIOR",
-	},
-	[28271] = {
-		Level = 60,
-		Class = "MAGE",
-	},
-	[14264] = {
-		Level = 40,
-		Class = "HUNTER",
-	},
-	[48466] = {
-		Level = 80,
-		Class = "DRUID",
-	},
-	[27143] = {
-		Level = 65,
-		Class = "PALADIN",
-	},
-	[14260] = {
-		Level = 8,
-		Class = "HUNTER",
-	},
-	[48658] = {
-		Level = 72,
-		Class = "ROGUE",
-	},
-	[50769] = {
-		Level = 12,
-		Class = "DRUID",
-	},
-	[8235] = {
-		Level = 40,
-		Class = "SHAMAN",
-	},
-	[19878] = {
-		Level = 32,
-		Class = "HUNTER",
-	},
-	[48932] = {
-		Level = 79,
-		Class = "PALADIN",
-	},
-	[14319] = {
-		Level = 28,
-		Class = "HUNTER",
 	},
 	[13809] = {
 		Level = 28,
 		Class = "HUNTER",
 	},
-	[20467] = {
-		Level = 20,
-		Class = "PALADIN",
+	[49272] = {
+		Level = 75,
+		Class = "SHAMAN",
 	},
-	[13553] = {
-		Level = 42,
-		Class = "HUNTER",
-	},
-	[11293] = {
-		Level = 46,
-		Class = "ROGUE",
-	},
-	[13481] = {
-		Level = 10,
-		Class = "HUNTER",
+	[6178] = {
+		Level = 26,
+		Class = "WARRIOR",
 	},
 	[13552] = {
 		Level = 34,
 		Class = "HUNTER",
 	},
-	[49048] = {
-		Level = 80,
+	[34074] = {
+		Level = 20,
 		Class = "HUNTER",
 	},
 	[49054] = {
 		Level = 78,
 		Class = "HUNTER",
 	},
-	[13549] = {
-		Level = 10,
-		Class = "HUNTER",
-	},
-	[45524] = {
-		Level = 58,
-		Class = "DEATHKNIGHT",
-	},
-	[20755] = {
-		Level = 40,
-		Class = "WARLOCK",
-	},
-	[57934] = {
-		Level = 75,
-		Class = "ROGUE",
-	},
 	[14310] = {
 		Level = 40,
 		Class = "HUNTER",
 	},
-	[26992] = {
-		Level = 64,
-		Class = "DRUID",
-	},
-	[49938] = {
-		Level = 80,
-		Class = "DEATHKNIGHT",
-	},
-	[6768] = {
-		Level = 28,
-		Class = "ROGUE",
-	},
-	[27088] = {
-		Level = 67,
+	[8419] = {
+		Level = 32,
 		Class = "MAGE",
 	},
-	[25500] = {
-		Level = 66,
-		Class = "SHAMAN",
+	[8451] = {
+		Level = 36,
+		Class = "MAGE",
 	},
-	[27152] = {
-		Level = 68,
+	[20467] = {
+		Level = 20,
 		Class = "PALADIN",
 	},
-	[11549] = {
-		Level = 32,
-		Class = "WARRIOR",
-	},
-	[33946] = {
-		Level = 69,
-		Class = "MAGE",
-	},
-	[42198] = {
-		Level = 68,
-		Class = "MAGE",
-	},
-	[25233] = {
-		Level = 61,
-		Class = "PRIEST",
-	},
-	[64843] = {
-		Level = 80,
-		Class = "PRIEST",
-	},
-	[25297] = {
-		Level = 60,
-		Class = "DRUID",
-	},
-	[25329] = {
-		Level = 68,
-		Class = "PRIEST",
-	},
-	[1715] = {
-		Level = 8,
-		Class = "WARRIOR",
-	},
-	[11677] = {
-		Level = 46,
-		Class = "WARLOCK",
-	},
-	[1719] = {
-		Level = 50,
-		Class = "WARRIOR",
-	},
-	[25457] = {
-		Level = 70,
-		Class = "SHAMAN",
-	},
-	[11725] = {
-		Level = 44,
-		Class = "WARLOCK",
-	},
-	[1725] = {
-		Level = 22,
-		Class = "ROGUE",
-	},
-	[13544] = {
-		Level = 60,
+	[42234] = {
+		Level = 67,
 		Class = "HUNTER",
 	},
-	[1823] = {
-		Level = 34,
+	[14315] = {
+		Level = 54,
+		Class = "HUNTER",
+	},
+	[22828] = {
+		Level = 48,
 		Class = "DRUID",
+	},
+	[34428] = {
+		Level = 6,
+		Class = "WARRIOR",
+	},
+	[25472] = {
+		Level = 70,
+		Class = "SHAMAN",
 	},
 	[34471] = {
 		Level = 50,
 		Class = "HUNTER",
 	},
-	[49235] = {
-		Level = 73,
-		Class = "SHAMAN",
-	},
-	[1735] = {
-		Level = 20,
-		Class = "DRUID",
-	},
-	[53601] = {
+	[43002] = {
 		Level = 80,
-		Class = "PALADIN",
+		Class = "MAGE",
+	},
+	[45524] = {
+		Level = 58,
+		Class = "DEATHKNIGHT",
+	},
+	[57934] = {
+		Level = 75,
+		Class = "ROGUE",
 	},
 	[60210] = {
 		Level = 60,
 		Class = "HUNTER",
 	},
-	[27149] = {
-		Level = 70,
-		Class = "PALADIN",
+	[49938] = {
+		Level = 80,
+		Class = "DEATHKNIGHT",
 	},
-	[11601] = {
-		Level = 54,
+	[27088] = {
+		Level = 67,
+		Class = "MAGE",
+	},
+	[47865] = {
+		Level = 78,
+		Class = "WARLOCK",
+	},
+	[33946] = {
+		Level = 69,
+		Class = "MAGE",
+	},
+	[17922] = {
+		Level = 50,
+		Class = "WARLOCK",
+	},
+	[6546] = {
+		Level = 10,
 		Class = "WARRIOR",
 	},
-	[48671] = {
+	[48377] = {
 		Level = 74,
-		Class = "ROGUE",
+		Class = "DRUID",
+	},
+	[42198] = {
+		Level = 68,
+		Class = "MAGE",
+	},
+	[64843] = {
+		Level = 80,
+		Class = "PRIEST",
+	},
+	[28609] = {
+		Level = 60,
+		Class = "MAGE",
+	},
+	[591] = {
+		Level = 6,
+		Class = "PRIEST",
+	},
+	[49235] = {
+		Level = 73,
+		Class = "SHAMAN",
+	},
+	[19883] = {
+		Level = 10,
+		Class = "HUNTER",
+	},
+	[49273] = {
+		Level = 80,
+		Class = "SHAMAN",
+	},
+	[25296] = {
+		Level = 60,
+		Class = "HUNTER",
 	},
 	[51730] = {
 		Level = 30,
 		Class = "SHAMAN",
 	},
-	[14305] = {
-		Level = 56,
+	[14288] = {
+		Level = 30,
 		Class = "HUNTER",
-	},
-	[2908] = {
-		Level = 22,
-		Class = "DRUID",
 	},
 	[23922] = {
 		Level = 40,
 		Class = "WARRIOR",
 	},
-	[47892] = {
-		Level = 74,
-		Class = "WARLOCK",
+	[27008] = {
+		Level = 67,
+		Class = "DRUID",
 	},
-	[1757] = {
-		Level = 6,
-		Class = "ROGUE",
+	[27072] = {
+		Level = 69,
+		Class = "MAGE",
 	},
-	[33691] = {
-		Level = 65,
+	[27136] = {
+		Level = 70,
+		Class = "PALADIN",
+	},
+	[10206] = {
+		Level = 52,
 		Class = "MAGE",
 	},
 	[48084] = {
 		Level = 75,
 		Class = "PRIEST",
 	},
+	[54648] = {
+		Level = 20,
+		Class = "MAGE",
+	},
 	[28176] = {
 		Level = 62,
 		Class = "WARLOCK",
 	},
-	[25296] = {
-		Level = 60,
+	[9635] = {
+		Level = 40,
+		Class = "DRUID",
+	},
+	[1515] = {
+		Level = 10,
 		Class = "HUNTER",
 	},
-	[13543] = {
-		Level = 52,
-		Class = "HUNTER",
-	},
-	[28272] = {
-		Level = 60,
-		Class = "MAGE",
-	},
-	[20116] = {
-		Level = 30,
-		Class = "PALADIN",
+	[1725] = {
+		Level = 22,
+		Class = "ROGUE",
 	},
 	[64844] = {
 		Level = 80,
 		Class = "PRIEST",
 	},
-	[24274] = {
-		Level = 52,
-		Class = "PALADIN",
-	},
-	[14288] = {
-		Level = 30,
-		Class = "HUNTER",
-	},
-	[34120] = {
-		Level = 62,
-		Class = "HUNTER",
+	[915] = {
+		Level = 20,
+		Class = "SHAMAN",
 	},
 	[3561] = {
 		Level = 20,
+		Class = "MAGE",
+	},
+	[9827] = {
+		Level = 56,
+		Class = "DRUID",
+	},
+	[47610] = {
+		Level = 80,
 		Class = "MAGE",
 	},
 	[48788] = {
@@ -514,69 +6131,53 @@ lib.spellIdData = {
 		Level = 60,
 		Class = "MAGE",
 	},
-	[1787] = {
-		Level = 60,
+	[1757] = {
+		Level = 6,
 		Class = "ROGUE",
 	},
-	[10206] = {
-		Level = 52,
-		Class = "MAGE",
+	[48122] = {
+		Level = 74,
+		Class = "PRIEST",
 	},
 	[24530] = {
 		Level = 60,
 		Class = "MAGE",
 	},
-	[14325] = {
-		Level = 58,
-		Class = "HUNTER",
+	[48378] = {
+		Level = 79,
+		Class = "DRUID",
 	},
 	[32796] = {
 		Level = 70,
 		Class = "MAGE",
 	},
-	[49236] = {
-		Level = 78,
-		Class = "SHAMAN",
-	},
-	[5145] = {
-		Level = 24,
-		Class = "MAGE",
-	},
-	[14284] = {
-		Level = 36,
+	[13543] = {
+		Level = 52,
 		Class = "HUNTER",
-	},
-	[10318] = {
-		Level = 60,
-		Class = "PALADIN",
-	},
-	[20660] = {
-		Level = 40,
-		Class = "WARRIOR",
-	},
-	[45462] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
-	},
-	[26865] = {
-		Level = 64,
-		Class = "ROGUE",
 	},
 	[453] = {
 		Level = 20,
 		Class = "PRIEST",
 	},
-	[5201] = {
-		Level = 38,
-		Class = "DRUID",
+	[10179] = {
+		Level = 44,
+		Class = "MAGE",
 	},
-	[10414] = {
-		Level = 60,
+	[10211] = {
+		Level = 48,
+		Class = "MAGE",
+	},
+	[16387] = {
+		Level = 58,
 		Class = "SHAMAN",
 	},
 	[5217] = {
 		Level = 24,
 		Class = "DRUID",
+	},
+	[20610] = {
+		Level = 36,
+		Class = "SHAMAN",
 	},
 	[47893] = {
 		Level = 79,
@@ -594,45 +6195,29 @@ lib.spellIdData = {
 		Level = 80,
 		Class = "PRIEST",
 	},
+	[10467] = {
+		Level = 52,
+		Class = "SHAMAN",
+	},
 	[27153] = {
 		Level = 70,
 		Class = "PALADIN",
-	},
-	[10526] = {
-		Level = 48,
-		Class = "SHAMAN",
-	},
-	[7320] = {
-		Level = 40,
-		Class = "MAGE",
-	},
-	[7328] = {
-		Level = 12,
-		Class = "PALADIN",
-	},
-	[25234] = {
-		Level = 65,
-		Class = "WARRIOR",
 	},
 	[58704] = {
 		Level = 80,
 		Class = "SHAMAN",
 	},
-	[25298] = {
-		Level = 60,
-		Class = "DRUID",
+	[1833] = {
+		Level = 26,
+		Class = "ROGUE",
 	},
-	[10622] = {
-		Level = 46,
+	[10595] = {
+		Level = 30,
 		Class = "SHAMAN",
 	},
-	[5234] = {
-		Level = 30,
-		Class = "DRUID",
-	},
-	[7376] = {
-		Level = 10,
-		Class = "WARRIOR",
+	[25345] = {
+		Level = 60,
+		Class = "MAGE",
 	},
 	[7384] = {
 		Level = 12,
@@ -642,101 +6227,45 @@ lib.spellIdData = {
 		Level = 28,
 		Class = "ROGUE",
 	},
-	[1515] = {
-		Level = 10,
-		Class = "HUNTER",
-	},
-	[19883] = {
-		Level = 10,
-		Class = "HUNTER",
-	},
-	[49045] = {
-		Level = 79,
-		Class = "HUNTER",
+	[25537] = {
+		Level = 70,
+		Class = "SHAMAN",
 	},
 	[1857] = {
 		Level = 42,
 		Class = "ROGUE",
 	},
-	[27045] = {
-		Level = 68,
+	[49045] = {
+		Level = 79,
 		Class = "HUNTER",
 	},
-	[49237] = {
-		Level = 73,
-		Class = "SHAMAN",
+	[14914] = {
+		Level = 20,
+		Class = "PRIEST",
 	},
-	[34026] = {
-		Level = 66,
+	[61006] = {
+		Level = 80,
 		Class = "HUNTER",
-	},
-	[1122] = {
-		Level = 50,
-		Class = "WARLOCK",
-	},
-	[467] = {
-		Level = 6,
-		Class = "DRUID",
-	},
-	[2139] = {
-		Level = 24,
-		Class = "MAGE",
-	},
-	[45463] = {
-		Level = 70,
-		Class = "DEATHKNIGHT",
-	},
-	[6793] = {
-		Level = 36,
-		Class = "DRUID",
-	},
-	[469] = {
-		Level = 68,
-		Class = "WARRIOR",
-	},
-	[27025] = {
-		Level = 61,
-		Class = "HUNTER",
-	},
-	[66842] = {
-		Level = 30,
-		Class = "SHAMAN",
 	},
 	[23923] = {
 		Level = 48,
 		Class = "WARRIOR",
 	},
-	[10958] = {
-		Level = 56,
+	[10915] = {
+		Level = 44,
 		Class = "PRIEST",
 	},
-	[32175] = {
-		Level = 40,
-		Class = "SHAMAN",
+	[47867] = {
+		Level = 80,
+		Class = "WARLOCK",
 	},
-	[27074] = {
-		Level = 70,
-		Class = "MAGE",
-	},
-	[5505] = {
-		Level = 10,
-		Class = "MAGE",
-	},
-	[32271] = {
-		Level = 20,
-		Class = "MAGE",
-	},
-	[6495] = {
-		Level = 34,
-		Class = "SHAMAN",
-	},
-	[52372] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
-	},
-	[13165] = {
-		Level = 10,
+	[49055] = {
+		Level = 72,
 		Class = "HUNTER",
+	},
+	[48123] = {
+		Level = 79,
+		Class = "PRIEST",
 	},
 	[475] = {
 		Level = 18,
@@ -746,73 +6275,33 @@ lib.spellIdData = {
 		Level = 80,
 		Class = "DRUID",
 	},
-	[24275] = {
-		Level = 44,
-		Class = "PALADIN",
+	[70809] = {
+		Level = 20,
+		Class = "SHAMAN",
 	},
-	[34600] = {
-		Level = 68,
-		Class = "HUNTER",
+	[26369] = {
+		Level = 40,
+		Class = "SHAMAN",
 	},
-	[27019] = {
-		Level = 69,
-		Class = "HUNTER",
-	},
-	[61006] = {
-		Level = 80,
-		Class = "HUNTER",
+	[15266] = {
+		Level = 48,
+		Class = "PRIEST",
 	},
 	[66843] = {
 		Level = 40,
 		Class = "SHAMAN",
 	},
-	[7648] = {
-		Level = 34,
-		Class = "WARLOCK",
-	},
-	[49051] = {
-		Level = 71,
-		Class = "HUNTER",
-	},
-	[42841] = {
-		Level = 75,
-		Class = "MAGE",
-	},
-	[53140] = {
-		Level = 71,
-		Class = "MAGE",
-	},
-	[27024] = {
-		Level = 65,
-		Class = "HUNTER",
-	},
-	[47865] = {
-		Level = 78,
-		Class = "WARLOCK",
-	},
-	[49238] = {
-		Level = 79,
-		Class = "SHAMAN",
-	},
-	[3111] = {
-		Level = 20,
-		Class = "HUNTER",
-	},
 	[3043] = {
 		Level = 22,
 		Class = "HUNTER",
 	},
-	[3045] = {
-		Level = 26,
-		Class = "HUNTER",
+	[11267] = {
+		Level = 42,
+		Class = "ROGUE",
 	},
-	[20661] = {
-		Level = 48,
-		Class = "WARRIOR",
-	},
-	[49055] = {
+	[49275] = {
 		Level = 72,
-		Class = "HUNTER",
+		Class = "SHAMAN",
 	},
 	[5697] = {
 		Level = 16,
@@ -822,261 +6311,149 @@ lib.spellIdData = {
 		Level = 60,
 		Class = "WARLOCK",
 	},
-	[42225] = {
-		Level = 46,
-		Class = "WARLOCK",
-	},
 	[66844] = {
 		Level = 50,
 		Class = "SHAMAN",
-	},
-	[26994] = {
-		Level = 69,
-		Class = "DRUID",
-	},
-	[27026] = {
-		Level = 61,
-		Class = "HUNTER",
 	},
 	[1949] = {
 		Level = 30,
 		Class = "WARLOCK",
 	},
-	[27090] = {
-		Level = 70,
+	[27009] = {
+		Level = 68,
+		Class = "DRUID",
+	},
+	[27073] = {
+		Level = 65,
 		Class = "MAGE",
 	},
-	[1953] = {
-		Level = 20,
-		Class = "MAGE",
+	[27137] = {
+		Level = 66,
+		Class = "PALADIN",
+	},
+	[11555] = {
+		Level = 44,
+		Class = "WARRIOR",
 	},
 	[27154] = {
 		Level = 69,
 		Class = "PALADIN",
 	},
-	[11550] = {
-		Level = 42,
-		Class = "WARRIOR",
-	},
-	[52373] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
+	[58745] = {
+		Level = 80,
+		Class = "SHAMAN",
 	},
 	[25203] = {
 		Level = 70,
 		Class = "WARRIOR",
 	},
+	[11683] = {
+		Level = 42,
+		Class = "WARLOCK",
+	},
 	[25235] = {
 		Level = 67,
 		Class = "PRIEST",
-	},
-	[1462] = {
-		Level = 24,
-		Class = "HUNTER",
-	},
-	[25299] = {
-		Level = 60,
-		Class = "DRUID",
-	},
-	[25331] = {
-		Level = 68,
-		Class = "PRIEST",
-	},
-	[25363] = {
-		Level = 61,
-		Class = "PRIEST",
-	},
-	[11678] = {
-		Level = 58,
-		Class = "WARLOCK",
-	},
-	[11694] = {
-		Level = 52,
-		Class = "WARLOCK",
 	},
 	[5857] = {
 		Level = 30,
 		Class = "WARLOCK",
 	},
-	[11726] = {
-		Level = 58,
-		Class = "WARLOCK",
-	},
-	[42842] = {
-		Level = 79,
+	[11779] = {
+		Level = 52,
 		Class = "MAGE",
 	},
 	[49047] = {
 		Level = 74,
 		Class = "HUNTER",
 	},
-	[49071] = {
-		Level = 76,
-		Class = "HUNTER",
-	},
-	[49067] = {
+	[49052] = {
 		Level = 77,
 		Class = "HUNTER",
+	},
+	[27841] = {
+		Level = 60,
+		Class = "PRIEST",
 	},
 	[49239] = {
 		Level = 73,
 		Class = "SHAMAN",
 	},
-	[498] = {
-		Level = 6,
-		Class = "PALADIN",
+	[8018] = {
+		Level = 8,
+		Class = "SHAMAN",
 	},
 	[61649] = {
 		Level = 75,
 		Class = "SHAMAN",
 	},
-	[10928] = {
-		Level = 50,
-		Class = "PRIEST",
-	},
-	[9823] = {
-		Level = 46,
-		Class = "DRUID",
-	},
-	[9839] = {
-		Level = 46,
-		Class = "DRUID",
-	},
-	[45529] = {
-		Level = 64,
-		Class = "DEATHKNIGHT",
-	},
-	[8008] = {
-		Level = 28,
-		Class = "SHAMAN",
-	},
-	[19801] = {
-		Level = 60,
-		Class = "HUNTER",
-	},
-	[8024] = {
+	[8050] = {
 		Level = 10,
 		Class = "SHAMAN",
 	},
-	[23924] = {
-		Level = 54,
-		Class = "WARRIOR",
-	},
-	[6778] = {
-		Level = 32,
-		Class = "DRUID",
+	[48124] = {
+		Level = 75,
+		Class = "PRIEST",
 	},
 	[32176] = {
 		Level = 40,
 		Class = "SHAMAN",
 	},
-	[8056] = {
-		Level = 20,
-		Class = "SHAMAN",
-	},
-	[49065] = {
-		Level = 77,
+	[48990] = {
+		Level = 80,
 		Class = "HUNTER",
 	},
-	[32272] = {
-		Level = 20,
-		Class = "MAGE",
-	},
-	[57992] = {
-		Level = 74,
-		Class = "ROGUE",
-	},
-	[52374] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
-	},
-	[49052] = {
-		Level = 77,
-		Class = "HUNTER",
-	},
-	[8104] = {
-		Level = 28,
-		Class = "PRIEST",
-	},
-	[6065] = {
-		Level = 30,
-		Class = "PRIEST",
+	[27219] = {
+		Level = 62,
+		Class = "WARLOCK",
 	},
 	[58771] = {
 		Level = 71,
-		Class = "SHAMAN",
-	},
-	[30449] = {
-		Level = 70,
-		Class = "MAGE",
-	},
-	[13550] = {
-		Level = 18,
-		Class = "HUNTER",
-	},
-	[27046] = {
-		Level = 68,
-		Class = "HUNTER",
-	},
-	[48792] = {
-		Level = 62,
-		Class = "DEATHKNIGHT",
-	},
-	[8160] = {
-		Level = 24,
 		Class = "SHAMAN",
 	},
 	[10191] = {
 		Level = 44,
 		Class = "MAGE",
 	},
-	[6129] = {
-		Level = 32,
-		Class = "MAGE",
+	[3034] = {
+		Level = 36,
+		Class = "HUNTER",
 	},
-	[53142] = {
-		Level = 74,
-		Class = "MAGE",
-	},
-	[8914] = {
-		Level = 34,
-		Class = "DRUID",
+	[49020] = {
+		Level = 61,
+		Class = "DEATHKNIGHT",
 	},
 	[2054] = {
 		Level = 16,
 		Class = "PRIEST",
 	},
-	[49240] = {
-		Level = 79,
+	[49276] = {
+		Level = 77,
 		Class = "SHAMAN",
 	},
-	[2062] = {
-		Level = 66,
+	[12355] = {
+		Level = 10,
+		Class = "MAGE",
+	},
+	[61650] = {
+		Level = 75,
 		Class = "SHAMAN",
 	},
-	[1038] = {
-		Level = 26,
-		Class = "PALADIN",
+	[20739] = {
+		Level = 30,
+		Class = "DRUID",
 	},
-	[2070] = {
-		Level = 28,
-		Class = "ROGUE",
+	[2090] = {
+		Level = 22,
+		Class = "DRUID",
 	},
 	[20662] = {
 		Level = 56,
 		Class = "WARRIOR",
 	},
-	[18647] = {
-		Level = 48,
-		Class = "WARLOCK",
-	},
 	[26867] = {
 		Level = 68,
 		Class = "ROGUE",
-	},
-	[6217] = {
-		Level = 28,
-		Class = "WARLOCK",
 	},
 	[10399] = {
 		Level = 24,
@@ -1086,32 +6463,28 @@ lib.spellIdData = {
 		Level = 34,
 		Class = "ROGUE",
 	},
-	[47833] = {
+	[25218] = {
+		Level = 70,
+		Class = "PRIEST",
+	},
+	[58746] = {
 		Level = 75,
-		Class = "WARLOCK",
-	},
-	[8400] = {
-		Level = 24,
-		Class = "MAGE",
-	},
-	[527] = {
-		Level = 18,
-		Class = "PRIEST",
-	},
-	[528] = {
-		Level = 14,
-		Class = "PRIEST",
-	},
-	[529] = {
-		Level = 8,
 		Class = "SHAMAN",
 	},
-	[26987] = {
-		Level = 63,
-		Class = "DRUID",
+	[25346] = {
+		Level = 60,
+		Class = "MAGE",
 	},
-	[8643] = {
-		Level = 50,
+	[49044] = {
+		Level = 73,
+		Class = "HUNTER",
+	},
+	[46845] = {
+		Level = 71,
+		Class = "WARRIOR",
+	},
+	[8676] = {
+		Level = 18,
 		Class = "ROGUE",
 	},
 	[52375] = {
@@ -1134,244 +6507,116 @@ lib.spellIdData = {
 		Level = 99,
 		Class = "MAGE",
 	},
-	[10623] = {
-		Level = 54,
-		Class = "SHAMAN",
-	},
 	[25364] = {
 		Level = 69,
 		Class = "PRIEST",
-	},
-	[6353] = {
-		Level = 48,
-		Class = "WARLOCK",
-	},
-	[8624] = {
-		Level = 40,
-		Class = "ROGUE",
-	},
-	[8640] = {
-		Level = 36,
-		Class = "ROGUE",
 	},
 	[6377] = {
 		Level = 40,
 		Class = "SHAMAN",
 	},
-	[42844] = {
-		Level = 75,
-		Class = "MAGE",
-	},
-	[48990] = {
-		Level = 80,
-		Class = "HUNTER",
-	},
 	[12798] = {
 		Level = 10,
 		Class = "WARRIOR",
 	},
-	[546] = {
-		Level = 28,
-		Class = "SHAMAN",
-	},
-	[547] = {
-		Level = 12,
-		Class = "SHAMAN",
-	},
-	[548] = {
-		Level = 14,
-		Class = "SHAMAN",
-	},
-	[13161] = {
-		Level = 30,
-		Class = "HUNTER",
-	},
-	[11565] = {
-		Level = 40,
-		Class = "WARRIOR",
-	},
-	[25780] = {
-		Level = 16,
-		Class = "PALADIN",
-	},
-	[552] = {
-		Level = 32,
+	[48125] = {
+		Level = 80,
 		Class = "PRIEST",
 	},
-	[3034] = {
-		Level = 36,
-		Class = "HUNTER",
-	},
-	[49044] = {
-		Level = 73,
-		Class = "HUNTER",
-	},
-	[61005] = {
-		Level = 75,
-		Class = "HUNTER",
+	[28610] = {
+		Level = 60,
+		Class = "WARLOCK",
 	},
 	[10927] = {
 		Level = 44,
 		Class = "PRIEST",
 	},
-	[23925] = {
-		Level = 60,
-		Class = "WARRIOR",
-	},
 	[51992] = {
 		Level = 60,
 		Class = "SHAMAN",
 	},
-	[19895] = {
-		Level = 40,
-		Class = "PALADIN",
-	},
-	[34477] = {
-		Level = 70,
-		Class = "HUNTER",
-	},
-	[53339] = {
-		Level = 80,
-		Class = "HUNTER",
-	},
-	[18541] = {
-		Level = 60,
-		Class = "WARLOCK",
-	},
-	[8992] = {
-		Level = 38,
-		Class = "DRUID",
-	},
-	[5188] = {
-		Level = 20,
-		Class = "DRUID",
+	[48637] = {
+		Level = 76,
+		Class = "ROGUE",
 	},
 	[58581] = {
 		Level = 75,
 		Class = "SHAMAN",
 	},
-	[25295] = {
-		Level = 60,
-		Class = "HUNTER",
-	},
-	[2643] = {
-		Level = 18,
-		Class = "HUNTER",
+	[3411] = {
+		Level = 70,
+		Class = "WARRIOR",
 	},
 	[58773] = {
 		Level = 76,
 		Class = "SHAMAN",
 	},
-	[3662] = {
-		Level = 36,
-		Class = "HUNTER",
-	},
 	[30482] = {
 		Level = 62,
 		Class = "MAGE",
+	},
+	[49277] = {
+		Level = 80,
+		Class = "SHAMAN",
 	},
 	[15261] = {
 		Level = 60,
 		Class = "PRIEST",
 	},
-	[25361] = {
-		Level = 60,
-		Class = "SHAMAN",
-	},
-	[15264] = {
-		Level = 36,
-		Class = "PRIEST",
-	},
-	[13813] = {
-		Level = 34,
-		Class = "HUNTER",
-	},
-	[42845] = {
-		Level = 79,
+	[45438] = {
+		Level = 30,
 		Class = "MAGE",
 	},
-	[14321] = {
-		Level = 48,
+	[13550] = {
+		Level = 18,
 		Class = "HUNTER",
-	},
-	[25563] = {
-		Level = 68,
-		Class = "SHAMAN",
-	},
-	[11279] = {
-		Level = 44,
-		Class = "ROGUE",
-	},
-	[34913] = {
-		Level = 62,
-		Class = "MAGE",
-	},
-	[14317] = {
-		Level = 54,
-		Class = "HUNTER",
-	},
-	[14315] = {
-		Level = 54,
-		Class = "HUNTER",
-	},
-	[57622] = {
-		Level = 75,
-		Class = "SHAMAN",
-	},
-	[61780] = {
-		Level = 60,
-		Class = "MAGE",
 	},
 	[14311] = {
 		Level = 60,
 		Class = "HUNTER",
 	},
-	[10291] = {
-		Level = 30,
+	[49917] = {
+		Level = 60,
+		Class = "DEATHKNIGHT",
+	},
+	[27074] = {
+		Level = 70,
+		Class = "MAGE",
+	},
+	[27138] = {
+		Level = 68,
 		Class = "PALADIN",
+	},
+	[42845] = {
+		Level = 79,
+		Class = "MAGE",
+	},
+	[13542] = {
+		Level = 44,
+		Class = "HUNTER",
+	},
+	[34913] = {
+		Level = 62,
+		Class = "MAGE",
 	},
 	[586] = {
 		Level = 8,
 		Class = "PRIEST",
 	},
-	[587] = {
-		Level = 6,
-		Class = "MAGE",
+	[34433] = {
+		Level = 66,
+		Class = "PRIEST",
 	},
 	[588] = {
 		Level = 12,
 		Class = "PRIEST",
 	},
-	[589] = {
-		Level = 4,
-		Class = "PRIEST",
-	},
-	[51993] = {
-		Level = 70,
-		Class = "SHAMAN",
-	},
-	[591] = {
-		Level = 6,
-		Class = "PRIEST",
+	[13795] = {
+		Level = 16,
+		Class = "HUNTER",
 	},
 	[592] = {
 		Level = 12,
-		Class = "PRIEST",
-	},
-	[27124] = {
-		Level = 69,
-		Class = "MAGE",
-	},
-	[594] = {
-		Level = 10,
-		Class = "PRIEST",
-	},
-	[11551] = {
-		Level = 52,
-		Class = "WARRIOR",
-	},
-	[596] = {
-		Level = 30,
 		Class = "PRIEST",
 	},
 	[597] = {
@@ -1382,113 +6627,29 @@ lib.spellIdData = {
 		Level = 14,
 		Class = "PRIEST",
 	},
-	[25269] = {
-		Level = 63,
+	[2458] = {
+		Level = 30,
 		Class = "WARRIOR",
-	},
-	[600] = {
-		Level = 18,
-		Class = "PRIEST",
-	},
-	[13542] = {
-		Level = 44,
-		Class = "HUNTER",
 	},
 	[602] = {
 		Level = 30,
 		Class = "PRIEST",
 	},
+	[9892] = {
+		Level = 52,
+		Class = "DRUID",
+	},
 	[603] = {
 		Level = 60,
 		Class = "WARLOCK",
-	},
-	[604] = {
-		Level = 12,
-		Class = "MAGE",
-	},
-	[11711] = {
-		Level = 38,
-		Class = "WARLOCK",
-	},
-	[53312] = {
-		Level = 78,
-		Class = "DRUID",
-	},
-	[42846] = {
-		Level = 79,
-		Class = "MAGE",
-	},
-	[25557] = {
-		Level = 67,
-		Class = "SHAMAN",
-	},
-	[17401] = {
-		Level = 50,
-		Class = "DRUID",
-	},
-	[14303] = {
-		Level = 36,
-		Class = "HUNTER",
-	},
-	[14301] = {
-		Level = 56,
-		Class = "HUNTER",
-	},
-	[14299] = {
-		Level = 36,
-		Class = "HUNTER",
-	},
-	[14295] = {
-		Level = 58,
-		Class = "HUNTER",
-	},
-	[57623] = {
-		Level = 75,
-		Class = "DEATHKNIGHT",
-	},
-	[2458] = {
-		Level = 30,
-		Class = "WARRIOR",
-	},
-	[9840] = {
-		Level = 52,
-		Class = "DRUID",
-	},
-	[9856] = {
-		Level = 48,
-		Class = "DRUID",
-	},
-	[53338] = {
-		Level = 76,
-		Class = "HUNTER",
-	},
-	[9888] = {
-		Level = 50,
-		Class = "DRUID",
-	},
-	[7001] = {
-		Level = 40,
-		Class = "PRIEST",
-	},
-	[47836] = {
-		Level = 80,
-		Class = "WARLOCK",
-	},
-	[51994] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[19896] = {
-		Level = 52,
-		Class = "PALADIN",
 	},
 	[14289] = {
 		Level = 42,
 		Class = "HUNTER",
 	},
-	[33763] = {
-		Level = 64,
-		Class = "DRUID",
+	[48126] = {
+		Level = 74,
+		Class = "PRIEST",
 	},
 	[14287] = {
 		Level = 60,
@@ -1498,48 +6659,92 @@ lib.spellIdData = {
 		Level = 44,
 		Class = "HUNTER",
 	},
+	[20164] = {
+		Level = 22,
+		Class = "PALADIN",
+	},
+	[48638] = {
+		Level = 80,
+		Class = "ROGUE",
+	},
+	[10148] = {
+		Level = 42,
+		Class = "MAGE",
+	},
+	[10180] = {
+		Level = 50,
+		Class = "MAGE",
+	},
+	[10212] = {
+		Level = 56,
+		Class = "MAGE",
+	},
+	[20484] = {
+		Level = 20,
+		Class = "DRUID",
+	},
+	[49278] = {
+		Level = 75,
+		Class = "SHAMAN",
+	},
+	[10308] = {
+		Level = 54,
+		Class = "PALADIN",
+	},
+	[5171] = {
+		Level = 10,
+		Class = "ROGUE",
+	},
+	[5187] = {
+		Level = 14,
+		Class = "DRUID",
+	},
 	[14281] = {
 		Level = 12,
 		Class = "HUNTER",
 	},
-	[28276] = {
-		Level = 70,
-		Class = "PRIEST",
+	[49918] = {
+		Level = 65,
+		Class = "DEATHKNIGHT",
 	},
-	[18960] = {
-		Level = 10,
+	[10468] = {
+		Level = 60,
+		Class = "SHAMAN",
+	},
+	[8949] = {
+		Level = 26,
 		Class = "DRUID",
 	},
-	[24406] = {
-		Level = 60,
-		Class = "HUNTER",
+	[47836] = {
+		Level = 80,
+		Class = "WARLOCK",
 	},
-	[20184] = {
-		Level = 22,
-		Class = "PALADIN",
+	[51994] = {
+		Level = 80,
+		Class = "SHAMAN",
 	},
-	[633] = {
-		Level = 10,
-		Class = "PALADIN",
+	[33763] = {
+		Level = 64,
+		Class = "DRUID",
+	},
+	[10159] = {
+		Level = 42,
+		Class = "MAGE",
 	},
 	[48668] = {
 		Level = 79,
 		Class = "ROGUE",
 	},
-	[10144] = {
-		Level = 42,
-		Class = "MAGE",
-	},
-	[10160] = {
-		Level = 50,
-		Class = "MAGE",
-	},
-	[14270] = {
-		Level = 44,
-		Class = "HUNTER",
-	},
 	[10192] = {
 		Level = 52,
+		Class = "MAGE",
+	},
+	[14819] = {
+		Level = 50,
+		Class = "PRIEST",
+	},
+	[43008] = {
+		Level = 79,
 		Class = "MAGE",
 	},
 	[639] = {
@@ -1550,573 +6755,221 @@ lib.spellIdData = {
 		Level = 18,
 		Class = "HUNTER",
 	},
-	[14269] = {
-		Level = 30,
-		Class = "HUNTER",
-	},
-	[642] = {
-		Level = 34,
-		Class = "PALADIN",
-	},
-	[5138] = {
-		Level = 24,
-		Class = "WARLOCK",
-	},
-	[10159] = {
-		Level = 42,
-		Class = "MAGE",
-	},
-	[32996] = {
-		Level = 70,
-		Class = "PRIEST",
-	},
-	[14263] = {
-		Level = 32,
-		Class = "HUNTER",
-	},
-	[647] = {
-		Level = 14,
-		Class = "PALADIN",
-	},
-	[5178] = {
-		Level = 14,
-		Class = "DRUID",
-	},
-	[5186] = {
-		Level = 8,
-		Class = "DRUID",
-	},
-	[25448] = {
-		Level = 62,
-		Class = "SHAMAN",
-	},
-	[324] = {
-		Level = 8,
-		Class = "SHAMAN",
-	},
-	[51724] = {
-		Level = 71,
-		Class = "ROGUE",
-	},
-	[47837] = {
-		Level = 74,
-		Class = "WARLOCK",
-	},
-	[8401] = {
-		Level = 30,
-		Class = "MAGE",
-	},
-	[8417] = {
-		Level = 40,
-		Class = "MAGE",
-	},
-	[5242] = {
-		Level = 12,
-		Class = "WARRIOR",
-	},
-	[27125] = {
-		Level = 69,
-		Class = "MAGE",
-	},
-	[48157] = {
+	[47487] = {
 		Level = 75,
-		Class = "PRIEST",
+		Class = "WARRIOR",
 	},
 	[49066] = {
 		Level = 71,
 		Class = "HUNTER",
 	},
+	[10916] = {
+		Level = 50,
+		Class = "PRIEST",
+	},
+	[47871] = {
+		Level = 73,
+		Class = "WARLOCK",
+	},
+	[642] = {
+		Level = 34,
+		Class = "PALADIN",
+	},
+	[48127] = {
+		Level = 79,
+		Class = "PRIEST",
+	},
+	[5138] = {
+		Level = 24,
+		Class = "WARLOCK",
+	},
 	[20736] = {
 		Level = 12,
 		Class = "HUNTER",
 	},
-	[42208] = {
-		Level = 20,
-		Class = "MAGE",
+	[64891] = {
+		Level = 80,
+		Class = "PALADIN",
 	},
-	[27285] = {
+	[26371] = {
+		Level = 63,
+		Class = "SHAMAN",
+	},
+	[15267] = {
+		Level = 54,
+		Class = "PRIEST",
+	},
+	[32996] = {
 		Level = 70,
-		Class = "WARLOCK",
-	},
-	[48477] = {
-		Level = 79,
-		Class = "DRUID",
-	},
-	[25302] = {
-		Level = 60,
-		Class = "ROGUE",
-	},
-	[25294] = {
-		Level = 60,
-		Class = "HUNTER",
-	},
-	[7369] = {
-		Level = 30,
-		Class = "WARRIOR",
+		Class = "PRIEST",
 	},
 	[20190] = {
 		Level = 56,
 		Class = "HUNTER",
 	},
+	[11268] = {
+		Level = 50,
+		Class = "ROGUE",
+	},
+	[49279] = {
+		Level = 80,
+		Class = "SHAMAN",
+	},
 	[6991] = {
 		Level = 10,
 		Class = "HUNTER",
 	},
-	[20777] = {
-		Level = 60,
-		Class = "SHAMAN",
-	},
-	[1499] = {
-		Level = 20,
-		Class = "HUNTER",
-	},
-	[48989] = {
-		Level = 74,
-		Class = "HUNTER",
-	},
-	[49053] = {
-		Level = 72,
-		Class = "HUNTER",
-	},
-	[25590] = {
+	[27228] = {
 		Level = 69,
-		Class = "SHAMAN",
+		Class = "WARLOCK",
 	},
-	[8721] = {
-		Level = 36,
-		Class = "ROGUE",
-	},
-	[5394] = {
-		Level = 20,
-		Class = "SHAMAN",
-	},
-	[676] = {
-		Level = 18,
-		Class = "WARRIOR",
-	},
-	[27023] = {
-		Level = 65,
-		Class = "HUNTER",
-	},
-	[48480] = {
-		Level = 79,
-		Class = "DRUID",
-	},
-	[25782] = {
-		Level = 52,
-		Class = "PALADIN",
-	},
-	[61847] = {
-		Level = 80,
-		Class = "HUNTER",
-	},
-	[10880] = {
+	[5699] = {
 		Level = 34,
-		Class = "PRIEST",
+		Class = "WARLOCK",
 	},
-	[49001] = {
-		Level = 79,
-		Class = "HUNTER",
-	},
-	[1495] = {
-		Level = 16,
-		Class = "HUNTER",
-	},
-	[49821] = {
+	[48157] = {
 		Level = 75,
 		Class = "PRIEST",
 	},
-	[47838] = {
-		Level = 80,
-		Class = "WARLOCK",
+	[49919] = {
+		Level = 70,
+		Class = "DEATHKNIGHT",
 	},
-	[10960] = {
-		Level = 50,
-		Class = "PRIEST",
+	[27075] = {
+		Level = 63,
+		Class = "MAGE",
+	},
+	[27139] = {
+		Level = 69,
+		Class = "PALADIN",
+	},
+	[11556] = {
+		Level = 54,
+		Class = "WARRIOR",
 	},
 	[19897] = {
 		Level = 44,
 		Class = "PALADIN",
 	},
-	[27448] = {
-		Level = 64,
-		Class = "ROGUE",
+	[58749] = {
+		Level = 80,
+		Class = "SHAMAN",
 	},
 	[5506] = {
 		Level = 20,
 		Class = "MAGE",
 	},
-	[48158] = {
-		Level = 80,
-		Class = "PRIEST",
-	},
-	[691] = {
-		Level = 30,
+	[11684] = {
+		Level = 54,
 		Class = "WARLOCK",
-	},
-	[6197] = {
-		Level = 14,
-		Class = "HUNTER",
-	},
-	[30324] = {
-		Level = 70,
-		Class = "WARRIOR",
-	},
-	[30356] = {
-		Level = 70,
-		Class = "WARRIOR",
 	},
 	[20153] = {
 		Level = 50,
 		Class = "WARLOCK",
 	},
-	[20185] = {
-		Level = 30,
-		Class = "PALADIN",
-	},
-	[20217] = {
-		Level = 20,
-		Class = "PALADIN",
-	},
 	[698] = {
 		Level = 20,
 		Class = "WARLOCK",
 	},
-	[15262] = {
-		Level = 24,
-		Class = "PRIEST",
+	[11780] = {
+		Level = 60,
+		Class = "MAGE",
 	},
 	[7641] = {
 		Level = 36,
 		Class = "WARLOCK",
 	},
-	[49142] = {
-		Level = 55,
+	[43265] = {
+		Level = 60,
 		Class = "DEATHKNIGHT",
 	},
-	[702] = {
-		Level = 4,
-		Class = "WARLOCK",
-	},
-	[703] = {
-		Level = 14,
-		Class = "ROGUE",
-	},
-	[42913] = {
-		Level = 72,
-		Class = "MAGE",
-	},
-	[705] = {
-		Level = 12,
-		Class = "WARLOCK",
+	[47488] = {
+		Level = 80,
+		Class = "WARRIOR",
 	},
 	[706] = {
 		Level = 20,
 		Class = "WARLOCK",
 	},
-	[707] = {
-		Level = 10,
-		Class = "WARLOCK",
-	},
-	[20569] = {
-		Level = 60,
-		Class = "WARRIOR",
-	},
 	[709] = {
 		Level = 30,
 		Class = "WARLOCK",
-	},
-	[710] = {
-		Level = 28,
-		Class = "WARLOCK",
-	},
-	[10497] = {
-		Level = 56,
-		Class = "SHAMAN",
-	},
-	[47519] = {
-		Level = 72,
-		Class = "WARRIOR",
-	},
-	[2974] = {
-		Level = 12,
-		Class = "HUNTER",
-	},
-	[61846] = {
-		Level = 74,
-		Class = "HUNTER",
-	},
-	[57946] = {
-		Level = 80,
-		Class = "WARLOCK",
-	},
-	[1002] = {
-		Level = 14,
-		Class = "HUNTER",
 	},
 	[5730] = {
 		Level = 8,
 		Class = "SHAMAN",
 	},
-	[66530] = {
-		Level = 10,
-		Class = "DRUID",
-	},
-	[49056] = {
-		Level = 78,
-		Class = "HUNTER",
-	},
-	[13551] = {
-		Level = 26,
-		Class = "HUNTER",
+	[64380] = {
+		Level = 71,
+		Class = "WARRIOR",
 	},
 	[9473] = {
 		Level = 32,
 		Class = "PRIEST",
 	},
-	[53351] = {
-		Level = 71,
-		Class = "HUNTER",
-	},
-	[49000] = {
-		Level = 73,
+	[14314] = {
+		Level = 44,
 		Class = "HUNTER",
 	},
 	[54428] = {
 		Level = 71,
 		Class = "PALADIN",
 	},
-	[42210] = {
-		Level = 36,
-		Class = "MAGE",
-	},
-	[11600] = {
-		Level = 44,
-		Class = "WARRIOR",
-	},
-	[48479] = {
-		Level = 73,
-		Class = "DRUID",
-	},
-	[53271] = {
-		Level = 75,
-		Class = "HUNTER",
-	},
-	[2362] = {
-		Level = 36,
-		Class = "WARLOCK",
-	},
-	[25367] = {
-		Level = 65,
-		Class = "PRIEST",
-	},
-	[14324] = {
-		Level = 40,
-		Class = "HUNTER",
-	},
-	[25431] = {
-		Level = 69,
-		Class = "PRIEST",
-	},
-	[11712] = {
-		Level = 48,
-		Class = "WARLOCK",
+	[20165] = {
+		Level = 30,
+		Class = "PALADIN",
 	},
 	[38692] = {
 		Level = 70,
 		Class = "MAGE",
 	},
-	[23455] = {
-		Level = 20,
-		Class = "PRIEST",
-	},
 	[42914] = {
 		Level = 78,
-		Class = "MAGE",
-	},
-	[34074] = {
-		Level = 20,
-		Class = "HUNTER",
-	},
-	[9745] = {
-		Level = 42,
-		Class = "DRUID",
-	},
-	[14316] = {
-		Level = 44,
-		Class = "HUNTER",
-	},
-	[740] = {
-		Level = 30,
-		Class = "DRUID",
-	},
-	[32999] = {
-		Level = 70,
-		Class = "PRIEST",
-	},
-	[61721] = {
-		Level = 60,
-		Class = "MAGE",
-	},
-	[5938] = {
-		Level = 70,
-		Class = "ROGUE",
-	},
-	[57755] = {
-		Level = 80,
-		Class = "WARRIOR",
-	},
-	[9857] = {
-		Level = 54,
-		Class = "DRUID",
-	},
-	[14314] = {
-		Level = 44,
-		Class = "HUNTER",
-	},
-	[9889] = {
-		Level = 56,
-		Class = "DRUID",
-	},
-	[21849] = {
-		Level = 50,
-		Class = "DRUID",
-	},
-	[19834] = {
-		Level = 12,
-		Class = "PALADIN",
-	},
-	[11281] = {
-		Level = 60,
-		Class = "ROGUE",
-	},
-	[19898] = {
-		Level = 56,
-		Class = "PALADIN",
-	},
-	[47520] = {
-		Level = 77,
-		Class = "WARRIOR",
-	},
-	[2591] = {
-		Level = 28,
-		Class = "ROGUE",
-	},
-	[1856] = {
-		Level = 22,
-		Class = "ROGUE",
-	},
-	[755] = {
-		Level = 12,
-		Class = "WARLOCK",
-	},
-	[9880] = {
-		Level = 50,
-		Class = "DRUID",
-	},
-	[42211] = {
-		Level = 44,
 		Class = "MAGE",
 	},
 	[30357] = {
 		Level = 70,
 		Class = "WARRIOR",
 	},
-	[6066] = {
-		Level = 36,
-		Class = "PRIEST",
+	[6131] = {
+		Level = 40,
+		Class = "MAGE",
 	},
 	[6074] = {
 		Level = 14,
 		Class = "PRIEST",
 	},
-	[8129] = {
-		Level = 24,
-		Class = "PRIEST",
+	[49280] = {
+		Level = 75,
+		Class = "SHAMAN",
 	},
 	[48672] = {
 		Level = 79,
 		Class = "ROGUE",
 	},
-	[10145] = {
-		Level = 52,
-		Class = "MAGE",
-	},
-	[48800] = {
-		Level = 73,
-		Class = "PALADIN",
-	},
-	[10177] = {
-		Level = 52,
-		Class = "MAGE",
-	},
-	[10193] = {
-		Level = 60,
-		Class = "MAGE",
-	},
-	[8177] = {
-		Level = 30,
-		Class = "SHAMAN",
-	},
 	[10225] = {
 		Level = 60,
-		Class = "MAGE",
-	},
-	[769] = {
-		Level = 34,
-		Class = "DRUID",
-	},
-	[43043] = {
-		Level = 71,
-		Class = "MAGE",
-	},
-	[10273] = {
-		Level = 48,
 		Class = "MAGE",
 	},
 	[772] = {
 		Level = 4,
 		Class = "WARRIOR",
 	},
-	[51423] = {
-		Level = 67,
-		Class = "DEATHKNIGHT",
-	},
-	[774] = {
-		Level = 4,
+	[8907] = {
+		Level = 40,
 		Class = "DRUID",
 	},
-	[8621] = {
-		Level = 38,
-		Class = "ROGUE",
+	[49920] = {
+		Level = 75,
+		Class = "DEATHKNIGHT",
 	},
-	[6202] = {
-		Level = 22,
-		Class = "WARLOCK",
-	},
-	[53726] = {
-		Level = 66,
-		Class = "PALADIN",
-	},
-	[2983] = {
-		Level = 10,
-		Class = "ROGUE",
+	[25217] = {
+		Level = 65,
+		Class = "PRIEST",
 	},
 	[779] = {
 		Level = 16,
 		Class = "DRUID",
-	},
-	[780] = {
-		Level = 24,
-		Class = "DRUID",
-	},
-	[781] = {
-		Level = 20,
-		Class = "HUNTER",
-	},
-	[8402] = {
-		Level = 36,
-		Class = "MAGE",
 	},
 	[20922] = {
 		Level = 40,
@@ -2126,545 +6979,245 @@ lib.spellIdData = {
 		Level = 20,
 		Class = "SHAMAN",
 	},
-	[8450] = {
-		Level = 24,
-		Class = "MAGE",
-	},
-	[48161] = {
-		Level = 80,
-		Class = "PRIEST",
-	},
-	[1776] = {
-		Level = 6,
+	[11294] = {
+		Level = 54,
 		Class = "ROGUE",
 	},
 	[27223] = {
 		Level = 68,
 		Class = "WARLOCK",
 	},
-	[42212] = {
-		Level = 52,
-		Class = "MAGE",
-	},
-	[58652] = {
+	[57933] = {
 		Level = 75,
-		Class = "SHAMAN",
-	},
-	[1760] = {
-		Level = 30,
 		Class = "ROGUE",
 	},
 	[25304] = {
 		Level = 60,
 		Class = "MAGE",
 	},
-	[45298] = {
-		Level = 40,
-		Class = "SHAMAN",
-	},
-	[6346] = {
-		Level = 20,
-		Class = "PRIEST",
-	},
-	[19837] = {
-		Level = 42,
-		Class = "PALADIN",
-	},
-	[48801] = {
-		Level = 79,
-		Class = "PALADIN",
-	},
-	[25464] = {
-		Level = 68,
-		Class = "SHAMAN",
-	},
-	[53023] = {
-		Level = 80,
-		Class = "PRIEST",
-	},
-	[25528] = {
-		Level = 65,
-		Class = "SHAMAN",
-	},
-	[25560] = {
-		Level = 67,
-		Class = "SHAMAN",
-	},
-	[8951] = {
-		Level = 42,
-		Class = "DRUID",
-	},
-	[43044] = {
-		Level = 79,
-		Class = "MAGE",
-	},
-	[21562] = {
-		Level = 48,
-		Class = "PRIEST",
-	},
-	[53407] = {
-		Level = 28,
-		Class = "PALADIN",
-	},
-	[51424] = {
-		Level = 73,
-		Class = "DEATHKNIGHT",
-	},
-	[27799] = {
-		Level = 44,
-		Class = "PRIEST",
-	},
-	[8494] = {
-		Level = 28,
-		Class = "MAGE",
-	},
-	[2836] = {
-		Level = 24,
-		Class = "ROGUE",
-	},
-	[10881] = {
-		Level = 46,
-		Class = "PRIEST",
-	},
-	[11303] = {
-		Level = 52,
-		Class = "ROGUE",
-	},
-	[57933] = {
-		Level = 75,
-		Class = "ROGUE",
-	},
-	[10929] = {
-		Level = 56,
-		Class = "PRIEST",
-	},
-	[19835] = {
-		Level = 22,
-		Class = "PALADIN",
-	},
-	[10961] = {
-		Level = 60,
-		Class = "PRIEST",
-	},
-	[19899] = {
-		Level = 48,
-		Class = "PALADIN",
-	},
-	[56222] = {
-		Level = 65,
-		Class = "DEATHKNIGHT",
-	},
 	[1759] = {
 		Level = 22,
 		Class = "ROGUE",
 	},
-	[48162] = {
-		Level = 80,
-		Class = "PRIEST",
-	},
-	[6546] = {
-		Level = 10,
-		Class = "WARRIOR",
+	[43010] = {
+		Level = 78,
+		Class = "MAGE",
 	},
 	[408] = {
 		Level = 30,
 		Class = "ROGUE",
 	},
+	[25528] = {
+		Level = 65,
+		Class = "SHAMAN",
+	},
+	[2139] = {
+		Level = 24,
+		Class = "MAGE",
+	},
+	[66530] = {
+		Level = 10,
+		Class = "DRUID",
+	},
+	[11682] = {
+		Level = 54,
+		Class = "WARLOCK",
+	},
 	[42213] = {
 		Level = 60,
 		Class = "MAGE",
-	},
-	[11294] = {
-		Level = 54,
-		Class = "ROGUE",
-	},
-	[52610] = {
-		Level = 75,
-		Class = "DRUID",
-	},
-	[27150] = {
-		Level = 66,
-		Class = "PALADIN",
-	},
-	[10486] = {
-		Level = 50,
-		Class = "SHAMAN",
-	},
-	[48674] = {
-		Level = 76,
-		Class = "ROGUE",
-	},
-	[15263] = {
-		Level = 30,
-		Class = "PRIEST",
-	},
-	[25300] = {
-		Level = 60,
-		Class = "ROGUE",
-	},
-	[26997] = {
-		Level = 64,
-		Class = "DRUID",
-	},
-	[50977] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
-	},
-	[3029] = {
-		Level = 28,
-		Class = "DRUID",
-	},
-	[42917] = {
-		Level = 75,
-		Class = "MAGE",
-	},
-	[26839] = {
-		Level = 61,
-		Class = "ROGUE",
-	},
-	[43045] = {
-		Level = 71,
-		Class = "MAGE",
-	},
-	[11297] = {
-		Level = 48,
-		Class = "ROGUE",
-	},
-	[53408] = {
-		Level = 12,
-		Class = "PALADIN",
-	},
-	[51425] = {
-		Level = 79,
-		Class = "DEATHKNIGHT",
-	},
-	[27096] = {
-		Level = 60,
-		Class = "ROGUE",
-	},
-	[53600] = {
-		Level = 75,
-		Class = "PALADIN",
-	},
-	[6774] = {
-		Level = 42,
-		Class = "ROGUE",
 	},
 	[27441] = {
 		Level = 66,
 		Class = "ROGUE",
 	},
+	[17926] = {
+		Level = 58,
+		Class = "WARLOCK",
+	},
+	[6547] = {
+		Level = 20,
+		Class = "WARRIOR",
+	},
 	[32684] = {
 		Level = 69,
 		Class = "ROGUE",
 	},
-	[22842] = {
-		Level = 36,
-		Class = "DRUID",
+	[19837] = {
+		Level = 42,
+		Class = "PALADIN",
+	},
+	[26372] = {
+		Level = 70,
+		Class = "SHAMAN",
 	},
 	[6770] = {
 		Level = 10,
+		Class = "ROGUE",
+	},
+	[10456] = {
+		Level = 38,
+		Class = "SHAMAN",
+	},
+	[8643] = {
+		Level = 50,
 		Class = "ROGUE",
 	},
 	[845] = {
 		Level = 20,
 		Class = "WARRIOR",
 	},
-	[6762] = {
-		Level = 24,
-		Class = "ROGUE",
+	[49281] = {
+		Level = 80,
+		Class = "SHAMAN",
 	},
 	[20923] = {
 		Level = 50,
 		Class = "PALADIN",
 	},
-	[52129] = {
-		Level = 28,
-		Class = "SHAMAN",
-	},
-	[9474] = {
-		Level = 38,
-		Class = "PRIEST",
-	},
-	[9490] = {
-		Level = 32,
+	[768] = {
+		Level = 20,
 		Class = "DRUID",
 	},
-	[8929] = {
-		Level = 40,
+	[26884] = {
+		Level = 70,
+		Class = "ROGUE",
+	},
+	[62078] = {
+		Level = 71,
 		Class = "DRUID",
+	},
+	[49921] = {
+		Level = 80,
+		Class = "DEATHKNIGHT",
+	},
+	[27076] = {
+		Level = 64,
+		Class = "MAGE",
+	},
+	[27140] = {
+		Level = 70,
+		Class = "PALADIN",
 	},
 	[27224] = {
 		Level = 61,
 		Class = "WARLOCK",
 	},
-	[853] = {
-		Level = 8,
-		Class = "PALADIN",
-	},
-	[25241] = {
-		Level = 61,
-		Class = "WARRIOR",
-	},
-	[8676] = {
-		Level = 18,
-		Class = "ROGUE",
-	},
-	[8647] = {
-		Level = 14,
-		Class = "ROGUE",
-	},
-	[48673] = {
-		Level = 70,
-		Class = "ROGUE",
-	},
-	[11665] = {
+	[42243] = {
 		Level = 40,
-		Class = "WARLOCK",
+		Class = "HUNTER",
+	},
+	[58751] = {
+		Level = 73,
+		Class = "SHAMAN",
+	},
+	[57992] = {
+		Level = 74,
+		Class = "ROGUE",
 	},
 	[11681] = {
 		Level = 42,
 		Class = "WARLOCK",
 	},
-	[25433] = {
-		Level = 68,
-		Class = "PRIEST",
-	},
-	[11713] = {
-		Level = 58,
-		Class = "WARLOCK",
-	},
-	[48931] = {
-		Level = 73,
-		Class = "PALADIN",
-	},
-	[48995] = {
-		Level = 71,
-		Class = "HUNTER",
-	},
-	[8998] = {
-		Level = 28,
-		Class = "DRUID",
-	},
-	[865] = {
-		Level = 26,
-		Class = "MAGE",
-	},
-	[43046] = {
-		Level = 79,
-		Class = "MAGE",
-	},
-	[26679] = {
-		Level = 64,
+	[8631] = {
+		Level = 22,
 		Class = "ROGUE",
-	},
-	[11274] = {
-		Level = 52,
-		Class = "ROGUE",
-	},
-	[8637] = {
-		Level = 40,
-		Class = "ROGUE",
-	},
-	[27800] = {
-		Level = 52,
-		Class = "PRIEST",
 	},
 	[871] = {
 		Level = 28,
 		Class = "WARRIOR",
 	},
-	[45477] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
-	},
-	[57823] = {
-		Level = 80,
-		Class = "WARRIOR",
-	},
-	[694] = {
-		Level = 16,
-		Class = "WARRIOR",
-	},
-	[11566] = {
-		Level = 48,
-		Class = "WARRIOR",
-	},
-	[325] = {
-		Level = 16,
-		Class = "SHAMAN",
-	},
-	[19836] = {
-		Level = 32,
-		Class = "PALADIN",
-	},
-	[6761] = {
-		Level = 16,
-		Class = "ROGUE",
-	},
-	[879] = {
-		Level = 20,
-		Class = "PALADIN",
-	},
-	[4987] = {
-		Level = 42,
-		Class = "PALADIN",
-	},
-	[8631] = {
-		Level = 22,
-		Class = "ROGUE",
-	},
-	[6760] = {
-		Level = 8,
-		Class = "ROGUE",
-	},
-	[883] = {
-		Level = 10,
-		Class = "HUNTER",
-	},
-	[1785] = {
-		Level = 20,
-		Class = "ROGUE",
-	},
-	[8623] = {
-		Level = 32,
-		Class = "ROGUE",
+	[26998] = {
+		Level = 62,
+		Class = "DRUID",
 	},
 	[11289] = {
 		Level = 46,
 		Class = "ROGUE",
 	},
-	[1943] = {
-		Level = 20,
-		Class = "ROGUE",
+	[4987] = {
+		Level = 42,
+		Class = "PALADIN",
+	},
+	[9829] = {
+		Level = 46,
+		Class = "DRUID",
 	},
 	[24224] = {
 		Level = 60,
 		Class = "ROGUE",
 	},
-	[30455] = {
-		Level = 66,
+	[7301] = {
+		Level = 20,
 		Class = "MAGE",
-	},
-	[20252] = {
-		Level = 30,
-		Class = "WARRIOR",
 	},
 	[3562] = {
 		Level = 20,
 		Class = "MAGE",
 	},
-	[3566] = {
-		Level = 30,
-		Class = "MAGE",
-	},
-	[26889] = {
-		Level = 62,
-		Class = "ROGUE",
-	},
-	[38697] = {
-		Level = 70,
-		Class = "MAGE",
-	},
-	[48996] = {
-		Level = 77,
-		Class = "HUNTER",
-	},
-	[14320] = {
-		Level = 38,
-		Class = "HUNTER",
-	},
-	[9875] = {
-		Level = 50,
-		Class = "DRUID",
-	},
-	[1833] = {
-		Level = 26,
-		Class = "ROGUE",
+	[64382] = {
+		Level = 71,
+		Class = "WARRIOR",
 	},
 	[10274] = {
 		Level = 56,
 		Class = "MAGE",
 	},
-	[10290] = {
-		Level = 10,
-		Class = "PALADIN",
-	},
-	[45286] = {
-		Level = 8,
-		Class = "SHAMAN",
-	},
-	[10322] = {
-		Level = 24,
-		Class = "PALADIN",
-	},
-	[5171] = {
-		Level = 10,
-		Class = "ROGUE",
-	},
 	[5179] = {
 		Level = 22,
 		Class = "DRUID",
 	},
-	[905] = {
-		Level = 24,
-		Class = "SHAMAN",
+	[10053] = {
+		Level = 48,
+		Class = "MAGE",
+	},
+	[20166] = {
+		Level = 38,
+		Class = "PALADIN",
+	},
+	[20230] = {
+		Level = 20,
+		Class = "WARRIOR",
+	},
+	[10149] = {
+		Level = 48,
+		Class = "MAGE",
+	},
+	[10181] = {
+		Level = 56,
+		Class = "MAGE",
+	},
+	[28612] = {
+		Level = 60,
+		Class = "MAGE",
 	},
 	[5195] = {
 		Level = 28,
 		Class = "DRUID",
 	},
-	[11280] = {
-		Level = 52,
-		Class = "ROGUE",
-	},
-	[5211] = {
-		Level = 14,
-		Class = "DRUID",
-	},
-	[49892] = {
-		Level = 62,
+	[49903] = {
+		Level = 67,
 		Class = "DEATHKNIGHT",
 	},
-	[49360] = {
-		Level = 35,
-		Class = "MAGE",
-	},
-	[8419] = {
-		Level = 32,
-		Class = "MAGE",
-	},
-	[52131] = {
-		Level = 34,
-		Class = "SHAMAN",
-	},
-	[8451] = {
-		Level = 36,
-		Class = "MAGE",
-	},
-	[50212] = {
-		Level = 71,
-		Class = "DRUID",
-	},
-	[915] = {
-		Level = 20,
-		Class = "SHAMAN",
+	[49410] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
 	},
 	[7322] = {
 		Level = 20,
 		Class = "MAGE",
 	},
-	[25210] = {
-		Level = 63,
-		Class = "PRIEST",
+	[20742] = {
+		Level = 40,
+		Class = "DRUID",
 	},
-	[25242] = {
-		Level = 69,
-		Class = "WARRIOR",
+	[51723] = {
+		Level = 80,
+		Class = "ROGUE",
 	},
-	[10211] = {
-		Level = 48,
-		Class = "MAGE",
+	[10437] = {
+		Level = 50,
+		Class = "SHAMAN",
 	},
 	[25306] = {
 		Level = 60,
@@ -2674,241 +7227,57 @@ lib.spellIdData = {
 		Level = 4,
 		Class = "ROGUE",
 	},
-	[45302] = {
-		Level = 70,
-		Class = "SHAMAN",
+	[1058] = {
+		Level = 10,
+		Class = "DRUID",
 	},
-	[14752] = {
-		Level = 30,
-		Class = "PRIEST",
-	},
-	[48805] = {
-		Level = 74,
-		Class = "PALADIN",
-	},
-	[3698] = {
-		Level = 20,
-		Class = "WARLOCK",
-	},
-	[48933] = {
-		Level = 73,
-		Class = "PALADIN",
-	},
-	[50842] = {
-		Level = 56,
-		Class = "DEATHKNIGHT",
-	},
-	[42920] = {
-		Level = 76,
-		Class = "MAGE",
+	[42244] = {
+		Level = 50,
+		Class = "HUNTER",
 	},
 	[3714] = {
 		Level = 61,
 		Class = "DEATHKNIGHT",
 	},
-	[930] = {
-		Level = 40,
-		Class = "SHAMAN",
-	},
-	[21564] = {
+	[54785] = {
 		Level = 60,
-		Class = "PRIEST",
+		Class = "WARLOCK",
 	},
-	[55458] = {
-		Level = 74,
+	[7379] = {
+		Level = 34,
+		Class = "WARRIOR",
+	},
+	[3698] = {
+		Level = 20,
+		Class = "WARLOCK",
+	},
+	[2589] = {
+		Level = 12,
+		Class = "ROGUE",
+	},
+	[43012] = {
+		Level = 79,
+		Class = "MAGE",
+	},
+	[959] = {
+		Level = 32,
 		Class = "SHAMAN",
 	},
-	[45287] = {
-		Level = 14,
-		Class = "SHAMAN",
-	},
-	[27801] = {
-		Level = 60,
+	[970] = {
+		Level = 18,
 		Class = "PRIEST",
 	},
 	[3738] = {
 		Level = 64,
 		Class = "SHAMAN",
 	},
-	[25396] = {
-		Level = 70,
-		Class = "SHAMAN",
-	},
-	[48567] = {
-		Level = 73,
-		Class = "DRUID",
-	},
-	[10898] = {
-		Level = 42,
-		Class = "PRIEST",
-	},
-	[939] = {
-		Level = 24,
-		Class = "SHAMAN",
-	},
-	[11268] = {
-		Level = 50,
-		Class = "ROGUE",
-	},
-	[49893] = {
-		Level = 68,
-		Class = "DEATHKNIGHT",
-	},
-	[60192] = {
-		Level = 80,
-		Class = "HUNTER",
-	},
-	[943] = {
-		Level = 26,
-		Class = "SHAMAN",
-	},
-	[27002] = {
-		Level = 70,
-		Class = "DRUID",
-	},
-	[945] = {
-		Level = 32,
-		Class = "SHAMAN",
-	},
-	[50213] = {
-		Level = 79,
-		Class = "DRUID",
-	},
-	[8724] = {
-		Level = 26,
-		Class = "ROGUE",
-	},
-	[27097] = {
-		Level = 60,
-		Class = "ROGUE",
-	},
-	[32375] = {
-		Level = 70,
-		Class = "PRIEST",
-	},
-	[27095] = {
-		Level = 60,
-		Class = "ROGUE",
-	},
-	[1860] = {
+	[29166] = {
 		Level = 40,
-		Class = "ROGUE",
-	},
-	[58785] = {
-		Level = 71,
-		Class = "SHAMAN",
-	},
-	[8632] = {
-		Level = 30,
-		Class = "ROGUE",
-	},
-	[51723] = {
-		Level = 80,
-		Class = "ROGUE",
-	},
-	[61024] = {
-		Level = 80,
-		Class = "MAGE",
-	},
-	[48806] = {
-		Level = 80,
-		Class = "PALADIN",
-	},
-	[48676] = {
-		Level = 80,
-		Class = "ROGUE",
-	},
-	[48934] = {
-		Level = 79,
-		Class = "PALADIN",
-	},
-	[959] = {
-		Level = 32,
-		Class = "SHAMAN",
-	},
-	[42921] = {
-		Level = 80,
-		Class = "MAGE",
-	},
-	[42985] = {
-		Level = 77,
-		Class = "MAGE",
-	},
-	[48073] = {
-		Level = 80,
-		Class = "PRIEST",
-	},
-	[31016] = {
-		Level = 60,
-		Class = "ROGUE",
-	},
-	[11314] = {
-		Level = 42,
-		Class = "SHAMAN",
-	},
-	[45288] = {
-		Level = 20,
-		Class = "SHAMAN",
-	},
-	[5675] = {
-		Level = 26,
-		Class = "SHAMAN",
-	},
-	[26991] = {
-		Level = 70,
 		Class = "DRUID",
 	},
-	[9858] = {
-		Level = 60,
-		Class = "DRUID",
-	},
-	[5699] = {
-		Level = 34,
-		Class = "WARLOCK",
-	},
-	[37420] = {
-		Level = 65,
-		Class = "MAGE",
-	},
-	[48675] = {
-		Level = 75,
-		Class = "ROGUE",
-	},
-	[2590] = {
-		Level = 20,
-		Class = "ROGUE",
-	},
-	[49894] = {
-		Level = 76,
-		Class = "DEATHKNIGHT",
-	},
-	[48667] = {
-		Level = 73,
-		Class = "ROGUE",
-	},
-	[48659] = {
-		Level = 78,
-		Class = "ROGUE",
-	},
-	[976] = {
-		Level = 30,
+	[10917] = {
+		Level = 56,
 		Class = "PRIEST",
-	},
-	[27130] = {
-		Level = 63,
-		Class = "MAGE",
-	},
-	[2589] = {
-		Level = 12,
-		Class = "ROGUE",
-	},
-	[11554] = {
-		Level = 34,
-		Class = "WARRIOR",
-	},
-	[980] = {
-		Level = 8,
-		Class = "WARLOCK",
 	},
 	[42218] = {
 		Level = 69,
@@ -2918,349 +7287,85 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "HUNTER",
 	},
-	[1842] = {
-		Level = 30,
-		Class = "ROGUE",
-	},
-	[984] = {
-		Level = 22,
-		Class = "PRIEST",
-	},
-	[8696] = {
-		Level = 34,
-		Class = "ROGUE",
-	},
-	[31224] = {
-		Level = 66,
-		Class = "ROGUE",
-	},
 	[61025] = {
 		Level = 60,
 		Class = "MAGE",
-	},
-	[988] = {
-		Level = 36,
-		Class = "PRIEST",
-	},
-	[25467] = {
-		Level = 68,
-		Class = "PRIEST",
-	},
-	[990] = {
-		Level = 22,
-		Class = "MAGE",
-	},
-	[42858] = {
-		Level = 73,
-		Class = "MAGE",
-	},
-	[992] = {
-		Level = 26,
-		Class = "PRIEST",
-	},
-	[11778] = {
-		Level = 44,
-		Class = "MAGE",
-	},
-	[9747] = {
-		Level = 42,
-		Class = "DRUID",
-	},
-	[5229] = {
-		Level = 12,
-		Class = "DRUID",
-	},
-	[996] = {
-		Level = 40,
-		Class = "PRIEST",
-	},
-	[45289] = {
-		Level = 26,
-		Class = "SHAMAN",
-	},
-	[29166] = {
-		Level = 40,
-		Class = "DRUID",
-	},
-	[9827] = {
-		Level = 56,
-		Class = "DRUID",
-	},
-	[47528] = {
-		Level = 57,
-		Class = "DEATHKNIGHT",
-	},
-	[53733] = {
-		Level = 66,
-		Class = "PALADIN",
-	},
-	[19742] = {
-		Level = 14,
-		Class = "PALADIN",
-	},
-	[17727] = {
-		Level = 48,
-		Class = "WARLOCK",
-	},
-	[1004] = {
-		Level = 30,
-		Class = "PRIEST",
-	},
-	[49895] = {
-		Level = 80,
-		Class = "DEATHKNIGHT",
 	},
 	[1006] = {
 		Level = 40,
 		Class = "PRIEST",
 	},
-	[8050] = {
-		Level = 10,
-		Class = "SHAMAN",
-	},
-	[1008] = {
-		Level = 18,
-		Class = "MAGE",
-	},
-	[17919] = {
-		Level = 26,
-		Class = "WARLOCK",
-	},
-	[48168] = {
-		Level = 77,
-		Class = "PRIEST",
-	},
-	[44206] = {
-		Level = 50,
-		Class = "DRUID",
-	},
-	[17951] = {
-		Level = 36,
-		Class = "WARLOCK",
-	},
-	[22829] = {
-		Level = 56,
-		Class = "DRUID",
-	},
-	[58659] = {
-		Level = 80,
-		Class = "MAGE",
-	},
-	[48463] = {
-		Level = 80,
-		Class = "DRUID",
-	},
-	[6075] = {
-		Level = 20,
-		Class = "PRIEST",
-	},
-	[26363] = {
-		Level = 56,
-		Class = "SHAMAN",
-	},
-	[8950] = {
-		Level = 34,
-		Class = "DRUID",
-	},
-	[8946] = {
-		Level = 14,
-		Class = "DRUID",
-	},
-	[8154] = {
-		Level = 14,
-		Class = "SHAMAN",
-	},
-	[10179] = {
+	[19853] = {
 		Level = 44,
-		Class = "MAGE",
-	},
-	[48936] = {
-		Level = 77,
 		Class = "PALADIN",
 	},
-	[42859] = {
-		Level = 78,
-		Class = "MAGE",
+	[52610] = {
+		Level = 75,
+		Class = "DRUID",
 	},
-	[49064] = {
-		Level = 71,
-		Class = "HUNTER",
-	},
-	[1026] = {
-		Level = 22,
-		Class = "PALADIN",
-	},
-	[2055] = {
-		Level = 22,
+	[8122] = {
+		Level = 14,
 		Class = "PRIEST",
 	},
-	[20776] = {
-		Level = 48,
-		Class = "SHAMAN",
-	},
-	[1032] = {
-		Level = 40,
+	[1038] = {
+		Level = 26,
 		Class = "PALADIN",
 	},
-	[45290] = {
-		Level = 32,
-		Class = "SHAMAN",
-	},
-	[47857] = {
-		Level = 78,
+	[7651] = {
+		Level = 38,
 		Class = "WARLOCK",
-	},
-	[47465] = {
-		Level = 76,
-		Class = "WARRIOR",
-	},
-	[49576] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
-	},
-	[1042] = {
-		Level = 30,
-		Class = "PALADIN",
-	},
-	[1044] = {
-		Level = 18,
-		Class = "PALADIN",
 	},
 	[2091] = {
 		Level = 28,
 		Class = "DRUID",
 	},
-	[11682] = {
-		Level = 54,
-		Class = "WARLOCK",
-	},
-	[49896] = {
-		Level = 61,
-		Class = "DEATHKNIGHT",
-	},
-	[8926] = {
-		Level = 22,
-		Class = "DRUID",
-	},
-	[66] = {
-		Level = 68,
-		Class = "MAGE",
-	},
-	[27099] = {
-		Level = 60,
+	[11269] = {
+		Level = 58,
 		Class = "ROGUE",
-	},
-	[27131] = {
-		Level = 68,
-		Class = "MAGE",
-	},
-	[48169] = {
-		Level = 76,
-		Class = "PRIEST",
 	},
 	[1062] = {
 		Level = 18,
 		Class = "DRUID",
 	},
-	[1064] = {
-		Level = 40,
-		Class = "SHAMAN",
-	},
 	[27259] = {
 		Level = 67,
 		Class = "WARLOCK",
 	},
-	[64801] = {
-		Level = 80,
-		Class = "DRUID",
-	},
-	[67] = {
-		Level = 20,
-		Class = "PALADIN",
-	},
-	[25308] = {
-		Level = 68,
-		Class = "PRIEST",
-	},
-	[8918] = {
-		Level = 40,
-		Class = "DRUID",
-	},
-	[25372] = {
-		Level = 63,
-		Class = "PRIEST",
-	},
-	[19263] = {
-		Level = 60,
-		Class = "HUNTER",
-	},
-	[6363] = {
-		Level = 20,
+	[25489] = {
+		Level = 64,
 		Class = "SHAMAN",
 	},
-	[1082] = {
-		Level = 20,
+	[31018] = {
+		Level = 60,
 		Class = "DRUID",
 	},
-	[48937] = {
-		Level = 71,
-		Class = "PALADIN",
+	[70909] = {
+		Level = 50,
+		Class = "MAGE",
 	},
-	[1086] = {
-		Level = 30,
-		Class = "WARLOCK",
-	},
-	[1088] = {
-		Level = 20,
-		Class = "WARLOCK",
-	},
-	[61411] = {
-		Level = 80,
-		Class = "PALADIN",
-	},
-	[29722] = {
-		Level = 64,
-		Class = "WARLOCK",
-	},
-	[31801] = {
-		Level = 64,
-		Class = "PALADIN",
-	},
-	[26986] = {
-		Level = 67,
-		Class = "DRUID",
-	},
-	[1098] = {
-		Level = 30,
-		Class = "WARLOCK",
+	[49923] = {
+		Level = 75,
+		Class = "DEATHKNIGHT",
 	},
 	[27803] = {
 		Level = 44,
 		Class = "PRIEST",
 	},
-	[9007] = {
-		Level = 36,
-		Class = "DRUID",
+	[27141] = {
+		Level = 70,
+		Class = "PALADIN",
 	},
-	[8820] = {
-		Level = 38,
-		Class = "WARRIOR",
-	},
-	[1106] = {
+	[8227] = {
 		Level = 28,
-		Class = "WARLOCK",
+		Class = "SHAMAN",
 	},
-	[10899] = {
-		Level = 48,
-		Class = "PRIEST",
-	},
-	[10915] = {
-		Level = 44,
-		Class = "PRIEST",
-	},
-	[17329] = {
+	[42245] = {
 		Level = 58,
-		Class = "DRUID",
+		Class = "HUNTER",
+	},
+	[58753] = {
+		Level = 78,
+		Class = "SHAMAN",
 	},
 	[10947] = {
 		Level = 58,
@@ -3270,137 +7375,37 @@ lib.spellIdData = {
 		Level = 46,
 		Class = "PRIEST",
 	},
-	[6783] = {
-		Level = 40,
-		Class = "DRUID",
-	},
-	[1120] = {
-		Level = 10,
-		Class = "WARLOCK",
-	},
-	[17920] = {
-		Level = 34,
-		Class = "WARLOCK",
-	},
-	[48170] = {
-		Level = 77,
-		Class = "PRIEST",
-	},
-	[6547] = {
-		Level = 20,
-		Class = "WARRIOR",
-	},
-	[6800] = {
-		Level = 30,
-		Class = "DRUID",
-	},
-	[1130] = {
-		Level = 6,
-		Class = "HUNTER",
-	},
-	[3137] = {
-		Level = 26,
-		Class = "DRUID",
-	},
 	[71] = {
 		Level = 10,
 		Class = "WARRIOR",
-	},
-	[58789] = {
-		Level = 76,
-		Class = "SHAMAN",
 	},
 	[26364] = {
 		Level = 8,
 		Class = "SHAMAN",
 	},
-	[31018] = {
-		Level = 60,
+	[5234] = {
+		Level = 30,
 		Class = "DRUID",
-	},
-	[15265] = {
-		Level = 42,
-		Class = "PRIEST",
-	},
-	[34433] = {
-		Level = 66,
-		Class = "PRIEST",
-	},
-	[45295] = {
-		Level = 62,
-		Class = "SHAMAN",
-	},
-	[48938] = {
-		Level = 77,
-		Class = "PALADIN",
-	},
-	[72] = {
-		Level = 12,
-		Class = "WARRIOR",
-	},
-	[42925] = {
-		Level = 72,
-		Class = "MAGE",
-	},
-	[11267] = {
-		Level = 42,
-		Class = "ROGUE",
-	},
-	[11567] = {
-		Level = 56,
-		Class = "WARRIOR",
 	},
 	[11299] = {
 		Level = 48,
 		Class = "ROGUE",
 	},
-	[1160] = {
-		Level = 14,
-		Class = "WARRIOR",
-	},
-	[45292] = {
-		Level = 44,
-		Class = "SHAMAN",
-	},
-	[20742] = {
-		Level = 40,
-		Class = "DRUID",
-	},
-	[2637] = {
-		Level = 18,
-		Class = "DRUID",
-	},
-	[8910] = {
-		Level = 40,
-		Class = "DRUID",
-	},
-	[53736] = {
-		Level = 66,
-		Class = "PALADIN",
-	},
-	[2893] = {
-		Level = 26,
-		Class = "DRUID",
-	},
-	[8462] = {
-		Level = 42,
-		Class = "MAGE",
-	},
-	[2912] = {
+	[6756] = {
 		Level = 20,
 		Class = "DRUID",
 	},
-	[1178] = {
-		Level = 10,
+	[5225] = {
+		Level = 32,
 		Class = "DRUID",
 	},
-	[8418] = {
-		Level = 40,
-		Class = "MAGE",
-	},
-	[48462] = {
-		Level = 75,
+	[9824] = {
+		Level = 46,
 		Class = "DRUID",
+	},
+	[8019] = {
+		Level = 16,
+		Class = "SHAMAN",
 	},
 	[13554] = {
 		Level = 50,
@@ -3410,112 +7415,12 @@ lib.spellIdData = {
 		Level = 42,
 		Class = "DRUID",
 	},
-	[48171] = {
-		Level = 78,
-		Class = "PRIEST",
-	},
-	[11555] = {
-		Level = 44,
-		Class = "WARRIOR",
-	},
-	[48299] = {
-		Level = 73,
-		Class = "PRIEST",
-	},
-	[25213] = {
-		Level = 68,
-		Class = "PRIEST",
-	},
-	[5225] = {
-		Level = 32,
-		Class = "DRUID",
-	},
-	[26996] = {
-		Level = 67,
-		Class = "DRUID",
-	},
-	[25309] = {
-		Level = 60,
-		Class = "WARLOCK",
-	},
-	[1822] = {
-		Level = 24,
-		Class = "DRUID",
-	},
-	[11667] = {
-		Level = 50,
-		Class = "WARLOCK",
-	},
-	[11683] = {
-		Level = 42,
-		Class = "WARLOCK",
-	},
-	[11699] = {
+	[10945] = {
 		Level = 46,
-		Class = "WARLOCK",
+		Class = "PRIEST",
 	},
-	[25469] = {
-		Level = 63,
-		Class = "SHAMAN",
-	},
-	[38704] = {
-		Level = 70,
-		Class = "MAGE",
-	},
-	[25533] = {
-		Level = 69,
-		Class = "SHAMAN",
-	},
-	[42926] = {
-		Level = 79,
-		Class = "MAGE",
-	},
-	[11779] = {
-		Level = 52,
-		Class = "MAGE",
-	},
-	[9824] = {
-		Level = 46,
-		Class = "DRUID",
-	},
-	[50766] = {
-		Level = 48,
-		Class = "DRUID",
-	},
-	[27003] = {
-		Level = 64,
-		Class = "DRUID",
-	},
-	[45293] = {
-		Level = 50,
-		Class = "SHAMAN",
-	},
-	[31898] = {
-		Level = 64,
-		Class = "PALADIN",
-	},
-	[49376] = {
-		Level = 20,
-		Class = "DRUID",
-	},
-	[9758] = {
-		Level = 44,
-		Class = "DRUID",
-	},
-	[32841] = {
-		Level = 70,
-		Class = "PALADIN",
-	},
-	[9876] = {
-		Level = 58,
-		Class = "DRUID",
-	},
-	[9892] = {
-		Level = 52,
-		Class = "DRUID",
-	},
-	[9908] = {
-		Level = 54,
+	[16810] = {
+		Level = 18,
 		Class = "DRUID",
 	},
 	[5180] = {
@@ -3526,349 +7431,105 @@ lib.spellIdData = {
 		Level = 12,
 		Class = "PRIEST",
 	},
-	[22570] = {
-		Level = 62,
-		Class = "DRUID",
-	},
-	[52138] = {
-		Level = 55,
-		Class = "SHAMAN",
-	},
 	[17921] = {
 		Level = 42,
 		Class = "WARLOCK",
-	},
-	[12051] = {
-		Level = 20,
-		Class = "MAGE",
-	},
-	[5177] = {
-		Level = 6,
-		Class = "DRUID",
 	},
 	[48300] = {
 		Level = 79,
 		Class = "PRIEST",
 	},
-	[42223] = {
-		Level = 20,
+	[126] = {
+		Level = 22,
 		Class = "WARLOCK",
 	},
-	[62757] = {
-		Level = 80,
-		Class = "HUNTER",
-	},
-	[51991] = {
-		Level = 50,
+	[16356] = {
+		Level = 58,
 		Class = "SHAMAN",
 	},
-	[48573] = {
-		Level = 72,
-		Class = "DRUID",
+	[8198] = {
+		Level = 18,
+		Class = "WARRIOR",
 	},
 	[30459] = {
 		Level = 70,
 		Class = "WARLOCK",
 	},
-	[26989] = {
-		Level = 68,
-		Class = "DRUID",
-	},
-	[10148] = {
-		Level = 42,
-		Class = "MAGE",
-	},
-	[526] = {
-		Level = 16,
-		Class = "SHAMAN",
-	},
-	[10180] = {
-		Level = 50,
-		Class = "MAGE",
-	},
-	[14290] = {
-		Level = 54,
-		Class = "HUNTER",
-	},
-	[10212] = {
-		Level = 56,
-		Class = "MAGE",
-	},
-	[14322] = {
-		Level = 58,
-		Class = "HUNTER",
-	},
-	[8012] = {
-		Level = 32,
-		Class = "SHAMAN",
-	},
-	[44203] = {
-		Level = 30,
-		Class = "DRUID",
-	},
-	[5232] = {
-		Level = 10,
-		Class = "DRUID",
-	},
 	[10292] = {
 		Level = 50,
 		Class = "PALADIN",
 	},
-	[12355] = {
-		Level = 10,
-		Class = "MAGE",
-	},
-	[10324] = {
-		Level = 36,
-		Class = "PALADIN",
-	},
-	[27230] = {
-		Level = 68,
-		Class = "WARLOCK",
-	},
-	[18657] = {
-		Level = 38,
+	[27012] = {
+		Level = 70,
 		Class = "DRUID",
-	},
-	[22783] = {
-		Level = 58,
-		Class = "MAGE",
 	},
 	[5196] = {
 		Level = 38,
-		Class = "DRUID",
-	},
-	[57960] = {
-		Level = 76,
-		Class = "SHAMAN",
-	},
-	[11730] = {
-		Level = 58,
-		Class = "WARLOCK",
-	},
-	[27005] = {
-		Level = 66,
-		Class = "DRUID",
-	},
-	[50768] = {
-		Level = 24,
-		Class = "DRUID",
-	},
-	[10468] = {
-		Level = 60,
-		Class = "SHAMAN",
-	},
-	[27101] = {
-		Level = 68,
-		Class = "MAGE",
-	},
-	[9904] = {
-		Level = 54,
-		Class = "DRUID",
-	},
-	[27009] = {
-		Level = 68,
-		Class = "DRUID",
-	},
-	[27001] = {
-		Level = 61,
-		Class = "DRUID",
-	},
-	[44207] = {
-		Level = 60,
 		Class = "DRUID",
 	},
 	[42224] = {
 		Level = 34,
 		Class = "WARLOCK",
 	},
-	[26985] = {
-		Level = 69,
-		Class = "DRUID",
+	[12485] = {
+		Level = 10,
+		Class = "MAGE",
 	},
-	[27218] = {
-		Level = 67,
-		Class = "WARLOCK",
+	[8422] = {
+		Level = 32,
+		Class = "MAGE",
 	},
 	[5308] = {
 		Level = 24,
 		Class = "WARRIOR",
 	},
-	[33786] = {
-		Level = 70,
-		Class = "DRUID",
-	},
-	[27012] = {
-		Level = 70,
-		Class = "DRUID",
-	},
-	[7379] = {
-		Level = 34,
-		Class = "WARRIOR",
-	},
-	[42230] = {
-		Level = 70,
-		Class = "DRUID",
-	},
-	[27006] = {
-		Level = 66,
-		Class = "DRUID",
-	},
-	[48941] = {
-		Level = 74,
-		Class = "PALADIN",
-	},
 	[14818] = {
 		Level = 40,
 		Class = "PRIEST",
 	},
-	[2687] = {
-		Level = 10,
-		Class = "WARRIOR",
-	},
-	[26988] = {
+	[25222] = {
 		Level = 70,
-		Class = "DRUID",
-	},
-	[8725] = {
-		Level = 34,
-		Class = "ROGUE",
-	},
-	[31803] = {
-		Level = 64,
-		Class = "PALADIN",
-	},
-	[44208] = {
-		Level = 70,
-		Class = "DRUID",
-	},
-	[14914] = {
-		Level = 20,
 		Class = "PRIEST",
 	},
-	[27805] = {
+	[25286] = {
 		Level = 60,
-		Class = "PRIEST",
-	},
-	[47470] = {
-		Level = 73,
 		Class = "WARRIOR",
 	},
-	[48559] = {
-		Level = 71,
-		Class = "DRUID",
-	},
-	[8955] = {
-		Level = 38,
+	[5229] = {
+		Level = 12,
 		Class = "DRUID",
 	},
 	[10900] = {
 		Level = 54,
 		Class = "PRIEST",
 	},
-	[10916] = {
-		Level = 50,
-		Class = "PRIEST",
-	},
-	[27215] = {
-		Level = 69,
-		Class = "WARLOCK",
-	},
-	[48450] = {
-		Level = 72,
-		Class = "DRUID",
-	},
 	[10964] = {
 		Level = 52,
 		Class = "PRIEST",
 	},
-	[48572] = {
-		Level = 80,
+	[48575] = {
+		Level = 76,
 		Class = "DRUID",
 	},
-	[33717] = {
-		Level = 70,
+	[62600] = {
+		Level = 40,
+		Class = "DRUID",
+	},
+	[49804] = {
+		Level = 77,
+		Class = "DRUID",
+	},
+	[49360] = {
+		Level = 35,
 		Class = "MAGE",
 	},
-	[17922] = {
-		Level = 50,
+	[29893] = {
+		Level = 68,
 		Class = "WARLOCK",
-	},
-	[28189] = {
-		Level = 69,
-		Class = "WARLOCK",
-	},
-	[48569] = {
-		Level = 73,
-		Class = "DRUID",
-	},
-	[2767] = {
-		Level = 34,
-		Class = "PRIEST",
-	},
-	[32379] = {
-		Level = 62,
-		Class = "PRIEST",
-	},
-	[47206] = {
-		Level = 60,
-		Class = "WARLOCK",
-	},
-	[8190] = {
-		Level = 26,
-		Class = "SHAMAN",
-	},
-	[8204] = {
-		Level = 28,
-		Class = "WARRIOR",
-	},
-	[26366] = {
-		Level = 24,
-		Class = "SHAMAN",
-	},
-	[2791] = {
-		Level = 36,
-		Class = "PRIEST",
-	},
-	[5588] = {
-		Level = 24,
-		Class = "PALADIN",
-	},
-	[1058] = {
-		Level = 10,
-		Class = "DRUID",
-	},
-	[7651] = {
-		Level = 38,
-		Class = "WARLOCK",
-	},
-	[48942] = {
-		Level = 79,
-		Class = "PALADIN",
-	},
-	[27007] = {
-		Level = 66,
-		Class = "DRUID",
-	},
-	[25368] = {
-		Level = 70,
-		Class = "PRIEST",
-	},
-	[16387] = {
-		Level = 58,
-		Class = "SHAMAN",
-	},
-	[36916] = {
-		Level = 70,
-		Class = "HUNTER",
 	},
 	[11300] = {
 		Level = 56,
 		Class = "ROGUE",
-	},
-	[48571] = {
-		Level = 75,
-		Class = "DRUID",
 	},
 	[20609] = {
 		Level = 24,
@@ -3878,665 +7539,197 @@ lib.spellIdData = {
 		Level = 18,
 		Class = "WARLOCK",
 	},
-	[47471] = {
-		Level = 80,
-		Class = "WARRIOR",
-	},
-	[18658] = {
-		Level = 58,
-		Class = "DRUID",
-	},
-	[42232] = {
-		Level = 50,
-		Class = "DRUID",
-	},
-	[48565] = {
-		Level = 75,
-		Class = "DRUID",
-	},
-	[1430] = {
-		Level = 16,
-		Class = "DRUID",
-	},
-	[6756] = {
+	[5215] = {
 		Level = 20,
 		Class = "DRUID",
 	},
-	[47855] = {
-		Level = 77,
+	[17928] = {
+		Level = 54,
 		Class = "WARLOCK",
 	},
-	[5740] = {
-		Level = 20,
-		Class = "WARLOCK",
-	},
-	[27070] = {
-		Level = 66,
-		Class = "MAGE",
-	},
-	[13555] = {
-		Level = 58,
-		Class = "HUNTER",
-	},
-	[48575] = {
-		Level = 76,
+	[8998] = {
+		Level = 28,
 		Class = "DRUID",
 	},
 	[9493] = {
 		Level = 36,
 		Class = "DRUID",
 	},
-	[11556] = {
-		Level = 54,
-		Class = "WARRIOR",
-	},
 	[11572] = {
 		Level = 40,
 		Class = "WARRIOR",
-	},
-	[42226] = {
-		Level = 58,
-		Class = "WARLOCK",
-	},
-	[11604] = {
-		Level = 46,
-		Class = "WARRIOR",
-	},
-	[1454] = {
-		Level = 6,
-		Class = "WARLOCK",
 	},
 	[25311] = {
 		Level = 60,
 		Class = "WARLOCK",
 	},
-	[49804] = {
-		Level = 77,
+	[18960] = {
+		Level = 10,
 		Class = "DRUID",
 	},
-	[25375] = {
-		Level = 69,
-		Class = "PRIEST",
-	},
-	[11684] = {
-		Level = 54,
-		Class = "WARLOCK",
-	},
-	[1464] = {
-		Level = 30,
-		Class = "WARRIOR",
-	},
-	[8010] = {
-		Level = 36,
+	[25535] = {
+		Level = 61,
 		Class = "SHAMAN",
-	},
-	[48943] = {
-		Level = 76,
-		Class = "PALADIN",
-	},
-	[13795] = {
-		Level = 16,
-		Class = "HUNTER",
-	},
-	[42930] = {
-		Level = 72,
-		Class = "MAGE",
-	},
-	[11780] = {
-		Level = 60,
-		Class = "MAGE",
-	},
-	[48574] = {
-		Level = 78,
-		Class = "DRUID",
-	},
-	[31804] = {
-		Level = 64,
-		Class = "PALADIN",
-	},
-	[8455] = {
-		Level = 30,
-		Class = "MAGE",
-	},
-	[45297] = {
-		Level = 32,
-		Class = "SHAMAN",
-	},
-	[10308] = {
-		Level = 54,
-		Class = "PALADIN",
-	},
-	[9829] = {
-		Level = 46,
-		Class = "DRUID",
-	},
-	[9845] = {
-		Level = 48,
-		Class = "DRUID",
-	},
-	[1490] = {
-		Level = 32,
-		Class = "WARLOCK",
 	},
 	[19746] = {
 		Level = 22,
 		Class = "PALADIN",
 	},
-	[8019] = {
-		Level = 16,
-		Class = "SHAMAN",
-	},
 	[8027] = {
 		Level = 18,
 		Class = "SHAMAN",
 	},
-	[47856] = {
-		Level = 76,
-		Class = "WARLOCK",
-	},
-	[60202] = {
-		Level = 60,
-		Class = "HUNTER",
-	},
-	[6808] = {
-		Level = 18,
-		Class = "DRUID",
-	},
-	[27004] = {
-		Level = 69,
-		Class = "DRUID",
-	},
-	[48112] = {
-		Level = 74,
-		Class = "PRIEST",
-	},
-	[8075] = {
-		Level = 10,
-		Class = "SHAMAN",
-	},
-	[1510] = {
-		Level = 40,
-		Class = "HUNTER",
-	},
-	[9492] = {
-		Level = 28,
-		Class = "DRUID",
-	},
-	[10053] = {
-		Level = 48,
-		Class = "MAGE",
-	},
-	[6060] = {
-		Level = 38,
-		Class = "PRIEST",
-	},
-	[58731] = {
-		Level = 73,
-		Class = "SHAMAN",
-	},
-	[6076] = {
-		Level = 26,
-		Class = "PRIEST",
-	},
-	[26367] = {
-		Level = 32,
-		Class = "SHAMAN",
-	},
-	[48467] = {
+	[50763] = {
 		Level = 80,
 		Class = "DRUID",
 	},
-	[10149] = {
-		Level = 48,
-		Class = "MAGE",
-	},
-	[48816] = {
-		Level = 72,
+	[27149] = {
+		Level = 70,
 		Class = "PALADIN",
 	},
-	[10181] = {
-		Level = 56,
-		Class = "MAGE",
-	},
-	[10197] = {
-		Level = 46,
-		Class = "MAGE",
-	},
-	[61290] = {
-		Level = 80,
-		Class = "WARLOCK",
-	},
-	[42931] = {
-		Level = 79,
-		Class = "MAGE",
-	},
-	[8198] = {
-		Level = 18,
-		Class = "WARRIOR",
-	},
-	[48568] = {
-		Level = 80,
-		Class = "DRUID",
+	[49939] = {
+		Level = 66,
+		Class = "DEATHKNIGHT",
 	},
 	[18499] = {
 		Level = 32,
 		Class = "WARRIOR",
 	},
-	[10293] = {
-		Level = 60,
-		Class = "PALADIN",
-	},
-	[20610] = {
-		Level = 36,
-		Class = "SHAMAN",
-	},
-	[48451] = {
-		Level = 80,
+	[16812] = {
+		Level = 38,
 		Class = "DRUID",
 	},
-	[30909] = {
-		Level = 69,
-		Class = "WARLOCK",
-	},
-	[16810] = {
-		Level = 18,
-		Class = "DRUID",
-	},
-	[53742] = {
-		Level = 66,
-		Class = "PALADIN",
-	},
-	[20770] = {
-		Level = 58,
-		Class = "PRIEST",
-	},
-	[48469] = {
-		Level = 80,
-		Class = "DRUID",
-	},
-	[47793] = {
-		Level = 76,
-		Class = "WARLOCK",
-	},
-	[49904] = {
-		Level = 73,
-		Class = "DEATHKNIGHT",
-	},
-	[8406] = {
-		Level = 26,
-		Class = "MAGE",
-	},
-	[27071] = {
+	[27014] = {
 		Level = 63,
+		Class = "HUNTER",
+	},
+	[27078] = {
+		Level = 61,
 		Class = "MAGE",
 	},
-	[8438] = {
-		Level = 30,
-		Class = "MAGE",
-	},
-	[27135] = {
-		Level = 62,
+	[27142] = {
+		Level = 65,
 		Class = "PALADIN",
 	},
-	[3565] = {
-		Level = 30,
-		Class = "MAGE",
-	},
-	[8949] = {
-		Level = 26,
-		Class = "DRUID",
-	},
-	[17402] = {
-		Level = 60,
-		Class = "DRUID",
-	},
-	[19876] = {
-		Level = 28,
-		Class = "PALADIN",
-	},
-	[42231] = {
-		Level = 40,
+	[8905] = {
+		Level = 46,
 		Class = "DRUID",
 	},
 	[99] = {
 		Level = 10,
 		Class = "DRUID",
 	},
+	[58755] = {
+		Level = 71,
+		Class = "SHAMAN",
+	},
 	[25312] = {
 		Level = 70,
 		Class = "PRIEST",
 	},
-	[16812] = {
-		Level = 38,
+	[1178] = {
+		Level = 10,
 		Class = "DRUID",
 	},
-	[48689] = {
-		Level = 70,
-		Class = "ROGUE",
+	[27215] = {
+		Level = 69,
+		Class = "WARLOCK",
 	},
-	[19850] = {
-		Level = 24,
-		Class = "PALADIN",
+	[13797] = {
+		Level = 16,
+		Class = "HUNTER",
 	},
-	[48817] = {
-		Level = 78,
-		Class = "PALADIN",
-	},
-	[25472] = {
-		Level = 70,
-		Class = "SHAMAN",
-	},
-	[48945] = {
-		Level = 77,
-		Class = "PALADIN",
-	},
-	[14819] = {
-		Level = 50,
-		Class = "PRIEST",
-	},
-	[31709] = {
-		Level = 60,
-		Class = "DRUID",
-	},
-	[27000] = {
-		Level = 67,
-		Class = "DRUID",
-	},
-	[55342] = {
-		Level = 80,
+	[43015] = {
+		Level = 76,
 		Class = "MAGE",
-	},
-	[26984] = {
-		Level = 61,
-		Class = "DRUID",
-	},
-	[1608] = {
-		Level = 24,
-		Class = "WARRIOR",
-	},
-	[45299] = {
-		Level = 48,
-		Class = "SHAMAN",
-	},
-	[8905] = {
-		Level = 46,
-		Class = "DRUID",
-	},
-	[47474] = {
-		Level = 74,
-		Class = "WARRIOR",
-	},
-	[27137] = {
-		Level = 66,
-		Class = "PALADIN",
-	},
-	[21850] = {
-		Level = 60,
-		Class = "DRUID",
-	},
-	[10901] = {
-		Level = 60,
-		Class = "PRIEST",
-	},
-	[10917] = {
-		Level = 56,
-		Class = "PRIEST",
 	},
 	[10933] = {
 		Level = 46,
 		Class = "PRIEST",
 	},
-	[5221] = {
-		Level = 22,
-		Class = "DRUID",
-	},
-	[10965] = {
-		Level = 58,
-		Class = "PRIEST",
-	},
-	[50763] = {
-		Level = 80,
-		Class = "DRUID",
-	},
 	[19939] = {
 		Level = 26,
 		Class = "PALADIN",
 	},
-	[17924] = {
-		Level = 56,
-		Class = "WARLOCK",
-	},
-	[5215] = {
-		Level = 20,
-		Class = "DRUID",
-	},
-	[6548] = {
-		Level = 30,
-		Class = "WARRIOR",
-	},
-	[10223] = {
-		Level = 50,
-		Class = "MAGE",
-	},
-	[5209] = {
-		Level = 28,
-		Class = "DRUID",
-	},
-	[6572] = {
-		Level = 14,
-		Class = "WARRIOR",
-	},
-	[48561] = {
-		Level = 72,
-		Class = "DRUID",
-	},
-	[48562] = {
-		Level = 77,
-		Class = "DRUID",
-	},
-	[47897] = {
-		Level = 75,
-		Class = "WARLOCK",
-	},
-	[48690] = {
-		Level = 75,
-		Class = "ROGUE",
-	},
-	[15267] = {
+	[9830] = {
 		Level = 54,
-		Class = "PRIEST",
-	},
-	[48818] = {
-		Level = 75,
-		Class = "PALADIN",
-	},
-	[11729] = {
-		Level = 46,
-		Class = "WARLOCK",
-	},
-	[9863] = {
-		Level = 60,
-		Class = "DRUID",
-	},
-	[25435] = {
-		Level = 68,
-		Class = "PRIEST",
-	},
-	[5187] = {
-		Level = 14,
-		Class = "DRUID",
-	},
-	[11269] = {
-		Level = 58,
-		Class = "ROGUE",
-	},
-	[47890] = {
-		Level = 72,
-		Class = "WARLOCK",
-	},
-	[48447] = {
-		Level = 80,
-		Class = "DRUID",
-	},
-	[1108] = {
-		Level = 12,
-		Class = "WARLOCK",
-	},
-	[45300] = {
-		Level = 56,
-		Class = "SHAMAN",
-	},
-	[51505] = {
-		Level = 75,
-		Class = "SHAMAN",
-	},
-	[47475] = {
-		Level = 79,
-		Class = "WARRIOR",
-	},
-	[1680] = {
-		Level = 36,
-		Class = "WARRIOR",
-	},
-	[20739] = {
-		Level = 30,
-		Class = "DRUID",
-	},
-	[16979] = {
-		Level = 20,
-		Class = "DRUID",
-	},
-	[10894] = {
-		Level = 58,
-		Class = "PRIEST",
-	},
-	[62124] = {
-		Level = 16,
-		Class = "PALADIN",
-	},
-	[47859] = {
-		Level = 73,
-		Class = "WARLOCK",
-	},
-	[22568] = {
-		Level = 32,
-		Class = "DRUID",
-	},
-	[27072] = {
-		Level = 69,
-		Class = "MAGE",
-	},
-	[6780] = {
-		Level = 38,
-		Class = "DRUID",
-	},
-	[27136] = {
-		Level = 70,
-		Class = "PALADIN",
-	},
-	[48441] = {
-		Level = 80,
-		Class = "DRUID",
-	},
-	[16362] = {
-		Level = 60,
-		Class = "SHAMAN",
-	},
-	[11573] = {
-		Level = 50,
-		Class = "WARRIOR",
-	},
-	[1706] = {
-		Level = 34,
-		Class = "PRIEST",
-	},
-	[11605] = {
-		Level = 54,
-		Class = "WARRIOR",
-	},
-	[58734] = {
-		Level = 78,
-		Class = "SHAMAN",
-	},
-	[48563] = {
-		Level = 75,
-		Class = "DRUID",
-	},
-	[25345] = {
-		Level = 60,
-		Class = "MAGE",
-	},
-	[48691] = {
-		Level = 80,
-		Class = "ROGUE",
-	},
-	[26983] = {
-		Level = 70,
-		Class = "DRUID",
-	},
-	[48819] = {
-		Level = 80,
-		Class = "PALADIN",
-	},
-	[47835] = {
-		Level = 75,
-		Class = "WARLOCK",
-	},
-	[23458] = {
-		Level = 28,
-		Class = "PRIEST",
-	},
-	[9635] = {
-		Level = 40,
-		Class = "DRUID",
-	},
-	[13812] = {
-		Level = 34,
-		Class = "HUNTER",
-	},
-	[22812] = {
-		Level = 44,
-		Class = "DRUID",
-	},
-	[9750] = {
-		Level = 42,
-		Class = "DRUID",
-	},
-	[2782] = {
-		Level = 24,
-		Class = "DRUID",
-	},
-	[6940] = {
-		Level = 46,
-		Class = "PALADIN",
-	},
-	[45301] = {
-		Level = 63,
-		Class = "SHAMAN",
-	},
-	[3411] = {
-		Level = 70,
-		Class = "WARRIOR",
-	},
-	[47476] = {
-		Level = 59,
-		Class = "DEATHKNIGHT",
-	},
-	[9846] = {
-		Level = 60,
 		Class = "DRUID",
 	},
 	[9862] = {
 		Level = 50,
 		Class = "DRUID",
 	},
-	[33876] = {
-		Level = 50,
-		Class = "DRUID",
-	},
 	[9894] = {
 		Level = 52,
 		Class = "DRUID",
+	},
+	[47878] = {
+		Level = 79,
+		Class = "WARLOCK",
+	},
+	[17924] = {
+		Level = 56,
+		Class = "WARLOCK",
+	},
+	[48134] = {
+		Level = 72,
+		Class = "PRIEST",
+	},
+	[48071] = {
+		Level = 79,
+		Class = "PRIEST",
+	},
+	[10054] = {
+		Level = 58,
+		Class = "MAGE",
+	},
+	[6548] = {
+		Level = 30,
+		Class = "WARRIOR",
+	},
+	[48818] = {
+		Level = 75,
+		Class = "PALADIN",
+	},
+	[10150] = {
+		Level = 54,
+		Class = "MAGE",
+	},
+	[32645] = {
+		Level = 62,
+		Class = "ROGUE",
+	},
+	[27006] = {
+		Level = 66,
+		Class = "DRUID",
+	},
+	[51505] = {
+		Level = 75,
+		Class = "SHAMAN",
+	},
+	[10278] = {
+		Level = 38,
+		Class = "PALADIN",
+	},
+	[10310] = {
+		Level = 50,
+		Class = "PALADIN",
+	},
+	[695] = {
+		Level = 6,
+		Class = "WARLOCK",
+	},
+	[5188] = {
+		Level = 20,
+		Class = "DRUID",
+	},
+	[10406] = {
+		Level = 34,
+		Class = "SHAMAN",
+	},
+	[49926] = {
+		Level = 59,
+		Class = "DEATHKNIGHT",
 	},
 	[9910] = {
 		Level = 54,
@@ -4546,14 +7739,6 @@ lib.spellIdData = {
 		Level = 78,
 		Class = "WARLOCK",
 	},
-	[26017] = {
-		Level = 20,
-		Class = "PALADIN",
-	},
-	[1758] = {
-		Level = 14,
-		Class = "ROGUE",
-	},
 	[19940] = {
 		Level = 34,
 		Class = "PALADIN",
@@ -4562,185 +7747,33 @@ lib.spellIdData = {
 		Level = 50,
 		Class = "WARLOCK",
 	},
-	[16914] = {
-		Level = 40,
-		Class = "DRUID",
-	},
-	[1766] = {
-		Level = 12,
-		Class = "ROGUE",
-	},
-	[40120] = {
-		Level = 70,
-		Class = "DRUID",
-	},
-	[10054] = {
-		Level = 58,
-		Class = "MAGE",
-	},
-	[48464] = {
-		Level = 72,
-		Class = "DRUID",
-	},
-	[20164] = {
-		Level = 22,
-		Class = "PALADIN",
-	},
-	[48564] = {
-		Level = 80,
-		Class = "DRUID",
-	},
-	[56816] = {
-		Level = 67,
-		Class = "DEATHKNIGHT",
-	},
-	[8928] = {
-		Level = 34,
-		Class = "DRUID",
-	},
-	[3563] = {
-		Level = 20,
-		Class = "MAGE",
+	[58756] = {
+		Level = 76,
+		Class = "SHAMAN",
 	},
 	[3567] = {
 		Level = 20,
 		Class = "MAGE",
 	},
-	[1786] = {
-		Level = 40,
-		Class = "ROGUE",
-	},
-	[16339] = {
-		Level = 36,
-		Class = "SHAMAN",
-	},
 	[16355] = {
 		Level = 48,
 		Class = "SHAMAN",
 	},
-	[10230] = {
-		Level = 54,
-		Class = "MAGE",
-	},
-	[20484] = {
-		Level = 20,
-		Class = "DRUID",
-	},
-	[26998] = {
-		Level = 62,
-		Class = "DRUID",
-	},
-	[10278] = {
-		Level = 38,
-		Class = "PALADIN",
-	},
-	[3599] = {
-		Level = 10,
-		Class = "SHAMAN",
-	},
-	[10310] = {
-		Level = 50,
-		Class = "PALADIN",
-	},
-	[10326] = {
-		Level = 24,
-		Class = "PALADIN",
-	},
-	[26990] = {
-		Level = 70,
-		Class = "DRUID",
-	},
-	[47541] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
+	[17728] = {
+		Level = 60,
+		Class = "WARLOCK",
 	},
 	[5189] = {
 		Level = 26,
 		Class = "DRUID",
 	},
-	[20772] = {
-		Level = 48,
-		Class = "PALADIN",
-	},
-	[10406] = {
-		Level = 34,
-		Class = "SHAMAN",
-	},
-	[8457] = {
-		Level = 30,
-		Class = "MAGE",
-	},
 	[7268] = {
 		Level = 8,
 		Class = "MAGE",
 	},
-	[8407] = {
-		Level = 32,
-		Class = "MAGE",
-	},
-	[27073] = {
-		Level = 65,
-		Class = "MAGE",
-	},
-	[8439] = {
-		Level = 38,
-		Class = "MAGE",
-	},
-	[7300] = {
-		Level = 10,
-		Class = "MAGE",
-	},
-	[48566] = {
-		Level = 80,
+	[9758] = {
+		Level = 44,
 		Class = "DRUID",
-	},
-	[29886] = {
-		Level = 60,
-		Class = "WARLOCK",
-	},
-	[5277] = {
-		Level = 8,
-		Class = "ROGUE",
-	},
-	[25218] = {
-		Level = 70,
-		Class = "PRIEST",
-	},
-	[1014] = {
-		Level = 18,
-		Class = "WARLOCK",
-	},
-	[1714] = {
-		Level = 26,
-		Class = "WARLOCK",
-	},
-	[25314] = {
-		Level = 60,
-		Class = "PRIEST",
-	},
-	[25346] = {
-		Level = 60,
-		Class = "MAGE",
-	},
-	[9830] = {
-		Level = 54,
-		Class = "DRUID",
-	},
-	[34428] = {
-		Level = 62,
-		Class = "WARRIOR",
-	},
-	[25442] = {
-		Level = 70,
-		Class = "SHAMAN",
-	},
-	[3699] = {
-		Level = 28,
-		Class = "WARLOCK",
-	},
-	[23459] = {
-		Level = 36,
-		Class = "PRIEST",
 	},
 	[116] = {
 		Level = 4,
@@ -4750,305 +7783,101 @@ lib.spellIdData = {
 		Level = 65,
 		Class = "SHAMAN",
 	},
-	[9826] = {
-		Level = 56,
-		Class = "DRUID",
-	},
-	[27681] = {
-		Level = 60,
-		Class = "PRIEST",
-	},
-	[49269] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[10395] = {
-		Level = 48,
-		Class = "SHAMAN",
-	},
-	[58757] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
 	[5421] = {
 		Level = 16,
 		Class = "DRUID",
 	},
-	[27841] = {
-		Level = 60,
-		Class = "PRIEST",
-	},
-	[27873] = {
-		Level = 50,
-		Class = "PRIEST",
-	},
-	[3747] = {
-		Level = 24,
-		Class = "PRIEST",
-	},
-	[61999] = {
-		Level = 72,
-		Class = "DEATHKNIGHT",
-	},
-	[26573] = {
-		Level = 20,
-		Class = "PALADIN",
+	[58796] = {
+		Level = 80,
+		Class = "SHAMAN",
 	},
 	[10934] = {
 		Level = 54,
 		Class = "PRIEST",
 	},
-	[49909] = {
-		Level = 78,
-		Class = "DEATHKNIGHT",
-	},
-	[16857] = {
-		Level = 18,
-		Class = "DRUID",
-	},
-	[118] = {
-		Level = 8,
-		Class = "MAGE",
-	},
-	[32223] = {
-		Level = 62,
-		Class = "PALADIN",
-	},
-	[17926] = {
-		Level = 58,
-		Class = "WARLOCK",
-	},
-	[8983] = {
-		Level = 46,
-		Class = "DRUID",
-	},
-	[44205] = {
-		Level = 40,
-		Class = "DRUID",
-	},
-	[25357] = {
-		Level = 60,
-		Class = "SHAMAN",
-	},
 	[42233] = {
 		Level = 60,
 		Class = "DRUID",
 	},
-	[25420] = {
-		Level = 66,
-		Class = "SHAMAN",
+	[48135] = {
+		Level = 78,
+		Class = "PRIEST",
 	},
-	[20165] = {
-		Level = 30,
-		Class = "PALADIN",
-	},
-	[58801] = {
-		Level = 71,
-		Class = "SHAMAN",
+	[48263] = {
+		Level = 57,
+		Class = "DEATHKNIGHT",
 	},
 	[26370] = {
 		Level = 48,
 		Class = "SHAMAN",
 	},
-	[1850] = {
-		Level = 26,
-		Class = "DRUID",
-	},
 	[5589] = {
 		Level = 40,
 		Class = "PALADIN",
 	},
-	[16689] = {
-		Level = 10,
-		Class = "DRUID",
-	},
-	[9634] = {
-		Level = 40,
-		Class = "DRUID",
-	},
-	[48950] = {
-		Level = 79,
-		Class = "PALADIN",
-	},
-	[120] = {
-		Level = 26,
-		Class = "MAGE",
-	},
-	[42937] = {
-		Level = 74,
-		Class = "MAGE",
-	},
-	[57330] = {
-		Level = 65,
-		Class = "DEATHKNIGHT",
-	},
-	[33745] = {
-		Level = 66,
-		Class = "DRUID",
-	},
-	[49270] = {
-		Level = 74,
-		Class = "SHAMAN",
-	},
-	[53428] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
-	},
-	[1079] = {
+	[15237] = {
 		Level = 20,
-		Class = "DRUID",
+		Class = "PRIEST",
 	},
-	[50464] = {
-		Level = 80,
-		Class = "DRUID",
-	},
-	[1075] = {
+	[5588] = {
 		Level = 24,
-		Class = "DRUID",
-	},
-	[18662] = {
-		Level = 60,
-		Class = "WARLOCK",
-	},
-	[62600] = {
-		Level = 40,
-		Class = "DRUID",
-	},
-	[20773] = {
-		Level = 60,
 		Class = "PALADIN",
 	},
 	[50767] = {
 		Level = 36,
 		Class = "DRUID",
 	},
-	[26978] = {
-		Level = 62,
-		Class = "DRUID",
-	},
-	[47863] = {
-		Level = 73,
-		Class = "WARLOCK",
-	},
-	[6809] = {
-		Level = 26,
-		Class = "DRUID",
-	},
-	[122] = {
-		Level = 10,
+	[61316] = {
+		Level = 80,
 		Class = "MAGE",
 	},
 	[6807] = {
 		Level = 10,
 		Class = "DRUID",
 	},
-	[27138] = {
-		Level = 68,
-		Class = "PALADIN",
-	},
-	[1066] = {
-		Level = 16,
-		Class = "DRUID",
-	},
 	[6795] = {
 		Level = 10,
 		Class = "DRUID",
 	},
-	[11574] = {
+	[20773] = {
 		Level = 60,
-		Class = "WARRIOR",
+		Class = "PALADIN",
 	},
-	[42234] = {
-		Level = 67,
-		Class = "HUNTER",
+	[47863] = {
+		Level = 73,
+		Class = "WARLOCK",
 	},
-	[6785] = {
-		Level = 32,
+	[8951] = {
+		Level = 42,
 		Class = "DRUID",
 	},
-	[1966] = {
-		Level = 16,
-		Class = "ROGUE",
+	[49799] = {
+		Level = 71,
+		Class = "DRUID",
 	},
-	[25315] = {
-		Level = 60,
-		Class = "PRIEST",
-	},
-	[46584] = {
-		Level = 56,
+	[49927] = {
+		Level = 64,
 		Class = "DEATHKNIGHT",
 	},
-	[8939] = {
-		Level = 24,
-		Class = "DRUID",
+	[27079] = {
+		Level = 70,
+		Class = "MAGE",
 	},
-	[8927] = {
-		Level = 28,
-		Class = "DRUID",
+	[27143] = {
+		Level = 65,
+		Class = "PALADIN",
 	},
 	[1824] = {
 		Level = 44,
 		Class = "DRUID",
 	},
-	[1978] = {
-		Level = 4,
-		Class = "HUNTER",
-	},
-	[11734] = {
-		Level = 50,
+	[11688] = {
+		Level = 46,
 		Class = "WARLOCK",
 	},
-	[13797] = {
-		Level = 16,
-		Class = "HUNTER",
-	},
-	[42938] = {
-		Level = 80,
-		Class = "MAGE",
-	},
-	[43002] = {
-		Level = 80,
-		Class = "MAGE",
-	},
-	[33983] = {
-		Level = 68,
-		Class = "DRUID",
-	},
-	[49271] = {
+	[58757] = {
 		Level = 80,
 		Class = "SHAMAN",
-	},
-	[8907] = {
-		Level = 40,
-		Class = "DRUID",
-	},
-	[8903] = {
-		Level = 38,
-		Class = "DRUID",
-	},
-	[9913] = {
-		Level = 60,
-		Class = "DRUID",
-	},
-	[783] = {
-		Level = 16,
-		Class = "DRUID",
-	},
-	[27874] = {
-		Level = 60,
-		Class = "PRIEST",
-	},
-	[8004] = {
-		Level = 20,
-		Class = "SHAMAN",
-	},
-	[19750] = {
-		Level = 20,
-		Class = "PALADIN",
-	},
-	[2006] = {
-		Level = 10,
-		Class = "PRIEST",
 	},
 	[2008] = {
 		Level = 12,
@@ -5058,129 +7887,17 @@ lib.spellIdData = {
 		Level = 22,
 		Class = "PRIEST",
 	},
-	[8044] = {
-		Level = 8,
-		Class = "SHAMAN",
-	},
-	[47992] = {
-		Level = 80,
-		Class = "MAGE",
-	},
 	[19942] = {
 		Level = 50,
 		Class = "PALADIN",
 	},
-	[48120] = {
-		Level = 78,
-		Class = "PRIEST",
-	},
-	[8437] = {
-		Level = 22,
-		Class = "MAGE",
-	},
-	[22828] = {
-		Level = 48,
-		Class = "DRUID",
-	},
-	[8092] = {
-		Level = 10,
-		Class = "PRIEST",
-	},
-	[782] = {
-		Level = 14,
-		Class = "DRUID",
-	},
-	[48440] = {
-		Level = 75,
-		Class = "DRUID",
-	},
-	[20166] = {
-		Level = 38,
-		Class = "PALADIN",
-	},
-	[8124] = {
-		Level = 28,
-		Class = "PRIEST",
-	},
-	[20230] = {
-		Level = 20,
-		Class = "WARRIOR",
-	},
-	[42995] = {
-		Level = 80,
-		Class = "MAGE",
-	},
-	[10151] = {
+	[29228] = {
 		Level = 60,
-		Class = "MAGE",
-	},
-	[14261] = {
-		Level = 16,
-		Class = "HUNTER",
-	},
-	[6117] = {
-		Level = 34,
-		Class = "MAGE",
-	},
-	[10199] = {
-		Level = 54,
-		Class = "MAGE",
-	},
-	[10215] = {
-		Level = 48,
-		Class = "MAGE",
-	},
-	[6141] = {
-		Level = 28,
-		Class = "MAGE",
-	},
-	[3627] = {
-		Level = 34,
-		Class = "DRUID",
-	},
-	[2090] = {
-		Level = 22,
-		Class = "DRUID",
-	},
-	[2060] = {
-		Level = 40,
-		Class = "PRIEST",
-	},
-	[9853] = {
-		Level = 58,
-		Class = "DRUID",
-	},
-	[8232] = {
-		Level = 30,
 		Class = "SHAMAN",
 	},
-	[9841] = {
-		Level = 58,
-		Class = "DRUID",
-	},
-	[130] = {
-		Level = 12,
+	[43017] = {
+		Level = 77,
 		Class = "MAGE",
-	},
-	[6205] = {
-		Level = 22,
-		Class = "WARLOCK",
-	},
-	[6213] = {
-		Level = 32,
-		Class = "WARLOCK",
-	},
-	[10391] = {
-		Level = 38,
-		Class = "SHAMAN",
-	},
-	[6229] = {
-		Level = 32,
-		Class = "WARLOCK",
-	},
-	[2096] = {
-		Level = 22,
-		Class = "PRIEST",
 	},
 	[12486] = {
 		Level = 10,
@@ -5190,3008 +7907,312 @@ lib.spellIdData = {
 		Level = 38,
 		Class = "MAGE",
 	},
-	[27075] = {
-		Level = 63,
-		Class = "MAGE",
-	},
-	[9833] = {
-		Level = 46,
-		Class = "DRUID",
-	},
-	[27139] = {
-		Level = 69,
-		Class = "PALADIN",
-	},
-	[2120] = {
+	[325] = {
 		Level = 16,
-		Class = "MAGE",
-	},
-	[9821] = {
-		Level = 46,
-		Class = "DRUID",
-	},
-	[33982] = {
-		Level = 58,
-		Class = "DRUID",
-	},
-	[48377] = {
-		Level = 74,
-		Class = "DRUID",
-	},
-	[2136] = {
-		Level = 6,
-		Class = "MAGE",
-	},
-	[10600] = {
-		Level = 44,
 		Class = "SHAMAN",
-	},
-	[25316] = {
-		Level = 60,
-		Class = "PRIEST",
-	},
-	[12678] = {
-		Level = 20,
-		Class = "WARRIOR",
-	},
-	[48465] = {
-		Level = 78,
-		Class = "DRUID",
-	},
-	[770] = {
-		Level = 18,
-		Class = "DRUID",
-	},
-	[6365] = {
-		Level = 40,
-		Class = "SHAMAN",
-	},
-	[26995] = {
-		Level = 70,
-		Class = "DRUID",
-	},
-	[25508] = {
-		Level = 63,
-		Class = "SHAMAN",
-	},
-	[136] = {
-		Level = 12,
-		Class = "HUNTER",
-	},
-	[42940] = {
-		Level = 80,
-		Class = "MAGE",
-	},
-	[26979] = {
-		Level = 69,
-		Class = "DRUID",
-	},
-	[27683] = {
-		Level = 56,
-		Class = "PRIEST",
-	},
-	[49273] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[768] = {
-		Level = 20,
-		Class = "DRUID",
-	},
-	[7814] = {
-		Level = 20,
-		Class = "MAGE",
-	},
-	[29858] = {
-		Level = 66,
-		Class = "WARLOCK",
-	},
-	[47889] = {
-		Level = 80,
-		Class = "WARLOCK",
 	},
 	[48576] = {
 		Level = 72,
-		Class = "DRUID",
-	},
-	[47610] = {
-		Level = 80,
-		Class = "MAGE",
-	},
-	[48560] = {
-		Level = 77,
-		Class = "DRUID",
-	},
-	[139] = {
-		Level = 8,
-		Class = "PRIEST",
-	},
-	[53022] = {
-		Level = 80,
-		Class = "PRIEST",
-	},
-	[10951] = {
-		Level = 50,
-		Class = "PRIEST",
-	},
-	[19879] = {
-		Level = 50,
-		Class = "HUNTER",
-	},
-	[8936] = {
-		Level = 12,
-		Class = "DRUID",
-	},
-	[19943] = {
-		Level = 58,
-		Class = "PALADIN",
-	},
-	[48122] = {
-		Level = 74,
-		Class = "PRIEST",
-	},
-	[24248] = {
-		Level = 63,
-		Class = "DRUID",
-	},
-	[9000] = {
-		Level = 40,
-		Class = "DRUID",
-	},
-	[33357] = {
-		Level = 65,
-		Class = "DRUID",
-	},
-	[48378] = {
-		Level = 79,
-		Class = "DRUID",
-	},
-	[48442] = {
-		Level = 71,
-		Class = "DRUID",
-	},
-	[58741] = {
-		Level = 75,
-		Class = "SHAMAN",
-	},
-	[48570] = {
-		Level = 79,
-		Class = "DRUID",
-	},
-	[15237] = {
-		Level = 20,
-		Class = "PRIEST",
-	},
-	[58795] = {
-		Level = 76,
-		Class = "SHAMAN",
-	},
-	[143] = {
-		Level = 6,
-		Class = "MAGE",
-	},
-	[52136] = {
-		Level = 48,
-		Class = "SHAMAN",
-	},
-	[45291] = {
-		Level = 38,
-		Class = "SHAMAN",
-	},
-	[10495] = {
-		Level = 36,
-		Class = "SHAMAN",
-	},
-	[58699] = {
-		Level = 71,
-		Class = "SHAMAN",
-	},
-	[19941] = {
-		Level = 42,
-		Class = "PALADIN",
-	},
-	[10479] = {
-		Level = 54,
-		Class = "SHAMAN",
-	},
-	[25509] = {
-		Level = 70,
-		Class = "SHAMAN",
-	},
-	[145] = {
-		Level = 12,
-		Class = "MAGE",
-	},
-	[10467] = {
-		Level = 52,
-		Class = "SHAMAN",
-	},
-	[19838] = {
-		Level = 52,
-		Class = "PALADIN",
-	},
-	[10447] = {
-		Level = 40,
-		Class = "SHAMAN",
-	},
-	[26371] = {
-		Level = 63,
-		Class = "SHAMAN",
-	},
-	[8038] = {
-		Level = 28,
-		Class = "SHAMAN",
-	},
-	[26884] = {
-		Level = 70,
-		Class = "ROGUE",
-	},
-	[10431] = {
-		Level = 48,
-		Class = "SHAMAN",
-	},
-	[10427] = {
-		Level = 48,
-		Class = "SHAMAN",
-	},
-	[26980] = {
-		Level = 65,
-		Class = "DRUID",
-	},
-	[47867] = {
-		Level = 80,
-		Class = "WARLOCK",
-	},
-	[27044] = {
-		Level = 68,
-		Class = "HUNTER",
-	},
-	[27076] = {
-		Level = 64,
-		Class = "MAGE",
-	},
-	[25525] = {
-		Level = 67,
-		Class = "SHAMAN",
-	},
-	[27140] = {
-		Level = 70,
-		Class = "PALADIN",
-	},
-	[10407] = {
-		Level = 44,
-		Class = "SHAMAN",
-	},
-	[8052] = {
-		Level = 18,
-		Class = "SHAMAN",
-	},
-	[33986] = {
-		Level = 58,
-		Class = "DRUID",
-	},
-	[25221] = {
-		Level = 65,
-		Class = "PRIEST",
-	},
-	[48443] = {
-		Level = 77,
-		Class = "DRUID",
-	},
-	[54648] = {
-		Level = 20,
-		Class = "MAGE",
-	},
-	[62900] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
-	},
-	[16342] = {
-		Level = 56,
-		Class = "SHAMAN",
-	},
-	[11671] = {
-		Level = 44,
-		Class = "WARLOCK",
-	},
-	[11687] = {
-		Level = 36,
-		Class = "WARLOCK",
-	},
-	[8498] = {
-		Level = 22,
-		Class = "SHAMAN",
-	},
-	[11719] = {
-		Level = 50,
-		Class = "WARLOCK",
-	},
-	[11735] = {
-		Level = 60,
-		Class = "WARLOCK",
-	},
-	[25505] = {
-		Level = 68,
-		Class = "SHAMAN",
-	},
-	[34754] = {
-		Level = 10,
-		Class = "PRIEST",
-	},
-	[1449] = {
-		Level = 14,
-		Class = "MAGE",
-	},
-	[9752] = {
-		Level = 44,
-		Class = "DRUID",
-	},
-	[49275] = {
-		Level = 72,
-		Class = "SHAMAN",
-	},
-	[16341] = {
-		Level = 46,
-		Class = "SHAMAN",
-	},
-	[8058] = {
-		Level = 34,
-		Class = "SHAMAN",
-	},
-	[51514] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[913] = {
-		Level = 18,
-		Class = "SHAMAN",
-	},
-	[2825] = {
-		Level = 70,
-		Class = "SHAMAN",
-	},
-	[8018] = {
-		Level = 8,
-		Class = "SHAMAN",
-	},
-	[19752] = {
-		Level = 30,
-		Class = "PALADIN",
-	},
-	[9896] = {
-		Level = 60,
-		Class = "DRUID",
-	},
-	[9912] = {
-		Level = 54,
-		Class = "DRUID",
-	},
-	[2484] = {
-		Level = 6,
-		Class = "SHAMAN",
-	},
-	[19880] = {
-		Level = 26,
-		Class = "HUNTER",
-	},
-	[25489] = {
-		Level = 64,
-		Class = "SHAMAN",
-	},
-	[8227] = {
-		Level = 28,
-		Class = "SHAMAN",
-	},
-	[48124] = {
-		Level = 75,
-		Class = "PRIEST",
-	},
-	[32182] = {
-		Level = 70,
-		Class = "SHAMAN",
-	},
-	[25422] = {
-		Level = 61,
-		Class = "SHAMAN",
-	},
-	[33987] = {
-		Level = 68,
-		Class = "DRUID",
-	},
-	[52134] = {
-		Level = 41,
-		Class = "SHAMAN",
-	},
-	[48444] = {
-		Level = 75,
-		Class = "DRUID",
-	},
-	[6196] = {
-		Level = 26,
-		Class = "SHAMAN",
-	},
-	[62901] = {
-		Level = 62,
-		Class = "DEATHKNIGHT",
-	},
-	[10587] = {
-		Level = 56,
-		Class = "SHAMAN",
-	},
-	[32546] = {
-		Level = 64,
-		Class = "PRIEST",
-	},
-	[58794] = {
-		Level = 71,
-		Class = "SHAMAN",
-	},
-	[14262] = {
-		Level = 24,
-		Class = "HUNTER",
-	},
-	[46845] = {
-		Level = 71,
-		Class = "WARRIOR",
-	},
-	[10] = {
-		Level = 20,
-		Class = "MAGE",
-	},
-	[28612] = {
-		Level = 60,
-		Class = "MAGE",
-	},
-	[14326] = {
-		Level = 30,
-		Class = "HUNTER",
-	},
-	[10463] = {
-		Level = 60,
-		Class = "SHAMAN",
-	},
-	[58580] = {
-		Level = 71,
-		Class = "SHAMAN",
-	},
-	[49276] = {
-		Level = 77,
-		Class = "SHAMAN",
-	},
-	[8249] = {
-		Level = 38,
-		Class = "SHAMAN",
-	},
-	[10312] = {
-		Level = 44,
-		Class = "PALADIN",
-	},
-	[10328] = {
-		Level = 46,
-		Class = "PALADIN",
-	},
-	[45438] = {
-		Level = 30,
-		Class = "MAGE",
-	},
-	[27214] = {
-		Level = 68,
-		Class = "WARLOCK",
-	},
-	[10946] = {
-		Level = 52,
-		Class = "PRIEST",
-	},
-	[10392] = {
-		Level = 44,
-		Class = "SHAMAN",
-	},
-	[10408] = {
-		Level = 54,
-		Class = "SHAMAN",
-	},
-	[26981] = {
-		Level = 63,
-		Class = "DRUID",
-	},
-	[7269] = {
-		Level = 16,
-		Class = "MAGE",
-	},
-	[10456] = {
-		Level = 38,
-		Class = "SHAMAN",
-	},
-	[35715] = {
-		Level = 60,
-		Class = "MAGE",
-	},
-	[5246] = {
-		Level = 22,
-		Class = "WARRIOR",
-	},
-	[27141] = {
-		Level = 70,
-		Class = "PALADIN",
-	},
-	[27173] = {
-		Level = 70,
-		Class = "PALADIN",
-	},
-	[24398] = {
-		Level = 62,
-		Class = "SHAMAN",
-	},
-	[30708] = {
-		Level = 50,
-		Class = "SHAMAN",
-	},
-	[25222] = {
-		Level = 70,
-		Class = "PRIEST",
-	},
-	[48445] = {
-		Level = 80,
-		Class = "DRUID",
-	},
-	[25286] = {
-		Level = 60,
-		Class = "WARRIOR",
-	},
-	[62902] = {
-		Level = 68,
-		Class = "DEATHKNIGHT",
-	},
-	[48637] = {
-		Level = 76,
-		Class = "ROGUE",
-	},
-	[25552] = {
-		Level = 65,
-		Class = "SHAMAN",
-	},
-	[7381] = {
-		Level = 30,
-		Class = "WARRIOR",
-	},
-	[8633] = {
-		Level = 38,
-		Class = "ROGUE",
-	},
-	[131] = {
-		Level = 22,
-		Class = "SHAMAN",
-	},
-	[25391] = {
-		Level = 63,
-		Class = "SHAMAN",
-	},
-	[58582] = {
-		Level = 78,
-		Class = "SHAMAN",
-	},
-	[25574] = {
-		Level = 69,
-		Class = "SHAMAN",
-	},
-	[43008] = {
-		Level = 79,
-		Class = "MAGE",
-	},
-	[53307] = {
-		Level = 74,
-		Class = "DRUID",
-	},
-	[49277] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[10586] = {
-		Level = 46,
-		Class = "SHAMAN",
-	},
-	[55459] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[58656] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[58790] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[58649] = {
-		Level = 71,
-		Class = "SHAMAN",
-	},
-	[10888] = {
-		Level = 42,
-		Class = "PRIEST",
-	},
-	[25894] = {
-		Level = 54,
-		Class = "PALADIN",
-	},
-	[58796] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[58703] = {
-		Level = 75,
-		Class = "SHAMAN",
-	},
-	[49917] = {
-		Level = 60,
-		Class = "DEATHKNIGHT",
-	},
-	[58774] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[58749] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[5502] = {
-		Level = 20,
-		Class = "PALADIN",
-	},
-	[48126] = {
-		Level = 74,
-		Class = "PRIEST",
-	},
-	[10329] = {
-		Level = 54,
-		Class = "PALADIN",
-	},
-	[10538] = {
-		Level = 58,
-		Class = "SHAMAN",
-	},
-	[2894] = {
-		Level = 68,
-		Class = "SHAMAN",
-	},
-	[33736] = {
-		Level = 69,
-		Class = "SHAMAN",
-	},
-	[48446] = {
-		Level = 75,
-		Class = "DRUID",
-	},
-	[58745] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[62903] = {
-		Level = 76,
-		Class = "DEATHKNIGHT",
-	},
-	[48638] = {
-		Level = 80,
-		Class = "ROGUE",
-	},
-	[51988] = {
-		Level = 40,
-		Class = "SHAMAN",
-	},
-	[10466] = {
-		Level = 44,
-		Class = "SHAMAN",
-	},
-	[2800] = {
-		Level = 30,
-		Class = "PALADIN",
-	},
-	[10442] = {
-		Level = 52,
-		Class = "SHAMAN",
-	},
-	[5614] = {
-		Level = 28,
-		Class = "PALADIN",
-	},
-	[20425] = {
-		Level = 20,
-		Class = "PALADIN",
-	},
-	[10438] = {
-		Level = 60,
-		Class = "SHAMAN",
-	},
-	[26369] = {
-		Level = 40,
-		Class = "SHAMAN",
-	},
-	[53308] = {
-		Level = 78,
-		Class = "DRUID",
-	},
-	[49278] = {
-		Level = 75,
-		Class = "SHAMAN",
-	},
-	[45296] = {
-		Level = 67,
-		Class = "SHAMAN",
-	},
-	[15430] = {
-		Level = 28,
-		Class = "PRIEST",
-	},
-	[421] = {
-		Level = 32,
-		Class = "SHAMAN",
-	},
-	[47487] = {
-		Level = 75,
-		Class = "WARRIOR",
-	},
-	[8416] = {
-		Level = 32,
-		Class = "MAGE",
-	},
-	[49272] = {
-		Level = 75,
-		Class = "SHAMAN",
-	},
-	[11416] = {
-		Level = 40,
-		Class = "MAGE",
-	},
-	[2860] = {
-		Level = 48,
-		Class = "SHAMAN",
-	},
-	[26982] = {
-		Level = 69,
-		Class = "DRUID",
-	},
-	[49918] = {
-		Level = 65,
-		Class = "DEATHKNIGHT",
-	},
-	[16811] = {
-		Level = 28,
-		Class = "DRUID",
-	},
-	[35717] = {
-		Level = 65,
-		Class = "MAGE",
-	},
-	[48063] = {
-		Level = 78,
-		Class = "PRIEST",
-	},
-	[7813] = {
-		Level = 34,
-		Class = "MAGE",
-	},
-	[52285] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
-	},
-	[5782] = {
-		Level = 8,
-		Class = "WARLOCK",
-	},
-	[27238] = {
-		Level = 70,
-		Class = "WARLOCK",
-	},
-	[10413] = {
-		Level = 48,
-		Class = "SHAMAN",
-	},
-	[11608] = {
-		Level = 40,
-		Class = "WARRIOR",
-	},
-	[58746] = {
-		Level = 75,
-		Class = "SHAMAN",
-	},
-	[62904] = {
-		Level = 80,
-		Class = "DEATHKNIGHT",
-	},
-	[8161] = {
-		Level = 38,
-		Class = "SHAMAN",
-	},
-	[11672] = {
-		Level = 54,
-		Class = "WARLOCK",
-	},
-	[11688] = {
-		Level = 46,
-		Class = "WARLOCK",
-	},
-	[8155] = {
-		Level = 24,
-		Class = "SHAMAN",
-	},
-	[20186] = {
-		Level = 38,
-		Class = "PALADIN",
-	},
-	[58804] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[61305] = {
-		Level = 60,
-		Class = "MAGE",
-	},
-	[2944] = {
-		Level = 20,
-		Class = "PRIEST",
-	},
-	[2948] = {
-		Level = 22,
-		Class = "MAGE",
-	},
-	[58756] = {
-		Level = 76,
-		Class = "SHAMAN",
-	},
-	[49279] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[15208] = {
-		Level = 56,
-		Class = "SHAMAN",
-	},
-	[10601] = {
-		Level = 60,
-		Class = "SHAMAN",
-	},
-	[45294] = {
-		Level = 56,
-		Class = "SHAMAN",
-	},
-	[47488] = {
-		Level = 80,
-		Class = "WARRIOR",
-	},
-	[9849] = {
-		Level = 48,
-		Class = "DRUID",
-	},
-	[8005] = {
-		Level = 40,
-		Class = "SHAMAN",
-	},
-	[9881] = {
-		Level = 58,
 		Class = "DRUID",
 	},
 	[23880] = {
 		Level = 40,
 		Class = "WARRIOR",
 	},
-	[47808] = {
-		Level = 74,
-		Class = "WARLOCK",
-	},
-	[49919] = {
-		Level = 70,
-		Class = "DEATHKNIGHT",
-	},
-	[8045] = {
-		Level = 14,
-		Class = "SHAMAN",
-	},
-	[8053] = {
-		Level = 28,
-		Class = "SHAMAN",
-	},
-	[6041] = {
-		Level = 32,
-		Class = "SHAMAN",
-	},
-	[58803] = {
-		Level = 76,
-		Class = "SHAMAN",
-	},
-	[52286] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
-	},
-	[48935] = {
-		Level = 71,
-		Class = "PALADIN",
-	},
-	[58739] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[42243] = {
+	[6365] = {
 		Level = 40,
-		Class = "HUNTER",
-	},
-	[58643] = {
-		Level = 80,
 		Class = "SHAMAN",
 	},
-	[10473] = {
-		Level = 58,
-		Class = "SHAMAN",
-	},
-	[6078] = {
-		Level = 38,
-		Class = "PRIEST",
-	},
-	[3044] = {
-		Level = 6,
-		Class = "HUNTER",
-	},
-	[10437] = {
-		Level = 50,
-		Class = "SHAMAN",
-	},
-	[8033] = {
-		Level = 20,
-		Class = "SHAMAN",
-	},
-	[10169] = {
-		Level = 42,
-		Class = "MAGE",
-	},
-	[10185] = {
-		Level = 44,
-		Class = "MAGE",
-	},
-	[10201] = {
-		Level = 46,
-		Class = "MAGE",
-	},
-	[8181] = {
-		Level = 24,
-		Class = "SHAMAN",
-	},
-	[14327] = {
-		Level = 46,
-		Class = "HUNTER",
-	},
-	[556] = {
-		Level = 30,
-		Class = "SHAMAN",
-	},
-	[8413] = {
-		Level = 38,
-		Class = "MAGE",
-	},
-	[49280] = {
-		Level = 75,
-		Class = "SHAMAN",
-	},
-	[57532] = {
-		Level = 69,
-		Class = "DEATHKNIGHT",
-	},
-	[10313] = {
-		Level = 52,
-		Class = "PALADIN",
-	},
-	[6190] = {
-		Level = 24,
-		Class = "WARRIOR",
-	},
-	[49268] = {
-		Level = 74,
-		Class = "SHAMAN",
-	},
-	[11315] = {
-		Level = 52,
-		Class = "SHAMAN",
-	},
-	[47864] = {
+	[48480] = {
 		Level = 79,
-		Class = "WARLOCK",
-	},
-	[6222] = {
-		Level = 14,
-		Class = "WARLOCK",
-	},
-	[58737] = {
-		Level = 75,
-		Class = "SHAMAN",
-	},
-	[47809] = {
-		Level = 79,
-		Class = "WARLOCK",
-	},
-	[49920] = {
-		Level = 75,
-		Class = "DEATHKNIGHT",
-	},
-	[60219] = {
-		Level = 74,
-		Class = "WARLOCK",
-	},
-	[27079] = {
-		Level = 70,
-		Class = "MAGE",
-	},
-	[12536] = {
-		Level = 10,
-		Class = "MAGE",
-	},
-	[8458] = {
-		Level = 40,
-		Class = "MAGE",
-	},
-	[25567] = {
-		Level = 69,
-		Class = "SHAMAN",
-	},
-	[10537] = {
-		Level = 42,
-		Class = "SHAMAN",
-	},
-	[6364] = {
-		Level = 30,
-		Class = "SHAMAN",
-	},
-	[42244] = {
-		Level = 50,
-		Class = "HUNTER",
-	},
-	[10585] = {
-		Level = 36,
-		Class = "SHAMAN",
-	},
-	[25288] = {
-		Level = 60,
-		Class = "WARRIOR",
-	},
-	[48577] = {
-		Level = 78,
 		Class = "DRUID",
 	},
-	[8106] = {
-		Level = 40,
-		Class = "PRIEST",
-	},
-	[25384] = {
-		Level = 66,
-		Class = "PRIEST",
-	},
-	[6358] = {
-		Level = 26,
-		Class = "MAGE",
-	},
-	[6366] = {
-		Level = 28,
-		Class = "WARLOCK",
-	},
-	[332] = {
-		Level = 6,
-		Class = "SHAMAN",
-	},
-	[27250] = {
-		Level = 66,
-		Class = "WARLOCK",
-	},
-	[6390] = {
-		Level = 18,
-		Class = "SHAMAN",
-	},
-	[10496] = {
-		Level = 46,
-		Class = "SHAMAN",
-	},
-	[43012] = {
-		Level = 79,
-		Class = "MAGE",
-	},
-	[12824] = {
-		Level = 20,
-		Class = "MAGE",
-	},
-	[49281] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[10472] = {
-		Level = 46,
-		Class = "SHAMAN",
-	},
-	[61657] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[10448] = {
-		Level = 52,
-		Class = "SHAMAN",
-	},
-	[25439] = {
+	[24248] = {
 		Level = 63,
-		Class = "SHAMAN",
-	},
-	[10432] = {
-		Level = 56,
-		Class = "SHAMAN",
-	},
-	[25423] = {
-		Level = 68,
-		Class = "SHAMAN",
-	},
-	[49233] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[43010] = {
-		Level = 78,
-		Class = "MAGE",
-	},
-	[10937] = {
-		Level = 48,
-		Class = "PRIEST",
-	},
-	[49921] = {
-		Level = 80,
-		Class = "DEATHKNIGHT",
-	},
-	[60220] = {
-		Level = 80,
-		Class = "WARLOCK",
-	},
-	[8938] = {
-		Level = 18,
 		Class = "DRUID",
 	},
-	[48066] = {
-		Level = 80,
-		Class = "PRIEST",
-	},
-	[49020] = {
-		Level = 61,
-		Class = "DEATHKNIGHT",
-	},
-	[26365] = {
-		Level = 16,
-		Class = "SHAMAN",
-	},
-	[205] = {
-		Level = 8,
-		Class = "MAGE",
-	},
-	[20608] = {
-		Level = 30,
-		Class = "SHAMAN",
-	},
-	[42245] = {
-		Level = 58,
-		Class = "HUNTER",
-	},
-	[6574] = {
-		Level = 24,
-		Class = "WARRIOR",
-	},
-	[15207] = {
-		Level = 50,
-		Class = "SHAMAN",
-	},
-	[48578] = {
-		Level = 73,
-		Class = "DRUID",
-	},
-	[49939] = {
-		Level = 66,
-		Class = "DEATHKNIGHT",
-	},
-	[16356] = {
-		Level = 58,
-		Class = "SHAMAN",
-	},
-	[8184] = {
-		Level = 28,
-		Class = "SHAMAN",
-	},
-	[8170] = {
-		Level = 38,
-		Class = "SHAMAN",
-	},
-	[32645] = {
-		Level = 62,
-		Class = "ROGUE",
-	},
-	[26372] = {
-		Level = 70,
-		Class = "SHAMAN",
-	},
-	[47991] = {
-		Level = 74,
-		Class = "MAGE",
-	},
-	[10595] = {
-		Level = 30,
-		Class = "SHAMAN",
-	},
-	[11273] = {
-		Level = 44,
-		Class = "ROGUE",
-	},
-	[36936] = {
-		Level = 30,
-		Class = "SHAMAN",
-	},
-	[11305] = {
-		Level = 58,
-		Class = "ROGUE",
-	},
-	[18540] = {
-		Level = 60,
-		Class = "WARLOCK",
-	},
-	[15431] = {
-		Level = 36,
-		Class = "PRIEST",
-	},
-	[8499] = {
-		Level = 32,
-		Class = "SHAMAN",
-	},
-	[693] = {
-		Level = 18,
-		Class = "WARLOCK",
-	},
-	[11733] = {
-		Level = 40,
-		Class = "WARLOCK",
-	},
-	[20747] = {
-		Level = 50,
-		Class = "DRUID",
-	},
-	[11417] = {
-		Level = 40,
-		Class = "MAGE",
-	},
-	[24905] = {
-		Level = 40,
-		Class = "DRUID",
-	},
-	[47811] = {
-		Level = 80,
-		Class = "WARLOCK",
-	},
-	[27016] = {
-		Level = 67,
-		Class = "HUNTER",
-	},
-	[16813] = {
-		Level = 48,
-		Class = "DRUID",
-	},
-	[27080] = {
-		Level = 62,
-		Class = "MAGE",
-	},
-	[48067] = {
-		Level = 75,
-		Class = "PRIEST",
-	},
-	[27217] = {
-		Level = 67,
-		Class = "WARLOCK",
-	},
-	[6798] = {
-		Level = 30,
-		Class = "DRUID",
-	},
-	[50589] = {
-		Level = 60,
-		Class = "WARLOCK",
-	},
-	[47891] = {
-		Level = 78,
-		Class = "WARLOCK",
-	},
-	[1094] = {
-		Level = 20,
-		Class = "WARLOCK",
-	},
-	[11609] = {
-		Level = 50,
-		Class = "WARRIOR",
-	},
-	[64891] = {
-		Level = 80,
-		Class = "PALADIN",
-	},
-	[48579] = {
-		Level = 79,
-		Class = "DRUID",
-	},
-	[9485] = {
-		Level = 40,
-		Class = "PRIEST",
-	},
-	[48707] = {
-		Level = 68,
-		Class = "DEATHKNIGHT",
-	},
-	[19276] = {
-		Level = 28,
-		Class = "PRIEST",
-	},
-	[25449] = {
-		Level = 67,
-		Class = "SHAMAN",
-	},
-	[11721] = {
-		Level = 46,
-		Class = "WARLOCK",
-	},
-	[17953] = {
-		Level = 56,
-		Class = "WARLOCK",
-	},
-	[7646] = {
-		Level = 32,
-		Class = "WARLOCK",
-	},
-	[19483] = {
-		Level = 50,
-		Class = "WARLOCK",
-	},
-	[11785] = {
-		Level = 58,
-		Class = "MAGE",
-	},
-	[9754] = {
-		Level = 44,
-		Class = "DRUID",
-	},
-	[17923] = {
-		Level = 58,
-		Class = "WARLOCK",
-	},
-	[3472] = {
-		Level = 38,
-		Class = "PALADIN",
-	},
-	[48125] = {
-		Level = 80,
-		Class = "PRIEST",
-	},
-	[126] = {
-		Level = 22,
-		Class = "WARLOCK",
-	},
-	[9834] = {
-		Level = 52,
-		Class = "DRUID",
-	},
-	[9850] = {
-		Level = 58,
-		Class = "DRUID",
-	},
-	[9866] = {
-		Level = 50,
-		Class = "DRUID",
-	},
-	[17728] = {
-		Level = 60,
-		Class = "WARLOCK",
-	},
-	[9898] = {
-		Level = 52,
-		Class = "DRUID",
-	},
-	[47812] = {
-		Level = 71,
-		Class = "WARLOCK",
-	},
-	[19852] = {
-		Level = 34,
-		Class = "PALADIN",
-	},
-	[19884] = {
-		Level = 18,
-		Class = "HUNTER",
-	},
-	[64380] = {
-		Level = 71,
-		Class = "WARRIOR",
-	},
-	[48068] = {
-		Level = 80,
-		Class = "PRIEST",
-	},
-	[11668] = {
-		Level = 60,
-		Class = "WARLOCK",
-	},
-	[58431] = {
-		Level = 74,
-		Class = "HUNTER",
-	},
-	[11661] = {
-		Level = 60,
-		Class = "WARLOCK",
-	},
-	[28610] = {
-		Level = 60,
-		Class = "WARLOCK",
-	},
-	[27260] = {
-		Level = 70,
-		Class = "WARLOCK",
-	},
-	[27211] = {
-		Level = 64,
-		Class = "WARLOCK",
-	},
-	[58751] = {
-		Level = 73,
-		Class = "SHAMAN",
-	},
-	[3552] = {
-		Level = 38,
-		Class = "MAGE",
-	},
-	[54785] = {
-		Level = 60,
-		Class = "WARLOCK",
-	},
-	[44614] = {
-		Level = 75,
-		Class = "MAGE",
-	},
-	[50511] = {
-		Level = 71,
-		Class = "WARLOCK",
-	},
-	[10170] = {
-		Level = 54,
-		Class = "MAGE",
-	},
-	[10186] = {
-		Level = 52,
-		Class = "MAGE",
-	},
-	[10202] = {
-		Level = 54,
-		Class = "MAGE",
-	},
-	[27228] = {
-		Level = 69,
-		Class = "WARLOCK",
-	},
-	[8289] = {
-		Level = 38,
-		Class = "WARLOCK",
-	},
-	[43015] = {
-		Level = 76,
-		Class = "MAGE",
-	},
-	[27220] = {
-		Level = 69,
-		Class = "WARLOCK",
-	},
-	[5143] = {
-		Level = 8,
-		Class = "MAGE",
-	},
-	[10298] = {
-		Level = 26,
-		Class = "PALADIN",
-	},
-	[10314] = {
-		Level = 60,
-		Class = "PALADIN",
-	},
-	[27216] = {
+	[33357] = {
 		Level = 65,
-		Class = "WARLOCK",
-	},
-	[47449] = {
-		Level = 72,
-		Class = "WARRIOR",
-	},
-	[20658] = {
-		Level = 32,
-		Class = "WARRIOR",
-	},
-	[20748] = {
-		Level = 60,
 		Class = "DRUID",
 	},
-	[22827] = {
-		Level = 40,
-		Class = "DRUID",
-	},
-	[62078] = {
-		Level = 71,
-		Class = "DRUID",
-	},
-	[47813] = {
-		Level = 77,
-		Class = "WARLOCK",
-	},
-	[49924] = {
-		Level = 80,
-		Class = "DEATHKNIGHT",
-	},
-	[29893] = {
-		Level = 68,
-		Class = "WARLOCK",
-	},
-	[8427] = {
-		Level = 36,
-		Class = "MAGE",
-	},
-	[7294] = {
-		Level = 16,
-		Class = "PALADIN",
-	},
-	[7302] = {
-		Level = 30,
-		Class = "MAGE",
-	},
-	[58432] = {
-		Level = 74,
-		Class = "HUNTER",
-	},
-	[27209] = {
-		Level = 69,
-		Class = "WARLOCK",
-	},
-	[30910] = {
-		Level = 70,
-		Class = "WARLOCK",
-	},
-	[27128] = {
-		Level = 69,
-		Class = "MAGE",
-	},
-	[25258] = {
-		Level = 66,
-		Class = "WARRIOR",
-	},
-	[25290] = {
-		Level = 60,
-		Class = "PALADIN",
-	},
-	[28172] = {
-		Level = 66,
-		Class = "WARLOCK",
-	},
-	[699] = {
-		Level = 22,
-		Class = "WARLOCK",
-	},
-	[30545] = {
-		Level = 70,
-		Class = "WARLOCK",
-	},
-	[19277] = {
-		Level = 36,
-		Class = "PRIEST",
-	},
-	[17952] = {
-		Level = 46,
-		Class = "WARLOCK",
-	},
-	[3700] = {
-		Level = 36,
-		Class = "WARLOCK",
-	},
-	[1456] = {
-		Level = 26,
-		Class = "WARLOCK",
-	},
-	[25546] = {
-		Level = 61,
-		Class = "SHAMAN",
-	},
-	[17928] = {
-		Level = 54,
-		Class = "WARLOCK",
-	},
-	[49410] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
-	},
-	[12825] = {
-		Level = 40,
-		Class = "MAGE",
-	},
-	[25307] = {
-		Level = 60,
-		Class = "WARLOCK",
-	},
-	[697] = {
-		Level = 10,
-		Class = "WARLOCK",
-	},
-	[32231] = {
-		Level = 70,
-		Class = "WARLOCK",
-	},
-	[10150] = {
-		Level = 54,
-		Class = "MAGE",
-	},
-	[48784] = {
-		Level = 74,
-		Class = "PALADIN",
-	},
-	[1022] = {
-		Level = 10,
-		Class = "PALADIN",
-	},
-	[10890] = {
-		Level = 56,
-		Class = "PRIEST",
-	},
-	[25898] = {
-		Level = 60,
-		Class = "PALADIN",
-	},
-	[49903] = {
-		Level = 67,
-		Class = "DEATHKNIGHT",
-	},
-	[10938] = {
-		Level = 60,
-		Class = "PRIEST",
-	},
-	[47878] = {
-		Level = 79,
-		Class = "WARLOCK",
-	},
-	[5487] = {
-		Level = 10,
-		Class = "DRUID",
-	},
-	[64382] = {
-		Level = 71,
-		Class = "WARRIOR",
-	},
-	[48070] = {
-		Level = 73,
-		Class = "PRIEST",
-	},
-	[48134] = {
-		Level = 72,
-		Class = "PRIEST",
-	},
-	[58433] = {
-		Level = 80,
-		Class = "HUNTER",
-	},
-	[2048] = {
-		Level = 69,
-		Class = "WARRIOR",
-	},
-	[25202] = {
-		Level = 62,
-		Class = "WARRIOR",
-	},
-	[48113] = {
-		Level = 79,
-		Class = "PRIEST",
-	},
-	[47871] = {
-		Level = 73,
-		Class = "WARLOCK",
-	},
-	[58753] = {
-		Level = 78,
-		Class = "SHAMAN",
-	},
-	[6178] = {
-		Level = 26,
-		Class = "WARRIOR",
-	},
-	[8288] = {
-		Level = 24,
-		Class = "WARLOCK",
-	},
-	[970] = {
-		Level = 18,
-		Class = "PRIEST",
-	},
-	[24395] = {
-		Level = 40,
-		Class = "HUNTER",
-	},
-	[5599] = {
-		Level = 24,
-		Class = "PALADIN",
-	},
-	[11700] = {
-		Level = 54,
-		Class = "WARLOCK",
-	},
-	[5615] = {
-		Level = 36,
-		Class = "PALADIN",
-	},
-	[48721] = {
+	[19943] = {
 		Level = 58,
-		Class = "DEATHKNIGHT",
-	},
-	[48785] = {
-		Level = 79,
 		Class = "PALADIN",
-	},
-	[43017] = {
-		Level = 77,
-		Class = "MAGE",
-	},
-	[11290] = {
-		Level = 54,
-		Class = "ROGUE",
-	},
-	[19853] = {
-		Level = 44,
-		Class = "PALADIN",
-	},
-	[30824] = {
-		Level = 50,
-		Class = "SHAMAN",
-	},
-	[20924] = {
-		Level = 60,
-		Class = "PALADIN",
-	},
-	[27078] = {
-		Level = 61,
-		Class = "MAGE",
-	},
-	[47824] = {
-		Level = 75,
-		Class = "WARLOCK",
-	},
-	[27126] = {
-		Level = 70,
-		Class = "MAGE",
-	},
-	[27142] = {
-		Level = 65,
-		Class = "PALADIN",
-	},
-	[11418] = {
-		Level = 40,
-		Class = "MAGE",
-	},
-	[24907] = {
-		Level = 40,
-		Class = "DRUID",
-	},
-	[47815] = {
-		Level = 79,
-		Class = "WARLOCK",
-	},
-	[49926] = {
-		Level = 59,
-		Class = "DEATHKNIGHT",
-	},
-	[6789] = {
-		Level = 42,
-		Class = "WARLOCK",
-	},
-	[27082] = {
-		Level = 70,
-		Class = "MAGE",
-	},
-	[48071] = {
-		Level = 79,
-		Class = "PRIEST",
-	},
-	[48135] = {
-		Level = 78,
-		Class = "PRIEST",
-	},
-	[58434] = {
-		Level = 80,
-		Class = "HUNTER",
-	},
-	[48263] = {
-		Level = 57,
-		Class = "DEATHKNIGHT",
-	},
-	[11578] = {
-		Level = 46,
-		Class = "WARRIOR",
-	},
-	[27274] = {
-		Level = 68,
-		Class = "MAGE",
-	},
-	[11581] = {
-		Level = 58,
-		Class = "WARRIOR",
-	},
-	[25291] = {
-		Level = 60,
-		Class = "PALADIN",
-	},
-	[7870] = {
-		Level = 32,
-		Class = "MAGE",
-	},
-	[25208] = {
-		Level = 68,
-		Class = "WARRIOR",
-	},
-	[27222] = {
-		Level = 68,
-		Class = "WARLOCK",
-	},
-	[19278] = {
-		Level = 44,
-		Class = "PRIEST",
-	},
-	[695] = {
-		Level = 6,
-		Class = "WARLOCK",
-	},
-	[11722] = {
-		Level = 60,
-		Class = "WARLOCK",
-	},
-	[30451] = {
-		Level = 64,
-		Class = "MAGE",
-	},
-	[25547] = {
-		Level = 70,
-		Class = "SHAMAN",
-	},
-	[2812] = {
-		Level = 50,
-		Class = "PALADIN",
-	},
-	[27210] = {
-		Level = 65,
-		Class = "WARLOCK",
-	},
-	[543] = {
-		Level = 20,
-		Class = "MAGE",
-	},
-	[49937] = {
-		Level = 73,
-		Class = "DEATHKNIGHT",
-	},
-	[42872] = {
-		Level = 74,
-		Class = "MAGE",
-	},
-	[11695] = {
-		Level = 60,
-		Class = "WARLOCK",
-	},
-	[643] = {
-		Level = 20,
-		Class = "PALADIN",
-	},
-	[9835] = {
-		Level = 58,
-		Class = "DRUID",
-	},
-	[5500] = {
-		Level = 24,
-		Class = "WARLOCK",
-	},
-	[9867] = {
-		Level = 58,
-		Class = "DRUID",
-	},
-	[25899] = {
-		Level = 60,
-		Class = "PALADIN",
-	},
-	[49799] = {
-		Level = 71,
-		Class = "DRUID",
-	},
-	[8030] = {
-		Level = 26,
-		Class = "SHAMAN",
-	},
-	[49927] = {
-		Level = 64,
-		Class = "DEATHKNIGHT",
-	},
-	[8046] = {
-		Level = 24,
-		Class = "SHAMAN",
 	},
 	[19854] = {
 		Level = 54,
 		Class = "PALADIN",
 	},
-	[48072] = {
-		Level = 76,
-		Class = "PRIEST",
-	},
-	[48947] = {
-		Level = 78,
-		Class = "PALADIN",
-	},
-	[42873] = {
-		Level = 80,
-		Class = "MAGE",
-	},
-	[48020] = {
-		Level = 80,
-		Class = "WARLOCK",
-	},
-	[27127] = {
-		Level = 70,
-		Class = "MAGE",
-	},
-	[10059] = {
-		Level = 40,
-		Class = "MAGE",
-	},
-	[6063] = {
-		Level = 28,
-		Class = "PRIEST",
-	},
-	[58755] = {
-		Level = 71,
+	[10407] = {
+		Level = 44,
 		Class = "SHAMAN",
 	},
-	[25289] = {
-		Level = 60,
-		Class = "WARRIOR",
+	[25221] = {
+		Level = 65,
+		Class = "PRIEST",
 	},
-	[8134] = {
-		Level = 40,
-		Class = "SHAMAN",
-	},
-	[10139] = {
-		Level = 50,
-		Class = "MAGE",
-	},
-	[24396] = {
-		Level = 40,
-		Class = "HUNTER",
-	},
-	[14265] = {
-		Level = 48,
-		Class = "HUNTER",
-	},
-	[10187] = {
-		Level = 60,
-		Class = "MAGE",
-	},
-	[6127] = {
-		Level = 30,
-		Class = "MAGE",
-	},
-	[10219] = {
-		Level = 50,
-		Class = "MAGE",
-	},
-	[42955] = {
-		Level = 75,
-		Class = "MAGE",
-	},
-	[43019] = {
-		Level = 73,
-		Class = "MAGE",
-	},
-	[42650] = {
-		Level = 80,
+	[62900] = {
+		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
-	[2061] = {
+	[20425] = {
 		Level = 20,
-		Class = "PRIEST",
-	},
-	[10299] = {
-		Level = 36,
 		Class = "PALADIN",
 	},
-	[5484] = {
-		Level = 40,
-		Class = "WARLOCK",
-	},
-	[43339] = {
-		Level = 10,
+	[25552] = {
+		Level = 65,
 		Class = "SHAMAN",
 	},
-	[10207] = {
-		Level = 58,
-		Class = "MAGE",
+	[9912] = {
+		Level = 54,
+		Class = "DRUID",
 	},
-	[1152] = {
-		Level = 8,
-		Class = "PALADIN",
+	[33987] = {
+		Level = 68,
+		Class = "DRUID",
 	},
-	[6215] = {
-		Level = 56,
-		Class = "WARLOCK",
+	[6196] = {
+		Level = 26,
+		Class = "SHAMAN",
 	},
-	[6223] = {
-		Level = 24,
-		Class = "WARLOCK",
+	[48444] = {
+		Level = 75,
+		Class = "DRUID",
 	},
 	[49800] = {
 		Level = 80,
 		Class = "DRUID",
 	},
-	[47817] = {
-		Level = 72,
-		Class = "WARLOCK",
-	},
 	[49928] = {
 		Level = 69,
 		Class = "DEATHKNIGHT",
 	},
-	[8412] = {
+	[8423] = {
+		Level = 40,
+		Class = "MAGE",
+	},
+	[8455] = {
 		Level = 30,
 		Class = "MAGE",
 	},
-	[1010] = {
-		Level = 38,
+	[2362] = {
+		Level = 36,
 		Class = "WARLOCK",
 	},
-	[8444] = {
-		Level = 28,
+	[10] = {
+		Level = 20,
 		Class = "MAGE",
 	},
-	[56815] = {
-		Level = 67,
+	[25288] = {
+		Level = 60,
+		Class = "WARRIOR",
+	},
+	[12678] = {
+		Level = 20,
+		Class = "WARRIOR",
+	},
+	[10408] = {
+		Level = 54,
+		Class = "SHAMAN",
+	},
+	[8647] = {
+		Level = 14,
+		Class = "ROGUE",
+	},
+	[35715] = {
+		Level = 60,
+		Class = "MAGE",
+	},
+	[27173] = {
+		Level = 70,
+		Class = "PALADIN",
+	},
+	[10438] = {
+		Level = 60,
+		Class = "SHAMAN",
+	},
+	[2800] = {
+		Level = 30,
+		Class = "PALADIN",
+	},
+	[51425] = {
+		Level = 79,
 		Class = "DEATHKNIGHT",
 	},
-	[2121] = {
-		Level = 24,
+	[35717] = {
+		Level = 65,
+		Class = "MAGE",
+	},
+	[11608] = {
+		Level = 40,
+		Class = "WARRIOR",
+	},
+	[8903] = {
+		Level = 38,
+		Class = "DRUID",
+	},
+	[61305] = {
+		Level = 60,
+		Class = "MAGE",
+	},
+	[543] = {
+		Level = 20,
 		Class = "MAGE",
 	},
 	[48265] = {
 		Level = 70,
 		Class = "DEATHKNIGHT",
 	},
-	[27243] = {
-		Level = 70,
-		Class = "WARLOCK",
-	},
-	[27275] = {
-		Level = 70,
-		Class = "MAGE",
-	},
-	[2137] = {
-		Level = 14,
-		Class = "MAGE",
-	},
-	[25292] = {
-		Level = 60,
-		Class = "PALADIN",
-	},
-	[11693] = {
-		Level = 44,
-		Class = "WARLOCK",
-	},
-	[6343] = {
-		Level = 6,
-		Class = "WARRIOR",
-	},
-	[25918] = {
-		Level = 60,
-		Class = "PALADIN",
-	},
-	[19279] = {
-		Level = 52,
-		Class = "PRIEST",
-	},
-	[11689] = {
-		Level = 56,
-		Class = "WARLOCK",
-	},
-	[6375] = {
-		Level = 30,
-		Class = "SHAMAN",
-	},
-	[17] = {
-		Level = 6,
-		Class = "PRIEST",
-	},
-	[6391] = {
+	[8053] = {
 		Level = 28,
 		Class = "SHAMAN",
-	},
-	[42956] = {
-		Level = 80,
-		Class = "MAGE",
-	},
-	[43020] = {
-		Level = 79,
-		Class = "MAGE",
-	},
-	[12826] = {
-		Level = 60,
-		Class = "MAGE",
-	},
-	[11675] = {
-		Level = 52,
-		Class = "WARLOCK",
-	},
-	[12485] = {
-		Level = 10,
-		Class = "MAGE",
-	},
-	[49940] = {
-		Level = 72,
-		Class = "DEATHKNIGHT",
-	},
-	[48949] = {
-		Level = 72,
-		Class = "PALADIN",
-	},
-	[42843] = {
-		Level = 75,
-		Class = "MAGE",
-	},
-	[39374] = {
-		Level = 70,
-		Class = "PRIEST",
-	},
-	[712] = {
-		Level = 20,
-		Class = "WARLOCK",
-	},
-	[42939] = {
-		Level = 74,
-		Class = "MAGE",
-	},
-	[23885] = {
-		Level = 40,
-		Class = "WARRIOR",
-	},
-	[47818] = {
-		Level = 79,
-		Class = "WARLOCK",
-	},
-	[49929] = {
-		Level = 74,
-		Class = "DEATHKNIGHT",
-	},
-	[8924] = {
-		Level = 10,
-		Class = "DRUID",
-	},
-	[8940] = {
-		Level = 30,
-		Class = "DRUID",
-	},
-	[48074] = {
-		Level = 80,
-		Class = "PRIEST",
-	},
-	[8972] = {
-		Level = 34,
-		Class = "DRUID",
-	},
-	[9472] = {
-		Level = 26,
-		Class = "PRIEST",
-	},
-	[759] = {
-		Level = 28,
-		Class = "MAGE",
-	},
-	[10216] = {
-		Level = 56,
-		Class = "MAGE",
-	},
-	[605] = {
-		Level = 30,
-		Class = "PRIEST",
-	},
-	[23028] = {
-		Level = 56,
-		Class = "MAGE",
-	},
-	[284] = {
-		Level = 8,
-		Class = "WARRIOR",
-	},
-	[49941] = {
-		Level = 78,
-		Class = "DEATHKNIGHT",
-	},
-	[285] = {
-		Level = 16,
-		Class = "WARRIOR",
-	},
-	[20271] = {
-		Level = 4,
-		Class = "PALADIN",
-	},
-	[24397] = {
-		Level = 40,
-		Class = "HUNTER",
-	},
-	[43265] = {
-		Level = 60,
-		Class = "DEATHKNIGHT",
-	},
-	[6219] = {
-		Level = 34,
-		Class = "WARLOCK",
-	},
-	[47814] = {
-		Level = 74,
-		Class = "WARLOCK",
-	},
-	[61316] = {
-		Level = 80,
-		Class = "MAGE",
-	},
-	[7301] = {
-		Level = 20,
-		Class = "MAGE",
-	},
-	[11275] = {
-		Level = 60,
-		Class = "ROGUE",
-	},
-	[6077] = {
-		Level = 32,
-		Class = "PRIEST",
-	},
-	[50581] = {
-		Level = 60,
-		Class = "WARLOCK",
-	},
-	[1161] = {
-		Level = 26,
-		Class = "WARRIOR",
-	},
-	[47834] = {
-		Level = 80,
-		Class = "WARLOCK",
-	},
-	[8422] = {
-		Level = 32,
-		Class = "MAGE",
-	},
-	[1245] = {
-		Level = 24,
-		Class = "PRIEST",
-	},
-	[20719] = {
-		Level = 40,
-		Class = "DRUID",
-	},
-	[6201] = {
-		Level = 10,
-		Class = "WARLOCK",
-	},
-	[11419] = {
-		Level = 50,
-		Class = "MAGE",
-	},
-	[49802] = {
-		Level = 74,
-		Class = "DRUID",
-	},
-	[47819] = {
-		Level = 72,
-		Class = "WARLOCK",
-	},
-	[49930] = {
-		Level = 80,
-		Class = "DEATHKNIGHT",
-	},
-	[27219] = {
-		Level = 62,
-		Class = "WARLOCK",
-	},
-	[8105] = {
-		Level = 34,
-		Class = "PRIEST",
-	},
-	[48075] = {
-		Level = 75,
-		Class = "PRIEST",
-	},
-	[9484] = {
-		Level = 20,
-		Class = "PRIEST",
-	},
-	[27180] = {
-		Level = 68,
-		Class = "PALADIN",
-	},
-	[27212] = {
-		Level = 69,
-		Class = "WARLOCK",
-	},
-	[53651] = {
-		Level = 60,
-		Class = "PALADIN",
-	},
-	[33690] = {
-		Level = 60,
-		Class = "MAGE",
-	},
-	[48459] = {
-		Level = 74,
-		Class = "DRUID",
-	},
-	[132] = {
-		Level = 26,
-		Class = "WARLOCK",
-	},
-	[6131] = {
-		Level = 40,
-		Class = "MAGE",
-	},
-	[11659] = {
-		Level = 44,
-		Class = "WARLOCK",
-	},
-	[25389] = {
-		Level = 70,
-		Class = "PRIEST",
-	},
-	[19280] = {
-		Level = 60,
-		Class = "PRIEST",
-	},
-	[11707] = {
-		Level = 42,
-		Class = "WARLOCK",
-	},
-	[6143] = {
-		Level = 22,
-		Class = "MAGE",
-	},
-	[11739] = {
-		Level = 42,
-		Class = "WARLOCK",
-	},
-	[42894] = {
-		Level = 71,
-		Class = "MAGE",
-	},
-	[48127] = {
-		Level = 79,
-		Class = "PRIEST",
-	},
-	[29707] = {
-		Level = 66,
-		Class = "WARRIOR",
-	},
-	[9756] = {
-		Level = 44,
-		Class = "DRUID",
-	},
-	[47450] = {
-		Level = 76,
-		Class = "WARRIOR",
-	},
-	[48065] = {
-		Level = 75,
-		Class = "PRIEST",
-	},
-	[22782] = {
-		Level = 46,
-		Class = "MAGE",
-	},
-	[47436] = {
-		Level = 78,
-		Class = "WARRIOR",
-	},
-	[7270] = {
-		Level = 24,
-		Class = "MAGE",
-	},
-	[9852] = {
-		Level = 48,
-		Class = "DRUID",
-	},
-	[51722] = {
-		Level = 20,
-		Class = "ROGUE",
-	},
-	[9884] = {
-		Level = 50,
-		Class = "DRUID",
-	},
-	[49803] = {
-		Level = 77,
-		Class = "DRUID",
-	},
-	[47820] = {
-		Level = 79,
-		Class = "WARLOCK",
-	},
-	[47884] = {
-		Level = 76,
-		Class = "WARLOCK",
-	},
-	[19888] = {
-		Level = 32,
-		Class = "PALADIN",
-	},
-	[25217] = {
-		Level = 65,
-		Class = "PRIEST",
-	},
-	[48076] = {
-		Level = 80,
-		Class = "PRIEST",
-	},
-	[32266] = {
-		Level = 40,
-		Class = "MAGE",
-	},
-	[10945] = {
-		Level = 46,
-		Class = "PRIEST",
-	},
-	[7386] = {
-		Level = 10,
-		Class = "WARRIOR",
-	},
-	[38703] = {
-		Level = 70,
-		Class = "MAGE",
-	},
-	[10955] = {
-		Level = 60,
-		Class = "PRIEST",
-	},
-	[2053] = {
-		Level = 10,
-		Class = "PRIEST",
-	},
-	[42209] = {
-		Level = 28,
-		Class = "MAGE",
-	},
-	[25916] = {
-		Level = 60,
-		Class = "PALADIN",
-	},
-	[58887] = {
-		Level = 80,
-		Class = "WARLOCK",
-	},
-	[10140] = {
-		Level = 60,
-		Class = "MAGE",
-	},
-	[10156] = {
-		Level = 42,
-		Class = "MAGE",
-	},
-	[14266] = {
-		Level = 56,
-		Class = "HUNTER",
-	},
-	[14282] = {
-		Level = 20,
-		Class = "HUNTER",
-	},
-	[14298] = {
-		Level = 26,
-		Class = "HUNTER",
-	},
-	[10220] = {
-		Level = 60,
-		Class = "MAGE",
-	},
-	[689] = {
-		Level = 14,
-		Class = "WARLOCK",
-	},
-	[2565] = {
-		Level = 16,
-		Class = "WARRIOR",
-	},
-	[26669] = {
-		Level = 50,
-		Class = "ROGUE",
-	},
-	[5144] = {
-		Level = 16,
-		Class = "MAGE",
-	},
-	[10300] = {
-		Level = 46,
-		Class = "PALADIN",
-	},
-	[696] = {
-		Level = 10,
-		Class = "WARLOCK",
-	},
-	[47437] = {
-		Level = 79,
-		Class = "WARRIOR",
-	},
-	[47501] = {
-		Level = 73,
-		Class = "WARRIOR",
-	},
-	[26861] = {
-		Level = 62,
-		Class = "ROGUE",
-	},
-	[20752] = {
-		Level = 30,
-		Class = "WARLOCK",
-	},
-	[10396] = {
-		Level = 56,
-		Class = "SHAMAN",
-	},
-	[10412] = {
-		Level = 36,
-		Class = "SHAMAN",
-	},
-	[10428] = {
-		Level = 58,
-		Class = "SHAMAN",
-	},
-	[27021] = {
-		Level = 67,
-		Class = "HUNTER",
-	},
-	[45902] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
-	},
-	[27085] = {
-		Level = 68,
-		Class = "MAGE",
-	},
-	[48077] = {
-		Level = 75,
-		Class = "PRIEST",
-	},
-	[8461] = {
-		Level = 32,
-		Class = "MAGE",
-	},
-	[29228] = {
-		Level = 60,
-		Class = "SHAMAN",
-	},
-	[27213] = {
-		Level = 68,
-		Class = "WARLOCK",
-	},
-	[2641] = {
-		Level = 10,
-		Class = "HUNTER",
-	},
-	[2645] = {
-		Level = 16,
-		Class = "SHAMAN",
-	},
-	[48461] = {
-		Level = 79,
-		Class = "DRUID",
 	},
 	[64901] = {
 		Level = 80,
 		Class = "PRIEST",
 	},
-	[8122] = {
-		Level = 14,
-		Class = "PRIEST",
+	[8349] = {
+		Level = 12,
+		Class = "SHAMAN",
 	},
-	[10161] = {
-		Level = 58,
+	[25448] = {
+		Level = 62,
+		Class = "SHAMAN",
+	},
+	[60219] = {
+		Level = 74,
+		Class = "WARLOCK",
+	},
+	[10600] = {
+		Level = 44,
+		Class = "SHAMAN",
+	},
+	[6358] = {
+		Level = 26,
 		Class = "MAGE",
 	},
-	[50764] = {
-		Level = 69,
+	[8190] = {
+		Level = 26,
+		Class = "SHAMAN",
+	},
+	[45302] = {
+		Level = 70,
+		Class = "SHAMAN",
+	},
+	[36936] = {
+		Level = 30,
+		Class = "SHAMAN",
+	},
+	[24905] = {
+		Level = 40,
 		Class = "DRUID",
 	},
-	[48781] = {
-		Level = 75,
+	[27016] = {
+		Level = 67,
+		Class = "HUNTER",
+	},
+	[49929] = {
+		Level = 74,
+		Class = "DEATHKNIGHT",
+	},
+	[27080] = {
+		Level = 62,
+		Class = "MAGE",
+	},
+	[16813] = {
+		Level = 48,
+		Class = "DRUID",
+	},
+	[17923] = {
+		Level = 58,
+		Class = "WARLOCK",
+	},
+	[19852] = {
+		Level = 34,
 		Class = "PALADIN",
 	},
-	[25454] = {
-		Level = 69,
+	[44614] = {
+		Level = 75,
+		Class = "MAGE",
+	},
+	[58887] = {
+		Level = 80,
+		Class = "WARLOCK",
+	},
+	[10170] = {
+		Level = 54,
+		Class = "MAGE",
+	},
+	[3565] = {
+		Level = 30,
+		Class = "MAGE",
+	},
+	[49924] = {
+		Level = 80,
+		Class = "DEATHKNIGHT",
+	},
+	[43019] = {
+		Level = 73,
+		Class = "MAGE",
+	},
+	[28172] = {
+		Level = 66,
+		Class = "WARLOCK",
+	},
+	[25546] = {
+		Level = 61,
 		Class = "SHAMAN",
+	},
+	[32231] = {
+		Level = 70,
+		Class = "WARLOCK",
+	},
+	[9863] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[25547] = {
+		Level = 70,
+		Class = "SHAMAN",
+	},
+	[19850] = {
+		Level = 24,
+		Class = "PALADIN",
+	},
+	[10187] = {
+		Level = 60,
+		Class = "MAGE",
+	},
+	[19279] = {
+		Level = 52,
+		Class = "PRIEST",
+	},
+	[49941] = {
+		Level = 78,
+		Class = "DEATHKNIGHT",
+	},
+	[49803] = {
+		Level = 77,
+		Class = "DRUID",
+	},
+	[42209] = {
+		Level = 28,
+		Class = "MAGE",
+	},
+	[8461] = {
+		Level = 32,
+		Class = "MAGE",
+	},
+	[10151] = {
+		Level = 60,
+		Class = "MAGE",
 	},
 	[61191] = {
 		Level = 72,
 		Class = "WARLOCK",
 	},
-	[42832] = {
-		Level = 74,
-		Class = "MAGE",
-	},
-	[42896] = {
-		Level = 76,
-		Class = "MAGE",
-	},
-	[10138] = {
-		Level = 40,
-		Class = "MAGE",
-	},
-	[43024] = {
-		Level = 79,
-		Class = "MAGE",
-	},
-	[1460] = {
-		Level = 14,
-		Class = "MAGE",
-	},
-	[7816] = {
-		Level = 36,
-		Class = "MAGE",
-	},
-	[8495] = {
-		Level = 36,
-		Class = "MAGE",
-	},
-	[339] = {
-		Level = 8,
-		Class = "DRUID",
-	},
-	[11784] = {
-		Level = 46,
-		Class = "MAGE",
-	},
-	[47502] = {
-		Level = 78,
-		Class = "WARRIOR",
-	},
-	[48040] = {
-		Level = 71,
-		Class = "PRIEST",
-	},
-	[10892] = {
-		Level = 42,
-		Class = "PRIEST",
-	},
-	[27804] = {
-		Level = 52,
-		Class = "PRIEST",
-	},
-	[57993] = {
-		Level = 80,
-		Class = "ROGUE",
-	},
-	[47822] = {
-		Level = 78,
-		Class = "WARLOCK",
-	},
-	[47886] = {
-		Level = 72,
-		Class = "WARLOCK",
-	},
-	[8925] = {
-		Level = 16,
-		Class = "DRUID",
-	},
-	[8941] = {
-		Level = 36,
-		Class = "DRUID",
-	},
-	[48078] = {
-		Level = 80,
-		Class = "PRIEST",
-	},
-	[32267] = {
-		Level = 40,
-		Class = "MAGE",
-	},
-	[48062] = {
-		Level = 73,
-		Class = "PRIEST",
-	},
-	[9005] = {
-		Level = 36,
-		Class = "DRUID",
-	},
-	[48119] = {
-		Level = 72,
-		Class = "PRIEST",
-	},
-	[8102] = {
-		Level = 16,
-		Class = "PRIEST",
-	},
-	[24239] = {
-		Level = 60,
-		Class = "PALADIN",
-	},
-	[7128] = {
-		Level = 20,
-		Class = "PRIEST",
-	},
-	[54043] = {
-		Level = 76,
-		Class = "PALADIN",
-	},
-	[58889] = {
-		Level = 60,
-		Class = "WARLOCK",
-	},
-	[50765] = {
-		Level = 60,
-		Class = "DRUID",
-	},
-	[48782] = {
-		Level = 80,
-		Class = "PALADIN",
-	},
-	[33076] = {
+	[27213] = {
 		Level = 68,
-		Class = "PRIEST",
-	},
-	[20756] = {
-		Level = 50,
 		Class = "WARLOCK",
-	},
-	[42833] = {
-		Level = 78,
-		Class = "MAGE",
-	},
-	[42897] = {
-		Level = 80,
-		Class = "MAGE",
-	},
-	[8445] = {
-		Level = 34,
-		Class = "MAGE",
-	},
-	[38699] = {
-		Level = 69,
-		Class = "MAGE",
-	},
-	[49230] = {
-		Level = 74,
-		Class = "SHAMAN",
-	},
-	[837] = {
-		Level = 14,
-		Class = "MAGE",
-	},
-	[49358] = {
-		Level = 35,
-		Class = "MAGE",
-	},
-	[355] = {
-		Level = 10,
-		Class = "WARRIOR",
-	},
-	[47439] = {
-		Level = 74,
-		Class = "WARRIOR",
-	},
-	[3140] = {
-		Level = 18,
-		Class = "MAGE",
-	},
-	[26862] = {
-		Level = 70,
-		Class = "ROGUE",
-	},
-	[8492] = {
-		Level = 34,
-		Class = "MAGE",
-	},
-	[11420] = {
-		Level = 50,
-		Class = "MAGE",
-	},
-	[57994] = {
-		Level = 16,
-		Class = "SHAMAN",
-	},
-	[47823] = {
-		Level = 78,
-		Class = "WARLOCK",
-	},
-	[27022] = {
-		Level = 67,
-		Class = "HUNTER",
-	},
-	[49998] = {
-		Level = 56,
-		Class = "DEATHKNIGHT",
-	},
-	[27086] = {
-		Level = 64,
-		Class = "MAGE",
-	},
-	[38700] = {
-		Level = 69,
-		Class = "MAGE",
-	},
-	[7815] = {
-		Level = 28,
-		Class = "MAGE",
-	},
-	[33878] = {
-		Level = 50,
-		Class = "DRUID",
-	},
-	[11564] = {
-		Level = 32,
-		Class = "WARRIOR",
-	},
-	[11580] = {
-		Level = 48,
-		Class = "WARRIOR",
-	},
-	[25231] = {
-		Level = 68,
-		Class = "WARRIOR",
-	},
-	[21169] = {
-		Level = 30,
-		Class = "SHAMAN",
-	},
-	[1455] = {
-		Level = 16,
-		Class = "WARLOCK",
-	},
-	[48045] = {
-		Level = 75,
-		Class = "PRIEST",
-	},
-	[11660] = {
-		Level = 52,
-		Class = "WARLOCK",
-	},
-	[1461] = {
-		Level = 28,
-		Class = "MAGE",
-	},
-	[1463] = {
-		Level = 20,
-		Class = "MAGE",
-	},
-	[11708] = {
-		Level = 52,
-		Class = "WARLOCK",
-	},
-	[49923] = {
-		Level = 75,
-		Class = "DEATHKNIGHT",
-	},
-	[11740] = {
-		Level = 52,
-		Class = "WARLOCK",
-	},
-	[2941] = {
-		Level = 30,
-		Class = "WARLOCK",
-	},
-	[48123] = {
-		Level = 79,
-		Class = "PRIEST",
-	},
-	[8205] = {
-		Level = 38,
-		Class = "WARRIOR",
-	},
-	[49231] = {
-		Level = 79,
-		Class = "SHAMAN",
-	},
-	[370] = {
-		Level = 12,
-		Class = "SHAMAN",
-	},
-	[49359] = {
-		Level = 35,
-		Class = "MAGE",
-	},
-	[31884] = {
-		Level = 70,
-		Class = "PALADIN",
-	},
-	[47440] = {
-		Level = 80,
-		Class = "WARRIOR",
-	},
-	[8423] = {
-		Level = 40,
-		Class = "MAGE",
-	},
-	[47568] = {
-		Level = 75,
-		Class = "DEATHKNIGHT",
-	},
-	[47632] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
-	},
-	[9885] = {
-		Level = 60,
-		Class = "DRUID",
-	},
-	[9901] = {
-		Level = 54,
-		Class = "DRUID",
-	},
-	[23920] = {
-		Level = 64,
-		Class = "WARRIOR",
-	},
-	[47888] = {
-		Level = 78,
-		Class = "WARLOCK",
-	},
-	[49999] = {
-		Level = 63,
-		Class = "DEATHKNIGHT",
-	},
-	[28609] = {
-		Level = 60,
-		Class = "MAGE",
-	},
-	[48743] = {
-		Level = 66,
-		Class = "DEATHKNIGHT",
-	},
-	[8071] = {
-		Level = 4,
-		Class = "SHAMAN",
-	},
-	[43023] = {
-		Level = 71,
-		Class = "MAGE",
-	},
-	[33943] = {
-		Level = 60,
-		Class = "DRUID",
-	},
-	[3025] = {
-		Level = 20,
-		Class = "DRUID",
-	},
-	[8103] = {
-		Level = 22,
-		Class = "PRIEST",
-	},
-	[6064] = {
-		Level = 34,
-		Class = "PRIEST",
-	},
-	[64904] = {
-		Level = 80,
-		Class = "PRIEST",
-	},
-	[12494] = {
-		Level = 10,
-		Class = "MAGE",
-	},
-	[48656] = {
-		Level = 74,
-		Class = "ROGUE",
-	},
-	[8143] = {
-		Level = 18,
-		Class = "SHAMAN",
-	},
-	[10157] = {
-		Level = 56,
-		Class = "MAGE",
-	},
-	[10173] = {
-		Level = 48,
-		Class = "MAGE",
-	},
-	[19900] = {
-		Level = 60,
-		Class = "PALADIN",
 	},
 };

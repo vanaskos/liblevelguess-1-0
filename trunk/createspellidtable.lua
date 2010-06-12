@@ -53,8 +53,9 @@ local function writeTableToFile(tablecontent, filename)
 	
 	f:write("local myDataVersion = ", os.time(), ";\n");
 	f:write("if(lib.spellIdData and myDataVersion <= lib.spellIdDataVersion) then return; end\n\n");
+	f:write("lib.spellIdDataVersion = myDataVersion;\n");
 	f:write("lib.spellIdData = {\n");
-	
+
 	for k, v in pairs(tablecontent) do
 		f:write("\t[", k, "] = {\n");
 		f:write("\t\tLevel = ", v.Level, ",\n");

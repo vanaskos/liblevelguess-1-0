@@ -1,6 +1,6 @@
 --[[
 	Name: LibLevelGuess-1.0
-	Revision: $Rev: 0 $
+	Revision: $Rev$
 	Author(s): Vana (boredvana@gmail.com) - data from others
 	Description: A library to provide a good guess about the level of a player
 	Dependencies: None
