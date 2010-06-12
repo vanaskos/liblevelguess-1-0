@@ -10,7 +10,7 @@
 -- This library is meant to be extended by other means of Level Estimation in the future.
 
 local MAJOR_VERSION = "LibLevelGuess-1.0";
-local MINOR_VERSION = tonumber(("$Revision: 0$"):match("%d+"));
+local MINOR_VERSION = tonumber(("$Revision$"):match("%d+"));
 
 if(not LibStub) then error("LibLevelGuess-1.0 requires LibStub."); end
 

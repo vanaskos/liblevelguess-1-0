@@ -1,7 +1,7 @@
 -- this file is for a standalone lua interpreter with the luasocket library
 socket = require("socket");
 
-local OUTPUTFILE = "SpellIdData.lua";
+local OUTPUTFILE = "LibLevelGuess-1.0/SpellIdData.lua";
 
 if(not socket) then
 	print("No Socket-Library");
@@ -63,7 +63,7 @@ local function writeTableToFile(tablecontent, filename)
 		f:write("\t},\n");
 	end
 	
-	f:write("};");
+	f:write("};\n");
 	f:close();
 end
 
