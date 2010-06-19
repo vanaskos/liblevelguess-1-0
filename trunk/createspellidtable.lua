@@ -2,6 +2,7 @@
 socket = require("socket");
 
 local OUTPUTFILE = "LibLevelGuess-1.0/SpellIdData.lua";
+local tinsert = table.insert
 
 if(not socket) then
 	print("No Socket-Library");
@@ -33,13 +34,13 @@ local function ProcessContent(websiteString, CLASS)
   
   local result = { };
   while sfHtml ~= nil do
-    sfStart, sfEnd, sfHtml = string.find(websiteString, "<tr class(.-)<table class=thin width='100%%'>", sfEnd+1);
     if sfHtml then
       spStart, spEnd, spID, spLevel = string.find(sfHtml, "none'>(.-)</td><td align='center'>(.-)</td><td align=")
       --print("SpellID: "..tonumber(spID).." | Level: "..tonumber(spLevel));
-      result[tonumber(spID)] = {Class = CLASS, Level = tonumber(spLevel)};
+      tinsert(result, {spellID = spID, Class = CLASS, Level = tonumber(spLevel)});
       parseCount = parseCount + 1;
     end
+    sfStart, sfEnd, sfHtml = string.find(websiteString, "<tr class(.-)<table class=thin width='100%%'>", sfEnd+1);
   end  
   print("Parsed "..parseCount.." spells!");
   return result;
@@ -57,7 +58,7 @@ local function writeTableToFile(tablecontent, filename)
 	f:write("lib.spellIdData = {\n");
 
 	for k, v in pairs(tablecontent) do
-		f:write("\t[", k, "] = {\n");
+		f:write("\t[", v.spellID, "] = {\n");
 		f:write("\t\tLevel = ", v.Level, ",\n");
 		f:write("\t\tClass = \"", v.Class, "\",\n");
 		f:write("\t},\n");
@@ -67,7 +68,7 @@ local function writeTableToFile(tablecontent, filename)
 	f:close();
 end
 
-local result = { };
+local result = {};
 
 for k, v in pairs(classToWebsite) do
 	local content, httpCode, header = socket.http.request(v);
@@ -75,10 +76,26 @@ for k, v in pairs(classToWebsite) do
 		print("Got " .. v .. " for class " .. k);
 		local classResult = ProcessContent(content, k);
 		for k,v in pairs(classResult) do
-			result[k] = v;
+			tinsert(result, v);
 		end
 		
 	end
 end
+
+table.sort(result, function(v1, v2)
+			if (v1.Class < v2.Class) then
+				return true
+			elseif (v1.Class > v2.Class) then
+				return nil
+			end
+
+			if (v1.Level < v2.Level) then
+				return true
+			elseif (v1.Level > v2.Level) then
+				return nil
+			end
+
+			return v1.spellID < v2.spellID
+		end)
 
 writeTableToFile(result, OUTPUTFILE);
