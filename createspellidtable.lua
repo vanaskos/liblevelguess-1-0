@@ -28,20 +28,28 @@ local classToWebsite = {
 local function ProcessContent(websiteString, CLASS)
   print("Parsing...")
   -- parsing function from lifetapt
-  local sfStart, sfEnd, sfHtml = string.find(websiteString, "<tr class(.-)\<table class=thin width=\'100%%\'>");
-  local spStart, spEnd, spID, spLevel;
+  local sfStart, sfEnd, sfHtml;
   local parseCount = 0;
-  
   local result = { };
-  while sfHtml ~= nil do
-    if sfHtml then
-      spStart, spEnd, spID, spLevel = string.find(sfHtml, "none'>(.-)</td><td align='center'>(.-)</td><td align=")
-      --print("SpellID: "..tonumber(spID).." | Level: "..tonumber(spLevel));
-      tinsert(result, {spellID = spID, Class = CLASS, Level = tonumber(spLevel)});
-      parseCount = parseCount + 1;
+  sfStart = 0;
+  sfEnd = 0;
+  while sfStart and sfEnd do
+    sfStart, sfEnd, sfHtml = string.find(websiteString, "new Listview.-{template: 'spell',(.-);", sfEnd);
+    if sfStart and sfEnd then
+      local spStart, spEnd, spID, spLevel;
+      spStart = 0;
+      spEnd = 0;
+    
+      while spStart and spEnd do
+        spStart, spEnd, spID, spLevel = string.find(sfHtml, "{.-\"id\":([0-9]+),\"level\":([0-9]+),.-},", spEnd);
+        if spStart and spEnd then
+          print("SpellID: "..(tonumber(spID) or "nil") .." | Level: "..(tonumber(spLevel) or "nil"));
+          tinsert(result, {spellID = spID, Class = CLASS, Level = tonumber(spLevel)});
+          parseCount = parseCount + 1;
+        end
+      end
     end
-    sfStart, sfEnd, sfHtml = string.find(websiteString, "<tr class(.-)<table class=thin width='100%%'>", sfEnd+1);
-  end  
+  end
   print("Parsed "..parseCount.." spells!");
   return result;
 end

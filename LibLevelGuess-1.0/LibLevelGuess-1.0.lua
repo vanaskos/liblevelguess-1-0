@@ -1,7 +1,7 @@
 --[[
 	Name: LibLevelGuess-1.0
 	Revision: $Rev$
-	Author(s): Vana (boredvana@gmail.com) - data from others
+	Author(s): Vana (boredvana@gmail.com), Xilcoy (xilcoy.curse@gmail.com) - data from others
 	Description: A library to provide a good guess about the level of a player
 	Dependencies: None
 	License: MIT
@@ -33,6 +33,9 @@ function lib:GetEstimatedLevelAndClassFromSpellId(spellId)
 	if(spell == nil) then
 		return nil;
 	end
-	
+	if spell.Class == "DEATHKNIGHT" and (spell.Level or 0) < 55 then
+	    return 55;
+	end
+
 	return spell.Level, spell.Class;
 end
