@@ -2,7 +2,7 @@ local lib = LibStub("LibLevelGuess-1.0");
 
 if(not lib) then error("SpellIdData for LibLevelGuess needs library to be loaded before"); return; end
 
-local myDataVersion = 1297602264;
+local myDataVersion = 1304099253;
 if(lib.spellIdData and myDataVersion <= lib.spellIdDataVersion) then return; end
 
 lib.spellIdDataVersion = myDataVersion;
@@ -1223,6 +1223,10 @@ lib.spellIdData = {
 		Level = 17,
 		Class = "DRUID",
 	},
+	[779] = {
+		Level = 18,
+		Class = "DRUID",
+	},
 	[16864] = {
 		Level = 20,
 		Class = "DRUID",
@@ -1596,10 +1600,6 @@ lib.spellIdData = {
 		Class = "DRUID",
 	},
 	[62078] = {
-		Level = 36,
-		Class = "DRUID",
-	},
-	[779] = {
 		Level = 36,
 		Class = "DRUID",
 	},
@@ -4243,6 +4243,10 @@ lib.spellIdData = {
 		Level = 0,
 		Class = "PRIEST",
 	},
+	[33167] = {
+		Level = 0,
+		Class = "PRIEST",
+	},
 	[5009] = {
 		Level = 0,
 		Class = "PRIEST",
@@ -4300,6 +4304,10 @@ lib.spellIdData = {
 		Class = "PRIEST",
 	},
 	[585] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[63544] = {
 		Level = 1,
 		Class = "PRIEST",
 	},
@@ -6315,6 +6323,10 @@ lib.spellIdData = {
 		Level = 30,
 		Class = "SHAMAN",
 	},
+	[88766] = {
+		Level = 30,
+		Class = "SHAMAN",
+	},
 	[30808] = {
 		Level = 31,
 		Class = "SHAMAN",
@@ -7423,6 +7435,10 @@ lib.spellIdData = {
 		Level = 7,
 		Class = "WARRIOR",
 	},
+	[94009] = {
+		Level = 7,
+		Class = "WARRIOR",
+	},
 	[6343] = {
 		Level = 9,
 		Class = "WARRIOR",
@@ -7703,15 +7719,15 @@ lib.spellIdData = {
 		Level = 20,
 		Class = "WARRIOR",
 	},
+	[57755] = {
+		Level = 20,
+		Class = "WARRIOR",
+	},
 	[6673] = {
 		Level = 20,
 		Class = "WARRIOR",
 	},
 	[674] = {
-		Level = 20,
-		Class = "WARRIOR",
-	},
-	[72] = {
 		Level = 20,
 		Class = "WARRIOR",
 	},
@@ -8027,6 +8043,10 @@ lib.spellIdData = {
 		Level = 54,
 		Class = "WARRIOR",
 	},
+	[1134] = {
+		Level = 56,
+		Class = "WARRIOR",
+	},
 	[12678] = {
 		Level = 58,
 		Class = "WARRIOR",
@@ -8067,10 +8087,6 @@ lib.spellIdData = {
 		Level = 76,
 		Class = "WARRIOR",
 	},
-	[57755] = {
-		Level = 78,
-		Class = "WARRIOR",
-	},
 	[86479] = {
 		Level = 80,
 		Class = "WARRIOR",
@@ -8081,10 +8097,6 @@ lib.spellIdData = {
 	},
 	[86346] = {
 		Level = 81,
-		Class = "WARRIOR",
-	},
-	[1134] = {
-		Level = 83,
 		Class = "WARRIOR",
 	},
 	[6544] = {
