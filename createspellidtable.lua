@@ -13,16 +13,17 @@ print(socket._VERSION);
 http = require("socket.http");
 
 local classToWebsite = { 
-        ["DEATHKNIGHT"] = "http://thottbot.com/?c=Death_Knight",
-        ["DRUID"] = "http://thottbot.com/?c=Druid",
-        ["HUNTER"] = "http://thottbot.com/?c=Hunter",
-        ["MAGE"] = "http://thottbot.com/?c=Mage",
-        ["PALADIN"] = "http://thottbot.com/?c=Paladin",
-        ["PRIEST"] = "http://thottbot.com/?c=Priest",
-        ["ROGUE"] = "http://thottbot.com/?c=Rogue",
-        ["SHAMAN"] = "http://thottbot.com/?c=Shaman",
-        ["WARLOCK"] = "http://thottbot.com/?c=Warlock",
-        ["WARRIOR"] = "http://thottbot.com/?c=Warrior",
+        ["WARRIOR"] = "http://thottbot.com/class=1",
+        ["PALADIN"] = "http://thottbot.com/class=2",
+        ["HUNTER"] = "http://thottbot.com/class=3",
+        ["ROGUE"] = "http://thottbot.com/class=4",
+        ["PRIEST"] = "http://thottbot.com/class=5",
+        ["DEATHKNIGHT"] = "http://www.thottbot.com/class=6",
+        ["SHAMAN"] = "http://thottbot.com/class=7",
+        ["MAGE"] = "http://thottbot.com/class=8",
+        ["WARLOCK"] = "http://thottbot.com/class=9",
+        ["MONK"] = "http://thottbot.com/class=10",
+        ["DRUID"] = "http://thottbot.com/class=11",
 }
 
 local function ProcessContent(websiteString, CLASS)

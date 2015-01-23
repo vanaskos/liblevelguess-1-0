@@ -2,48 +2,132 @@ local lib = LibStub("LibLevelGuess-1.0");
 
 if(not lib) then error("SpellIdData for LibLevelGuess needs library to be loaded before"); return; end
 
-local myDataVersion = 1348907323;
+local myDataVersion = 1421986982;
 if(lib.spellIdData and myDataVersion <= lib.spellIdDataVersion) then return; end
 
 lib.spellIdDataVersion = myDataVersion;
 lib.spellIdData = {
-	[108170] = {
+	[119811] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
-	[108194] = {
+	[146645] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
-	[108196] = {
+	[146648] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
-	[108199] = {
+	[146652] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
-	[108200] = {
+	[157336] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
-	[108201] = {
+	[157337] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
-	[110498] = {
+	[157338] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
-	[114556] = {
+	[157342] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
-	[115989] = {
+	[157343] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
-	[119975] = {
+	[157367] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[157376] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[157389] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[157409] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[157412] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[157437] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[157441] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[158298] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[159415] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[159416] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[159418] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[159421] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[159427] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[159428] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[159429] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[161608] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[196] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[197] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[198] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[199] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[200] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[201] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
@@ -59,14 +143,6 @@ lib.spellIdData = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
-	[45529] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
-	},
-	[45902] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
-	},
 	[47541] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
@@ -75,11 +151,7 @@ lib.spellIdData = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
-	[48743] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
-	},
-	[49039] = {
+	[48778] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
@@ -88,6 +160,10 @@ lib.spellIdData = {
 		Class = "DEATHKNIGHT",
 	},
 	[49184] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[49509] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
@@ -103,7 +179,7 @@ lib.spellIdData = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
-	[50041] = {
+	[50842] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
@@ -115,19 +191,7 @@ lib.spellIdData = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
-	[51052] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
-	},
-	[51462] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
-	},
-	[52143] = {
-		Level = 55,
-		Class = "DEATHKNIGHT",
-	},
-	[53341] = {
+	[51160] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
@@ -159,11 +223,131 @@ lib.spellIdData = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
-	[59879] = {
+	[58616] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
-	[59921] = {
+	[58618] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[58620] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[58623] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[58629] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[58631] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[58635] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[58640] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[58642] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[58647] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[58657] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[58669] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[58671] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[58673] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[58676] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[58677] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[58680] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[58686] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[59057] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[59307] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[59309] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[59327] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[59332] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[59336] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[60200] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[62259] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[63330] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[63331] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[63333] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[63335] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[674] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[73313] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
@@ -171,7 +355,7 @@ lib.spellIdData = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
-	[81229] = {
+	[81136] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
@@ -195,16 +379,24 @@ lib.spellIdData = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
+	[9077] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
 	[91107] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
-	[93099] = {
-		Level = 55,
+	[115989] = {
+		Level = 56,
 		Class = "DEATHKNIGHT",
 	},
-	[96268] = {
-		Level = 55,
+	[123693] = {
+		Level = 56,
+		Class = "DEATHKNIGHT",
+	},
+	[161497] = {
+		Level = 56,
 		Class = "DEATHKNIGHT",
 	},
 	[46584] = {
@@ -215,8 +407,8 @@ lib.spellIdData = {
 		Level = 56,
 		Class = "DEATHKNIGHT",
 	},
-	[50842] = {
-		Level = 56,
+	[114556] = {
+		Level = 57,
 		Class = "DEATHKNIGHT",
 	},
 	[47528] = {
@@ -224,6 +416,14 @@ lib.spellIdData = {
 		Class = "DEATHKNIGHT",
 	},
 	[48263] = {
+		Level = 57,
+		Class = "DEATHKNIGHT",
+	},
+	[49039] = {
+		Level = 57,
+		Class = "DEATHKNIGHT",
+	},
+	[51052] = {
 		Level = 57,
 		Class = "DEATHKNIGHT",
 	},
@@ -235,11 +435,23 @@ lib.spellIdData = {
 		Level = 57,
 		Class = "DEATHKNIGHT",
 	},
+	[108194] = {
+		Level = 58,
+		Class = "DEATHKNIGHT",
+	},
 	[45524] = {
 		Level = 58,
 		Class = "DEATHKNIGHT",
 	},
-	[48721] = {
+	[47476] = {
+		Level = 58,
+		Class = "DEATHKNIGHT",
+	},
+	[49020] = {
+		Level = 58,
+		Class = "DEATHKNIGHT",
+	},
+	[50041] = {
 		Level = 58,
 		Class = "DEATHKNIGHT",
 	},
@@ -251,11 +463,15 @@ lib.spellIdData = {
 		Level = 58,
 		Class = "DEATHKNIGHT",
 	},
-	[47476] = {
-		Level = 59,
+	[96268] = {
+		Level = 58,
 		Class = "DEATHKNIGHT",
 	},
 	[43265] = {
+		Level = 60,
+		Class = "DEATHKNIGHT",
+	},
+	[45529] = {
 		Level = 60,
 		Class = "DEATHKNIGHT",
 	},
@@ -263,27 +479,23 @@ lib.spellIdData = {
 		Level = 60,
 		Class = "DEATHKNIGHT",
 	},
+	[51462] = {
+		Level = 60,
+		Class = "DEATHKNIGHT",
+	},
 	[53331] = {
 		Level = 60,
 		Class = "DEATHKNIGHT",
 	},
-	[55050] = {
-		Level = 60,
-		Class = "DEATHKNIGHT",
-	},
 	[55610] = {
 		Level = 60,
 		Class = "DEATHKNIGHT",
 	},
-	[55610] = {
+	[81229] = {
 		Level = 60,
 		Class = "DEATHKNIGHT",
 	},
-	[3714] = {
-		Level = 61,
-		Class = "DEATHKNIGHT",
-	},
-	[49020] = {
+	[51986] = {
 		Level = 61,
 		Class = "DEATHKNIGHT",
 	},
@@ -291,7 +503,7 @@ lib.spellIdData = {
 		Level = 62,
 		Class = "DEATHKNIGHT",
 	},
-	[49509] = {
+	[85948] = {
 		Level = 62,
 		Class = "DEATHKNIGHT",
 	},
@@ -299,12 +511,8 @@ lib.spellIdData = {
 		Level = 63,
 		Class = "DEATHKNIGHT",
 	},
-	[53323] = {
-		Level = 63,
-		Class = "DEATHKNIGHT",
-	},
-	[54446] = {
-		Level = 63,
+	[48265] = {
+		Level = 64,
 		Class = "DEATHKNIGHT",
 	},
 	[48982] = {
@@ -319,10 +527,6 @@ lib.spellIdData = {
 		Level = 64,
 		Class = "DEATHKNIGHT",
 	},
-	[85948] = {
-		Level = 64,
-		Class = "DEATHKNIGHT",
-	},
 	[50385] = {
 		Level = 65,
 		Class = "DEATHKNIGHT",
@@ -331,27 +535,11 @@ lib.spellIdData = {
 		Level = 65,
 		Class = "DEATHKNIGHT",
 	},
-	[49016] = {
+	[3714] = {
 		Level = 66,
-		Class = "DEATHKNIGHT",
-	},
-	[49542] = {
-		Level = 66,
-		Class = "DEATHKNIGHT",
-	},
-	[81328] = {
-		Level = 66,
-		Class = "DEATHKNIGHT",
-	},
-	[56815] = {
-		Level = 67,
 		Class = "DEATHKNIGHT",
 	},
 	[48707] = {
-		Level = 68,
-		Class = "DEATHKNIGHT",
-	},
-	[51160] = {
 		Level = 68,
 		Class = "DEATHKNIGHT",
 	},
@@ -359,23 +547,11 @@ lib.spellIdData = {
 		Level = 68,
 		Class = "DEATHKNIGHT",
 	},
-	[81132] = {
-		Level = 68,
-		Class = "DEATHKNIGHT",
-	},
 	[111673] = {
 		Level = 69,
 		Class = "DEATHKNIGHT",
 	},
-	[48265] = {
-		Level = 70,
-		Class = "DEATHKNIGHT",
-	},
 	[53344] = {
-		Level = 70,
-		Class = "DEATHKNIGHT",
-	},
-	[59057] = {
 		Level = 70,
 		Class = "DEATHKNIGHT",
 	},
@@ -392,10 +568,6 @@ lib.spellIdData = {
 		Class = "DEATHKNIGHT",
 	},
 	[62158] = {
-		Level = 72,
-		Class = "DEATHKNIGHT",
-	},
-	[70164] = {
 		Level = 72,
 		Class = "DEATHKNIGHT",
 	},
@@ -419,12 +591,28 @@ lib.spellIdData = {
 		Level = 74,
 		Class = "DEATHKNIGHT",
 	},
-	[47568] = {
+	[108196] = {
+		Level = 75,
+		Class = "DEATHKNIGHT",
+	},
+	[119975] = {
+		Level = 75,
+		Class = "DEATHKNIGHT",
+	},
+	[48743] = {
 		Level = 75,
 		Class = "DEATHKNIGHT",
 	},
 	[50392] = {
 		Level = 75,
+		Class = "DEATHKNIGHT",
+	},
+	[161797] = {
+		Level = 76,
+		Class = "DEATHKNIGHT",
+	},
+	[47568] = {
+		Level = 76,
 		Class = "DEATHKNIGHT",
 	},
 	[55233] = {
@@ -433,6 +621,10 @@ lib.spellIdData = {
 	},
 	[49222] = {
 		Level = 78,
+		Class = "DEATHKNIGHT",
+	},
+	[155522] = {
+		Level = 80,
 		Class = "DEATHKNIGHT",
 	},
 	[42650] = {
@@ -455,14 +647,6 @@ lib.spellIdData = {
 		Level = 81,
 		Class = "DEATHKNIGHT",
 	},
-	[73975] = {
-		Level = 83,
-		Class = "DEATHKNIGHT",
-	},
-	[81136] = {
-		Level = 84,
-		Class = "DEATHKNIGHT",
-	},
 	[77606] = {
 		Level = 85,
 		Class = "DEATHKNIGHT",
@@ -475,55 +659,87 @@ lib.spellIdData = {
 		Level = 87,
 		Class = "DEATHKNIGHT",
 	},
-	[102280] = {
+	[130736] = {
+		Level = 87,
+		Class = "DEATHKNIGHT",
+	},
+	[108199] = {
+		Level = 90,
+		Class = "DEATHKNIGHT",
+	},
+	[108200] = {
+		Level = 90,
+		Class = "DEATHKNIGHT",
+	},
+	[108201] = {
+		Level = 90,
+		Class = "DEATHKNIGHT",
+	},
+	[165394] = {
+		Level = 90,
+		Class = "DEATHKNIGHT",
+	},
+	[165395] = {
+		Level = 90,
+		Class = "DEATHKNIGHT",
+	},
+	[152279] = {
+		Level = 100,
+		Class = "DEATHKNIGHT",
+	},
+	[152280] = {
+		Level = 100,
+		Class = "DEATHKNIGHT",
+	},
+	[152281] = {
+		Level = 100,
+		Class = "DEATHKNIGHT",
+	},
+	[107059] = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[102352] = {
+	[114222] = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[102354] = {
+	[114223] = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[102355] = {
+	[114237] = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[102401] = {
+	[114280] = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[102543] = {
+	[114295] = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[102558] = {
+	[114301] = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[102794] = {
+	[114333] = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[106732] = {
+	[114338] = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[106733] = {
+	[116172] = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[106734] = {
+	[116216] = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[106735] = {
-		Level = 1,
-		Class = "DRUID",
-	},
-	[114282] = {
+	[116218] = {
 		Level = 1,
 		Class = "DRUID",
 	},
@@ -531,11 +747,155 @@ lib.spellIdData = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[131768] = {
+	[121840] = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[17057] = {
+	[125047] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[127540] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[131113] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[146654] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[146655] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[146656] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[15590] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[157227] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[157229] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[157232] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[157269] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[157274] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[157276] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[157280] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[157283] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[157284] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[157286] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[157292] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[157300] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[157301] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[157305] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[157312] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[157447] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[159432] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[159434] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[159436] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[159444] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[159445] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[159450] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[159453] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[159455] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[159456] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[164997] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[166142] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[166163] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[171752] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[171803] = {
 		Level = 1,
 		Class = "DRUID",
 	},
@@ -555,11 +915,11 @@ lib.spellIdData = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[37846] = {
+	[47180] = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[48503] = {
+	[48514] = {
 		Level = 1,
 		Class = "DRUID",
 	},
@@ -567,19 +927,55 @@ lib.spellIdData = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[5420] = {
+	[54733] = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[81097] = {
+	[54760] = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[81098] = {
+	[54811] = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[81269] = {
+	[54812] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[54821] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[54825] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[54831] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[57855] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[57856] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[59219] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[62970] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[63057] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[67598] = {
 		Level = 1,
 		Class = "DRUID",
 	},
@@ -587,75 +983,47 @@ lib.spellIdData = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[96206] = {
+	[94386] = {
 		Level = 1,
 		Class = "DRUID",
 	},
-	[97985] = {
-		Level = 1,
-		Class = "DRUID",
-	},
-	[774] = {
+	[164812] = {
 		Level = 3,
 		Class = "DRUID",
 	},
 	[8921] = {
+		Level = 3,
+		Class = "DRUID",
+	},
+	[774] = {
 		Level = 4,
-		Class = "DRUID",
-	},
-	[102351] = {
-		Level = 5,
-		Class = "DRUID",
-	},
-	[108238] = {
-		Level = 5,
-		Class = "DRUID",
-	},
-	[132158] = {
-		Level = 5,
-		Class = "DRUID",
-	},
-	[102547] = {
-		Level = 6,
 		Class = "DRUID",
 	},
 	[125972] = {
 		Level = 6,
 		Class = "DRUID",
 	},
-	[20719] = {
+	[1822] = {
 		Level = 6,
 		Class = "DRUID",
 	},
-	[33876] = {
+	[22568] = {
 		Level = 6,
 		Class = "DRUID",
 	},
-	[33878] = {
+	[5215] = {
+		Level = 6,
+		Class = "DRUID",
+	},
+	[5221] = {
+		Level = 6,
+		Class = "DRUID",
+	},
+	[768] = {
 		Level = 6,
 		Class = "DRUID",
 	},
 	[33917] = {
-		Level = 6,
-		Class = "DRUID",
-	},
-	[339] = {
-		Level = 7,
-		Class = "DRUID",
-	},
-	[1822] = {
-		Level = 8,
-		Class = "DRUID",
-	},
-	[22568] = {
-		Level = 8,
-		Class = "DRUID",
-	},
-	[2912] = {
-		Level = 8,
-		Class = "DRUID",
-	},
-	[50464] = {
 		Level = 8,
 		Class = "DRUID",
 	},
@@ -667,23 +1035,7 @@ lib.spellIdData = {
 		Level = 8,
 		Class = "DRUID",
 	},
-	[6807] = {
-		Level = 8,
-		Class = "DRUID",
-	},
-	[768] = {
-		Level = 8,
-		Class = "DRUID",
-	},
-	[102359] = {
-		Level = 10,
-		Class = "DRUID",
-	},
-	[102560] = {
-		Level = 10,
-		Class = "DRUID",
-	},
-	[106707] = {
+	[108299] = {
 		Level = 10,
 		Class = "DRUID",
 	},
@@ -691,7 +1043,11 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "DRUID",
 	},
-	[112857] = {
+	[158298] = {
+		Level = 10,
+		Class = "DRUID",
+	},
+	[161608] = {
 		Level = 10,
 		Class = "DRUID",
 	},
@@ -699,11 +1055,27 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "DRUID",
 	},
+	[16931] = {
+		Level = 10,
+		Class = "DRUID",
+	},
+	[17073] = {
+		Level = 10,
+		Class = "DRUID",
+	},
 	[18562] = {
 		Level = 10,
 		Class = "DRUID",
 	},
-	[5215] = {
+	[2912] = {
+		Level = 10,
+		Class = "DRUID",
+	},
+	[33873] = {
+		Level = 10,
+		Class = "DRUID",
+	},
+	[339] = {
 		Level = 10,
 		Class = "DRUID",
 	},
@@ -715,11 +1087,11 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "DRUID",
 	},
-	[79577] = {
+	[6807] = {
 		Level = 10,
 		Class = "DRUID",
 	},
-	[84840] = {
+	[92364] = {
 		Level = 10,
 		Class = "DRUID",
 	},
@@ -731,15 +1103,11 @@ lib.spellIdData = {
 		Level = 12,
 		Class = "DRUID",
 	},
-	[16931] = {
+	[106832] = {
 		Level = 14,
 		Class = "DRUID",
 	},
-	[16949] = {
-		Level = 14,
-		Class = "DRUID",
-	},
-	[84738] = {
+	[18960] = {
 		Level = 14,
 		Class = "DRUID",
 	},
@@ -747,27 +1115,19 @@ lib.spellIdData = {
 		Level = 14,
 		Class = "DRUID",
 	},
-	[106731] = {
+	[102280] = {
 		Level = 15,
 		Class = "DRUID",
 	},
-	[106737] = {
+	[102401] = {
 		Level = 15,
 		Class = "DRUID",
 	},
-	[114107] = {
+	[131768] = {
 		Level = 15,
 		Class = "DRUID",
 	},
-	[18960] = {
-		Level = 15,
-		Class = "DRUID",
-	},
-	[1066] = {
-		Level = 16,
-		Class = "DRUID",
-	},
-	[5221] = {
+	[24858] = {
 		Level = 16,
 		Class = "DRUID",
 	},
@@ -775,11 +1135,7 @@ lib.spellIdData = {
 		Level = 16,
 		Class = "DRUID",
 	},
-	[84736] = {
-		Level = 16,
-		Class = "DRUID",
-	},
-	[102795] = {
+	[164815] = {
 		Level = 18,
 		Class = "DRUID",
 	},
@@ -787,47 +1143,23 @@ lib.spellIdData = {
 		Level = 18,
 		Class = "DRUID",
 	},
-	[779] = {
-		Level = 18,
-		Class = "DRUID",
-	},
 	[8936] = {
 		Level = 18,
 		Class = "DRUID",
 	},
-	[93402] = {
-		Level = 18,
-		Class = "DRUID",
-	},
-	[102793] = {
-		Level = 20,
-		Class = "DRUID",
-	},
 	[1079] = {
 		Level = 20,
 		Class = "DRUID",
 	},
-	[1079] = {
+	[127663] = {
 		Level = 20,
-		Class = "DRUID",
-	},
-	[5211] = {
-		Level = 20,
-		Class = "DRUID",
-	},
-	[99] = {
-		Level = 20,
-		Class = "DRUID",
-	},
-	[102545] = {
-		Level = 22,
 		Class = "DRUID",
 	},
 	[106785] = {
 		Level = 22,
 		Class = "DRUID",
 	},
-	[62078] = {
+	[2782] = {
 		Level = 22,
 		Class = "DRUID",
 	},
@@ -835,39 +1167,11 @@ lib.spellIdData = {
 		Level = 22,
 		Class = "DRUID",
 	},
-	[2782] = {
+	[1850] = {
 		Level = 24,
-		Class = "DRUID",
-	},
-	[2782] = {
-		Level = 24,
-		Class = "DRUID",
-	},
-	[2782] = {
-		Level = 24,
-		Class = "DRUID",
-	},
-	[770] = {
-		Level = 24,
-		Class = "DRUID",
-	},
-	[108288] = {
-		Level = 25,
-		Class = "DRUID",
-	},
-	[108373] = {
-		Level = 25,
-		Class = "DRUID",
-	},
-	[124974] = {
-		Level = 25,
 		Class = "DRUID",
 	},
 	[16974] = {
-		Level = 26,
-		Class = "DRUID",
-	},
-	[1850] = {
 		Level = 26,
 		Class = "DRUID",
 	},
@@ -883,23 +1187,11 @@ lib.spellIdData = {
 		Level = 28,
 		Class = "DRUID",
 	},
-	[106832] = {
-		Level = 28,
-		Class = "DRUID",
-	},
-	[106832] = {
-		Level = 28,
-		Class = "DRUID",
-	},
-	[115800] = {
-		Level = 28,
-		Class = "DRUID",
-	},
-	[115800] = {
-		Level = 28,
-		Class = "DRUID",
-	},
 	[48500] = {
+		Level = 28,
+		Class = "DRUID",
+	},
+	[770] = {
 		Level = 28,
 		Class = "DRUID",
 	},
@@ -911,39 +1203,35 @@ lib.spellIdData = {
 		Level = 28,
 		Class = "DRUID",
 	},
-	[24858] = {
-		Level = 29,
+	[102351] = {
+		Level = 30,
 		Class = "DRUID",
 	},
-	[102546] = {
+	[108238] = {
+		Level = 30,
+		Class = "DRUID",
+	},
+	[132158] = {
+		Level = 30,
+		Class = "DRUID",
+	},
+	[145108] = {
+		Level = 30,
+		Class = "DRUID",
+	},
+	[16961] = {
+		Level = 30,
+		Class = "DRUID",
+	},
+	[135288] = {
 		Level = 32,
-		Class = "DRUID",
-	},
-	[5225] = {
-		Level = 32,
-		Class = "DRUID",
-	},
-	[108299] = {
-		Level = 34,
-		Class = "DRUID",
-	},
-	[108299] = {
-		Level = 34,
-		Class = "DRUID",
-	},
-	[33873] = {
-		Level = 34,
-		Class = "DRUID",
-	},
-	[33873] = {
-		Level = 34,
 		Class = "DRUID",
 	},
 	[33763] = {
 		Level = 36,
 		Class = "DRUID",
 	},
-	[9005] = {
+	[5225] = {
 		Level = 36,
 		Class = "DRUID",
 	},
@@ -959,55 +1247,31 @@ lib.spellIdData = {
 		Level = 38,
 		Class = "DRUID",
 	},
-	[81062] = {
-		Level = 38,
-		Class = "DRUID",
-	},
 	[48484] = {
 		Level = 40,
-		Class = "DRUID",
-	},
-	[48484] = {
-		Level = 40,
-		Class = "DRUID",
-	},
-	[106996] = {
-		Level = 42,
-		Class = "DRUID",
-	},
-	[106998] = {
-		Level = 44,
-		Class = "DRUID",
-	},
-	[16914] = {
-		Level = 44,
 		Class = "DRUID",
 	},
 	[22812] = {
 		Level = 44,
 		Class = "DRUID",
 	},
-	[17007] = {
-		Level = 46,
+	[102359] = {
+		Level = 45,
+		Class = "DRUID",
+	},
+	[106707] = {
+		Level = 45,
+		Class = "DRUID",
+	},
+	[132469] = {
+		Level = 45,
 		Class = "DRUID",
 	},
 	[17007] = {
 		Level = 46,
 		Class = "DRUID",
 	},
-	[33886] = {
-		Level = 46,
-		Class = "DRUID",
-	},
 	[106952] = {
-		Level = 48,
-		Class = "DRUID",
-	},
-	[106952] = {
-		Level = 48,
-		Class = "DRUID",
-	},
-	[48393] = {
 		Level = 48,
 		Class = "DRUID",
 	},
@@ -1027,19 +1291,7 @@ lib.spellIdData = {
 		Level = 50,
 		Class = "DRUID",
 	},
-	[16689] = {
-		Level = 52,
-		Class = "DRUID",
-	},
-	[29166] = {
-		Level = 54,
-		Class = "DRUID",
-	},
-	[6785] = {
-		Level = 54,
-		Class = "DRUID",
-	},
-	[6785] = {
+	[17076] = {
 		Level = 54,
 		Class = "DRUID",
 	},
@@ -1051,15 +1303,55 @@ lib.spellIdData = {
 		Level = 56,
 		Class = "DRUID",
 	},
-	[61336] = {
-		Level = 56,
+	[102543] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[102558] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[102560] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[102693] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[102703] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[102706] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[114107] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[158476] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[158477] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[158478] = {
+		Level = 60,
 		Class = "DRUID",
 	},
 	[2908] = {
 		Level = 60,
 		Class = "DRUID",
 	},
-	[33943] = {
+	[33831] = {
+		Level = 60,
+		Class = "DRUID",
+	},
+	[33891] = {
 		Level = 60,
 		Class = "DRUID",
 	},
@@ -1075,26 +1367,6 @@ lib.spellIdData = {
 		Level = 64,
 		Class = "DRUID",
 	},
-	[106839] = {
-		Level = 64,
-		Class = "DRUID",
-	},
-	[33596] = {
-		Level = 64,
-		Class = "DRUID",
-	},
-	[33778] = {
-		Level = 64,
-		Class = "DRUID",
-	},
-	[94447] = {
-		Level = 64,
-		Class = "DRUID",
-	},
-	[2637] = {
-		Level = 66,
-		Class = "DRUID",
-	},
 	[112071] = {
 		Level = 68,
 		Class = "DRUID",
@@ -1103,20 +1375,20 @@ lib.spellIdData = {
 		Level = 68,
 		Class = "DRUID",
 	},
-	[40120] = {
-		Level = 70,
-		Class = "DRUID",
-	},
-	[106922] = {
-		Level = 72,
-		Class = "DRUID",
-	},
-	[33786] = {
-		Level = 74,
-		Class = "DRUID",
-	},
 	[740] = {
 		Level = 74,
+		Class = "DRUID",
+	},
+	[102793] = {
+		Level = 75,
+		Class = "DRUID",
+	},
+	[5211] = {
+		Level = 75,
+		Class = "DRUID",
+	},
+	[99] = {
+		Level = 75,
 		Class = "DRUID",
 	},
 	[48438] = {
@@ -1127,8 +1399,12 @@ lib.spellIdData = {
 		Level = 76,
 		Class = "DRUID",
 	},
-	[5229] = {
-		Level = 76,
+	[33786] = {
+		Level = 78,
+		Class = "DRUID",
+	},
+	[155783] = {
+		Level = 80,
 		Class = "DRUID",
 	},
 	[77492] = {
@@ -1136,10 +1412,6 @@ lib.spellIdData = {
 		Class = "DRUID",
 	},
 	[77493] = {
-		Level = 80,
-		Class = "DRUID",
-	},
-	[77494] = {
 		Level = 80,
 		Class = "DRUID",
 	},
@@ -1155,79 +1427,295 @@ lib.spellIdData = {
 		Level = 82,
 		Class = "DRUID",
 	},
-	[92364] = {
-		Level = 82,
-		Class = "DRUID",
-	},
-	[77761] = {
-		Level = 83,
-		Class = "DRUID",
-	},
-	[77764] = {
-		Level = 83,
-		Class = "DRUID",
-	},
-	[102791] = {
-		Level = 84,
-		Class = "DRUID",
-	},
-	[102792] = {
-		Level = 84,
-		Class = "DRUID",
-	},
 	[106898] = {
 		Level = 84,
 		Class = "DRUID",
 	},
-	[78777] = {
-		Level = 84,
-		Class = "DRUID",
-	},
-	[97993] = {
+	[145205] = {
 		Level = 84,
 		Class = "DRUID",
 	},
 	[88747] = {
-		Level = 85,
+		Level = 84,
 		Class = "DRUID",
 	},
-	[88747] = {
-		Level = 85,
+	[145518] = {
+		Level = 88,
 		Class = "DRUID",
 	},
-	[88751] = {
-		Level = 85,
+	[108291] = {
+		Level = 90,
 		Class = "DRUID",
 	},
-	[110309] = {
-		Level = 87,
+	[108292] = {
+		Level = 90,
 		Class = "DRUID",
 	},
-	[109215] = {
+	[108293] = {
+		Level = 90,
+		Class = "DRUID",
+	},
+	[108294] = {
+		Level = 90,
+		Class = "DRUID",
+	},
+	[108373] = {
+		Level = 90,
+		Class = "DRUID",
+	},
+	[124974] = {
+		Level = 90,
+		Class = "DRUID",
+	},
+	[158497] = {
+		Level = 90,
+		Class = "DRUID",
+	},
+	[158501] = {
+		Level = 90,
+		Class = "DRUID",
+	},
+	[158504] = {
+		Level = 90,
+		Class = "DRUID",
+	},
+	[159232] = {
+		Level = 90,
+		Class = "DRUID",
+	},
+	[165372] = {
+		Level = 90,
+		Class = "DRUID",
+	},
+	[165374] = {
+		Level = 90,
+		Class = "DRUID",
+	},
+	[165386] = {
+		Level = 90,
+		Class = "DRUID",
+	},
+	[165387] = {
+		Level = 90,
+		Class = "DRUID",
+	},
+	[152220] = {
+		Level = 100,
+		Class = "DRUID",
+	},
+	[152221] = {
+		Level = 100,
+		Class = "DRUID",
+	},
+	[152222] = {
+		Level = 100,
+		Class = "DRUID",
+	},
+	[155577] = {
+		Level = 100,
+		Class = "DRUID",
+	},
+	[155578] = {
+		Level = 100,
+		Class = "DRUID",
+	},
+	[155580] = {
+		Level = 100,
+		Class = "DRUID",
+	},
+	[155672] = {
+		Level = 100,
+		Class = "DRUID",
+	},
+	[155675] = {
+		Level = 100,
+		Class = "DRUID",
+	},
+	[155834] = {
+		Level = 100,
+		Class = "DRUID",
+	},
+	[155835] = {
+		Level = 100,
+		Class = "DRUID",
+	},
+	[171746] = {
+		Level = 100,
+		Class = "DRUID",
+	},
+	[80313] = {
+		Level = 100,
+		Class = "DRUID",
+	},
+	[109263] = {
 		Level = 1,
 		Class = "HUNTER",
 	},
-	[109298] = {
+	[1180] = {
 		Level = 1,
 		Class = "HUNTER",
 	},
-	[110497] = {
+	[119384] = {
 		Level = 1,
 		Class = "HUNTER",
 	},
-	[118675] = {
+	[119403] = {
 		Level = 1,
 		Class = "HUNTER",
 	},
-	[120761] = {
+	[119407] = {
 		Level = 1,
 		Class = "HUNTER",
 	},
-	[121414] = {
+	[119410] = {
 		Level = 1,
 		Class = "HUNTER",
 	},
-	[125050] = {
+	[119447] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[119449] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[119462] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[119464] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[122492] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[123632] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[125042] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[126746] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[138430] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[146657] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[148475] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[15590] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[157443] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[157705] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[157707] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[157714] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[157715] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[157718] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[157724] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[157726] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[157748] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[157751] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[157752] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[159459] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[159469] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[159470] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[19560] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[19573] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[196] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[197] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[200] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[201] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[202] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[20895] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[227] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[264] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[266] = {
 		Level = 1,
 		Class = "HUNTER",
 	},
@@ -1235,11 +1723,71 @@ lib.spellIdData = {
 		Level = 1,
 		Class = "HUNTER",
 	},
-	[75] = {
+	[5011] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[53299] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[56829] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[56833] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[56844] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[56845] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[56847] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[56850] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[57866] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[57870] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[57902] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[57903] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[57904] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[63068] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[83495] = {
 		Level = 1,
 		Class = "HUNTER",
 	},
 	[883] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[9077] = {
 		Level = 1,
 		Class = "HUNTER",
 	},
@@ -1249,10 +1797,6 @@ lib.spellIdData = {
 	},
 	[56641] = {
 		Level = 3,
-		Class = "HUNTER",
-	},
-	[118424] = {
-		Level = 4,
 		Class = "HUNTER",
 	},
 	[1494] = {
@@ -1287,32 +1831,8 @@ lib.spellIdData = {
 		Level = 4,
 		Class = "HUNTER",
 	},
-	[109248] = {
-		Level = 5,
-		Class = "HUNTER",
-	},
-	[19386] = {
-		Level = 5,
-		Class = "HUNTER",
-	},
-	[34490] = {
-		Level = 5,
-		Class = "HUNTER",
-	},
 	[5116] = {
 		Level = 8,
-		Class = "HUNTER",
-	},
-	[109212] = {
-		Level = 10,
-		Class = "HUNTER",
-	},
-	[109260] = {
-		Level = 10,
-		Class = "HUNTER",
-	},
-	[109304] = {
-		Level = 10,
 		Class = "HUNTER",
 	},
 	[1462] = {
@@ -1323,11 +1843,11 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "HUNTER",
 	},
-	[19434] = {
+	[164856] = {
 		Level = 10,
 		Class = "HUNTER",
 	},
-	[1978] = {
+	[19434] = {
 		Level = 10,
 		Class = "HUNTER",
 	},
@@ -1343,7 +1863,11 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "HUNTER",
 	},
-	[6991] = {
+	[63458] = {
+		Level = 10,
+		Class = "HUNTER",
+	},
+	[83242] = {
 		Level = 10,
 		Class = "HUNTER",
 	},
@@ -1355,31 +1879,23 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "HUNTER",
 	},
-	[13165] = {
-		Level = 12,
-		Class = "HUNTER",
-	},
-	[1130] = {
-		Level = 14,
+	[6991] = {
+		Level = 11,
 		Class = "HUNTER",
 	},
 	[781] = {
 		Level = 14,
 		Class = "HUNTER",
 	},
-	[109306] = {
+	[109215] = {
 		Level = 15,
 		Class = "HUNTER",
 	},
-	[120679] = {
+	[109298] = {
 		Level = 15,
 		Class = "HUNTER",
 	},
-	[19503] = {
-		Level = 15,
-		Class = "HUNTER",
-	},
-	[82726] = {
+	[118675] = {
 		Level = 15,
 		Class = "HUNTER",
 	},
@@ -1387,28 +1903,8 @@ lib.spellIdData = {
 		Level = 16,
 		Class = "HUNTER",
 	},
-	[5118] = {
-		Level = 16,
-		Class = "HUNTER",
-	},
 	[6197] = {
 		Level = 16,
-		Class = "HUNTER",
-	},
-	[83242] = {
-		Level = 18,
-		Class = "HUNTER",
-	},
-	[120697] = {
-		Level = 20,
-		Class = "HUNTER",
-	},
-	[130392] = {
-		Level = 20,
-		Class = "HUNTER",
-	},
-	[19577] = {
-		Level = 20,
 		Class = "HUNTER",
 	},
 	[34483] = {
@@ -1419,6 +1915,10 @@ lib.spellIdData = {
 		Level = 20,
 		Class = "HUNTER",
 	},
+	[147362] = {
+		Level = 22,
+		Class = "HUNTER",
+	},
 	[115939] = {
 		Level = 24,
 		Class = "HUNTER",
@@ -1427,31 +1927,27 @@ lib.spellIdData = {
 		Level = 24,
 		Class = "HUNTER",
 	},
-	[109259] = {
-		Level = 25,
-		Class = "HUNTER",
-	},
-	[117050] = {
-		Level = 25,
-		Class = "HUNTER",
-	},
-	[120360] = {
-		Level = 25,
+	[5118] = {
+		Level = 24,
 		Class = "HUNTER",
 	},
 	[1499] = {
 		Level = 28,
 		Class = "HUNTER",
 	},
+	[109248] = {
+		Level = 30,
+		Class = "HUNTER",
+	},
+	[19386] = {
+		Level = 30,
+		Class = "HUNTER",
+	},
+	[19577] = {
+		Level = 30,
+		Class = "HUNTER",
+	},
 	[19623] = {
-		Level = 30,
-		Class = "HUNTER",
-	},
-	[35102] = {
-		Level = 30,
-		Class = "HUNTER",
-	},
-	[61648] = {
 		Level = 30,
 		Class = "HUNTER",
 	},
@@ -1471,10 +1967,6 @@ lib.spellIdData = {
 		Level = 35,
 		Class = "HUNTER",
 	},
-	[1513] = {
-		Level = 36,
-		Class = "HUNTER",
-	},
 	[13813] = {
 		Level = 38,
 		Class = "HUNTER",
@@ -1491,20 +1983,36 @@ lib.spellIdData = {
 		Level = 40,
 		Class = "HUNTER",
 	},
-	[82654] = {
+	[8737] = {
 		Level = 40,
+		Class = "HUNTER",
+	},
+	[34477] = {
+		Level = 42,
 		Class = "HUNTER",
 	},
 	[83243] = {
 		Level = 42,
 		Class = "HUNTER",
 	},
+	[132106] = {
+		Level = 43,
+		Class = "HUNTER",
+	},
 	[53260] = {
 		Level = 43,
 		Class = "HUNTER",
 	},
-	[56343] = {
-		Level = 43,
+	[109212] = {
+		Level = 45,
+		Class = "HUNTER",
+	},
+	[109260] = {
+		Level = 45,
+		Class = "HUNTER",
+	},
+	[109304] = {
+		Level = 45,
 		Class = "HUNTER",
 	},
 	[35110] = {
@@ -1515,19 +2023,15 @@ lib.spellIdData = {
 		Level = 46,
 		Class = "HUNTER",
 	},
-	[53232] = {
-		Level = 46,
-		Class = "HUNTER",
-	},
 	[77769] = {
 		Level = 48,
 		Class = "HUNTER",
 	},
-	[34692] = {
+	[3674] = {
 		Level = 50,
 		Class = "HUNTER",
 	},
-	[3674] = {
+	[86538] = {
 		Level = 50,
 		Class = "HUNTER",
 	},
@@ -1547,15 +2051,15 @@ lib.spellIdData = {
 		Level = 56,
 		Class = "HUNTER",
 	},
-	[34487] = {
-		Level = 58,
-		Class = "HUNTER",
-	},
 	[56315] = {
 		Level = 58,
 		Class = "HUNTER",
 	},
-	[23989] = {
+	[109306] = {
+		Level = 60,
+		Class = "HUNTER",
+	},
+	[120679] = {
 		Level = 60,
 		Class = "HUNTER",
 	},
@@ -1567,20 +2071,8 @@ lib.spellIdData = {
 		Level = 62,
 		Class = "HUNTER",
 	},
-	[53224] = {
-		Level = 63,
-		Class = "HUNTER",
-	},
 	[53253] = {
 		Level = 63,
-		Class = "HUNTER",
-	},
-	[63458] = {
-		Level = 64,
-		Class = "HUNTER",
-	},
-	[34600] = {
-		Level = 66,
 		Class = "HUNTER",
 	},
 	[87935] = {
@@ -1591,20 +2083,20 @@ lib.spellIdData = {
 		Level = 69,
 		Class = "HUNTER",
 	},
-	[82834] = {
-		Level = 70,
-		Class = "HUNTER",
-	},
-	[53238] = {
-		Level = 72,
-		Class = "HUNTER",
-	},
 	[53271] = {
 		Level = 74,
 		Class = "HUNTER",
 	},
-	[34477] = {
-		Level = 76,
+	[121818] = {
+		Level = 75,
+		Class = "HUNTER",
+	},
+	[130392] = {
+		Level = 75,
+		Class = "HUNTER",
+	},
+	[131894] = {
+		Level = 75,
 		Class = "HUNTER",
 	},
 	[19263] = {
@@ -1627,55 +2119,175 @@ lib.spellIdData = {
 		Level = 81,
 		Class = "HUNTER",
 	},
-	[77767] = {
-		Level = 81,
-		Class = "HUNTER",
-	},
 	[83245] = {
 		Level = 82,
 		Class = "HUNTER",
 	},
-	[82661] = {
-		Level = 83,
+	[172106] = {
+		Level = 84,
 		Class = "HUNTER",
 	},
 	[51753] = {
 		Level = 85,
 		Class = "HUNTER",
 	},
-	[121818] = {
-		Level = 87,
+	[109259] = {
+		Level = 90,
 		Class = "HUNTER",
 	},
-	[108839] = {
+	[117050] = {
+		Level = 90,
+		Class = "HUNTER",
+	},
+	[120360] = {
+		Level = 90,
+		Class = "HUNTER",
+	},
+	[165378] = {
+		Level = 90,
+		Class = "HUNTER",
+	},
+	[165389] = {
+		Level = 90,
+		Class = "HUNTER",
+	},
+	[165396] = {
+		Level = 90,
+		Class = "HUNTER",
+	},
+	[152244] = {
+		Level = 100,
+		Class = "HUNTER",
+	},
+	[152245] = {
+		Level = 100,
+		Class = "HUNTER",
+	},
+	[155228] = {
+		Level = 100,
+		Class = "HUNTER",
+	},
+	[162534] = {
+		Level = 100,
+		Class = "HUNTER",
+	},
+	[163485] = {
+		Level = 100,
+		Class = "HUNTER",
+	},
+	[115700] = {
 		Level = 1,
 		Class = "MAGE",
 	},
-	[110499] = {
+	[115703] = {
 		Level = 1,
 		Class = "MAGE",
 	},
-	[114995] = {
+	[115705] = {
 		Level = 1,
 		Class = "MAGE",
 	},
-	[12043] = {
+	[115710] = {
 		Level = 1,
 		Class = "MAGE",
 	},
-	[121039] = {
+	[115713] = {
 		Level = 1,
 		Class = "MAGE",
 	},
-	[126578] = {
+	[115718] = {
 		Level = 1,
 		Class = "MAGE",
 	},
-	[2948] = {
+	[115723] = {
 		Level = 1,
 		Class = "MAGE",
 	},
-	[44448] = {
+	[1180] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[126748] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[146659] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[146662] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[146976] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[147353] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[157595] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[157604] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[157606] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[157614] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[157621] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[157629] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[157632] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[157642] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[157646] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[157721] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[157727] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[157738] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[159485] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[159486] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[201] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[227] = {
 		Level = 1,
 		Class = "MAGE",
 	},
@@ -1683,51 +2295,95 @@ lib.spellIdData = {
 		Level = 1,
 		Class = "MAGE",
 	},
-	[108843] = {
-		Level = 5,
+	[5009] = {
+		Level = 1,
 		Class = "MAGE",
 	},
-	[11426] = {
-		Level = 5,
+	[5019] = {
+		Level = 1,
 		Class = "MAGE",
 	},
-	[115610] = {
-		Level = 5,
+	[56364] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[56365] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[56368] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[56375] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[56376] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[56377] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[56382] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[56384] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[57925] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[61205] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[62210] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[63090] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[63092] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[86209] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[89749] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[89926] = {
+		Level = 1,
+		Class = "MAGE",
+	},
+	[122] = {
+		Level = 3,
 		Class = "MAGE",
 	},
 	[2136] = {
 		Level = 5,
 		Class = "MAGE",
 	},
-	[116] = {
-		Level = 7,
-		Class = "MAGE",
-	},
 	[1953] = {
 		Level = 7,
 		Class = "MAGE",
 	},
-	[122] = {
+	[2139] = {
 		Level = 8,
 		Class = "MAGE",
 	},
-	[2139] = {
-		Level = 9,
-		Class = "MAGE",
-	},
-	[102051] = {
-		Level = 10,
-		Class = "MAGE",
-	},
-	[111264] = {
-		Level = 10,
-		Class = "MAGE",
-	},
 	[11366] = {
-		Level = 10,
-		Class = "MAGE",
-	},
-	[113724] = {
 		Level = 10,
 		Class = "MAGE",
 	},
@@ -1743,6 +2399,10 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "MAGE",
 	},
+	[116] = {
+		Level = 12,
+		Class = "MAGE",
+	},
 	[133] = {
 		Level = 12,
 		Class = "MAGE",
@@ -1755,15 +2415,19 @@ lib.spellIdData = {
 		Level = 14,
 		Class = "MAGE",
 	},
-	[110959] = {
+	[108839] = {
 		Level = 15,
 		Class = "MAGE",
 	},
-	[11958] = {
+	[108843] = {
 		Level = 15,
 		Class = "MAGE",
 	},
-	[86949] = {
+	[157913] = {
+		Level = 15,
+		Class = "MAGE",
+	},
+	[45438] = {
 		Level = 15,
 		Class = "MAGE",
 	},
@@ -1807,19 +2471,15 @@ lib.spellIdData = {
 		Level = 17,
 		Class = "MAGE",
 	},
-	[112948] = {
-		Level = 20,
-		Class = "MAGE",
-	},
-	[114923] = {
-		Level = 20,
-		Class = "MAGE",
-	},
-	[44457] = {
-		Level = 20,
-		Class = "MAGE",
-	},
 	[1449] = {
+		Level = 18,
+		Class = "MAGE",
+	},
+	[12043] = {
+		Level = 22,
+		Class = "MAGE",
+	},
+	[2948] = {
 		Level = 22,
 		Class = "MAGE",
 	},
@@ -1839,23 +2499,23 @@ lib.spellIdData = {
 		Level = 24,
 		Class = "MAGE",
 	},
-	[114003] = {
-		Level = 25,
-		Class = "MAGE",
-	},
-	[1463] = {
-		Level = 25,
-		Class = "MAGE",
-	},
 	[120] = {
 		Level = 28,
 		Class = "MAGE",
 	},
-	[45438] = {
+	[475] = {
+		Level = 29,
+		Class = "MAGE",
+	},
+	[108978] = {
 		Level = 30,
 		Class = "MAGE",
 	},
-	[475] = {
+	[11426] = {
+		Level = 30,
+		Class = "MAGE",
+	},
+	[140468] = {
 		Level = 30,
 		Class = "MAGE",
 	},
@@ -1927,12 +2587,16 @@ lib.spellIdData = {
 		Level = 44,
 		Class = "MAGE",
 	},
-	[759] = {
-		Level = 48,
+	[102051] = {
+		Level = 45,
 		Class = "MAGE",
 	},
-	[55342] = {
-		Level = 50,
+	[111264] = {
+		Level = 45,
+		Class = "MAGE",
+	},
+	[113724] = {
+		Level = 45,
 		Class = "MAGE",
 	},
 	[89744] = {
@@ -1963,11 +2627,31 @@ lib.spellIdData = {
 		Level = 58,
 		Class = "MAGE",
 	},
-	[113092] = {
+	[110959] = {
 		Level = 60,
 		Class = "MAGE",
 	},
-	[114954] = {
+	[11958] = {
+		Level = 60,
+		Class = "MAGE",
+	},
+	[126819] = {
+		Level = 60,
+		Class = "MAGE",
+	},
+	[161353] = {
+		Level = 60,
+		Class = "MAGE",
+	},
+	[161354] = {
+		Level = 60,
+		Class = "MAGE",
+	},
+	[161355] = {
+		Level = 60,
+		Class = "MAGE",
+	},
+	[161372] = {
 		Level = 60,
 		Class = "MAGE",
 	},
@@ -1988,6 +2672,10 @@ lib.spellIdData = {
 		Class = "MAGE",
 	},
 	[61780] = {
+		Level = 60,
+		Class = "MAGE",
+	},
+	[86949] = {
 		Level = 60,
 		Class = "MAGE",
 	},
@@ -2027,16 +2715,16 @@ lib.spellIdData = {
 		Level = 66,
 		Class = "MAGE",
 	},
-	[12598] = {
-		Level = 70,
-		Class = "MAGE",
-	},
 	[120145] = {
 		Level = 71,
 		Class = "MAGE",
 	},
 	[53140] = {
 		Level = 71,
+		Class = "MAGE",
+	},
+	[43987] = {
+		Level = 72,
 		Class = "MAGE",
 	},
 	[117957] = {
@@ -2051,12 +2739,32 @@ lib.spellIdData = {
 		Level = 74,
 		Class = "MAGE",
 	},
-	[125430] = {
+	[112948] = {
 		Level = 75,
 		Class = "MAGE",
 	},
-	[43987] = {
-		Level = 76,
+	[114923] = {
+		Level = 75,
+		Class = "MAGE",
+	},
+	[157976] = {
+		Level = 75,
+		Class = "MAGE",
+	},
+	[157980] = {
+		Level = 75,
+		Class = "MAGE",
+	},
+	[157981] = {
+		Level = 75,
+		Class = "MAGE",
+	},
+	[157997] = {
+		Level = 75,
+		Class = "MAGE",
+	},
+	[44457] = {
+		Level = 75,
 		Class = "MAGE",
 	},
 	[11129] = {
@@ -2087,12 +2795,8 @@ lib.spellIdData = {
 		Level = 80,
 		Class = "MAGE",
 	},
-	[84254] = {
-		Level = 82,
-		Class = "MAGE",
-	},
 	[80353] = {
-		Level = 85,
+		Level = 84,
 		Class = "MAGE",
 	},
 	[88342] = {
@@ -2111,23 +2815,895 @@ lib.spellIdData = {
 		Level = 85,
 		Class = "MAGE",
 	},
-	[108978] = {
+	[159916] = {
 		Level = 87,
 		Class = "MAGE",
 	},
-	[110501] = {
+	[116011] = {
+		Level = 90,
+		Class = "MAGE",
+	},
+	[132620] = {
+		Level = 90,
+		Class = "MAGE",
+	},
+	[132621] = {
+		Level = 90,
+		Class = "MAGE",
+	},
+	[132626] = {
+		Level = 90,
+		Class = "MAGE",
+	},
+	[132627] = {
+		Level = 90,
+		Class = "MAGE",
+	},
+	[1463] = {
+		Level = 90,
+		Class = "MAGE",
+	},
+	[165357] = {
+		Level = 90,
+		Class = "MAGE",
+	},
+	[165359] = {
+		Level = 90,
+		Class = "MAGE",
+	},
+	[165360] = {
+		Level = 90,
+		Class = "MAGE",
+	},
+	[55342] = {
+		Level = 90,
+		Class = "MAGE",
+	},
+	[176242] = {
+		Level = 92,
+		Class = "MAGE",
+	},
+	[176244] = {
+		Level = 92,
+		Class = "MAGE",
+	},
+	[176246] = {
+		Level = 92,
+		Class = "MAGE",
+	},
+	[152087] = {
+		Level = 100,
+		Class = "MAGE",
+	},
+	[153561] = {
+		Level = 100,
+		Class = "MAGE",
+	},
+	[153595] = {
+		Level = 100,
+		Class = "MAGE",
+	},
+	[153626] = {
+		Level = 100,
+		Class = "MAGE",
+	},
+	[155147] = {
+		Level = 100,
+		Class = "MAGE",
+	},
+	[155148] = {
+		Level = 100,
+		Class = "MAGE",
+	},
+	[155149] = {
+		Level = 100,
+		Class = "MAGE",
+	},
+	[100780] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[103985] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[115074] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[116812] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[120277] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[120477] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[120483] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[123023] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[123334] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[123391] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[123394] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[123401] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[123403] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[123763] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[124989] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[124997] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[125151] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[125154] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[125660] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[125671] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[125678] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[125732] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[125755] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[125872] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[125893] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[125901] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[125931] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[125967] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[146950] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[146951] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[146952] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[146953] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[146954] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[15590] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[157361] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[157362] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[157363] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[157366] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[157398] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[157401] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[157411] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[157415] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[157445] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[159487] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[159490] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[159492] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[159495] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[159496] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[159497] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[159534] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[159536] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[159545] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[171926] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[173182] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[196] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[198] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[200] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[201] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[227] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[9077] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[100787] = {
+		Level = 3,
+		Class = "MONK",
+	},
+	[109132] = {
+		Level = 5,
+		Class = "MONK",
+	},
+	[100784] = {
+		Level = 7,
+		Class = "MONK",
+	},
+	[113656] = {
+		Level = 10,
+		Class = "MONK",
+	},
+	[115069] = {
+		Level = 10,
+		Class = "MONK",
+	},
+	[115070] = {
+		Level = 10,
+		Class = "MONK",
+	},
+	[115175] = {
+		Level = 10,
+		Class = "MONK",
+	},
+	[115180] = {
+		Level = 10,
+		Class = "MONK",
+	},
+	[116645] = {
+		Level = 10,
+		Class = "MONK",
+	},
+	[120272] = {
+		Level = 10,
+		Class = "MONK",
+	},
+	[121278] = {
+		Level = 10,
+		Class = "MONK",
+	},
+	[124146] = {
+		Level = 10,
+		Class = "MONK",
+	},
+	[137384] = {
+		Level = 10,
+		Class = "MONK",
+	},
+	[139598] = {
+		Level = 10,
+		Class = "MONK",
+	},
+	[154436] = {
+		Level = 10,
+		Class = "MONK",
+	},
+	[158298] = {
+		Level = 10,
+		Class = "MONK",
+	},
+	[161608] = {
+		Level = 10,
+		Class = "MONK",
+	},
+	[121253] = {
+		Level = 11,
+		Class = "MONK",
+	},
+	[116694] = {
+		Level = 12,
+		Class = "MONK",
+	},
+	[115546] = {
+		Level = 14,
+		Class = "MONK",
+	},
+	[115173] = {
+		Level = 15,
+		Class = "MONK",
+	},
+	[115174] = {
+		Level = 15,
+		Class = "MONK",
+	},
+	[116841] = {
+		Level = 15,
+		Class = "MONK",
+	},
+	[124682] = {
+		Level = 16,
+		Class = "MONK",
+	},
+	[101545] = {
+		Level = 18,
+		Class = "MONK",
+	},
+	[115178] = {
+		Level = 18,
+		Class = "MONK",
+	},
+	[115181] = {
+		Level = 18,
+		Class = "MONK",
+	},
+	[115450] = {
+		Level = 20,
+		Class = "MONK",
+	},
+	[115451] = {
+		Level = 20,
+		Class = "MONK",
+	},
+	[126892] = {
+		Level = 20,
+		Class = "MONK",
+	},
+	[128595] = {
+		Level = 20,
+		Class = "MONK",
+	},
+	[115080] = {
+		Level = 22,
+		Class = "MONK",
+	},
+	[115921] = {
+		Level = 22,
+		Class = "MONK",
+	},
+	[122470] = {
+		Level = 22,
+		Class = "MONK",
+	},
+	[115151] = {
+		Level = 24,
+		Class = "MONK",
+	},
+	[115203] = {
+		Level = 24,
+		Class = "MONK",
+	},
+	[115072] = {
+		Level = 26,
+		Class = "MONK",
+	},
+	[115295] = {
+		Level = 26,
+		Class = "MONK",
+	},
+	[116092] = {
+		Level = 26,
+		Class = "MONK",
+	},
+	[116095] = {
+		Level = 28,
+		Class = "MONK",
+	},
+	[115098] = {
+		Level = 30,
+		Class = "MONK",
+	},
+	[123986] = {
+		Level = 30,
+		Class = "MONK",
+	},
+	[124081] = {
+		Level = 30,
+		Class = "MONK",
+	},
+	[126895] = {
+		Level = 30,
+		Class = "MONK",
+	},
+	[137562] = {
+		Level = 30,
+		Class = "MONK",
+	},
+	[116705] = {
+		Level = 32,
+		Class = "MONK",
+	},
+	[117967] = {
+		Level = 34,
+		Class = "MONK",
+	},
+	[115288] = {
+		Level = 36,
+		Class = "MONK",
+	},
+	[115308] = {
+		Level = 36,
+		Class = "MONK",
+	},
+	[128938] = {
+		Level = 36,
+		Class = "MONK",
+	},
+	[115078] = {
+		Level = 44,
+		Class = "MONK",
+	},
+	[115396] = {
+		Level = 45,
+		Class = "MONK",
+	},
+	[115399] = {
+		Level = 45,
+		Class = "MONK",
+	},
+	[121817] = {
+		Level = 45,
+		Class = "MONK",
+	},
+	[126060] = {
+		Level = 45,
+		Class = "MONK",
+	},
+	[154555] = {
+		Level = 45,
+		Class = "MONK",
+	},
+	[101546] = {
+		Level = 46,
+		Class = "MONK",
+	},
+	[116849] = {
+		Level = 50,
+		Class = "MONK",
+	},
+	[120224] = {
+		Level = 50,
+		Class = "MONK",
+	},
+	[120225] = {
+		Level = 50,
+		Class = "MONK",
+	},
+	[120227] = {
+		Level = 50,
+		Class = "MONK",
+	},
+	[117952] = {
+		Level = 54,
+		Class = "MONK",
+	},
+	[107428] = {
+		Level = 56,
+		Class = "MONK",
+	},
+	[115294] = {
+		Level = 56,
+		Class = "MONK",
+	},
+	[116740] = {
+		Level = 56,
+		Class = "MONK",
+	},
+	[123766] = {
+		Level = 56,
+		Class = "MONK",
+	},
+	[123980] = {
+		Level = 56,
+		Class = "MONK",
+	},
+	[124502] = {
+		Level = 56,
+		Class = "MONK",
+	},
+	[116844] = {
+		Level = 60,
+		Class = "MONK",
+	},
+	[119381] = {
+		Level = 60,
+		Class = "MONK",
+	},
+	[119392] = {
+		Level = 60,
+		Class = "MONK",
+	},
+	[116670] = {
+		Level = 62,
+		Class = "MONK",
+	},
+	[115460] = {
+		Level = 64,
+		Class = "MONK",
+	},
+	[116680] = {
+		Level = 66,
+		Class = "MONK",
+	},
+	[115313] = {
+		Level = 70,
+		Class = "MONK",
+	},
+	[115315] = {
+		Level = 70,
+		Class = "MONK",
+	},
+	[119582] = {
+		Level = 75,
+		Class = "MONK",
+	},
+	[122278] = {
+		Level = 75,
+		Class = "MONK",
+	},
+	[122280] = {
+		Level = 75,
+		Class = "MONK",
+	},
+	[122783] = {
+		Level = 75,
+		Class = "MONK",
+	},
+	[137639] = {
+		Level = 75,
+		Class = "MONK",
+	},
+	[115310] = {
+		Level = 78,
+		Class = "MONK",
+	},
+	[115636] = {
+		Level = 80,
+		Class = "MONK",
+	},
+	[117906] = {
+		Level = 80,
+		Class = "MONK",
+	},
+	[117907] = {
+		Level = 80,
+		Class = "MONK",
+	},
+	[166916] = {
+		Level = 80,
+		Class = "MONK",
+	},
+	[116781] = {
+		Level = 81,
+		Class = "MONK",
+	},
+	[115176] = {
+		Level = 82,
+		Class = "MONK",
+	},
+	[101643] = {
+		Level = 87,
+		Class = "MONK",
+	},
+	[119996] = {
+		Level = 87,
+		Class = "MONK",
+	},
+	[115008] = {
+		Level = 90,
+		Class = "MONK",
+	},
+	[116847] = {
+		Level = 90,
+		Class = "MONK",
+	},
+	[123904] = {
+		Level = 90,
+		Class = "MONK",
+	},
+	[165379] = {
+		Level = 90,
+		Class = "MONK",
+	},
+	[165397] = {
+		Level = 90,
+		Class = "MONK",
+	},
+	[165398] = {
+		Level = 90,
+		Class = "MONK",
+	},
+	[152173] = {
+		Level = 100,
+		Class = "MONK",
+	},
+	[152174] = {
+		Level = 100,
+		Class = "MONK",
+	},
+	[152175] = {
+		Level = 100,
+		Class = "MONK",
+	},
+	[157533] = {
+		Level = 100,
+		Class = "MONK",
+	},
+	[157535] = {
+		Level = 100,
+		Class = "MONK",
+	},
+	[157675] = {
+		Level = 100,
+		Class = "MONK",
+	},
+	[157676] = {
+		Level = 100,
+		Class = "MONK",
+	},
+	[107] = {
 		Level = 1,
 		Class = "PALADIN",
 	},
-	[114916] = {
+	[115738] = {
 		Level = 1,
 		Class = "PALADIN",
 	},
-	[114917] = {
+	[115931] = {
 		Level = 1,
 		Class = "PALADIN",
 	},
-	[26023] = {
+	[115933] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[115934] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[119477] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[119811] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[122028] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[123830] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[125043] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[146955] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[146956] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[146957] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[146958] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[146959] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[157453] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[157455] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[157478] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[157482] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[157485] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[157486] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[157488] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[157493] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[157496] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[159548] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[159557] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[159572] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[159573] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[159579] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[159592] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[162604] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[171929] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[196] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[197] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[198] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[199] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[200] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[201] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[202] = {
 		Level = 1,
 		Class = "PALADIN",
 	},
@@ -2135,23 +3711,139 @@ lib.spellIdData = {
 		Level = 1,
 		Class = "PALADIN",
 	},
+	[54922] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[54923] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[54924] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[54926] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[54927] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[54928] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[54930] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[54931] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[54935] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[54936] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[54937] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[54938] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[54939] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[54940] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[54943] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[56414] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[56416] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[56420] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[57947] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[57954] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[57955] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[57958] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[57979] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[63218] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[63219] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[63220] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[63222] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[63224] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
+	[750] = {
+		Level = 1,
+		Class = "PALADIN",
+	},
 	[82242] = {
 		Level = 1,
 		Class = "PALADIN",
 	},
-	[85499] = {
+	[89401] = {
 		Level = 1,
 		Class = "PALADIN",
 	},
-	[86678] = {
+	[9077] = {
 		Level = 1,
 		Class = "PALADIN",
 	},
-	[87172] = {
+	[9116] = {
 		Level = 1,
 		Class = "PALADIN",
 	},
-	[94289] = {
+	[93466] = {
 		Level = 1,
 		Class = "PALADIN",
 	},
@@ -2160,18 +3852,6 @@ lib.spellIdData = {
 		Class = "PALADIN",
 	},
 	[20271] = {
-		Level = 3,
-		Class = "PALADIN",
-	},
-	[105593] = {
-		Level = 5,
-		Class = "PALADIN",
-	},
-	[110301] = {
-		Level = 5,
-		Class = "PALADIN",
-	},
-	[20066] = {
 		Level = 5,
 		Class = "PALADIN",
 	},
@@ -2179,27 +3859,35 @@ lib.spellIdData = {
 		Level = 7,
 		Class = "PALADIN",
 	},
+	[130552] = {
+		Level = 9,
+		Class = "PALADIN",
+	},
+	[136494] = {
+		Level = 9,
+		Class = "PALADIN",
+	},
 	[85673] = {
 		Level = 9,
+		Class = "PALADIN",
+	},
+	[105805] = {
+		Level = 10,
 		Class = "PALADIN",
 	},
 	[112859] = {
 		Level = 10,
 		Class = "PALADIN",
 	},
-	[114163] = {
+	[158298] = {
 		Level = 10,
 		Class = "PALADIN",
 	},
-	[20113] = {
+	[161608] = {
 		Level = 10,
 		Class = "PALADIN",
 	},
 	[20473] = {
-		Level = 10,
-		Class = "PALADIN",
-	},
-	[20925] = {
 		Level = 10,
 		Class = "PALADIN",
 	},
@@ -2215,15 +3903,7 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "PALADIN",
 	},
-	[84839] = {
-		Level = 10,
-		Class = "PALADIN",
-	},
 	[85256] = {
-		Level = 10,
-		Class = "PALADIN",
-	},
-	[85804] = {
 		Level = 10,
 		Class = "PALADIN",
 	},
@@ -2232,27 +3912,27 @@ lib.spellIdData = {
 		Class = "PALADIN",
 	},
 	[7328] = {
-		Level = 12,
-		Class = "PALADIN",
-	},
-	[62124] = {
-		Level = 14,
-		Class = "PALADIN",
-	},
-	[105622] = {
-		Level = 15,
-		Class = "PALADIN",
-	},
-	[114039] = {
-		Level = 15,
-		Class = "PALADIN",
-	},
-	[114154] = {
-		Level = 15,
+		Level = 13,
 		Class = "PALADIN",
 	},
 	[19750] = {
-		Level = 16,
+		Level = 14,
+		Class = "PALADIN",
+	},
+	[26023] = {
+		Level = 15,
+		Class = "PALADIN",
+	},
+	[62124] = {
+		Level = 15,
+		Class = "PALADIN",
+	},
+	[85499] = {
+		Level = 15,
+		Class = "PALADIN",
+	},
+	[87172] = {
+		Level = 15,
 		Class = "PALADIN",
 	},
 	[633] = {
@@ -2261,18 +3941,6 @@ lib.spellIdData = {
 	},
 	[642] = {
 		Level = 18,
-		Class = "PALADIN",
-	},
-	[105809] = {
-		Level = 20,
-		Class = "PALADIN",
-	},
-	[115801] = {
-		Level = 20,
-		Class = "PALADIN",
-	},
-	[115801] = {
-		Level = 20,
 		Class = "PALADIN",
 	},
 	[119072] = {
@@ -2295,10 +3963,6 @@ lib.spellIdData = {
 		Level = 20,
 		Class = "PALADIN",
 	},
-	[53376] = {
-		Level = 20,
-		Class = "PALADIN",
-	},
 	[53551] = {
 		Level = 20,
 		Class = "PALADIN",
@@ -2307,7 +3971,7 @@ lib.spellIdData = {
 		Level = 20,
 		Class = "PALADIN",
 	},
-	[53595] = {
+	[66907] = {
 		Level = 20,
 		Class = "PALADIN",
 	},
@@ -2319,31 +3983,15 @@ lib.spellIdData = {
 		Level = 20,
 		Class = "PALADIN",
 	},
-	[86172] = {
-		Level = 20,
-		Class = "PALADIN",
-	},
-	[121183] = {
-		Level = 22,
-		Class = "PALADIN",
-	},
 	[31801] = {
 		Level = 24,
 		Class = "PALADIN",
 	},
-	[114157] = {
-		Level = 25,
-		Class = "PALADIN",
-	},
-	[114158] = {
-		Level = 25,
+	[498] = {
+		Level = 26,
 		Class = "PALADIN",
 	},
 	[105424] = {
-		Level = 28,
-		Class = "PALADIN",
-	},
-	[111529] = {
 		Level = 28,
 		Class = "PALADIN",
 	},
@@ -2351,11 +3999,19 @@ lib.spellIdData = {
 		Level = 28,
 		Class = "PALADIN",
 	},
-	[20217] = {
+	[105593] = {
 		Level = 30,
 		Class = "PALADIN",
 	},
-	[498] = {
+	[115750] = {
+		Level = 30,
+		Class = "PALADIN",
+	},
+	[20066] = {
+		Level = 30,
+		Class = "PALADIN",
+	},
+	[20217] = {
 		Level = 30,
 		Class = "PALADIN",
 	},
@@ -2372,10 +4028,6 @@ lib.spellIdData = {
 		Class = "PALADIN",
 	},
 	[53385] = {
-		Level = 34,
-		Class = "PALADIN",
-	},
-	[635] = {
 		Level = 34,
 		Class = "PALADIN",
 	},
@@ -2403,6 +4055,10 @@ lib.spellIdData = {
 		Level = 40,
 		Class = "PALADIN",
 	},
+	[66906] = {
+		Level = 40,
+		Class = "PALADIN",
+	},
 	[69826] = {
 		Level = 40,
 		Class = "PALADIN",
@@ -2419,8 +4075,20 @@ lib.spellIdData = {
 		Level = 44,
 		Class = "PALADIN",
 	},
-	[54428] = {
-		Level = 44,
+	[114163] = {
+		Level = 45,
+		Class = "PALADIN",
+	},
+	[148039] = {
+		Level = 45,
+		Class = "PALADIN",
+	},
+	[20925] = {
+		Level = 45,
+		Class = "PALADIN",
+	},
+	[85804] = {
+		Level = 45,
 		Class = "PALADIN",
 	},
 	[10326] = {
@@ -2433,6 +4101,10 @@ lib.spellIdData = {
 	},
 	[1022] = {
 		Level = 48,
+		Class = "PALADIN",
+	},
+	[159374] = {
+		Level = 50,
 		Class = "PALADIN",
 	},
 	[53576] = {
@@ -2455,12 +4127,12 @@ lib.spellIdData = {
 		Level = 50,
 		Class = "PALADIN",
 	},
-	[87138] = {
-		Level = 50,
-		Class = "PALADIN",
-	},
 	[1044] = {
 		Level = 52,
+		Class = "PALADIN",
+	},
+	[121783] = {
+		Level = 54,
 		Class = "PALADIN",
 	},
 	[82326] = {
@@ -2475,20 +4147,20 @@ lib.spellIdData = {
 		Level = 58,
 		Class = "PALADIN",
 	},
-	[31821] = {
+	[105622] = {
 		Level = 60,
 		Class = "PALADIN",
 	},
-	[31842] = {
-		Level = 62,
+	[114039] = {
+		Level = 60,
 		Class = "PALADIN",
 	},
-	[105805] = {
-		Level = 64,
+	[114154] = {
+		Level = 60,
 		Class = "PALADIN",
 	},
-	[85512] = {
-		Level = 64,
+	[31821] = {
+		Level = 60,
 		Class = "PALADIN",
 	},
 	[1038] = {
@@ -2507,20 +4179,44 @@ lib.spellIdData = {
 		Level = 70,
 		Class = "PALADIN",
 	},
+	[31842] = {
+		Level = 72,
+		Class = "PALADIN",
+	},
 	[31884] = {
 		Level = 72,
+		Class = "PALADIN",
+	},
+	[105809] = {
+		Level = 75,
+		Class = "PALADIN",
+	},
+	[171648] = {
+		Level = 75,
+		Class = "PALADIN",
+	},
+	[53376] = {
+		Level = 75,
+		Class = "PALADIN",
+	},
+	[86172] = {
+		Level = 75,
 		Class = "PALADIN",
 	},
 	[86659] = {
 		Level = 75,
 		Class = "PALADIN",
 	},
-	[86669] = {
-		Level = 75,
+	[161800] = {
+		Level = 76,
 		Class = "PALADIN",
 	},
-	[86698] = {
-		Level = 75,
+	[140333] = {
+		Level = 80,
+		Class = "PALADIN",
+	},
+	[167187] = {
+		Level = 80,
 		Class = "PALADIN",
 	},
 	[6940] = {
@@ -2543,67 +4239,319 @@ lib.spellIdData = {
 		Level = 81,
 		Class = "PALADIN",
 	},
-	[84963] = {
-		Level = 81,
-		Class = "PALADIN",
-	},
 	[115675] = {
 		Level = 85,
 		Class = "PALADIN",
 	},
-	[115750] = {
-		Level = 87,
+	[114157] = {
+		Level = 90,
 		Class = "PALADIN",
 	},
-	[108920] = {
+	[114158] = {
+		Level = 90,
+		Class = "PALADIN",
+	},
+	[114165] = {
+		Level = 90,
+		Class = "PALADIN",
+	},
+	[165375] = {
+		Level = 90,
+		Class = "PALADIN",
+	},
+	[165380] = {
+		Level = 90,
+		Class = "PALADIN",
+	},
+	[165381] = {
+		Level = 90,
+		Class = "PALADIN",
+	},
+	[152261] = {
+		Level = 100,
+		Class = "PALADIN",
+	},
+	[152262] = {
+		Level = 100,
+		Class = "PALADIN",
+	},
+	[152263] = {
+		Level = 100,
+		Class = "PALADIN",
+	},
+	[156910] = {
+		Level = 100,
+		Class = "PALADIN",
+	},
+	[157007] = {
+		Level = 100,
+		Class = "PALADIN",
+	},
+	[157047] = {
+		Level = 100,
+		Class = "PALADIN",
+	},
+	[157048] = {
+		Level = 100,
+		Class = "PALADIN",
+	},
+	[107906] = {
 		Level = 1,
 		Class = "PRIEST",
 	},
-	[108921] = {
+	[108939] = {
 		Level = 1,
 		Class = "PRIEST",
 	},
-	[110502] = {
+	[1180] = {
 		Level = 1,
 		Class = "PRIEST",
 	},
-	[110745] = {
+	[119850] = {
 		Level = 1,
 		Class = "PRIEST",
 	},
-	[120692] = {
+	[119853] = {
 		Level = 1,
 		Class = "PRIEST",
 	},
-	[120696] = {
+	[119864] = {
 		Level = 1,
 		Class = "PRIEST",
 	},
-	[120785] = {
+	[119866] = {
 		Level = 1,
 		Class = "PRIEST",
 	},
-	[121148] = {
+	[119872] = {
 		Level = 1,
 		Class = "PRIEST",
 	},
-	[121196] = {
+	[119873] = {
 		Level = 1,
 		Class = "PRIEST",
 	},
-	[122128] = {
+	[120581] = {
 		Level = 1,
 		Class = "PRIEST",
 	},
-	[124469] = {
+	[120583] = {
 		Level = 1,
 		Class = "PRIEST",
 	},
-	[126123] = {
+	[120584] = {
 		Level = 1,
 		Class = "PRIEST",
 	},
-	[47536] = {
+	[120585] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[126094] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[126133] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[126152] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[126174] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[126745] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[145722] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[147072] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[14771] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[147776] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[147778] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[157129] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[157145] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[157193] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[157197] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[157206] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[157207] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[157217] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[157218] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[157223] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[159596] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[159598] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[159599] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[159606] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[159608] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[159624] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[159626] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[159627] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[159628] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[162532] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[198] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[227] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[33202] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[33371] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[5009] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[5019] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[55672] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[55673] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[55675] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[55676] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[55677] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[55678] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[55684] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[55685] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[55686] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[55688] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[55690] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[55691] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[55692] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[57985] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[57986] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[58009] = {
+		Level = 1,
+		Class = "PRIEST",
+	},
+	[58228] = {
 		Level = 1,
 		Class = "PRIEST",
 	},
@@ -2611,67 +4559,59 @@ lib.spellIdData = {
 		Level = 1,
 		Class = "PRIEST",
 	},
-	[605] = {
+	[63229] = {
 		Level = 1,
 		Class = "PRIEST",
 	},
-	[88686] = {
+	[63248] = {
 		Level = 1,
 		Class = "PRIEST",
 	},
-	[124464] = {
-		Level = 3,
+	[87195] = {
+		Level = 1,
 		Class = "PRIEST",
 	},
-	[2061] = {
-		Level = 3,
+	[89489] = {
+		Level = 1,
 		Class = "PRIEST",
 	},
 	[589] = {
-		Level = 4,
-		Class = "PRIEST",
-	},
-	[108942] = {
-		Level = 5,
-		Class = "PRIEST",
-	},
-	[121536] = {
-		Level = 5,
+		Level = 3,
 		Class = "PRIEST",
 	},
 	[17] = {
 		Level = 5,
 		Class = "PRIEST",
 	},
-	[64129] = {
+	[81782] = {
 		Level = 5,
 		Class = "PRIEST",
 	},
-	[588] = {
+	[2061] = {
 		Level = 7,
-		Class = "PRIEST",
-	},
-	[109186] = {
-		Level = 10,
-		Class = "PRIEST",
-	},
-	[123040] = {
-		Level = 10,
-		Class = "PRIEST",
-	},
-	[124467] = {
-		Level = 10,
-		Class = "PRIEST",
-	},
-	[124468] = {
-		Level = 10,
 		Class = "PRIEST",
 	},
 	[15407] = {
 		Level = 10,
 		Class = "PRIEST",
 	},
+	[165201] = {
+		Level = 10,
+		Class = "PRIEST",
+	},
+	[47536] = {
+		Level = 10,
+		Class = "PRIEST",
+	},
 	[47540] = {
+		Level = 10,
+		Class = "PRIEST",
+	},
+	[52798] = {
+		Level = 10,
+		Class = "PRIEST",
+	},
+	[87336] = {
 		Level = 10,
 		Class = "PRIEST",
 	},
@@ -2687,14 +4627,6 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "PRIEST",
 	},
-	[8122] = {
-		Level = 12,
-		Class = "PRIEST",
-	},
-	[2006] = {
-		Level = 14,
-		Class = "PRIEST",
-	},
 	[108945] = {
 		Level = 15,
 		Class = "PRIEST",
@@ -2707,31 +4639,19 @@ lib.spellIdData = {
 		Level = 15,
 		Class = "PRIEST",
 	},
-	[122098] = {
-		Level = 16,
-		Class = "PRIEST",
-	},
 	[14914] = {
 		Level = 18,
 		Class = "PRIEST",
 	},
-	[14914] = {
+	[2006] = {
 		Level = 18,
 		Class = "PRIEST",
 	},
-	[10060] = {
+	[132157] = {
 		Level = 20,
 		Class = "PRIEST",
 	},
-	[109142] = {
-		Level = 20,
-		Class = "PRIEST",
-	},
-	[109175] = {
-		Level = 20,
-		Class = "PRIEST",
-	},
-	[47573] = {
+	[88684] = {
 		Level = 20,
 		Class = "PRIEST",
 	},
@@ -2751,7 +4671,7 @@ lib.spellIdData = {
 		Level = 22,
 		Class = "PRIEST",
 	},
-	[528] = {
+	[527] = {
 		Level = 22,
 		Class = "PRIEST",
 	},
@@ -2767,55 +4687,43 @@ lib.spellIdData = {
 		Level = 24,
 		Class = "PRIEST",
 	},
-	[110744] = {
-		Level = 25,
-		Class = "PRIEST",
-	},
-	[120517] = {
-		Level = 25,
-		Class = "PRIEST",
-	},
-	[121135] = {
-		Level = 25,
-		Class = "PRIEST",
-	},
 	[139] = {
 		Level = 26,
 		Class = "PRIEST",
 	},
-	[527] = {
+	[49868] = {
 		Level = 26,
 		Class = "PRIEST",
 	},
-	[527] = {
+	[528] = {
 		Level = 26,
-		Class = "PRIEST",
-	},
-	[109964] = {
-		Level = 28,
-		Class = "PRIEST",
-	},
-	[114884] = {
-		Level = 28,
-		Class = "PRIEST",
-	},
-	[124465] = {
-		Level = 28,
-		Class = "PRIEST",
-	},
-	[2050] = {
-		Level = 28,
-		Class = "PRIEST",
-	},
-	[2050] = {
-		Level = 28,
 		Class = "PRIEST",
 	},
 	[34914] = {
 		Level = 28,
 		Class = "PRIEST",
 	},
+	[48045] = {
+		Level = 28,
+		Class = "PRIEST",
+	},
+	[108942] = {
+		Level = 30,
+		Class = "PRIEST",
+	},
+	[121536] = {
+		Level = 30,
+		Class = "PRIEST",
+	},
 	[20711] = {
+		Level = 30,
+		Class = "PRIEST",
+	},
+	[45243] = {
+		Level = 30,
+		Class = "PRIEST",
+	},
+	[64129] = {
 		Level = 30,
 		Class = "PRIEST",
 	},
@@ -2827,23 +4735,19 @@ lib.spellIdData = {
 		Level = 34,
 		Class = "PRIEST",
 	},
+	[2060] = {
+		Level = 34,
+		Class = "PRIEST",
+	},
 	[63733] = {
 		Level = 34,
 		Class = "PRIEST",
 	},
-	[724] = {
+	[126135] = {
 		Level = 36,
 		Class = "PRIEST",
 	},
-	[89485] = {
-		Level = 36,
-		Class = "PRIEST",
-	},
-	[2060] = {
-		Level = 38,
-		Class = "PRIEST",
-	},
-	[2060] = {
+	[81749] = {
 		Level = 38,
 		Class = "PRIEST",
 	},
@@ -2859,14 +4763,6 @@ lib.spellIdData = {
 		Level = 42,
 		Class = "PRIEST",
 	},
-	[596] = {
-		Level = 44,
-		Class = "PRIEST",
-	},
-	[596] = {
-		Level = 44,
-		Class = "PRIEST",
-	},
 	[73510] = {
 		Level = 44,
 		Class = "PRIEST",
@@ -2875,8 +4771,24 @@ lib.spellIdData = {
 		Level = 44,
 		Class = "PRIEST",
 	},
-	[81662] = {
-		Level = 44,
+	[109186] = {
+		Level = 45,
+		Class = "PRIEST",
+	},
+	[123040] = {
+		Level = 45,
+		Class = "PRIEST",
+	},
+	[129250] = {
+		Level = 45,
+		Class = "PRIEST",
+	},
+	[139139] = {
+		Level = 45,
+		Class = "PRIEST",
+	},
+	[162448] = {
+		Level = 45,
 		Class = "PRIEST",
 	},
 	[47517] = {
@@ -2887,12 +4799,12 @@ lib.spellIdData = {
 		Level = 46,
 		Class = "PRIEST",
 	},
-	[32546] = {
-		Level = 48,
+	[596] = {
+		Level = 46,
 		Class = "PRIEST",
 	},
-	[112862] = {
-		Level = 50,
+	[32546] = {
+		Level = 48,
 		Class = "PRIEST",
 	},
 	[34861] = {
@@ -2908,10 +4820,6 @@ lib.spellIdData = {
 		Class = "PRIEST",
 	},
 	[15487] = {
-		Level = 52,
-		Class = "PRIEST",
-	},
-	[89488] = {
 		Level = 52,
 		Class = "PRIEST",
 	},
@@ -2935,20 +4843,20 @@ lib.spellIdData = {
 		Level = 58,
 		Class = "PRIEST",
 	},
+	[108920] = {
+		Level = 60,
+		Class = "PRIEST",
+	},
 	[47585] = {
 		Level = 60,
 		Class = "PRIEST",
 	},
-	[81749] = {
+	[605] = {
 		Level = 60,
 		Class = "PRIEST",
 	},
-	[52798] = {
-		Level = 62,
-		Class = "PRIEST",
-	},
-	[64901] = {
-		Level = 64,
+	[8122] = {
+		Level = 60,
 		Class = "PRIEST",
 	},
 	[95649] = {
@@ -2971,16 +4879,28 @@ lib.spellIdData = {
 		Level = 72,
 		Class = "PRIEST",
 	},
-	[129249] = {
-		Level = 74,
-		Class = "PRIEST",
-	},
-	[48045] = {
-		Level = 74,
-		Class = "PRIEST",
-	},
 	[64044] = {
 		Level = 74,
+		Class = "PRIEST",
+	},
+	[10060] = {
+		Level = 75,
+		Class = "PRIEST",
+	},
+	[109142] = {
+		Level = 75,
+		Class = "PRIEST",
+	},
+	[109175] = {
+		Level = 75,
+		Class = "PRIEST",
+	},
+	[109964] = {
+		Level = 75,
+		Class = "PRIEST",
+	},
+	[162452] = {
+		Level = 75,
 		Class = "PRIEST",
 	},
 	[15286] = {
@@ -2988,10 +4908,6 @@ lib.spellIdData = {
 		Class = "PRIEST",
 	},
 	[64843] = {
-		Level = 78,
-		Class = "PRIEST",
-	},
-	[92297] = {
 		Level = 78,
 		Class = "PRIEST",
 	},
@@ -3007,35 +4923,187 @@ lib.spellIdData = {
 		Level = 80,
 		Class = "PRIEST",
 	},
-	[73413] = {
-		Level = 83,
-		Class = "PRIEST",
-	},
 	[73325] = {
-		Level = 85,
+		Level = 84,
 		Class = "PRIEST",
 	},
-	[108968] = {
-		Level = 87,
+	[110744] = {
+		Level = 90,
 		Class = "PRIEST",
 	},
-	[108208] = {
+	[120517] = {
+		Level = 90,
+		Class = "PRIEST",
+	},
+	[120644] = {
+		Level = 90,
+		Class = "PRIEST",
+	},
+	[121135] = {
+		Level = 90,
+		Class = "PRIEST",
+	},
+	[122121] = {
+		Level = 90,
+		Class = "PRIEST",
+	},
+	[127632] = {
+		Level = 90,
+		Class = "PRIEST",
+	},
+	[165362] = {
+		Level = 90,
+		Class = "PRIEST",
+	},
+	[165370] = {
+		Level = 90,
+		Class = "PRIEST",
+	},
+	[165376] = {
+		Level = 90,
+		Class = "PRIEST",
+	},
+	[152116] = {
+		Level = 100,
+		Class = "PRIEST",
+	},
+	[152117] = {
+		Level = 100,
+		Class = "PRIEST",
+	},
+	[152118] = {
+		Level = 100,
+		Class = "PRIEST",
+	},
+	[155245] = {
+		Level = 100,
+		Class = "PRIEST",
+	},
+	[155246] = {
+		Level = 100,
+		Class = "PRIEST",
+	},
+	[155271] = {
+		Level = 100,
+		Class = "PRIEST",
+	},
+	[155361] = {
+		Level = 100,
+		Class = "PRIEST",
+	},
+	[1180] = {
 		Level = 1,
 		Class = "ROGUE",
 	},
-	[108209] = {
+	[121733] = {
 		Level = 1,
 		Class = "ROGUE",
 	},
-	[110503] = {
+	[125044] = {
 		Level = 1,
 		Class = "ROGUE",
 	},
-	[14062] = {
+	[146625] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[146631] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[146960] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[146961] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[15590] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[157442] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[157513] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[157514] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[157561] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[157569] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[157581] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[157605] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[157615] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[157660] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[157666] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[157669] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[157671] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[157704] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[159634] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[159635] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[159636] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[159638] = {
 		Level = 1,
 		Class = "ROGUE",
 	},
 	[1752] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[196] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[198] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[201] = {
 		Level = 1,
 		Class = "ROGUE",
 	},
@@ -3051,7 +5119,107 @@ lib.spellIdData = {
 		Level = 1,
 		Class = "ROGUE",
 	},
-	[56814] = {
+	[56799] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[56800] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[56801] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[56804] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[56805] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[56806] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[56807] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[56809] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[56810] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[56811] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[56812] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[56813] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[56818] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[56819] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[58017] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[58027] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[58032] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[58033] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[58038] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[58039] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[63249] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[63252] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[63253] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[63254] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[63268] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[63269] = {
 		Level = 1,
 		Class = "ROGUE",
 	},
@@ -3059,47 +5227,35 @@ lib.spellIdData = {
 		Level = 1,
 		Class = "ROGUE",
 	},
+	[89758] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[9077] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
+	[91299] = {
+		Level = 1,
+		Class = "ROGUE",
+	},
 	[2098] = {
 		Level = 3,
-		Class = "ROGUE",
-	},
-	[79327] = {
-		Level = 3,
-		Class = "ROGUE",
-	},
-	[108210] = {
-		Level = 5,
 		Class = "ROGUE",
 	},
 	[1784] = {
 		Level = 5,
 		Class = "ROGUE",
 	},
-	[26679] = {
-		Level = 5,
-		Class = "ROGUE",
-	},
-	[74001] = {
-		Level = 5,
-		Class = "ROGUE",
-	},
 	[8676] = {
-		Level = 8,
+		Level = 6,
 		Class = "ROGUE",
 	},
 	[5277] = {
-		Level = 9,
-		Class = "ROGUE",
-	},
-	[108211] = {
-		Level = 10,
+		Level = 8,
 		Class = "ROGUE",
 	},
 	[1329] = {
-		Level = 10,
-		Class = "ROGUE",
-	},
-	[13852] = {
 		Level = 10,
 		Class = "ROGUE",
 	},
@@ -3127,19 +5283,15 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "ROGUE",
 	},
-	[31230] = {
-		Level = 10,
-		Class = "ROGUE",
-	},
 	[61329] = {
 		Level = 10,
 		Class = "ROGUE",
 	},
-	[6770] = {
+	[79134] = {
 		Level = 10,
 		Class = "ROGUE",
 	},
-	[79008] = {
+	[79152] = {
 		Level = 10,
 		Class = "ROGUE",
 	},
@@ -3147,27 +5299,27 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "ROGUE",
 	},
-	[73651] = {
-		Level = 12,
+	[91023] = {
+		Level = 10,
 		Class = "ROGUE",
 	},
-	[1766] = {
-		Level = 14,
+	[6770] = {
+		Level = 12,
 		Class = "ROGUE",
 	},
 	[5171] = {
 		Level = 14,
 		Class = "ROGUE",
 	},
-	[108212] = {
+	[108208] = {
 		Level = 15,
 		Class = "ROGUE",
 	},
-	[14185] = {
+	[108209] = {
 		Level = 15,
 		Class = "ROGUE",
 	},
-	[36554] = {
+	[14062] = {
 		Level = 15,
 		Class = "ROGUE",
 	},
@@ -3175,16 +5327,12 @@ lib.spellIdData = {
 		Level = 15,
 		Class = "ROGUE",
 	},
-	[1804] = {
+	[73651] = {
 		Level = 16,
 		Class = "ROGUE",
 	},
-	[108215] = {
-		Level = 20,
-		Class = "ROGUE",
-	},
-	[108216] = {
-		Level = 20,
+	[1766] = {
+		Level = 18,
 		Class = "ROGUE",
 	},
 	[32645] = {
@@ -3195,11 +5343,11 @@ lib.spellIdData = {
 		Level = 20,
 		Class = "ROGUE",
 	},
-	[84617] = {
+	[51667] = {
 		Level = 20,
 		Class = "ROGUE",
 	},
-	[91023] = {
+	[84617] = {
 		Level = 20,
 		Class = "ROGUE",
 	},
@@ -3207,20 +5355,8 @@ lib.spellIdData = {
 		Level = 22,
 		Class = "ROGUE",
 	},
-	[114013] = {
-		Level = 25,
-		Class = "ROGUE",
-	},
-	[114014] = {
-		Level = 25,
-		Class = "ROGUE",
-	},
-	[114015] = {
-		Level = 25,
-		Class = "ROGUE",
-	},
-	[1833] = {
-		Level = 26,
+	[1804] = {
+		Level = 24,
 		Class = "ROGUE",
 	},
 	[2983] = {
@@ -3231,8 +5367,8 @@ lib.spellIdData = {
 		Level = 28,
 		Class = "ROGUE",
 	},
-	[5761] = {
-		Level = 28,
+	[108210] = {
+		Level = 30,
 		Class = "ROGUE",
 	},
 	[113742] = {
@@ -3247,7 +5383,19 @@ lib.spellIdData = {
 		Level = 30,
 		Class = "ROGUE",
 	},
+	[1833] = {
+		Level = 30,
+		Class = "ROGUE",
+	},
+	[26679] = {
+		Level = 30,
+		Class = "ROGUE",
+	},
 	[35551] = {
+		Level = 30,
+		Class = "ROGUE",
+	},
+	[74001] = {
 		Level = 30,
 		Class = "ROGUE",
 	},
@@ -3255,19 +5403,23 @@ lib.spellIdData = {
 		Level = 30,
 		Class = "ROGUE",
 	},
+	[14161] = {
+		Level = 32,
+		Class = "ROGUE",
+	},
 	[1856] = {
 		Level = 34,
 		Class = "ROGUE",
 	},
 	[2094] = {
-		Level = 34,
-		Class = "ROGUE",
-	},
-	[8647] = {
-		Level = 36,
+		Level = 38,
 		Class = "ROGUE",
 	},
 	[111240] = {
+		Level = 40,
+		Class = "ROGUE",
+	},
+	[121152] = {
 		Level = 40,
 		Class = "ROGUE",
 	},
@@ -3283,12 +5435,24 @@ lib.spellIdData = {
 		Level = 40,
 		Class = "ROGUE",
 	},
-	[1966] = {
+	[2836] = {
 		Level = 42,
 		Class = "ROGUE",
 	},
-	[2836] = {
-		Level = 42,
+	[1966] = {
+		Level = 44,
+		Class = "ROGUE",
+	},
+	[108211] = {
+		Level = 45,
+		Class = "ROGUE",
+	},
+	[31230] = {
+		Level = 45,
+		Class = "ROGUE",
+	},
+	[79008] = {
+		Level = 45,
 		Class = "ROGUE",
 	},
 	[1943] = {
@@ -3307,31 +5471,27 @@ lib.spellIdData = {
 		Level = 50,
 		Class = "ROGUE",
 	},
-	[79096] = {
+	[86092] = {
 		Level = 50,
-		Class = "ROGUE",
-	},
-	[79134] = {
-		Level = 50,
-		Class = "ROGUE",
-	},
-	[51722] = {
-		Level = 52,
 		Class = "ROGUE",
 	},
 	[58423] = {
 		Level = 54,
 		Class = "ROGUE",
 	},
-	[1842] = {
-		Level = 56,
-		Class = "ROGUE",
-	},
 	[31224] = {
 		Level = 58,
 		Class = "ROGUE",
 	},
-	[51667] = {
+	[108212] = {
+		Level = 60,
+		Class = "ROGUE",
+	},
+	[138106] = {
+		Level = 60,
+		Class = "ROGUE",
+	},
+	[36554] = {
 		Level = 60,
 		Class = "ROGUE",
 	},
@@ -3347,32 +5507,36 @@ lib.spellIdData = {
 		Level = 62,
 		Class = "ROGUE",
 	},
-	[58410] = {
-		Level = 64,
-		Class = "ROGUE",
-	},
 	[51723] = {
 		Level = 66,
 		Class = "ROGUE",
 	},
+	[14185] = {
+		Level = 68,
+		Class = "ROGUE",
+	},
 	[5938] = {
-		Level = 70,
+		Level = 74,
 		Class = "ROGUE",
 	},
-	[79152] = {
-		Level = 70,
+	[108216] = {
+		Level = 75,
 		Class = "ROGUE",
 	},
-	[114842] = {
-		Level = 72,
+	[131511] = {
+		Level = 75,
 		Class = "ROGUE",
 	},
-	[57934] = {
+	[154904] = {
 		Level = 75,
 		Class = "ROGUE",
 	},
 	[114018] = {
 		Level = 76,
+		Class = "ROGUE",
+	},
+	[57934] = {
+		Level = 78,
 		Class = "ROGUE",
 	},
 	[51690] = {
@@ -3403,39 +5567,167 @@ lib.spellIdData = {
 		Level = 83,
 		Class = "ROGUE",
 	},
-	[73981] = {
-		Level = 83,
-		Class = "ROGUE",
-	},
 	[76577] = {
 		Level = 85,
 		Class = "ROGUE",
 	},
-	[121471] = {
-		Level = 87,
+	[114014] = {
+		Level = 90,
 		Class = "ROGUE",
+	},
+	[114015] = {
+		Level = 90,
+		Class = "ROGUE",
+	},
+	[137619] = {
+		Level = 90,
+		Class = "ROGUE",
+	},
+	[152150] = {
+		Level = 100,
+		Class = "ROGUE",
+	},
+	[152151] = {
+		Level = 100,
+		Class = "ROGUE",
+	},
+	[152152] = {
+		Level = 100,
+		Class = "ROGUE",
+	},
+	[101052] = {
+		Level = 1,
+		Class = "SHAMAN",
 	},
 	[107] = {
 		Level = 1,
 		Class = "SHAMAN",
 	},
-	[108270] = {
+	[1180] = {
 		Level = 1,
 		Class = "SHAMAN",
 	},
-	[108271] = {
+	[147707] = {
 		Level = 1,
 		Class = "SHAMAN",
 	},
-	[110504] = {
+	[147762] = {
 		Level = 1,
 		Class = "SHAMAN",
 	},
-	[114089] = {
+	[147770] = {
 		Level = 1,
 		Class = "SHAMAN",
 	},
-	[114093] = {
+	[147772] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[147781] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[147783] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[147784] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[147785] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[147787] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[147788] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[15590] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[157444] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[157764] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[157765] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[157774] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[157784] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[157804] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[157807] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[157812] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[157813] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[159640] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[159642] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[159643] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[159644] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[159647] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[159648] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[159649] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[159650] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[159651] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[161654] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[196] = {
 		Level = 1,
 		Class = "SHAMAN",
 	},
@@ -3443,7 +5735,15 @@ lib.spellIdData = {
 		Level = 1,
 		Class = "SHAMAN",
 	},
-	[30884] = {
+	[198] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[199] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[227] = {
 		Level = 1,
 		Class = "SHAMAN",
 	},
@@ -3451,11 +5751,143 @@ lib.spellIdData = {
 		Level = 1,
 		Class = "SHAMAN",
 	},
-	[52752] = {
+	[55436] = {
 		Level = 1,
 		Class = "SHAMAN",
 	},
-	[73685] = {
+	[55437] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[55438] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[55439] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[55440] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[55441] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[55442] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[55443] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[55444] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[55445] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[55446] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[55447] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[55448] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[55449] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[55450] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[55451] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[55452] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[55454] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[55455] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[55456] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[58057] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[58058] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[58059] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[58135] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[59289] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[62132] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[63270] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[63271] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[63273] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[63279] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[63280] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[63291] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[63298] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[9077] = {
+		Level = 1,
+		Class = "SHAMAN",
+	},
+	[9116] = {
 		Level = 1,
 		Class = "SHAMAN",
 	},
@@ -3463,20 +5895,8 @@ lib.spellIdData = {
 		Level = 3,
 		Class = "SHAMAN",
 	},
-	[108273] = {
-		Level = 5,
-		Class = "SHAMAN",
-	},
-	[51485] = {
-		Level = 5,
-		Class = "SHAMAN",
-	},
-	[63374] = {
-		Level = 5,
-		Class = "SHAMAN",
-	},
 	[8042] = {
-		Level = 5,
+		Level = 6,
 		Class = "SHAMAN",
 	},
 	[8004] = {
@@ -3487,19 +5907,15 @@ lib.spellIdData = {
 		Level = 8,
 		Class = "SHAMAN",
 	},
-	[108284] = {
-		Level = 10,
-		Class = "SHAMAN",
-	},
-	[108285] = {
-		Level = 10,
-		Class = "SHAMAN",
-	},
-	[108287] = {
+	[10400] = {
 		Level = 10,
 		Class = "SHAMAN",
 	},
 	[112858] = {
+		Level = 10,
+		Class = "SHAMAN",
+	},
+	[123099] = {
 		Level = 10,
 		Class = "SHAMAN",
 	},
@@ -3508,10 +5924,6 @@ lib.spellIdData = {
 		Class = "SHAMAN",
 	},
 	[29000] = {
-		Level = 10,
-		Class = "SHAMAN",
-	},
-	[30674] = {
 		Level = 10,
 		Class = "SHAMAN",
 	},
@@ -3524,6 +5936,10 @@ lib.spellIdData = {
 		Class = "SHAMAN",
 	},
 	[51522] = {
+		Level = 10,
+		Class = "SHAMAN",
+	},
+	[55453] = {
 		Level = 10,
 		Class = "SHAMAN",
 	},
@@ -3543,19 +5959,7 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "SHAMAN",
 	},
-	[8024] = {
-		Level = 10,
-		Class = "SHAMAN",
-	},
 	[86629] = {
-		Level = 10,
-		Class = "SHAMAN",
-	},
-	[89920] = {
-		Level = 10,
-		Class = "SHAMAN",
-	},
-	[89920] = {
 		Level = 10,
 		Class = "SHAMAN",
 	},
@@ -3563,31 +5967,31 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "SHAMAN",
 	},
-	[2008] = {
-		Level = 12,
-		Class = "SHAMAN",
-	},
 	[370] = {
 		Level = 12,
 		Class = "SHAMAN",
 	},
 	[8050] = {
+		Level = 12,
+		Class = "SHAMAN",
+	},
+	[2008] = {
 		Level = 14,
 		Class = "SHAMAN",
 	},
-	[108283] = {
+	[108270] = {
 		Level = 15,
 		Class = "SHAMAN",
 	},
-	[16166] = {
-		Level = 15,
-		Class = "SHAMAN",
-	},
-	[16188] = {
+	[108271] = {
 		Level = 15,
 		Class = "SHAMAN",
 	},
 	[2645] = {
+		Level = 15,
+		Class = "SHAMAN",
+	},
+	[30884] = {
 		Level = 15,
 		Class = "SHAMAN",
 	},
@@ -3607,23 +6011,7 @@ lib.spellIdData = {
 		Level = 18,
 		Class = "SHAMAN",
 	},
-	[108280] = {
-		Level = 20,
-		Class = "SHAMAN",
-	},
-	[108281] = {
-		Level = 20,
-		Class = "SHAMAN",
-	},
-	[108282] = {
-		Level = 20,
-		Class = "SHAMAN",
-	},
 	[16282] = {
-		Level = 20,
-		Class = "SHAMAN",
-	},
-	[331] = {
 		Level = 20,
 		Class = "SHAMAN",
 	},
@@ -3631,7 +6019,7 @@ lib.spellIdData = {
 		Level = 20,
 		Class = "SHAMAN",
 	},
-	[88764] = {
+	[88766] = {
 		Level = 20,
 		Class = "SHAMAN",
 	},
@@ -3641,18 +6029,6 @@ lib.spellIdData = {
 	},
 	[546] = {
 		Level = 24,
-		Class = "SHAMAN",
-	},
-	[117012] = {
-		Level = 25,
-		Class = "SHAMAN",
-	},
-	[117013] = {
-		Level = 25,
-		Class = "SHAMAN",
-	},
-	[115356] = {
-		Level = 26,
 		Class = "SHAMAN",
 	},
 	[17364] = {
@@ -3671,7 +6047,15 @@ lib.spellIdData = {
 		Level = 28,
 		Class = "SHAMAN",
 	},
-	[20608] = {
+	[108273] = {
+		Level = 30,
+		Class = "SHAMAN",
+	},
+	[166221] = {
+		Level = 30,
+		Class = "SHAMAN",
+	},
+	[33757] = {
 		Level = 30,
 		Class = "SHAMAN",
 	},
@@ -3679,11 +6063,7 @@ lib.spellIdData = {
 		Level = 30,
 		Class = "SHAMAN",
 	},
-	[51730] = {
-		Level = 30,
-		Class = "SHAMAN",
-	},
-	[51945] = {
+	[51485] = {
 		Level = 30,
 		Class = "SHAMAN",
 	},
@@ -3691,15 +6071,11 @@ lib.spellIdData = {
 		Level = 30,
 		Class = "SHAMAN",
 	},
-	[556] = {
+	[63374] = {
 		Level = 30,
 		Class = "SHAMAN",
 	},
-	[88766] = {
-		Level = 30,
-		Class = "SHAMAN",
-	},
-	[8232] = {
+	[20608] = {
 		Level = 32,
 		Class = "SHAMAN",
 	},
@@ -3707,15 +6083,7 @@ lib.spellIdData = {
 		Level = 34,
 		Class = "SHAMAN",
 	},
-	[51505] = {
-		Level = 34,
-		Class = "SHAMAN",
-	},
-	[51558] = {
-		Level = 34,
-		Class = "SHAMAN",
-	},
-	[77657] = {
+	[556] = {
 		Level = 34,
 		Class = "SHAMAN",
 	},
@@ -3731,23 +6099,7 @@ lib.spellIdData = {
 		Level = 38,
 		Class = "SHAMAN",
 	},
-	[1064] = {
-		Level = 40,
-		Class = "SHAMAN",
-	},
-	[16164] = {
-		Level = 40,
-		Class = "SHAMAN",
-	},
 	[16196] = {
-		Level = 40,
-		Class = "SHAMAN",
-	},
-	[51527] = {
-		Level = 40,
-		Class = "SHAMAN",
-	},
-	[77747] = {
 		Level = 40,
 		Class = "SHAMAN",
 	},
@@ -3755,12 +6107,24 @@ lib.spellIdData = {
 		Level = 40,
 		Class = "SHAMAN",
 	},
+	[1064] = {
+		Level = 44,
+		Class = "SHAMAN",
+	},
 	[1535] = {
 		Level = 44,
 		Class = "SHAMAN",
 	},
-	[8033] = {
-		Level = 46,
+	[108284] = {
+		Level = 45,
+		Class = "SHAMAN",
+	},
+	[108285] = {
+		Level = 45,
+		Class = "SHAMAN",
+	},
+	[108287] = {
+		Level = 45,
 		Class = "SHAMAN",
 	},
 	[51530] = {
@@ -3792,23 +6156,23 @@ lib.spellIdData = {
 		Class = "SHAMAN",
 	},
 	[8143] = {
-		Level = 52,
-		Class = "SHAMAN",
-	},
-	[30809] = {
-		Level = 55,
-		Class = "SHAMAN",
-	},
-	[51470] = {
-		Level = 55,
-		Class = "SHAMAN",
-	},
-	[16190] = {
-		Level = 56,
+		Level = 54,
 		Class = "SHAMAN",
 	},
 	[2062] = {
-		Level = 56,
+		Level = 58,
+		Class = "SHAMAN",
+	},
+	[108283] = {
+		Level = 60,
+		Class = "SHAMAN",
+	},
+	[16166] = {
+		Level = 60,
+		Class = "SHAMAN",
+	},
+	[16188] = {
+		Level = 60,
 		Class = "SHAMAN",
 	},
 	[51533] = {
@@ -3835,6 +6199,10 @@ lib.spellIdData = {
 		Level = 63,
 		Class = "SHAMAN",
 	},
+	[108280] = {
+		Level = 65,
+		Class = "SHAMAN",
+	},
 	[30823] = {
 		Level = 65,
 		Class = "SHAMAN",
@@ -3855,27 +6223,27 @@ lib.spellIdData = {
 		Level = 70,
 		Class = "SHAMAN",
 	},
-	[76780] = {
-		Level = 72,
-		Class = "SHAMAN",
-	},
-	[8017] = {
+	[108281] = {
 		Level = 75,
 		Class = "SHAMAN",
 	},
-	[120668] = {
-		Level = 78,
+	[108282] = {
+		Level = 75,
+		Class = "SHAMAN",
+	},
+	[147074] = {
+		Level = 75,
+		Class = "SHAMAN",
+	},
+	[51514] = {
+		Level = 75,
 		Class = "SHAMAN",
 	},
 	[116956] = {
 		Level = 80,
 		Class = "SHAMAN",
 	},
-	[51514] = {
-		Level = 80,
-		Class = "SHAMAN",
-	},
-	[77222] = {
+	[170374] = {
 		Level = 80,
 		Class = "SHAMAN",
 	},
@@ -3887,43 +6255,295 @@ lib.spellIdData = {
 		Level = 80,
 		Class = "SHAMAN",
 	},
-	[73680] = {
+	[165462] = {
 		Level = 81,
 		Class = "SHAMAN",
 	},
-	[73921] = {
-		Level = 83,
+	[73680] = {
+		Level = 81,
 		Class = "SHAMAN",
 	},
 	[79206] = {
 		Level = 85,
 		Class = "SHAMAN",
 	},
-	[114049] = {
+	[165339] = {
 		Level = 87,
 		Class = "SHAMAN",
 	},
-	[108359] = {
+	[165341] = {
+		Level = 87,
+		Class = "SHAMAN",
+	},
+	[165344] = {
+		Level = 87,
+		Class = "SHAMAN",
+	},
+	[117012] = {
+		Level = 90,
+		Class = "SHAMAN",
+	},
+	[117013] = {
+		Level = 90,
+		Class = "SHAMAN",
+	},
+	[117014] = {
+		Level = 90,
+		Class = "SHAMAN",
+	},
+	[165368] = {
+		Level = 90,
+		Class = "SHAMAN",
+	},
+	[165391] = {
+		Level = 90,
+		Class = "SHAMAN",
+	},
+	[165399] = {
+		Level = 90,
+		Class = "SHAMAN",
+	},
+	[165477] = {
+		Level = 90,
+		Class = "SHAMAN",
+	},
+	[165479] = {
+		Level = 90,
+		Class = "SHAMAN",
+	},
+	[152255] = {
+		Level = 100,
+		Class = "SHAMAN",
+	},
+	[152256] = {
+		Level = 100,
+		Class = "SHAMAN",
+	},
+	[152257] = {
+		Level = 100,
+		Class = "SHAMAN",
+	},
+	[157153] = {
+		Level = 100,
+		Class = "SHAMAN",
+	},
+	[157154] = {
+		Level = 100,
+		Class = "SHAMAN",
+	},
+	[1180] = {
 		Level = 1,
 		Class = "WARLOCK",
 	},
-	[108370] = {
+	[135557] = {
 		Level = 1,
 		Class = "WARLOCK",
 	},
-	[108371] = {
+	[146962] = {
 		Level = 1,
 		Class = "WARLOCK",
 	},
-	[110505] = {
+	[146964] = {
 		Level = 1,
 		Class = "WARLOCK",
 	},
-	[114168] = {
+	[148683] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[157069] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[157072] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[157077] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[157078] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[157096] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[157098] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[157100] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[157103] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[157114] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[157121] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[157126] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[159665] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[159669] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[159680] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[159688] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[159691] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[159693] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[159697] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[201] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[227] = {
 		Level = 1,
 		Class = "WARLOCK",
 	},
 	[5009] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[5019] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[56217] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[56218] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[56224] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[56226] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[56231] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[56232] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[56233] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[56235] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[56238] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[56240] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[56241] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[56242] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[56244] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[56246] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[56247] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[56248] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[56249] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[58070] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[58079] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[58081] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[58094] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[58107] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[63302] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[63304] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[63309] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[63312] = {
+		Level = 1,
+		Class = "WARLOCK",
+	},
+	[63320] = {
 		Level = 1,
 		Class = "WARLOCK",
 	},
@@ -3935,32 +6555,12 @@ lib.spellIdData = {
 		Level = 1,
 		Class = "WARLOCK",
 	},
-	[131740] = {
+	[172] = {
 		Level = 3,
 		Class = "WARLOCK",
 	},
-	[103127] = {
-		Level = 4,
-		Class = "WARLOCK",
-	},
-	[172] = {
-		Level = 4,
-		Class = "WARLOCK",
-	},
-	[30283] = {
-		Level = 5,
-		Class = "WARLOCK",
-	},
-	[5484] = {
-		Level = 5,
-		Class = "WARLOCK",
-	},
-	[6789] = {
-		Level = 5,
-		Class = "WARLOCK",
-	},
 	[689] = {
-		Level = 6,
+		Level = 7,
 		Class = "WARLOCK",
 	},
 	[697] = {
@@ -3979,19 +6579,15 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "WARLOCK",
 	},
-	[108415] = {
+	[108558] = {
 		Level = 10,
 		Class = "WARLOCK",
 	},
-	[108416] = {
+	[108647] = {
 		Level = 10,
 		Class = "WARLOCK",
 	},
-	[109145] = {
-		Level = 10,
-		Class = "WARLOCK",
-	},
-	[110913] = {
+	[108869] = {
 		Level = 10,
 		Class = "WARLOCK",
 	},
@@ -3999,7 +6595,15 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "WARLOCK",
 	},
-	[131736] = {
+	[116858] = {
+		Level = 10,
+		Class = "WARLOCK",
+	},
+	[122351] = {
+		Level = 10,
+		Class = "WARLOCK",
+	},
+	[124913] = {
 		Level = 10,
 		Class = "WARLOCK",
 	},
@@ -4019,15 +6623,15 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "WARLOCK",
 	},
+	[755] = {
+		Level = 11,
+		Class = "WARLOCK",
+	},
 	[109151] = {
 		Level = 12,
 		Class = "WARLOCK",
 	},
 	[348] = {
-		Level = 12,
-		Class = "WARLOCK",
-	},
-	[755] = {
 		Level = 12,
 		Class = "WARLOCK",
 	},
@@ -4039,19 +6643,19 @@ lib.spellIdData = {
 		Level = 14,
 		Class = "WARLOCK",
 	},
-	[103128] = {
+	[108359] = {
 		Level = 15,
 		Class = "WARLOCK",
 	},
-	[108482] = {
+	[108370] = {
 		Level = 15,
 		Class = "WARLOCK",
 	},
-	[111397] = {
+	[108371] = {
 		Level = 15,
 		Class = "WARLOCK",
 	},
-	[111400] = {
+	[114635] = {
 		Level = 15,
 		Class = "WARLOCK",
 	},
@@ -4059,27 +6663,11 @@ lib.spellIdData = {
 		Level = 16,
 		Class = "WARLOCK",
 	},
-	[109466] = {
-		Level = 17,
-		Class = "WARLOCK",
-	},
 	[20707] = {
 		Level = 18,
 		Class = "WARLOCK",
 	},
-	[5740] = {
-		Level = 18,
-		Class = "WARLOCK",
-	},
-	[5740] = {
-		Level = 18,
-		Class = "WARLOCK",
-	},
 	[105174] = {
-		Level = 19,
-		Class = "WARLOCK",
-	},
-	[1120] = {
 		Level = 19,
 		Class = "WARLOCK",
 	},
@@ -4091,28 +6679,20 @@ lib.spellIdData = {
 		Level = 19,
 		Class = "WARLOCK",
 	},
-	[108499] = {
-		Level = 20,
-		Class = "WARLOCK",
-	},
-	[108501] = {
-		Level = 20,
-		Class = "WARLOCK",
-	},
-	[108503] = {
-		Level = 20,
-		Class = "WARLOCK",
-	},
-	[124539] = {
-		Level = 20,
-		Class = "WARLOCK",
-	},
 	[5784] = {
 		Level = 20,
 		Class = "WARLOCK",
 	},
 	[712] = {
 		Level = 20,
+		Class = "WARLOCK",
+	},
+	[27243] = {
+		Level = 21,
+		Class = "WARLOCK",
+	},
+	[5740] = {
+		Level = 21,
 		Class = "WARLOCK",
 	},
 	[126] = {
@@ -4123,92 +6703,44 @@ lib.spellIdData = {
 		Level = 22,
 		Class = "WARLOCK",
 	},
-	[5697] = {
+	[103103] = {
 		Level = 24,
 		Class = "WARLOCK",
 	},
-	[108505] = {
-		Level = 25,
-		Class = "WARLOCK",
-	},
-	[108508] = {
-		Level = 25,
-		Class = "WARLOCK",
-	},
-	[112089] = {
-		Level = 25,
-		Class = "WARLOCK",
-	},
-	[103139] = {
-		Level = 26,
+	[5697] = {
+		Level = 24,
 		Class = "WARLOCK",
 	},
 	[101976] = {
 		Level = 27,
 		Class = "WARLOCK",
 	},
-	[103101] = {
-		Level = 27,
+	[691] = {
+		Level = 29,
 		Class = "WARLOCK",
 	},
-	[114129] = {
-		Level = 27,
+	[30283] = {
+		Level = 30,
 		Class = "WARLOCK",
 	},
-	[103130] = {
-		Level = 28,
+	[5484] = {
+		Level = 30,
 		Class = "WARLOCK",
 	},
-	[103136] = {
+	[6789] = {
 		Level = 30,
 		Class = "WARLOCK",
 	},
 	[1098] = {
-		Level = 30,
-		Class = "WARLOCK",
-	},
-	[691] = {
-		Level = 30,
-		Class = "WARLOCK",
-	},
-	[104316] = {
-		Level = 32,
-		Class = "WARLOCK",
-	},
-	[108563] = {
-		Level = 32,
+		Level = 31,
 		Class = "WARLOCK",
 	},
 	[114592] = {
 		Level = 32,
 		Class = "WARLOCK",
 	},
-	[18223] = {
-		Level = 32,
-		Class = "WARLOCK",
-	},
 	[710] = {
 		Level = 32,
-		Class = "WARLOCK",
-	},
-	[103133] = {
-		Level = 33,
-		Class = "WARLOCK",
-	},
-	[103140] = {
-		Level = 33,
-		Class = "WARLOCK",
-	},
-	[6229] = {
-		Level = 34,
-		Class = "WARLOCK",
-	},
-	[124913] = {
-		Level = 36,
-		Class = "WARLOCK",
-	},
-	[131737] = {
-		Level = 36,
 		Class = "WARLOCK",
 	},
 	[80240] = {
@@ -4219,32 +6751,8 @@ lib.spellIdData = {
 		Level = 36,
 		Class = "WARLOCK",
 	},
-	[104938] = {
-		Level = 38,
-		Class = "WARLOCK",
-	},
 	[23161] = {
 		Level = 40,
-		Class = "WARLOCK",
-	},
-	[103103] = {
-		Level = 42,
-		Class = "WARLOCK",
-	},
-	[108647] = {
-		Level = 42,
-		Class = "WARLOCK",
-	},
-	[114635] = {
-		Level = 42,
-		Class = "WARLOCK",
-	},
-	[116852] = {
-		Level = 42,
-		Class = "WARLOCK",
-	},
-	[116858] = {
-		Level = 42,
 		Class = "WARLOCK",
 	},
 	[30146] = {
@@ -4255,52 +6763,28 @@ lib.spellIdData = {
 		Level = 42,
 		Class = "WARLOCK",
 	},
-	[103129] = {
-		Level = 43,
+	[108415] = {
+		Level = 45,
 		Class = "WARLOCK",
 	},
-	[103967] = {
-		Level = 47,
+	[108416] = {
+		Level = 45,
+		Class = "WARLOCK",
+	},
+	[110913] = {
+		Level = 45,
 		Class = "WARLOCK",
 	},
 	[17877] = {
 		Level = 47,
 		Class = "WARLOCK",
 	},
-	[103134] = {
-		Level = 48,
-		Class = "WARLOCK",
-	},
-	[103135] = {
-		Level = 50,
-		Class = "WARLOCK",
-	},
 	[1122] = {
-		Level = 50,
+		Level = 49,
 		Class = "WARLOCK",
 	},
 	[86091] = {
 		Level = 50,
-		Class = "WARLOCK",
-	},
-	[1490] = {
-		Level = 52,
-		Class = "WARLOCK",
-	},
-	[103131] = {
-		Level = 53,
-		Class = "WARLOCK",
-	},
-	[103142] = {
-		Level = 54,
-		Class = "WARLOCK",
-	},
-	[108558] = {
-		Level = 54,
-		Class = "WARLOCK",
-	},
-	[108559] = {
-		Level = 54,
 		Class = "WARLOCK",
 	},
 	[108683] = {
@@ -4311,15 +6795,7 @@ lib.spellIdData = {
 		Level = 54,
 		Class = "WARLOCK",
 	},
-	[103141] = {
-		Level = 56,
-		Class = "WARLOCK",
-	},
 	[119898] = {
-		Level = 56,
-		Class = "WARLOCK",
-	},
-	[124538] = {
 		Level = 56,
 		Class = "WARLOCK",
 	},
@@ -4327,20 +6803,20 @@ lib.spellIdData = {
 		Level = 58,
 		Class = "WARLOCK",
 	},
-	[27243] = {
+	[108482] = {
 		Level = 60,
 		Class = "WARLOCK",
 	},
-	[109797] = {
-		Level = 62,
+	[111397] = {
+		Level = 60,
+		Class = "WARLOCK",
+	},
+	[111400] = {
+		Level = 60,
 		Class = "WARLOCK",
 	},
 	[48181] = {
-		Level = 62,
-		Class = "WARLOCK",
-	},
-	[86664] = {
-		Level = 62,
+		Level = 60,
 		Class = "WARLOCK",
 	},
 	[104773] = {
@@ -4351,10 +6827,6 @@ lib.spellIdData = {
 		Level = 66,
 		Class = "WARLOCK",
 	},
-	[116208] = {
-		Level = 67,
-		Class = "WARLOCK",
-	},
 	[29893] = {
 		Level = 68,
 		Class = "WARLOCK",
@@ -4363,44 +6835,40 @@ lib.spellIdData = {
 		Level = 69,
 		Class = "WARLOCK",
 	},
-	[122351] = {
-		Level = 69,
+	[108499] = {
+		Level = 75,
 		Class = "WARLOCK",
 	},
-	[53759] = {
-		Level = 69,
+	[108501] = {
+		Level = 75,
 		Class = "WARLOCK",
 	},
-	[103150] = {
-		Level = 71,
+	[108503] = {
+		Level = 75,
 		Class = "WARLOCK",
 	},
-	[103112] = {
-		Level = 73,
-		Class = "WARLOCK",
-	},
-	[108869] = {
-		Level = 73,
+	[171975] = {
+		Level = 75,
 		Class = "WARLOCK",
 	},
 	[48018] = {
-		Level = 78,
+		Level = 76,
 		Class = "WARLOCK",
 	},
 	[48020] = {
-		Level = 78,
+		Level = 76,
 		Class = "WARLOCK",
 	},
 	[120451] = {
 		Level = 79,
 		Class = "WARLOCK",
 	},
-	[124917] = {
+	[86121] = {
 		Level = 79,
 		Class = "WARLOCK",
 	},
-	[86121] = {
-		Level = 79,
+	[166928] = {
+		Level = 80,
 		Class = "WARLOCK",
 	},
 	[77215] = {
@@ -4413,10 +6881,6 @@ lib.spellIdData = {
 	},
 	[77220] = {
 		Level = 80,
-		Class = "WARLOCK",
-	},
-	[77799] = {
-		Level = 81,
 		Class = "WARLOCK",
 	},
 	[109773] = {
@@ -4435,47 +6899,79 @@ lib.spellIdData = {
 		Level = 84,
 		Class = "WARLOCK",
 	},
-	[77801] = {
-		Level = 85,
-		Class = "WARLOCK",
-	},
-	[104243] = {
-		Level = 86,
-		Class = "WARLOCK",
-	},
-	[123686] = {
-		Level = 86,
-		Class = "WARLOCK",
-	},
 	[111771] = {
 		Level = 87,
 		Class = "WARLOCK",
 	},
-	[131973] = {
+	[108505] = {
 		Level = 90,
 		Class = "WARLOCK",
 	},
-	[103826] = {
+	[108508] = {
+		Level = 90,
+		Class = "WARLOCK",
+	},
+	[137587] = {
+		Level = 90,
+		Class = "WARLOCK",
+	},
+	[165363] = {
+		Level = 90,
+		Class = "WARLOCK",
+	},
+	[165367] = {
+		Level = 90,
+		Class = "WARLOCK",
+	},
+	[165392] = {
+		Level = 90,
+		Class = "WARLOCK",
+	},
+	[152107] = {
+		Level = 100,
+		Class = "WARLOCK",
+	},
+	[152108] = {
+		Level = 100,
+		Class = "WARLOCK",
+	},
+	[152109] = {
+		Level = 100,
+		Class = "WARLOCK",
+	},
+	[157695] = {
+		Level = 100,
+		Class = "WARLOCK",
+	},
+	[157696] = {
+		Level = 100,
+		Class = "WARLOCK",
+	},
+	[107] = {
 		Level = 1,
 		Class = "WARRIOR",
 	},
-	[103827] = {
+	[112104] = {
 		Level = 1,
 		Class = "WARRIOR",
 	},
-	[103828] = {
+	[115943] = {
 		Level = 1,
 		Class = "WARRIOR",
 	},
-	[110506] = {
+	[115946] = {
 		Level = 1,
 		Class = "WARRIOR",
 	},
-	[119938] = {
+	[1180] = {
 		Level = 1,
 		Class = "WARRIOR",
 	},
-	[122475] = {
+	[119811] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[123779] = {
 		Level = 1,
 		Class = "WARRIOR",
 	},
@@ -4483,7 +6979,163 @@ lib.spellIdData = {
 		Level = 1,
 		Class = "WARRIOR",
 	},
+	[145585] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[146965] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[146968] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[146969] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[146970] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[146971] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[146973] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[146974] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[15590] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[156287] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[157449] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[157452] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[157454] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[157461] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[157473] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[157479] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[157494] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[157497] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[159701] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[159703] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[159708] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[159738] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[159740] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[159754] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[159759] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[159761] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[174736] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[174737] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[176051] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[196] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[197] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[198] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[199] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[200] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[201] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[202] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[227] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
 	[2457] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[264] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[266] = {
 		Level = 1,
 		Class = "WARRIOR",
 	},
@@ -4491,11 +7143,115 @@ lib.spellIdData = {
 		Level = 1,
 		Class = "WARRIOR",
 	},
-	[50622] = {
+	[5011] = {
 		Level = 1,
 		Class = "WARRIOR",
 	},
-	[76858] = {
+	[58095] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[58096] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[58097] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[58098] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[58099] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[58104] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[58355] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[58356] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[58357] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[58366] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[58367] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[58368] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[58369] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[58370] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[58372] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[58375] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[58377] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[58382] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[58384] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[58386] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[63324] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[63325] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[63327] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[63328] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[63329] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[68164] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[750] = {
 		Level = 1,
 		Class = "WARRIOR",
 	},
@@ -4507,7 +7263,19 @@ lib.spellIdData = {
 		Level = 1,
 		Class = "WARRIOR",
 	},
-	[95738] = {
+	[9077] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[9116] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[94372] = {
+		Level = 1,
+		Class = "WARRIOR",
+	},
+	[94374] = {
 		Level = 1,
 		Class = "WARRIOR",
 	},
@@ -4515,31 +7283,31 @@ lib.spellIdData = {
 		Level = 3,
 		Class = "WARRIOR",
 	},
-	[103840] = {
-		Level = 5,
-		Class = "WARRIOR",
-	},
-	[29838] = {
-		Level = 5,
-		Class = "WARRIOR",
-	},
 	[34428] = {
 		Level = 5,
 		Class = "WARRIOR",
 	},
-	[55694] = {
-		Level = 5,
+	[163201] = {
+		Level = 7,
+		Class = "WARRIOR",
+	},
+	[163558] = {
+		Level = 7,
 		Class = "WARRIOR",
 	},
 	[5308] = {
 		Level = 7,
 		Class = "WARRIOR",
 	},
-	[102060] = {
-		Level = 10,
+	[772] = {
+		Level = 7,
 		Class = "WARRIOR",
 	},
-	[107566] = {
+	[71] = {
+		Level = 9,
+		Class = "WARRIOR",
+	},
+	[122509] = {
 		Level = 10,
 		Class = "WARRIOR",
 	},
@@ -4547,11 +7315,15 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "WARRIOR",
 	},
-	[12323] = {
+	[12712] = {
 		Level = 10,
 		Class = "WARRIOR",
 	},
-	[12712] = {
+	[158298] = {
+		Level = 10,
+		Class = "WARRIOR",
+	},
+	[161608] = {
 		Level = 10,
 		Class = "WARRIOR",
 	},
@@ -4571,11 +7343,11 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "WARRIOR",
 	},
-	[71] = {
+	[46917] = {
 		Level = 10,
 		Class = "WARRIOR",
 	},
-	[93098] = {
+	[46953] = {
 		Level = 10,
 		Class = "WARRIOR",
 	},
@@ -4587,11 +7359,23 @@ lib.spellIdData = {
 		Level = 14,
 		Class = "WARRIOR",
 	},
-	[46924] = {
+	[6343] = {
+		Level = 14,
+		Class = "WARRIOR",
+	},
+	[103826] = {
 		Level = 15,
 		Class = "WARRIOR",
 	},
-	[46968] = {
+	[103827] = {
+		Level = 15,
+		Class = "WARRIOR",
+	},
+	[103828] = {
+		Level = 15,
+		Class = "WARRIOR",
+	},
+	[158836] = {
 		Level = 15,
 		Class = "WARRIOR",
 	},
@@ -4599,7 +7383,7 @@ lib.spellIdData = {
 		Level = 18,
 		Class = "WARRIOR",
 	},
-	[1464] = {
+	[156321] = {
 		Level = 18,
 		Class = "WARRIOR",
 	},
@@ -4607,52 +7391,16 @@ lib.spellIdData = {
 		Level = 18,
 		Class = "WARRIOR",
 	},
-	[7386] = {
-		Level = 18,
-		Class = "WARRIOR",
-	},
-	[114028] = {
-		Level = 20,
-		Class = "WARRIOR",
-	},
-	[114029] = {
-		Level = 20,
-		Class = "WARRIOR",
-	},
-	[114030] = {
-		Level = 20,
-		Class = "WARRIOR",
-	},
-	[115799] = {
-		Level = 20,
+	[12323] = {
+		Level = 19,
 		Class = "WARRIOR",
 	},
 	[57755] = {
-		Level = 20,
-		Class = "WARRIOR",
-	},
-	[6343] = {
-		Level = 20,
+		Level = 22,
 		Class = "WARRIOR",
 	},
 	[6552] = {
 		Level = 24,
-		Class = "WARRIOR",
-	},
-	[107570] = {
-		Level = 25,
-		Class = "WARRIOR",
-	},
-	[107574] = {
-		Level = 25,
-		Class = "WARRIOR",
-	},
-	[12292] = {
-		Level = 25,
-		Class = "WARRIOR",
-	},
-	[1680] = {
-		Level = 26,
 		Class = "WARRIOR",
 	},
 	[1680] = {
@@ -4663,11 +7411,15 @@ lib.spellIdData = {
 		Level = 26,
 		Class = "WARRIOR",
 	},
-	[676] = {
-		Level = 28,
+	[103840] = {
+		Level = 30,
 		Class = "WARRIOR",
 	},
-	[2458] = {
+	[29838] = {
+		Level = 30,
+		Class = "WARRIOR",
+	},
+	[55694] = {
 		Level = 30,
 		Class = "WARRIOR",
 	},
@@ -4675,15 +7427,11 @@ lib.spellIdData = {
 		Level = 30,
 		Class = "WARRIOR",
 	},
-	[7384] = {
-		Level = 30,
-		Class = "WARRIOR",
-	},
 	[85288] = {
 		Level = 30,
 		Class = "WARRIOR",
 	},
-	[115768] = {
+	[115767] = {
 		Level = 32,
 		Class = "WARRIOR",
 	},
@@ -4691,15 +7439,7 @@ lib.spellIdData = {
 		Level = 36,
 		Class = "WARRIOR",
 	},
-	[44949] = {
-		Level = 36,
-		Class = "WARRIOR",
-	},
 	[12975] = {
-		Level = 38,
-		Class = "WARRIOR",
-	},
-	[46917] = {
 		Level = 38,
 		Class = "WARRIOR",
 	},
@@ -4707,28 +7447,36 @@ lib.spellIdData = {
 		Level = 38,
 		Class = "WARRIOR",
 	},
-	[85384] = {
-		Level = 39,
-		Class = "WARRIOR",
-	},
-	[96103] = {
-		Level = 39,
-		Class = "WARRIOR",
-	},
 	[6673] = {
 		Level = 42,
 		Class = "WARRIOR",
 	},
-	[845] = {
-		Level = 44,
+	[1464] = {
+		Level = 45,
 		Class = "WARRIOR",
 	},
-	[84615] = {
-		Level = 46,
+	[169679] = {
+		Level = 45,
 		Class = "WARRIOR",
 	},
-	[84615] = {
-		Level = 46,
+	[169680] = {
+		Level = 45,
+		Class = "WARRIOR",
+	},
+	[169683] = {
+		Level = 45,
+		Class = "WARRIOR",
+	},
+	[169685] = {
+		Level = 45,
+		Class = "WARRIOR",
+	},
+	[29725] = {
+		Level = 45,
+		Class = "WARRIOR",
+	},
+	[56636] = {
+		Level = 45,
 		Class = "WARRIOR",
 	},
 	[871] = {
@@ -4736,14 +7484,6 @@ lib.spellIdData = {
 		Class = "WARRIOR",
 	},
 	[46915] = {
-		Level = 50,
-		Class = "WARRIOR",
-	},
-	[46953] = {
-		Level = 50,
-		Class = "WARRIOR",
-	},
-	[56638] = {
 		Level = 50,
 		Class = "WARRIOR",
 	},
@@ -4759,10 +7499,6 @@ lib.spellIdData = {
 		Level = 50,
 		Class = "WARRIOR",
 	},
-	[1160] = {
-		Level = 52,
-		Class = "WARRIOR",
-	},
 	[5246] = {
 		Level = 52,
 		Class = "WARRIOR",
@@ -4771,40 +7507,36 @@ lib.spellIdData = {
 		Level = 54,
 		Class = "WARRIOR",
 	},
-	[118038] = {
+	[1160] = {
 		Level = 56,
 		Class = "WARRIOR",
 	},
 	[118038] = {
 		Level = 56,
-		Class = "WARRIOR",
-	},
-	[122509] = {
-		Level = 58,
 		Class = "WARRIOR",
 	},
 	[12950] = {
 		Level = 58,
 		Class = "WARRIOR",
 	},
+	[107570] = {
+		Level = 60,
+		Class = "WARRIOR",
+	},
+	[118000] = {
+		Level = 60,
+		Class = "WARRIOR",
+	},
 	[12328] = {
 		Level = 60,
 		Class = "WARRIOR",
 	},
-	[12972] = {
+	[46968] = {
 		Level = 60,
 		Class = "WARRIOR",
 	},
 	[84608] = {
 		Level = 60,
-		Class = "WARRIOR",
-	},
-	[1719] = {
-		Level = 64,
-		Class = "WARRIOR",
-	},
-	[85730] = {
-		Level = 64,
 		Class = "WARRIOR",
 	},
 	[23920] = {
@@ -4823,6 +7555,26 @@ lib.spellIdData = {
 		Level = 74,
 		Class = "WARRIOR",
 	},
+	[114028] = {
+		Level = 75,
+		Class = "WARRIOR",
+	},
+	[114029] = {
+		Level = 75,
+		Class = "WARRIOR",
+	},
+	[114030] = {
+		Level = 75,
+		Class = "WARRIOR",
+	},
+	[161798] = {
+		Level = 76,
+		Class = "WARRIOR",
+	},
+	[167188] = {
+		Level = 80,
+		Class = "WARRIOR",
+	},
 	[76838] = {
 		Level = 80,
 		Class = "WARRIOR",
@@ -4835,28 +7587,16 @@ lib.spellIdData = {
 		Level = 80,
 		Class = "WARRIOR",
 	},
-	[112048] = {
+	[167105] = {
 		Level = 81,
 		Class = "WARRIOR",
 	},
-	[29725] = {
-		Level = 81,
-		Class = "WARRIOR",
-	},
-	[86346] = {
-		Level = 81,
-		Class = "WARRIOR",
-	},
-	[86346] = {
+	[174926] = {
 		Level = 81,
 		Class = "WARRIOR",
 	},
 	[97462] = {
 		Level = 83,
-		Class = "WARRIOR",
-	},
-	[52174] = {
-		Level = 85,
 		Class = "WARRIOR",
 	},
 	[6544] = {
@@ -4867,12 +7607,52 @@ lib.spellIdData = {
 		Level = 87,
 		Class = "WARRIOR",
 	},
-	[114203] = {
+	[1719] = {
 		Level = 87,
 		Class = "WARRIOR",
 	},
-	[114207] = {
-		Level = 87,
+	[107574] = {
+		Level = 90,
+		Class = "WARRIOR",
+	},
+	[12292] = {
+		Level = 90,
+		Class = "WARRIOR",
+	},
+	[159362] = {
+		Level = 90,
+		Class = "WARRIOR",
+	},
+	[165365] = {
+		Level = 90,
+		Class = "WARRIOR",
+	},
+	[165383] = {
+		Level = 90,
+		Class = "WARRIOR",
+	},
+	[165393] = {
+		Level = 90,
+		Class = "WARRIOR",
+	},
+	[46924] = {
+		Level = 90,
+		Class = "WARRIOR",
+	},
+	[152276] = {
+		Level = 100,
+		Class = "WARRIOR",
+	},
+	[152277] = {
+		Level = 100,
+		Class = "WARRIOR",
+	},
+	[152278] = {
+		Level = 100,
+		Class = "WARRIOR",
+	},
+	[176289] = {
+		Level = 100,
 		Class = "WARRIOR",
 	},
 };
