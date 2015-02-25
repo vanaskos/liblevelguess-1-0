@@ -2,7 +2,7 @@ local lib = LibStub("LibLevelGuess-1.0");
 
 if(not lib) then error("SpellIdData for LibLevelGuess needs library to be loaded before"); return; end
 
-local myDataVersion = 1421986982;
+local myDataVersion = 1424832406;
 if(lib.spellIdData and myDataVersion <= lib.spellIdDataVersion) then return; end
 
 lib.spellIdDataVersion = myDataVersion;
@@ -176,6 +176,10 @@ lib.spellIdData = {
 		Class = "DEATHKNIGHT",
 	},
 	[50034] = {
+		Level = 55,
+		Class = "DEATHKNIGHT",
+	},
+	[50371] = {
 		Level = 55,
 		Class = "DEATHKNIGHT",
 	},
@@ -520,10 +524,6 @@ lib.spellIdData = {
 		Class = "DEATHKNIGHT",
 	},
 	[49530] = {
-		Level = 64,
-		Class = "DEATHKNIGHT",
-	},
-	[50371] = {
 		Level = 64,
 		Class = "DEATHKNIGHT",
 	},
@@ -896,6 +896,10 @@ lib.spellIdData = {
 		Class = "DRUID",
 	},
 	[171803] = {
+		Level = 1,
+		Class = "DRUID",
+	},
+	[171924] = {
 		Level = 1,
 		Class = "DRUID",
 	},
@@ -1303,6 +1307,10 @@ lib.spellIdData = {
 		Level = 56,
 		Class = "DRUID",
 	},
+	[165962] = {
+		Level = 58,
+		Class = "DRUID",
+	},
 	[102543] = {
 		Level = 60,
 		Class = "DRUID",
@@ -1548,6 +1556,10 @@ lib.spellIdData = {
 		Class = "DRUID",
 	},
 	[109263] = {
+		Level = 1,
+		Class = "HUNTER",
+	},
+	[117526] = {
 		Level = 1,
 		Class = "HUNTER",
 	},
@@ -2767,12 +2779,12 @@ lib.spellIdData = {
 		Level = 75,
 		Class = "MAGE",
 	},
-	[11129] = {
+	[44549] = {
 		Level = 77,
 		Class = "MAGE",
 	},
-	[44549] = {
-		Level = 77,
+	[11129] = {
+		Level = 80,
 		Class = "MAGE",
 	},
 	[12846] = {
@@ -3008,6 +3020,10 @@ lib.spellIdData = {
 		Class = "MONK",
 	},
 	[125967] = {
+		Level = 1,
+		Class = "MONK",
+	},
+	[132005] = {
 		Level = 1,
 		Class = "MONK",
 	},
@@ -3751,10 +3767,6 @@ lib.spellIdData = {
 		Level = 1,
 		Class = "PALADIN",
 	},
-	[54937] = {
-		Level = 1,
-		Class = "PALADIN",
-	},
 	[54938] = {
 		Level = 1,
 		Class = "PALADIN",
@@ -3812,10 +3824,6 @@ lib.spellIdData = {
 		Class = "PALADIN",
 	},
 	[63220] = {
-		Level = 1,
-		Class = "PALADIN",
-	},
-	[63222] = {
 		Level = 1,
 		Class = "PALADIN",
 	},
@@ -4375,10 +4383,6 @@ lib.spellIdData = {
 		Level = 1,
 		Class = "PRIEST",
 	},
-	[14771] = {
-		Level = 1,
-		Class = "PRIEST",
-	},
 	[147776] = {
 		Level = 1,
 		Class = "PRIEST",
@@ -4519,10 +4523,6 @@ lib.spellIdData = {
 		Level = 1,
 		Class = "PRIEST",
 	},
-	[55686] = {
-		Level = 1,
-		Class = "PRIEST",
-	},
 	[55688] = {
 		Level = 1,
 		Class = "PRIEST",
@@ -4596,6 +4596,10 @@ lib.spellIdData = {
 		Class = "PRIEST",
 	},
 	[165201] = {
+		Level = 10,
+		Class = "PRIEST",
+	},
+	[47517] = {
 		Level = 10,
 		Class = "PRIEST",
 	},
@@ -4788,10 +4792,6 @@ lib.spellIdData = {
 		Class = "PRIEST",
 	},
 	[162448] = {
-		Level = 45,
-		Class = "PRIEST",
-	},
-	[47517] = {
 		Level = 45,
 		Class = "PRIEST",
 	},
@@ -5287,10 +5287,6 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "ROGUE",
 	},
-	[79134] = {
-		Level = 10,
-		Class = "ROGUE",
-	},
 	[79152] = {
 		Level = 10,
 		Class = "ROGUE",
@@ -5456,6 +5452,10 @@ lib.spellIdData = {
 		Class = "ROGUE",
 	},
 	[1943] = {
+		Level = 46,
+		Class = "ROGUE",
+	},
+	[79134] = {
 		Level = 46,
 		Class = "ROGUE",
 	},
@@ -6267,15 +6267,15 @@ lib.spellIdData = {
 		Level = 85,
 		Class = "SHAMAN",
 	},
-	[165339] = {
+	[114050] = {
 		Level = 87,
 		Class = "SHAMAN",
 	},
-	[165341] = {
+	[114051] = {
 		Level = 87,
 		Class = "SHAMAN",
 	},
-	[165344] = {
+	[114052] = {
 		Level = 87,
 		Class = "SHAMAN",
 	},
@@ -7343,6 +7343,10 @@ lib.spellIdData = {
 		Level = 10,
 		Class = "WARRIOR",
 	},
+	[46915] = {
+		Level = 10,
+		Class = "WARRIOR",
+	},
 	[46917] = {
 		Level = 10,
 		Class = "WARRIOR",
@@ -7481,10 +7485,6 @@ lib.spellIdData = {
 	},
 	[871] = {
 		Level = 48,
-		Class = "WARRIOR",
-	},
-	[46915] = {
-		Level = 50,
 		Class = "WARRIOR",
 	},
 	[86101] = {
