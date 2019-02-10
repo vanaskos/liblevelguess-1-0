@@ -1,29 +1,23 @@
 -- this file is for a standalone lua interpreter with the luasocket library
-socket = require("socket");
-
 local OUTPUTFILE = "LibLevelGuess-1.0/SpellIdData.lua";
 local tinsert = table.insert
 
-if(not socket) then
-        print("No Socket-Library");
-        return;
-end
-print(socket._VERSION);
-
-http = require("socket.http");
+local https = require("ssl.https");
+local mime = require("mime");
 
 local classToWebsite = { 
-        ["WARRIOR"] = "http://thottbot.com/class=1",
-        ["PALADIN"] = "http://thottbot.com/class=2",
-        ["HUNTER"] = "http://thottbot.com/class=3",
-        ["ROGUE"] = "http://thottbot.com/class=4",
-        ["PRIEST"] = "http://thottbot.com/class=5",
-        ["DEATHKNIGHT"] = "http://www.thottbot.com/class=6",
-        ["SHAMAN"] = "http://thottbot.com/class=7",
-        ["MAGE"] = "http://thottbot.com/class=8",
-        ["WARLOCK"] = "http://thottbot.com/class=9",
-        ["MONK"] = "http://thottbot.com/class=10",
-        ["DRUID"] = "http://thottbot.com/class=11",
+        ["WARRIOR"] = "https://www.wowhead.com/warrior",
+        ["PALADIN"] = "https://www.wowhead.com/paladin",
+        ["HUNTER"] = "https://www.wowhead.com/hunter",
+        ["ROGUE"] = "https://www.wowhead.com/rogue",
+        ["PRIEST"] = "https://www.wowhead.com/priest",
+        ["DEATHKNIGHT"] = "https://www.wowhead.com/death-knight",
+        ["SHAMAN"] = "https://www.wowhead.com/shaman",
+        ["MAGE"] = "https://www.wowhead.com/mage",
+        ["WARLOCK"] = "https://www.wowhead.com/warlock",
+        ["MONK"] = "https://www.wowhead.com/monk",
+        ["DRUID"] = "https://www.wowhead.com/druid",
+        ["DEMONHUNTER"] = "https://www.wowhead.com/demon-hunter"
 }
 
 local function ProcessContent(websiteString, CLASS)
@@ -35,6 +29,8 @@ local function ProcessContent(websiteString, CLASS)
   local minLevel = 1
   if CLASS == "DEATHKNIGHT" then
     minLevel = 55
+  elseif CLASS == "DEMONHUNTER" then
+    minLevel = 98
   end
   sfStart = 0;
   sfEnd = 0;
@@ -87,7 +83,7 @@ end
 local result = {};
 
 for k, v in pairs(classToWebsite) do
-        local content, httpCode, header = socket.http.request(v);
+        local content, httpCode, header = https.request(v);
         if(content and httpCode == 200) then
                 print("Got " .. v .. " for class " .. k);
                 local classResult = ProcessContent(content, k);
