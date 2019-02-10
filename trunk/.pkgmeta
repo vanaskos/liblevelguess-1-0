@@ -1,0 +1,7 @@
+package-as: liblevelguess-1-0
+
+
+externals:
+	Libs/LibStub: https://repos.wowace.com/wow/libstub/trunk
+
+enable-nolib-creation: no
