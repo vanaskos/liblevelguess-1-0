@@ -5,6 +5,6 @@ externals:
 	Libs/LibStub: https://repos.wowace.com/wow/libstub/trunk
 
 ignore:
-	createspellidtable.lua
+	- createspellidtable.lua
 
 enable-nolib-creation: no
