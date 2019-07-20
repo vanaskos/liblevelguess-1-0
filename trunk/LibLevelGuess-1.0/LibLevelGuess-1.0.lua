@@ -7,10 +7,8 @@
 	License: MIT
 ]]
 
--- This library is meant to be extended by other means of Level Estimation in the future.
-
 local MAJOR_VERSION = "LibLevelGuess-1.0";
-local MINOR_VERSION = tonumber(("$Revision$"):match("%d+"));
+local MINOR_VERSION = tonumber(("@project-revision@"):match("%d+"));
 
 if(not LibStub) then error("LibLevelGuess-1.0 requires LibStub."); end
 
@@ -20,21 +18,21 @@ if(not lib) then return; end
 lib.spellIdData = nil;
 lib.spellIdDataVersion = nil;
 
---[[------------------------------------------------------------------------------------------------------------------------------------------------
+--[[------------------------------------------------------------------------
 Returns:
-	The Estimated (=minimal) level a player needs to be to cast that spell and the english (
-	class (WARRIOR, DEATHKNIGHT) that can cast it.
---------------------------------------------------------------------------------------------------------------------------------------------------]]
+	The Estimated (=minimal) level a player needs to be to cast that
+	spell and the english class (WARRIOR, DEATHKNIGHT) that can cast it.
+--------------------------------------------------------------------------]]
 
 function lib:GetEstimatedLevelAndClassFromSpellId(spellId)
 	assert(lib.spellIdData ~= nil);
-	
+
 	local spell = lib.spellIdData[spellId];
 	if(spell == nil) then
 		return nil;
 	end
 	if spell.Class == "DEATHKNIGHT" and (spell.Level or 0) < 55 then
-	    return 55;
+		return 55;
 	end
 
 	return spell.Level, spell.Class;
