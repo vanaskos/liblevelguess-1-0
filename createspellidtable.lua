@@ -74,7 +74,7 @@ local function writeTableToFile(tablecontent, filename)
 
     for k, v in pairs(tablecontent) do
         if v then
-            f:write("\t[", v.spellID, "] = {Level=", v.Level, ",Class=\"", v.Class, "\"}\n")
+            f:write("\t[", v.spellID, "] = {Level=", v.Level, ",Class=\"", v.Class, "\"},\n")
         else
             print(k .. " is nil")
         end
