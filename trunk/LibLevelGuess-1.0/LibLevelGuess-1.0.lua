@@ -8,7 +8,7 @@
 ]]
 
 local MAJOR_VERSION = "LibLevelGuess-1.0";
-local MINOR_VERSION = tonumber(("@project-revision@"):match("%d+"));
+local MINOR_VERSION = tonumber(("$Revision$"):match("%d+"));
 
 if(not LibStub) then error("LibLevelGuess-1.0 requires LibStub."); end
 
