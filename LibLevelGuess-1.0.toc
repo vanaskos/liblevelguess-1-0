@@ -1,5 +1,5 @@
-## Interface: 80200
-## Title: Lib: Level Guesser
+## Interface: 11302
+## Title: Lib: Level Guesser -Classic-
 ## Notes: A library to try to guess a level of a player.
 ## Author: Vane (Data from others)
 ## X-Category: Library
