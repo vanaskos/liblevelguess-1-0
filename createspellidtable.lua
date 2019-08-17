@@ -8,18 +8,15 @@ local strfind = string.find
 local https = require("ssl.https")
 
 local classToWebsite = {
-    ["WARRIOR"] = "https://www.wowhead.com/warrior",
-    ["PALADIN"] = "https://www.wowhead.com/paladin",
-    ["HUNTER"] = "https://www.wowhead.com/hunter",
-    ["ROGUE"] = "https://www.wowhead.com/rogue",
-    ["PRIEST"] = "https://www.wowhead.com/priest",
-    ["DEATHKNIGHT"] = "https://www.wowhead.com/death-knight",
-    ["SHAMAN"] = "https://www.wowhead.com/shaman",
-    ["MAGE"] = "https://www.wowhead.com/mage",
-    ["WARLOCK"] = "https://www.wowhead.com/warlock",
-    ["MONK"] = "https://www.wowhead.com/monk",
-    ["DRUID"] = "https://www.wowhead.com/druid",
-    ["DEMONHUNTER"] = "https://www.wowhead.com/demon-hunter"
+    ["WARRIOR"] = "https://classic.wowhead.com/warrior",
+    ["PALADIN"] = "https://classic.wowhead.com/paladin",
+    ["HUNTER"] = "https://classic.wowhead.com/hunter",
+    ["ROGUE"] = "https://classic.wowhead.com/rogue",
+    ["PRIEST"] = "https://classic.wowhead.com/priest",
+    ["SHAMAN"] = "https://classic.wowhead.com/shaman",
+    ["MAGE"] = "https://classic.wowhead.com/mage",
+    ["WARLOCK"] = "https://classic.wowhead.com/warlock",
+    ["DRUID"] = "https://classic.wowhead.com/druid",
 }
 
 local function ProcessContent(websiteString, CLASS)

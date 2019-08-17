@@ -1,6 +1,6 @@
 --[[
 	Name: LibLevelGuess-1.0
-	Revision: $Rev$
+	Revision: $Rev: 39 $
 	Author(s): Vana (boredvana@gmail.com), Xilcoy (xilcoy.curse@gmail.com) - data from others
 	Description: A library to provide a good guess about the level of a player
 	Dependencies: None
@@ -8,7 +8,7 @@
 ]]
 
 local MAJOR_VERSION = "LibLevelGuess-1.0";
-local MINOR_VERSION = tonumber(("$Revision$"):match("%d+"));
+local MINOR_VERSION = tonumber(("$Revision: 39 $"):match("%d+"));
 
 if(not LibStub) then error("LibLevelGuess-1.0 requires LibStub."); end
 
@@ -30,9 +30,6 @@ function lib:GetEstimatedLevelAndClassFromSpellId(spellId)
 	local spell = lib.spellIdData[spellId];
 	if(spell == nil) then
 		return nil;
-	end
-	if spell.Class == "DEATHKNIGHT" and (spell.Level or 0) < 55 then
-		return 55;
 	end
 
 	return spell.Level, spell.Class;
