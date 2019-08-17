@@ -26,11 +26,6 @@ local function ProcessContent(websiteString, CLASS)
     local parseCount = 0
     local result = {}
     local minLevel = 1
-    if CLASS == "DEATHKNIGHT" then
-        minLevel = 55
-    elseif CLASS == "DEMONHUNTER" then
-        minLevel = 98
-    end
     sfStart = 0
     sfEnd = 0
     while sfStart and sfEnd do
