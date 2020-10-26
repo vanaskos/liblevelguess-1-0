@@ -1,4 +1,4 @@
--- this file is for a standalone lua interpreter with the luasocket library
+-- this file is for a standalone lua interpreter with the luasocket, luasec libraries
 local OUTPUTFILE = "LibLevelGuess-1.0/SpellIdData.lua"
 local tinsert = table.insert
 local tremove = table.remove
@@ -30,9 +30,9 @@ local function ProcessContent(websiteString, CLASS)
     local result = {}
     local minLevel = 1
     if CLASS == "DEATHKNIGHT" then
-        minLevel = 55
+        minLevel = 8
     elseif CLASS == "DEMONHUNTER" then
-        minLevel = 98
+        minLevel = 8
     end
     sfStart = 0
     sfEnd = 0
