@@ -1,5 +1,5 @@
 -- this file is for a standalone lua interpreter with the luasocket, luasec libraries
-local OUTPUTFILE = "LibLevelGuess-1.0/SpellIdData.lua"
+local OUTPUTFILE = "SpellIdData.lua"
 local tinsert = table.insert
 local tremove = table.remove
 local tonumber = tonumber
