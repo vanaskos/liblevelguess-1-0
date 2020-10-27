@@ -1,9 +1,5 @@
 package-as: LibLevelGuess-1.0
 
-
-externals:
-	Libs/LibStub: https://repos.wowace.com/wow/libstub/trunk
-
 ignore:
 	- createspellidtable.lua
 

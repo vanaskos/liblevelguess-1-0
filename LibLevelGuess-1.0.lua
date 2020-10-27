@@ -8,7 +8,7 @@
 ]]
 
 local MAJOR_VERSION = "LibLevelGuess-1.0";
-local MINOR_VERSION = 50; -- Update Manually
+local MINOR_VERSION = 51; -- Update Manually
 
 if(not LibStub) then error("LibLevelGuess-1.0 requires LibStub."); end
 
